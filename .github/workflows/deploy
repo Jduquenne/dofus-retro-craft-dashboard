@@ -3,7 +3,7 @@ name: Deploy Vite + React + TS to GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch: # permet un déclenchement manuel
 
 permissions:
