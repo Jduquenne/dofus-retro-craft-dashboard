@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { AppProvider } from './context/AppContext';
-import Header from './components/Header';
-import Dashboard from './components/Dashboard';
-import RecipesManager from './components/RecipesManager';
-import ResourcesManager from './components/ResourcesManager';
-import ProfessionsManager from './components/ProfessionsManager';
-import GoalsManager from './components/GoalsManager';
+import { Header } from './components/Header';
+import { Dashboard } from './components/Dashboard';
+import { RecipesManager } from './components/RecipesManager';
+import { ResourcesManager } from './components/ResourcesManager';
+import { ProfessionsManager } from './components/ProfessionsManager';
+import { GoalsManager } from './components/GoalManager';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
