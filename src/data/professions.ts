@@ -23,6 +23,16 @@ export const initialProfessions: Profession[] = [
     unlocked: false,
   },
   {
+    id: "baker",
+    type: ProfessionTypes.CRAFT,
+    name: "Boulanger",
+    currentLevel: 1,
+    currentXP: 0,
+    targetLevel: 100,
+    icon: "⚗️",
+    unlocked: false,
+  },
+  {
     id: "lumberjack",
     type: ProfessionTypes.HARVEST,
     name: "Bûcheron",
@@ -253,7 +263,7 @@ export const initialProfessions: Profession[] = [
     unlocked: false,
   },
   {
-    id: "shovel_smithmagic",
+    id: "shovel_smithmagus",
     type: ProfessionTypes.SMITHMAGUS,
     name: "Forgemage de pelle",
     currentLevel: 1,
@@ -273,7 +283,7 @@ export const initialProfessions: Profession[] = [
     unlocked: false,
   },
   {
-    id: "dagger_smithmagic",
+    id: "dagger_smithmagus",
     type: ProfessionTypes.SMITHMAGUS,
     name: "Forgemage de dague",
     currentLevel: 1,
@@ -293,7 +303,7 @@ export const initialProfessions: Profession[] = [
     unlocked: false,
   },
   {
-    id: "axe_smithmagic",
+    id: "axe_smithmagus",
     type: ProfessionTypes.SMITHMAGUS,
     name: "Forgemage de hache",
     currentLevel: 1,
