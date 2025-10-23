@@ -34,7 +34,7 @@ export const ProfessionsManager: React.FC = () => {
     return (
         <div className="space-y-10">
             <ProfessionSlotIndicator professions={professions} />
-            <ProfessionStats professions={professions} />
+            {/* <ProfessionStats professions={professions} /> */}
 
             {(Object.values(ProfessionTypes) as ProfessionTypes[]).map((type) => {
                 const filtered = sortProfessionsByLevel(professions, type);
