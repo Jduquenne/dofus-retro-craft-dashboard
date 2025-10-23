@@ -4,7 +4,7 @@ import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
 import { RecipesManager } from './components/RecipesManager';
 import { ResourcesManager } from './components/ResourcesManager';
-import { ProfessionsManager } from './components/ProfessionsManager';
+import { ProfessionsManager } from './components/professions/ProfessionsManager';
 import { GoalsManager } from './components/GoalManager';
 
 const App: React.FC = () => {
