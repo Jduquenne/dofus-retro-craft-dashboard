@@ -1,32 +1,18 @@
 import type { Resource } from "../types";
+import { CategoryTypes } from "./categoryTypes";
 
 export const initialResources: Resource[] = [
   {
-    id: "fer",
-    name: "Fer",
-    type: "Minerai",
+    id: "1",
+    name: "Ailes cassées",
+    category: CategoryTypes.WING,
+    pods: 10,
+    level: "1",
+    description:
+      "Looking at these broken wings makes you realise just how badly you wanted to stay in bed this morning.",
+    monsterDrops: [],
+    inTheCraftOf: [],
     unitPrice: 10,
-    quantity: 100,
-  },
-  {
-    id: "bois_chene",
-    name: "Bois de Chêne",
-    type: "Bois",
-    unitPrice: 50,
-    quantity: 200,
-  },
-  {
-    id: "cuivre",
-    name: "Cuivre",
-    type: "Minerai",
-    unitPrice: 15,
-    quantity: 50,
-  },
-  {
-    id: "lin",
-    name: "Lin",
-    type: "Textile",
-    unitPrice: 8,
-    quantity: 150,
+    quantity: 1,
   },
 ];

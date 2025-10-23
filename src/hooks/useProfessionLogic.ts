@@ -66,6 +66,7 @@ export const useProfessionLogic = (recipes: Recipe[]) => {
    */
   const handleLevelChange = (
     newLevel: string,
+    currentTargetLevel: number,
     updateCallback: (updates: Partial<Profession>) => void
   ) => {
     if (newLevel !== "" && !isNumericString(newLevel)) {
@@ -76,9 +77,12 @@ export const useProfessionLogic = (recipes: Recipe[]) => {
     const clampedLevel = validateLevel(level);
     const baseXP = getXPForLevel(clampedLevel);
 
+    const newTargetLevel = Math.max(clampedLevel, currentTargetLevel);
+
     updateCallback({
       currentLevel: clampedLevel,
       currentXP: baseXP,
+      targetLevel: newTargetLevel,
     });
   };
 

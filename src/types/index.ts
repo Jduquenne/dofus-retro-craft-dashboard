@@ -1,11 +1,25 @@
+import type { CategoryTypes } from "../data/categoryTypes";
 import type { ProfessionTypes } from "../data/professionTypes";
 
 export interface Resource {
   id: string;
   name: string;
-  type: string;
-  unitPrice: number;
-  quantity: number;
+  category: CategoryTypes;
+  pods: number;
+  level: string;
+  description: string;
+  monsterDrops: MonsterDrops[];
+  inTheCraftOf: string[];
+  quantity?: number;
+  unitPrice?: number;
+}
+
+export interface MonsterDrops {
+  monsterId: string;
+  capped: boolean;
+  maxDrop: number;
+  percentageDrop: number;
+  minProspection: number;
 }
 
 export interface RecipeResource {

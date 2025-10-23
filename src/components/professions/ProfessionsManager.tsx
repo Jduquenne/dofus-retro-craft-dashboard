@@ -23,8 +23,8 @@ export const ProfessionsManager: React.FC = () => {
     };
 
     const createProfessionHandlers = (profId: string, currentLevel: number) => ({
-        onLevelChange: (value: string) =>
-            handleLevelChange(value, (updates) => updateProfession(profId, updates)),
+        onLevelChange: (value: string, currentTargetLevel: number) =>
+            handleLevelChange(value, currentTargetLevel, (updates) => updateProfession(profId, updates)),
         onXPChange: (value: string) =>
             handleXPChange(value, currentLevel, (updates) => updateProfession(profId, updates)),
         onTargetLevelChange: (value: string) =>

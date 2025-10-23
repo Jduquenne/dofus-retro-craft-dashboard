@@ -5,7 +5,7 @@ import { Dashboard } from './components/Dashboard';
 import { RecipesManager } from './components/RecipesManager';
 import { ResourcesManager } from './components/ResourcesManager';
 import { ProfessionsManager } from './components/professions/ProfessionsManager';
-import { GoalsManager } from './components/GoalManager';
+// import { GoalsManager } from './components/GoalManager';
 
 const App: React.FC = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
@@ -19,11 +19,11 @@ const App: React.FC = () => {
           {activeTab === 'recipes' && <RecipesManager />}
           {activeTab === 'resources' && <ResourcesManager />}
           {activeTab === 'professions' && <ProfessionsManager />}
-          {activeTab === 'goals' && <GoalsManager />}
+          {/* {activeTab === 'goals' && <GoalsManager />} */}
         </main>
         <footer className="bg-amber-900 text-white text-center py-4 mt-12">
           <p className="text-sm">
-            Dofus Rétro Craft Dashboard - Outil offline pour gérer vos métiers
+            Dora - Outil offline pour gérer vos métiers
           </p>
           <p className="text-xs mt-1 text-amber-200">
             Toutes les données sont stockées localement dans votre navigateur

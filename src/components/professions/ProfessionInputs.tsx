@@ -1,13 +1,15 @@
+// src/components/professions/ProfessionInputs.tsx
+
 import React from 'react';
 import type { Profession } from '../../types';
-import { getXPForLevel } from '../../utils/professionXP';
 import type { ProfessionStats } from '../../hooks/useProfessionLogic';
+import { getXPForLevel } from '../../utils/professionXP';
 
 interface ProfessionInputsProps {
     profession: Profession;
     stats: ProfessionStats;
     disabled: boolean;
-    onLevelChange: (value: string) => void;
+    onLevelChange: (value: string, currentTargetLevel: number) => void;
     onXPChange: (value: string) => void;
     onTargetLevelChange: (value: string) => void;
 }
@@ -20,6 +22,31 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
     onXPChange,
     onTargetLevelChange
 }) => {
+    const [tempTargetLevel, setTempTargetLevel] = React.useState<string>(profession.targetLevel.toString());
+
+    // Synchroniser avec les changements externes
+    React.useEffect(() => {
+        setTempTargetLevel(profession.targetLevel.toString());
+    }, [profession.targetLevel]);
+
+    const handleTargetLevelKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            onTargetLevelChange(tempTargetLevel);
+            (e.target as HTMLInputElement).blur(); // Retire le focus après validation
+        }
+    };
+
+    const handleTargetLevelBlur = () => {
+        // Au blur, valider ou réinitialiser
+        const value = parseInt(tempTargetLevel);
+        if (tempTargetLevel === '' || isNaN(value) || value < profession.currentLevel) {
+            setTempTargetLevel(profession.targetLevel.toString());
+        } else {
+            onTargetLevelChange(tempTargetLevel);
+        }
+    };
+
     return (
         <div className="space-y-2">
             <div className="grid grid-cols-2 gap-2">
@@ -33,10 +60,10 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
                         inputMode="numeric"
                         pattern="[0-9]*"
                         value={profession.currentLevel}
-                        onChange={(e) => onLevelChange(e.target.value)}
+                        onChange={(e) => onLevelChange(e.target.value, profession.targetLevel)}
                         onBlur={(e) => {
                             if (e.target.value === '' || parseInt(e.target.value) < 1) {
-                                onLevelChange('1');
+                                onLevelChange('1', profession.targetLevel);
                             }
                         }}
                         className="w-full px-2 py-1.5 text-sm border rounded focus:ring-2 focus:ring-amber-500 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
@@ -84,13 +111,16 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
                     type="text"
                     inputMode="numeric"
                     pattern="[0-9]*"
-                    value={profession.targetLevel}
-                    onChange={(e) => onTargetLevelChange(e.target.value)}
-                    onBlur={(e) => {
-                        if (e.target.value === '' || parseInt(e.target.value) < profession.currentLevel) {
-                            onTargetLevelChange(profession.currentLevel.toString());
+                    value={tempTargetLevel}
+                    onChange={(e) => {
+                        const value = e.target.value;
+                        // Accepter uniquement les chiffres ou vide
+                        if (value === '' || /^\d+$/.test(value)) {
+                            setTempTargetLevel(value);
                         }
                     }}
+                    onKeyDown={handleTargetLevelKeyDown}
+                    onBlur={handleTargetLevelBlur}
                     className="w-full px-2 py-1.5 text-sm border rounded focus:ring-2 focus:ring-amber-500 focus:outline-none disabled:bg-gray-100 disabled:cursor-not-allowed"
                     placeholder={`${profession.currentLevel}-100`}
                     disabled={disabled}
