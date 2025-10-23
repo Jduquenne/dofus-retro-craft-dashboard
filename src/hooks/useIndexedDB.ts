@@ -9,7 +9,7 @@ interface DofusDB extends Dexie {
   goals: Table<KamasGoal & { id: string }>;
 }
 
-const db = new Dexie("DofusCraftDB") as DofusDB;
+const db = new Dexie("DofusRetroCraftDB") as DofusDB;
 
 db.version(1).stores({
   resources: "id, name, type",

@@ -4,7 +4,7 @@ export const initialRecipes: Recipe[] = [
   {
     id: "epee_fer",
     name: "Épée de Fer",
-    profession: "smith",
+    profession: "sword_smith",
     level: 10,
     resources: [
       { resourceId: "fer", quantity: 5 },

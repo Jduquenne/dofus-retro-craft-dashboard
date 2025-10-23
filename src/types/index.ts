@@ -1,3 +1,5 @@
+import type { ProfessionTypes } from "../data/professionTypes";
+
 export interface Resource {
   id: string;
   name: string;
@@ -24,11 +26,13 @@ export interface Recipe {
 
 export interface Profession {
   id: string;
+  type: ProfessionTypes;
   name: string;
   currentLevel: number;
   currentXP: number;
   targetLevel: number;
   icon: string;
+  unlocked: boolean;
 }
 
 export interface KamasGoal {
