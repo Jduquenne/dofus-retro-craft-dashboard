@@ -19,10 +19,12 @@ export const getActiveProfessions = (
  */
 export const getSmallestActiveProfessions = (
   professions: Profession[]
-): Profession => {
-  return getActiveProfessions(professions).reduce((min, p) =>
-    p.currentLevel < min.currentLevel ? p : min
-  );
+): Profession | any => {
+  if (getActiveProfessions(professions).length) {
+    return getActiveProfessions(professions).reduce((min, p) =>
+      p.currentLevel < min.currentLevel ? p : min
+    );
+  }
 };
 
 /**

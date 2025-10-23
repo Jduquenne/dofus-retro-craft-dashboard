@@ -45,7 +45,7 @@ export const ProfessionsManager: React.FC = () => {
                         <h2 className="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-amber-500 pb-2">
                             {PROFESSION_CATEGORY_TITLES[type]}
                         </h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                             {filtered.map((prof) => {
                                 const stats = calculateProfessionStats(prof);
                                 const isMaxLevel = prof.currentLevel >= prof.targetLevel;
