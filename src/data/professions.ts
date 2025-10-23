@@ -223,7 +223,7 @@ export const initialProfessions: Profession[] = [
     unlocked: false,
   },
   {
-    id: "sword_smithmagic",
+    id: "sword_smithmagus",
     type: ProfessionTypes.SMITHMAGUS,
     name: "Forgemage d'épée",
     currentLevel: 1,
