@@ -10,8 +10,8 @@ export interface Resource {
   description: string;
   monsterDrops: MonsterDrops[];
   inTheCraftOf: string[];
-  quantity?: number;
-  unitPrice?: number;
+  quantity: number;
+  unitPrice: number;
 }
 
 export interface MonsterDrops {

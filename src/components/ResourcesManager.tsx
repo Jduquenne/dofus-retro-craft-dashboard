@@ -62,8 +62,7 @@ export const ResourcesManager: React.FC = () => {
                                             <td className="py-3 px-2">
                                                 <input
                                                     type="text"
-                                                    value={editForm.type || ''}
-                                                    onChange={(e) => setEditForm({ ...editForm, type: e.target.value })}
+                                                    value={editForm.category || ''}
                                                     className="w-full px-2 py-1 border rounded"
                                                 />
                                             </td>
@@ -108,7 +107,7 @@ export const ResourcesManager: React.FC = () => {
                                             <td className="py-3 px-2 font-medium">{resource.name}</td>
                                             <td className="py-3 px-2">
                                                 <span className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-sm">
-                                                    {resource.type}
+                                                    {resource.category}
                                                 </span>
                                             </td>
                                             <td className="py-3 px-2 text-right">{resource.quantity}</td>

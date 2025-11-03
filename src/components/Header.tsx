@@ -3,10 +3,10 @@ import dora from '../../public/dora.svg'
 
 export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) => void }> = ({ activeTab, setActiveTab }) => {
     const tabs = [
-        { id: 'dashboard', label: 'Tableau de bord', icon: <Package size={18} /> },
+        // { id: 'dashboard', label: 'Tableau de bord', icon: <Package size={18} /> },
         { id: 'professions', label: 'Métiers', icon: <TrendingUp size={18} /> },
-        { id: 'recipes', label: 'Recettes', icon: <BookOpen size={18} /> },
-        { id: 'resources', label: 'Ressources', icon: <DollarSign size={18} /> },
+        // { id: 'recipes', label: 'Recettes', icon: <BookOpen size={18} /> },
+        // { id: 'resources', label: 'Ressources', icon: <DollarSign size={18} /> },
         // { id: 'goals', label: 'Objectifs', icon: <Target size={18} /> },
     ];
 

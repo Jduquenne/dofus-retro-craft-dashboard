@@ -8,7 +8,7 @@ import { ProfessionsManager } from './components/professions/ProfessionsManager'
 // import { GoalsManager } from './components/GoalManager';
 
 const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState('dashboard');
+  const [activeTab, setActiveTab] = useState('professions');
 
   return (
     <AppProvider>
