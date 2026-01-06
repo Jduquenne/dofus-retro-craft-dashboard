@@ -1,73 +1,69 @@
-# React + TypeScript + Vite
+# 🛠️ Dofus Retro Craft Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Dashboard interactif pour le crafting sur Dofus Retro**, conçu pour rendre l’exploration des métiers et des recettes plus claire et rapide.  
+Ce projet montre ma capacité à structurer une application web moderne avec une interface réactive, des données métier intelligentes et une expérience utilisateur fluide.
 
-Currently, two official plugins are available:
+Une **version live est disponible via GitHub Pages** (voir section ci-dessous), ce qui permet à un recruteur ou développeur de tester l’application directement dans le navigateur. 🔗
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🔍 Aperçu du projet
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🎮 **But du projet :**  
+Permettre aux joueurs de *Dofus Retro* de visualiser rapidement les recettes, filtrer par métier, et explorer les données de crafting dans une interface claire et intuitive.
 
-## Expanding the ESLint configuration
+💡 L’interface aide à :
+- afficher les recettes par métier,
+- naviguer facilement entre les items,
+- explorer les dépendances des ingrédients,
+- comprendre les besoins de crafting d’un coup d’œil.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Caractéristiques principales
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+✔ Interface interactive et responsive  
+✔ Filtrage par métier et par objet  
+✔ Données structurées et exploitation intelligente des recettes  
+✔ Technologie moderne avec React + TypeScript + Vite  
+✔ Hébergement **GitHub Pages** pour une mise en production sans serveur
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧱 Stack technique
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Technologie | Utilité |
+|-------------|----------|
+| **React** | UI dynamique et composants réutilisables |
+| **TypeScript** | Typage fort pour une meilleure maintenabilité |
+| **Vite** | Serveur de développement rapide + build optimisée |
+| **HTML & CSS** | Structure et styles visuels |
+| **GitHub Pages** | Hébergement gratuit de la version live |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🔗 Version 🔥 Live Demo
+
+Une version fonctionnelle est disponible ici :  
+👉 https://jduquenne.github.io/dofus-retro-craft-dashboard
+
+Ce lien ouvre directement l’application dans le navigateur sans installer quoi que ce soit 🧠
+
+---
+
+## 🛠 Installation locale
+
+Tu veux développer ou explorer le code en local ? Suis ces étapes :
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/Jduquenne/dofus-retro-craft-dashboard.git
+
+# Aller dans le dossier
+cd dofus-retro-craft-dashboard
+
+# Installer les dépendances
+npm install
+
+# Lancer en local
+npm run dev
