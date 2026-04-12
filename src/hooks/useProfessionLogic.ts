@@ -26,7 +26,8 @@ export const useProfessionLogic = (recipes: Recipe[]) => {
    * Calcule les statistiques d'un métier
    */
   const calculateProfessionStats = (
-    profession: Profession
+    profession: Profession,
+    xpMultiplier: number = 1
   ): ProfessionStats => {
     const currentTotalXP = profession.currentXP;
     const currentLevelBaseXP = getXPForLevel(profession.currentLevel);
@@ -45,7 +46,7 @@ export const useProfessionLogic = (recipes: Recipe[]) => {
       profRecipes.length > 0
         ? profRecipes.reduce((s, r) => s + r.xpGained, 0) / profRecipes.length
         : 0;
-    const craftsNeeded = avgXP > 0 ? Math.ceil(xpNeeded / avgXP) : 0;
+    const craftsNeeded = avgXP > 0 ? Math.ceil(xpNeeded / (avgXP * xpMultiplier)) : 0;
     const levelsRemaining = profession.targetLevel - profession.currentLevel;
 
     return {

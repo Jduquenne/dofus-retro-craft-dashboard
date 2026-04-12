@@ -17,6 +17,7 @@ interface ProfessionCardProps {
     isMaxLevel: boolean;
     canModify: boolean;
     professions: Profession[];
+    xpMultiplier?: number;
     onLevelChange: (value: string, currentTargetLevel: number) => void;
     onXPChange: (value: string) => void;
     onTargetLevelChange: (value: string) => void;
@@ -29,6 +30,7 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
     isMaxLevel,
     canModify,
     professions,
+    xpMultiplier = 1,
     onLevelChange,
     onXPChange,
     onTargetLevelChange
@@ -197,6 +199,7 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                                                 currentXP={profession.currentXP}
                                                 targetLevel={profession.targetLevel}
                                                 availableSlots={availableSlots}
+                                                xpMultiplier={xpMultiplier}
                                             />
 
                                             {stats.profRecipes.length === 0 && (

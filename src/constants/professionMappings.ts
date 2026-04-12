@@ -1,3 +1,4 @@
+import { CategoryTypes } from "../data/categoryTypes";
 import { ProfessionTypes } from "../data/professionTypes";
 
 /**
@@ -24,6 +25,18 @@ export const PROFESSION_CATEGORY_TITLES: Record<ProfessionTypes, string> = {
   [ProfessionTypes.HARVEST]: "🌾 Métiers de récolte",
   [ProfessionTypes.CRAFT]: "⚒️ Métiers de craft",
   [ProfessionTypes.SMITHMAGUS]: "✨ Métiers de forgemagie",
+};
+
+/**
+ * Catégories de ressources récoltables par métier de récolte
+ */
+export const HARVEST_CATEGORIES_BY_PROFESSION: Partial<Record<string, CategoryTypes[]>> = {
+  peasant: [CategoryTypes.CEREAL],
+  lumberjack: [CategoryTypes.WOOD],
+  minor: [CategoryTypes.ORE],
+  alchemist: [CategoryTypes.FLOWER, CategoryTypes.ROOT, CategoryTypes.BUD, CategoryTypes.PLANT],
+  fisherman: [CategoryTypes.FISH],
+  hunter: [CategoryTypes.MEAT],
 };
 
 /**

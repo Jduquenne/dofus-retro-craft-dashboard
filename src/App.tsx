@@ -3,6 +3,7 @@ import { AppProvider } from './context/AppContext';
 import { Header } from './components/Header';
 import { Dashboard } from './components/Dashboard';
 import { RecipesManager } from './components/RecipesManager';
+import { ProfessionCalculator } from './components/ProfessionCalculator';
 import { ResourcesManager } from './components/ResourcesManager';
 import { ProfessionsManager } from './components/professions/ProfessionsManager';
 // import { GoalsManager } from './components/GoalManager';
@@ -16,6 +17,7 @@ const App: React.FC = () => {
         <Header activeTab={activeTab} setActiveTab={setActiveTab} />
         <main className="container mx-auto px-4 py-8">
           {activeTab === 'dashboard' && <Dashboard />}
+          {activeTab === 'calculator' && <ProfessionCalculator />}
           {activeTab === 'recipes' && <RecipesManager />}
           {activeTab === 'resources' && <ResourcesManager />}
           {activeTab === 'professions' && <ProfessionsManager />}

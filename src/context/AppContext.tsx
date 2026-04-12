@@ -16,6 +16,8 @@ interface AppContextType {
     setKamasGoal: (goal: KamasGoal) => void;
     calculateCraftCost: (recipe: Recipe) => number;
     calculateMargin: (recipe: Recipe, type: 'hdv' | 'merchant') => number;
+    xpMultiplier: number;
+    setXpMultiplier: (value: number) => void;
     isLoading: boolean;
 }
 
@@ -33,7 +35,16 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
     const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [professions, setProfessions] = useState<Profession[]>([]);
     const [kamasGoal, setKamasGoal] = useState<KamasGoal>({ target: 1000000, current: 0, expenses: 0 });
+    const [xpMultiplier, setXpMultiplierState] = useState<number>(() => {
+        const saved = localStorage.getItem('xpMultiplier');
+        return saved ? parseFloat(saved) : 1;
+    });
     const [isLoading, setIsLoading] = useState(true);
+
+    const setXpMultiplier = (value: number) => {
+        localStorage.setItem('xpMultiplier', value.toString());
+        setXpMultiplierState(value);
+    };
 
     useEffect(() => {
         const initDB = async () => {
@@ -109,6 +120,8 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
             setKamasGoal,
             calculateCraftCost,
             calculateMargin,
+            xpMultiplier,
+            setXpMultiplier,
             isLoading
         }}>
             {children}

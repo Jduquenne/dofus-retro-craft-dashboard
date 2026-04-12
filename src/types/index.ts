@@ -12,6 +12,7 @@ export interface Resource {
   inTheCraftOf: string[];
   quantity: number;
   unitPrice: number;
+  xpPerHarvest?: number;
 }
 
 export interface MonsterDrops {

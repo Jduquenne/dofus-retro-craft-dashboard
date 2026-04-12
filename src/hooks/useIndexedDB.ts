@@ -18,6 +18,29 @@ db.version(1).stores({
   goals: "id",
 });
 
+// v2 : ajout des ressources Paysan + recettes farines
+db.version(2).stores({
+  resources: "id, name, type",
+  recipes: "id, name, profession, level",
+  professions: "id, name, currentLevel",
+  goals: "id",
+}).upgrade((tx) => {
+  return Promise.all([
+    tx.table("resources").clear(),
+    tx.table("recipes").clear(),
+  ]);
+});
+
+// v3 : ajout des ressources Bûcheron, Mineur, Alchimiste, Pêcheur, Chasseur
+db.version(3).stores({
+  resources: "id, name, type",
+  recipes: "id, name, profession, level",
+  professions: "id, name, currentLevel",
+  goals: "id",
+}).upgrade((tx) => {
+  return tx.table("resources").clear();
+});
+
 export const useIndexedDB = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 

@@ -84,11 +84,12 @@ export const calculateCraftsByPaliers = (
   currentLevel: number,
   currentXP: number,
   targetLevel: number,
-  slots: number
+  slots: number,
+  xpMultiplier: number = 1
 ): { crafts: number; valid: boolean; reason?: string } => {
   const maxLevelForSlots = MAX_LEVEL_BY_SLOTS[slots];
   const unlockLevel = UNLOCK_LEVEL_BY_SLOTS[slots];
-  const xpPerCraft = CRAFT_XP_BY_SLOTS[slots] || 0;
+  const xpPerCraft = (CRAFT_XP_BY_SLOTS[slots] || 0) * xpMultiplier;
 
   // Vérifier si les cases sont débloquées
   if (currentLevel < unlockLevel) {

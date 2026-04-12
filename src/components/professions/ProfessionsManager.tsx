@@ -8,9 +8,10 @@ import { PROFESSION_CATEGORY_TITLES } from '../../constants/professionMappings';
 import { ProfessionCard } from './ProfessionCard';
 import { ProfessionSlotIndicator } from './ProfessionSlotIndicator';
 import { ProfessionStats } from './ProfessionStats';
+import { XpMultiplierSelector } from './XpMultiplierSelector';
 
 export const ProfessionsManager: React.FC = () => {
-    const { professions, setProfessions, recipes } = useAppContext();
+    const { professions, setProfessions, recipes, xpMultiplier, setXpMultiplier } = useAppContext();
     const {
         calculateProfessionStats,
         handleLevelChange,
@@ -33,7 +34,10 @@ export const ProfessionsManager: React.FC = () => {
 
     return (
         <div className="space-y-10">
-            <ProfessionSlotIndicator professions={professions} />
+            <div className="flex flex-col gap-3">
+                <ProfessionSlotIndicator professions={professions} />
+                <XpMultiplierSelector value={xpMultiplier} onChange={setXpMultiplier} />
+            </div>
             {/* <ProfessionStats professions={professions} /> */}
 
             {(Object.values(ProfessionTypes) as ProfessionTypes[]).map((type) => {
@@ -47,7 +51,7 @@ export const ProfessionsManager: React.FC = () => {
                         </h2>
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                             {filtered.map((prof) => {
-                                const stats = calculateProfessionStats(prof);
+                                const stats = calculateProfessionStats(prof, xpMultiplier);
                                 const isMaxLevel = prof.currentLevel >= prof.targetLevel;
                                 const isActive = prof.currentLevel > 1;
                                 const canModify = canModifyProfession(prof, professions);
@@ -62,6 +66,7 @@ export const ProfessionsManager: React.FC = () => {
                                         isMaxLevel={isMaxLevel}
                                         canModify={canModify}
                                         professions={professions}
+                                        xpMultiplier={xpMultiplier}
                                         {...handlers}
                                     />
                                 );

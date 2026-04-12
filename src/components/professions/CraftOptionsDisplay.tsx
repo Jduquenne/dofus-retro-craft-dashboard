@@ -7,6 +7,7 @@ interface CraftOptionsDisplayProps {
     currentXP: number;
     targetLevel: number;
     availableSlots: number[];
+    xpMultiplier?: number;
 }
 
 /**
@@ -17,7 +18,8 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
     currentLevel,
     currentXP,
     targetLevel,
-    availableSlots
+    availableSlots,
+    xpMultiplier = 1,
 }) => {
     if (availableSlots.length === 0) {
         return null;
@@ -36,19 +38,21 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
             {/* Liste des options */}
             <div className="space-y-1.5">
                 {availableSlots.map((slots) => {
-                    const xpPerCraft = CRAFT_XP_BY_SLOTS[slots];
+                    const baseXpPerCraft = CRAFT_XP_BY_SLOTS[slots];
                     const result = calculateCraftsByPaliers(
                         currentLevel,
                         currentXP,
                         targetLevel,
-                        slots
+                        slots,
+                        xpMultiplier
                     );
 
                     return (
                         <CraftOption
                             key={slots}
                             slots={slots}
-                            xpPerCraft={xpPerCraft}
+                            baseXpPerCraft={baseXpPerCraft}
+                            xpMultiplier={xpMultiplier}
                             result={result}
                         />
                     );
@@ -63,11 +67,15 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
  */
 interface CraftOptionProps {
     slots: number;
-    xpPerCraft: number;
+    baseXpPerCraft: number;
+    xpMultiplier: number;
     result: { crafts: number; valid: boolean; reason?: string };
 }
 
-const CraftOption: React.FC<CraftOptionProps> = ({ slots, xpPerCraft, result }) => {
+const CraftOption: React.FC<CraftOptionProps> = ({ slots, baseXpPerCraft, xpMultiplier, result }) => {
+    const effectiveXp = baseXpPerCraft * xpMultiplier;
+    const hasMultiplier = xpMultiplier !== 1;
+
     return (
         <div
             className={`flex justify-between items-center rounded px-2 py-1.5 ${result.valid
@@ -76,9 +84,17 @@ const CraftOption: React.FC<CraftOptionProps> = ({ slots, xpPerCraft, result }) 
                 }`}
             title={result.reason}
         >
-            <span className={`font-medium ${result.valid ? 'text-amber-900' : 'text-gray-600'
-                }`}>
-                {slots} case{slots > 1 ? 's' : ''} ({xpPerCraft} XP)
+            <span className={`font-medium ${result.valid ? 'text-amber-900' : 'text-gray-600'}`}>
+                {slots} case{slots > 1 ? 's' : ''}{' '}
+                {hasMultiplier ? (
+                    <span>
+                        <span className="line-through opacity-50">{baseXpPerCraft}</span>
+                        {' '}
+                        <span className="text-green-700">{effectiveXp % 1 === 0 ? effectiveXp : effectiveXp.toFixed(1)} XP</span>
+                    </span>
+                ) : (
+                    <span>({baseXpPerCraft} XP)</span>
+                )}
             </span>
 
             {result.valid ? (
