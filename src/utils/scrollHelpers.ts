@@ -14,6 +14,7 @@ export interface ScrollPhaseResult {
 export interface ResourceTotal {
   name: string;
   quantity: number;
+  kind: 'resource' | 'equipment';
 }
 
 export interface ScrollCalculationResult {
@@ -56,16 +57,19 @@ export function calculateScrollsNeeded(
   }
 
   // Agréger toutes les ressources
-  const resourceMap = new Map<string, number>();
+  const resourceMap = new Map<string, { quantity: number; kind: 'resource' | 'equipment' }>();
   for (const phase of phases) {
     for (const resource of phase.option.resources) {
-      const current = resourceMap.get(resource.name) ?? 0;
-      resourceMap.set(resource.name, current + resource.quantity * phase.scrollsNeeded);
+      const current = resourceMap.get(resource.name);
+      resourceMap.set(resource.name, {
+        quantity: (current?.quantity ?? 0) + resource.quantity * phase.scrollsNeeded,
+        kind: resource.kind === 'equipment' ? 'equipment' : 'resource',
+      });
     }
   }
 
   const totalResources: ResourceTotal[] = Array.from(resourceMap.entries())
-    .map(([name, quantity]) => ({ name, quantity }))
+    .map(([name, { quantity, kind }]) => ({ name, quantity, kind }))
     .sort((a, b) => b.quantity - a.quantity);
 
   return { phases, totalResources };
