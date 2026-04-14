@@ -53,19 +53,20 @@ export const ScrollsModule: React.FC = () => {
   const totalScrolls = result.phases.reduce((acc, p) => acc + p.scrollsNeeded, 0);
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-4">
 
+      {/* ── Sélecteur de stat ── */}
       <div className="flex items-center gap-3 flex-wrap">
-        <h2 className="text-base font-bold text-amber-900 shrink-0">Parchemins de caractéristiques</h2>
-        <div className="flex gap-1 flex-wrap">
+        <h2 className="section-title shrink-0 border-0 pb-0">Parchemins</h2>
+        <div className="flex gap-1.5 flex-wrap">
           {scrollsData.map(s => (
             <button
               key={s.id}
               onClick={() => setSelectedStat(s.id)}
-              className={`flex items-center gap-1 px-2.5 py-1 rounded-md border text-sm font-medium transition-all ${
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded text-sm font-medium border transition-all ${
                 selectedStat === s.id
-                  ? 'bg-amber-600 text-white border-amber-600'
-                  : 'bg-white text-amber-800 border-amber-200 hover:border-amber-400'
+                  ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00] shadow-inner'
+                  : 'panel-sm text-dofus-text hover:bg-dofus-panel-lt border-dofus-border-md'
               }`}
             >
               <span>{s.icon}</span>
@@ -75,78 +76,106 @@ export const ScrollsModule: React.FC = () => {
         </div>
       </div>
 
+      {/* ── Niveaux + Méthode ── */}
       <div className="grid grid-cols-[1fr_220px] gap-3 items-start">
 
-        <div className="bg-white border border-amber-100 rounded-lg p-3 space-y-2">
-          <div className="flex items-center gap-2">
-            <span className="text-xs text-amber-600 w-14 shrink-0">Actuel</span>
+        {/* Niveaux */}
+        <div className="panel rounded p-4 space-y-3">
+          <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold">Progression</p>
+
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-dofus-text-md w-14 shrink-0">Actuel</span>
             <input
               type="number" min={0} max={MAX_STAT - 1} value={currentStat}
               onChange={e => handleCurrentStat(Number(e.target.value))}
-              className="w-14 border border-amber-200 rounded px-1.5 py-0.5 text-xs text-center font-mono font-bold text-amber-900 focus:outline-none focus:ring-1 focus:ring-amber-400"
+              className="input-dofus w-14 text-center font-mono font-bold text-sm"
             />
             <input
               type="range" min={0} max={MAX_STAT - 1} value={currentStat}
               onChange={e => handleCurrentStat(Number(e.target.value))}
-              className="flex-1 accent-amber-600 h-1"
+              className="flex-1 h-1 accent-[#CC6000]"
             />
           </div>
-          <div className="flex items-center gap-2">
-            <span className="text-xs text-amber-600 w-14 shrink-0">Cible</span>
+
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-dofus-text-md w-14 shrink-0">Cible</span>
             <input
               type="number" min={1} max={MAX_STAT} value={targetStat}
               onChange={e => handleTargetStat(Number(e.target.value))}
-              className="w-14 border border-amber-200 rounded px-1.5 py-0.5 text-xs text-center font-mono font-bold text-amber-900 focus:outline-none focus:ring-1 focus:ring-amber-400"
+              className="input-dofus w-14 text-center font-mono font-bold text-sm"
             />
             <input
               type="range" min={1} max={MAX_STAT} value={targetStat}
               onChange={e => handleTargetStat(Number(e.target.value))}
-              className="flex-1 accent-amber-600 h-1"
+              className="flex-1 h-1 accent-[#CC6000]"
             />
           </div>
-          <div className="relative h-2 bg-amber-100 rounded-full overflow-hidden mt-1">
-            <div className="absolute h-full bg-amber-300 rounded-full" style={{ width: `${donePercent}%` }} />
-            <div className="absolute h-full bg-amber-600 rounded-full" style={{ left: `${donePercent}%`, width: `${todoPercent}%` }} />
+
+          {/* Barre de progression */}
+          <div className="relative h-2.5 bg-dofus-border-md/20 rounded-full overflow-hidden">
+            <div
+              className="absolute h-full bg-dofus-panel-dk rounded-full"
+              style={{ width: `${donePercent}%` }}
+            />
+            <div
+              className="absolute h-full bg-dofus-orange rounded-full"
+              style={{ left: `${donePercent}%`, width: `${todoPercent}%` }}
+            />
           </div>
-          <p className="text-xs text-center text-amber-500">
-            {currentStat} → {targetStat} · <span className="font-semibold text-amber-700">+{targetStat - currentStat} points</span>
+
+          <p className="text-xs text-center text-dofus-text-md">
+            {currentStat} → {targetStat}
+            {' '}·{' '}
+            <span className="font-bold text-dofus-orange">+{targetStat - currentStat} points</span>
           </p>
         </div>
 
+        {/* Méthode + PNJ */}
         <div className="space-y-2">
-          <div className="bg-white border border-amber-100 rounded-lg p-3 space-y-1.5">
+          <div className="panel rounded p-3 space-y-1">
+            <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold mb-2">Méthode</p>
             {SCROLL_METHODS.map(m => (
-              <label key={m.id} className={`flex items-start gap-2 p-1.5 rounded cursor-pointer transition-all ${methodId === m.id ? 'bg-amber-50' : 'hover:bg-amber-50/50'}`}>
+              <label
+                key={m.id}
+                className={`flex items-start gap-2.5 p-2 rounded cursor-pointer transition-all border ${
+                  methodId === m.id
+                    ? 'bg-dofus-orange/15 border-dofus-orange/40'
+                    : 'border-transparent hover:bg-dofus-panel-dk/30'
+                }`}
+              >
                 <input
                   type="radio" name="method" value={m.id} checked={methodId === m.id}
                   onChange={() => updateEntry(selectedStat, { methodId: m.id })}
-                  className="mt-0.5 accent-amber-600"
+                  className="mt-0.5 accent-[#CC6000] shrink-0"
                 />
                 <div>
-                  <p className="text-xs font-semibold text-amber-900">{m.label}</p>
-                  <p className="text-xs text-amber-500 leading-tight">{m.description}</p>
+                  <p className={`text-xs font-semibold ${methodId === m.id ? 'text-dofus-orange' : 'text-dofus-text'}`}>
+                    {m.label}
+                  </p>
+                  <p className="text-[10px] text-dofus-text-lt leading-tight mt-0.5">{m.description}</p>
                 </div>
               </label>
             ))}
           </div>
 
           {phasesWithMultiPnj.length > 0 && (
-            <div className="bg-white border border-amber-100 rounded-lg p-3 space-y-2">
+            <div className="panel rounded p-3 space-y-2">
+              <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold">PNJ</p>
               {phasesWithMultiPnj.map(phase => {
                 const tier = stat.tiers.find(t => t.type === phase.tierType)!;
                 const selectedId = npcSelections[phase.tierType] ?? tier.options[0].id;
                 return (
                   <div key={phase.tierType}>
-                    <p className="text-xs text-amber-500 mb-1">{TIER_LABELS[phase.tierType]}</p>
+                    <p className="text-[10px] text-dofus-text-md mb-1">{TIER_LABELS[phase.tierType]}</p>
                     <div className="flex flex-wrap gap-1">
                       {tier.options.map(opt => (
                         <button
                           key={opt.id}
                           onClick={() => handleNpcSelect(phase.tierType, opt.id)}
-                          className={`flex items-center gap-1 px-1.5 py-0.5 rounded text-xs border transition-all ${
+                          className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] border transition-all ${
                             selectedId === opt.id
-                              ? 'bg-amber-600 text-white border-amber-600'
-                              : 'bg-white text-amber-700 border-amber-200 hover:border-amber-400'
+                              ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
+                              : 'panel-sm text-dofus-text-md border-dofus-border-md hover:bg-dofus-panel-lt'
                           }`}
                         >
                           <MapPin size={9} />
@@ -162,50 +191,57 @@ export const ScrollsModule: React.FC = () => {
         </div>
       </div>
 
+      {/* ── Résultats ── */}
       {result.phases.length > 0 ? (
         <div className="grid grid-cols-[auto_1fr] gap-3 items-start">
 
-          <div className="bg-white border border-amber-100 rounded-lg p-3 min-w-[220px]">
-            <p className="text-xs font-bold text-amber-900 uppercase tracking-wide mb-2">Parchemins</p>
+          {/* Parchemins */}
+          <div className="panel rounded p-3 min-w-[220px]">
+            <p className="section-title text-xs mb-3 border-0 pb-0">Parchemins à utiliser</p>
             <table className="w-full text-xs border-collapse">
               <tbody>
                 {result.phases.map(phase => (
-                  <tr key={phase.tierType} className="border-b border-amber-50 last:border-0">
-                    <td className="py-1 pr-2">
-                      <span className={`inline-block px-1.5 py-0.5 rounded text-xs font-medium border ${TIER_COLORS[phase.tierType]}`}>
+                  <tr key={phase.tierType} className="border-b border-dofus-border/20 last:border-0">
+                    <td className="py-1.5 pr-2">
+                      <span className={`inline-block px-2 py-0.5 rounded text-[10px] font-medium border ${TIER_COLORS[phase.tierType]}`}>
                         {TIER_LABELS[phase.tierType]}
                       </span>
                     </td>
-                    <td className="py-1 pr-2 font-bold text-amber-900 text-right">{phase.scrollsNeeded}×</td>
-                    <td className="py-1 text-amber-500 flex items-center gap-0.5">
+                    <td className="py-1.5 pr-2 font-bold text-dofus-orange text-right font-mono">
+                      {phase.scrollsNeeded}×
+                    </td>
+                    <td className="py-1.5 text-dofus-text-lt flex items-center gap-0.5 text-[10px]">
                       <MapPin size={9} />
                       {phase.option.npc}
-                      <span className="font-mono ml-0.5">[{phase.option.position[0]},{phase.option.position[1]}]</span>
+                      <span className="font-mono ml-0.5 text-dofus-text-md">
+                        [{phase.option.position[0]},{phase.option.position[1]}]
+                      </span>
                     </td>
-                    <td className="py-1 pl-2 text-right font-mono text-amber-700">
+                    <td className="py-1.5 pl-2 text-right font-mono font-semibold text-dofus-gold">
                       +{phase.scrollsNeeded * (phase.tierType === 'puissant' ? 2 : 1)}
                     </td>
                   </tr>
                 ))}
               </tbody>
               <tfoot>
-                <tr className="border-t border-amber-200">
-                  <td colSpan={3} className="pt-1.5 font-semibold text-amber-900">Total</td>
-                  <td className="pt-1.5 text-right font-bold font-mono text-amber-900">{totalScrolls}</td>
+                <tr className="border-t-2 border-dofus-border/40">
+                  <td colSpan={3} className="pt-2 font-semibold text-dofus-text-md text-xs">Total</td>
+                  <td className="pt-2 text-right font-bold font-mono text-dofus-orange">{totalScrolls}</td>
                 </tr>
               </tfoot>
             </table>
           </div>
 
-          <div className="bg-white border border-amber-100 rounded-lg p-3">
-            <p className="text-xs font-bold text-amber-900 uppercase tracking-wide mb-2">Ressources</p>
+          {/* Ressources + prix */}
+          <div className="panel rounded p-3">
+            <p className="section-title text-xs mb-3 border-0 pb-0">Ressources nécessaires</p>
             <table className="w-full text-xs border-collapse">
               <thead>
-                <tr className="text-amber-500 border-b border-amber-100">
-                  <th className="text-left font-medium pb-1">Ressource</th>
-                  <th className="text-right font-medium pb-1 pr-3">Qté</th>
-                  <th className="text-right font-medium pb-1 pr-2">Prix/u</th>
-                  <th className="text-right font-medium pb-1">Total</th>
+                <tr className="text-dofus-text-lt border-b border-dofus-border/20">
+                  <th className="text-left font-medium pb-2">Ressource</th>
+                  <th className="text-right font-medium pb-2 pr-3">Qté</th>
+                  <th className="text-right font-medium pb-2 pr-2">Prix/u (k)</th>
+                  <th className="text-right font-medium pb-2">Total</th>
                 </tr>
               </thead>
               <tbody>
@@ -213,35 +249,38 @@ export const ScrollsModule: React.FC = () => {
                   const price = resourcePrices[resource.name] ?? 0;
                   const total = resource.quantity * price;
                   return (
-                    <tr key={resource.name} className="border-b border-amber-50 last:border-0">
-                      <td className="py-1 pr-2 text-amber-800">{resource.name}</td>
-                      <td className="py-1 pr-3 text-right font-mono text-amber-700">
+                    <tr key={resource.name} className="border-b border-dofus-border/15 last:border-0">
+                      <td className="py-1.5 pr-2 text-dofus-text font-medium">{resource.name}</td>
+                      <td className="py-1.5 pr-3 text-right font-mono text-dofus-text-md">
                         {resource.quantity.toLocaleString('fr-FR')}
                       </td>
-                      <td className="py-1 pr-2 text-right">
+                      <td className="py-1.5 pr-2 text-right">
                         <input
                           type="number"
                           min={0}
                           value={price === 0 ? '' : price}
-                          placeholder="0"
+                          placeholder="—"
                           onChange={e => setResourcePrice(resource.name, Number(e.target.value) || 0)}
-                          className="w-20 border border-amber-200 rounded px-1.5 py-0.5 text-right font-mono text-amber-900 focus:outline-none focus:ring-1 focus:ring-amber-400 text-xs"
+                          className="input-dofus w-20 text-right font-mono text-xs py-0.5"
                         />
                       </td>
-                      <td className="py-1 text-right font-mono font-semibold text-amber-900">
-                        {price > 0 ? total.toLocaleString('fr-FR') : <span className="text-amber-300">—</span>}
+                      <td className="py-1.5 text-right font-mono font-semibold">
+                        {price > 0
+                          ? <span className="text-dofus-gold">{total.toLocaleString('fr-FR')}</span>
+                          : <span className="text-dofus-text-lt">—</span>
+                        }
                       </td>
                     </tr>
                   );
                 })}
               </tbody>
               <tfoot>
-                <tr className="border-t-2 border-amber-200">
-                  <td colSpan={3} className="pt-2 font-bold text-amber-900 text-sm">Total parchotage</td>
-                  <td className="pt-2 text-right font-bold font-mono text-amber-900 text-sm">
+                <tr className="border-t-2 border-dofus-border/40">
+                  <td colSpan={3} className="pt-2 font-bold text-dofus-text-md">Total parchotage</td>
+                  <td className="pt-2 text-right font-bold font-mono text-dofus-orange text-sm">
                     {totalCost > 0
                       ? <span>{totalCost.toLocaleString('fr-FR')} k</span>
-                      : <span className="text-amber-300 text-xs">— saisir les prix</span>
+                      : <span className="text-dofus-text-lt text-xs font-normal">— saisir les prix</span>
                     }
                   </td>
                 </tr>
@@ -250,7 +289,7 @@ export const ScrollsModule: React.FC = () => {
           </div>
         </div>
       ) : (
-        <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 text-center text-sm text-amber-600">
+        <div className="panel-sm rounded p-6 text-center text-dofus-text-lt text-sm">
           Stat déjà au niveau cible.
         </div>
       )}

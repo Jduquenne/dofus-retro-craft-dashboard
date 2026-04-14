@@ -17,30 +17,20 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
     availableSlots,
     xpMultiplier = 1,
 }) => {
-    if (availableSlots.length === 0) {
-        return null;
-    }
+    if (availableSlots.length === 0) return null;
 
     return (
-        <div className="mt-3 pt-2 border-t border-amber-200">
-            <div className="flex items-center gap-1 mb-2">
-                <Hammer size={12} className="text-amber-700" />
-                <span className="font-semibold text-amber-900 text-xs">
-                    Options de craft :
+        <div className="mt-2 pt-2 border-t border-dofus-border/30">
+            <div className="flex items-center gap-1 mb-1.5">
+                <Hammer size={11} className="text-dofus-orange" />
+                <span className="text-[10px] font-semibold text-dofus-text-lt uppercase tracking-wider">
+                    Options de craft
                 </span>
             </div>
-
-            <div className="space-y-1.5">
-                {availableSlots.map((slots) => {
+            <div className="space-y-1">
+                {availableSlots.map(slots => {
                     const baseXpPerCraft = CRAFT_XP_BY_SLOTS[slots];
-                    const result = calculateCraftsByPaliers(
-                        currentLevel,
-                        currentXP,
-                        targetLevel,
-                        slots,
-                        xpMultiplier
-                    );
-
+                    const result = calculateCraftsByPaliers(currentLevel, currentXP, targetLevel, slots, xpMultiplier);
                     return (
                         <CraftOption
                             key={slots}
@@ -69,33 +59,31 @@ const CraftOption: React.FC<CraftOptionProps> = ({ slots, baseXpPerCraft, xpMult
 
     return (
         <div
-            className={`flex justify-between items-center rounded px-2 py-1.5 ${result.valid
-                ? 'bg-gradient-to-r from-amber-100 to-orange-100'
-                : 'bg-gray-200 opacity-60'
-                }`}
+            className={`flex justify-between items-center rounded px-2 py-1 ${
+                result.valid ? 'bg-dofus-panel-dk/40' : 'bg-dofus-bg/20 opacity-50'
+            }`}
             title={result.reason}
         >
-            <span className={`font-medium ${result.valid ? 'text-amber-900' : 'text-gray-600'}`}>
-                {slots} case{slots > 1 ? 's' : ''}{' '}
+            <span className={`text-[10px] font-medium ${result.valid ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
+                {slots} case{slots > 1 ? 's' : ''}{' '}·{' '}
                 {hasMultiplier ? (
                     <span>
-                        <span className="line-through opacity-50">{baseXpPerCraft}</span>
+                        <span className="line-through opacity-40">{baseXpPerCraft}</span>
                         {' '}
-                        <span className="text-green-700">{effectiveXp % 1 === 0 ? effectiveXp : effectiveXp.toFixed(1)} XP</span>
+                        <span className="text-dofus-success font-semibold">
+                            {effectiveXp % 1 === 0 ? effectiveXp : effectiveXp.toFixed(1)}
+                        </span>
                     </span>
                 ) : (
-                    <span>({baseXpPerCraft} XP)</span>
-                )}
+                    <span>{baseXpPerCraft}</span>
+                )}{' '}XP
             </span>
-
             {result.valid ? (
-                <span className="font-bold text-amber-800">
+                <span className="text-[10px] font-bold text-dofus-orange">
                     ~{result.crafts.toLocaleString()}
                 </span>
             ) : (
-                <span className="text-xs text-gray-500 italic">
-                    {result.reason}
-                </span>
+                <span className="text-[9px] text-dofus-text-lt italic">{result.reason}</span>
             )}
         </div>
     );

@@ -79,8 +79,8 @@ export const TIER_LABELS: Record<ScrollTierType, string> = {
 };
 
 export const TIER_COLORS: Record<ScrollTierType, string> = {
-  petit:    'bg-green-100 text-green-800 border-green-200',
-  normal:   'bg-blue-100 text-blue-800 border-blue-200',
-  grand:    'bg-purple-100 text-purple-800 border-purple-200',
-  puissant: 'bg-amber-100 text-amber-800 border-amber-200',
+  petit:    'bg-dofus-success/20 text-dofus-success border-dofus-success/40',
+  normal:   'bg-dofus-border-md/20 text-dofus-text-md border-dofus-border-md/40',
+  grand:    'bg-dofus-gold/20 text-dofus-text border-dofus-gold/40',
+  puissant: 'bg-dofus-orange/20 text-dofus-orange border-dofus-orange/40',
 };
