@@ -1,9 +1,9 @@
 import { Save, X, Edit2 } from "lucide-react";
 import { useState } from "react";
-import { useAppContext } from "../context/AppContext";
-import type { Resource } from "../types";
+import { useAppContext } from "../../context/AppContext";
+import type { Resource } from "../../types";
 
-export const ResourcesManager: React.FC = () => {
+export const ResourcesModule: React.FC = () => {
     const { resources, setResources } = useAppContext();
     const [editingId, setEditingId] = useState<string | null>(null);
     const [editForm, setEditForm] = useState<Partial<Resource>>({});

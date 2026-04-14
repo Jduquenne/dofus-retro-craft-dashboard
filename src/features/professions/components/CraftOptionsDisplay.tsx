@@ -1,6 +1,6 @@
 import React from 'react';
 import { Hammer } from 'lucide-react';
-import { calculateCraftsByPaliers, CRAFT_XP_BY_SLOTS } from '../../constants/craftXP';
+import { calculateCraftsByPaliers, CRAFT_XP_BY_SLOTS } from '../../../constants/craftXP';
 
 interface CraftOptionsDisplayProps {
     currentLevel: number;
@@ -10,10 +10,6 @@ interface CraftOptionsDisplayProps {
     xpMultiplier?: number;
 }
 
-/**
- * Affiche les options de craft disponibles avec le nombre de crafts nécessaires
- * pour chaque nombre de cases (slots)
- */
 export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
     currentLevel,
     currentXP,
@@ -27,7 +23,6 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
 
     return (
         <div className="mt-3 pt-2 border-t border-amber-200">
-            {/* Header */}
             <div className="flex items-center gap-1 mb-2">
                 <Hammer size={12} className="text-amber-700" />
                 <span className="font-semibold text-amber-900 text-xs">
@@ -35,7 +30,6 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
                 </span>
             </div>
 
-            {/* Liste des options */}
             <div className="space-y-1.5">
                 {availableSlots.map((slots) => {
                     const baseXpPerCraft = CRAFT_XP_BY_SLOTS[slots];
@@ -62,9 +56,6 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
     );
 };
 
-/**
- * Affiche une option de craft individuelle
- */
 interface CraftOptionProps {
     slots: number;
     baseXpPerCraft: number;

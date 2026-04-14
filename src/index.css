@@ -2,11 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Base ──────────────────────────────────────────────────────── */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  background-color: #1C1008;
+  color: #1A0E04;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────────── */
+::-webkit-scrollbar          { width: 6px; height: 6px; }
+::-webkit-scrollbar-track    { background: #1C1008; }
+::-webkit-scrollbar-thumb    { background: #5A3510; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #8A5520; }
+
+/* ── Composants réutilisables ────────────────────────────────────── */
+@layer components {
+  /* Panneau parchemin avec bordure sculptée style Dofus */
+  .panel {
+    background-color: #C8B89A;
+    border: 2px solid #3A240C;
+    border-radius: 4px;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.18),
+      inset 0 0 0 1px #8A6838,
+      0 4px 14px rgba(0, 0, 0, 0.65);
+  }
+
+  /* Variante plus légère */
+  .panel-sm {
+    background-color: #C8B89A;
+    border: 1px solid #3A240C;
+    border-radius: 4px;
+    box-shadow:
+      inset 0 1px 0 rgba(255, 255, 255, 0.12),
+      inset 0 0 0 1px #8A6838;
+  }
+
+  /* Bouton primaire orange */
+  .btn-primary {
+    @apply font-medium px-3 py-1.5 rounded text-sm transition-all;
+    background-color: #CC6000;
+    color: #F0E8D8;
+    border: 1px solid #8A3E00;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  }
+  .btn-primary:hover {
+    background-color: #E07818;
+  }
+
+  /* Bouton secondaire parchemin */
+  .btn-secondary {
+    @apply font-medium px-3 py-1.5 rounded text-sm transition-all;
+    background-color: #B0A082;
+    color: #1A0E04;
+    border: 1px solid #7A5228;
+  }
+  .btn-secondary:hover {
+    background-color: #C8B89A;
+  }
+
+  /* Input parchemin */
+  .input-dofus {
+    @apply border rounded px-2 py-1 text-sm focus:outline-none focus:ring-1;
+    background-color: #DDD0B8;
+    border-color: #7A5228;
+    color: #1A0E04;
+    --tw-ring-color: #CC6000;
+  }
+
+  /* Entête de section */
+  .section-title {
+    @apply font-semibold tracking-wide border-b pb-2;
+    font-family: 'Cinzel', Georgia, serif;
+    color: #C8981A;
+    border-color: #3A240C;
+  }
 }

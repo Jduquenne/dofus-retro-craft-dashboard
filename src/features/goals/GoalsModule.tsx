@@ -1,7 +1,7 @@
 import { Target } from "lucide-react";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../../context/AppContext";
 
-export const GoalsManager: React.FC = () => {
+export const GoalsModule: React.FC = () => {
     const { kamasGoal, setKamasGoal } = useAppContext();
 
     const progress = (kamasGoal.current / kamasGoal.target) * 100;

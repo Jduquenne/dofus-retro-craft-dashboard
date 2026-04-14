@@ -1,13 +1,12 @@
 import React, { useState, useMemo } from 'react';
 import { RefreshCw, Lock, Wheat, Hammer, AlertTriangle, ChevronDown } from 'lucide-react';
-import { useAppContext } from '../context/AppContext';
-import { ProfessionTypes } from '../data/professionTypes';
-import { PROFESSION_XP_TABLE } from '../utils/professionXP';
-import { CRAFT_XP_BY_SLOTS, MAX_LEVEL_BY_SLOTS, UNLOCK_LEVEL_BY_SLOTS } from '../constants/craftXP';
-import { HARVEST_CATEGORIES_BY_PROFESSION } from '../constants/professionMappings';
-import type { Recipe, Resource } from '../types';
+import { useAppContext } from '../../context/AppContext';
+import { ProfessionTypes } from '../../data/professionTypes';
+import { PROFESSION_XP_TABLE } from '../../utils/professionXP';
+import { CRAFT_XP_BY_SLOTS, MAX_LEVEL_BY_SLOTS, UNLOCK_LEVEL_BY_SLOTS } from '../../constants/craftXP';
+import { HARVEST_CATEGORIES_BY_PROFESSION } from '../../constants/professionMappings';
+import type { Recipe, Resource } from '../../types';
 
-// Reverse mapping XP par craft → nombre de cases
 const XP_TO_SLOTS: Record<number, number> = {};
 Object.entries(CRAFT_XP_BY_SLOTS).forEach(([slots, xp]) => {
     XP_TO_SLOTS[xp] = Number(slots);
@@ -74,7 +73,7 @@ function getHarvestStatus(
     return { kind: 'valid', harvestsNeeded: Math.ceil(xpNeeded / xpPerHarvest) };
 }
 
-export const ProfessionCalculator: React.FC = () => {
+export const CalculatorModule: React.FC = () => {
     const { professions, recipes, resources, xpMultiplier } = useAppContext();
 
     const [selectedProfId, setSelectedProfId] = useState<string>('');
@@ -104,7 +103,6 @@ export const ProfessionCalculator: React.FC = () => {
 
     const xpNeeded = Math.max(0, (PROFESSION_XP_TABLE[targetLevel] ?? 0) - currentXP);
 
-    // Ressources récoltables pour ce métier
     const harvestResources = useMemo((): Resource[] => {
         if (!selectedProf || selectedProf.type !== ProfessionTypes.HARVEST) return [];
         const categories = HARVEST_CATEGORIES_BY_PROFESSION[selectedProf.id] ?? [];
@@ -113,7 +111,6 @@ export const ProfessionCalculator: React.FC = () => {
             .sort((a, b) => Number(a.level) - Number(b.level));
     }, [selectedProf, resources]);
 
-    // Recettes du métier sélectionné
     const profRecipes = useMemo((): Recipe[] => {
         if (!selectedProf) return [];
         return recipes
@@ -128,15 +125,10 @@ export const ProfessionCalculator: React.FC = () => {
         <div className="space-y-6">
             <div>
                 <h2 className="text-2xl font-bold text-gray-800">Calculateur XP Métiers</h2>
-                <p className="text-sm text-gray-500 mt-1">
-                    Inspiré de dofusdb.fr — adapté pour Dofus Rétro 1.29
-                </p>
             </div>
 
-            {/* ── Sélecteur + inputs ─────────────────────────────────────── */}
             <div className="bg-white rounded-lg shadow-md p-5 border border-gray-100">
                 <div className="flex flex-col sm:flex-row gap-4 flex-wrap">
-                    {/* Profession */}
                     <div className="flex flex-col gap-1 min-w-[200px]">
                         <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide">
                             Métier
@@ -158,7 +150,6 @@ export const ProfessionCalculator: React.FC = () => {
                         </div>
                     </div>
 
-                    {/* Niveau actuel */}
                     <div className="flex flex-col gap-1">
                         <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide">
                             Niveau actuel
@@ -173,7 +164,6 @@ export const ProfessionCalculator: React.FC = () => {
                         />
                     </div>
 
-                    {/* XP actuelle */}
                     <div className="flex flex-col gap-1">
                         <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide">
                             XP actuelle
@@ -187,7 +177,6 @@ export const ProfessionCalculator: React.FC = () => {
                         />
                     </div>
 
-                    {/* Niveau cible */}
                     <div className="flex flex-col gap-1">
                         <label className="text-xs font-semibold text-gray-600 uppercase tracking-wide">
                             Niveau cible
@@ -202,7 +191,6 @@ export const ProfessionCalculator: React.FC = () => {
                         />
                     </div>
 
-                    {/* Sync */}
                     {selectedProf && (
                         <div className="flex flex-col gap-1">
                             <label className="text-xs font-semibold text-transparent uppercase tracking-wide select-none">
@@ -220,7 +208,6 @@ export const ProfessionCalculator: React.FC = () => {
                     )}
                 </div>
 
-                {/* Résumé XP */}
                 {selectedProfId && (
                     <div className="mt-4 pt-4 border-t border-gray-100 flex flex-wrap gap-4 text-sm">
                         <span className="text-gray-600">
@@ -246,7 +233,6 @@ export const ProfessionCalculator: React.FC = () => {
                 </div>
             )}
 
-            {/* ── Table Récoltes ─────────────────────────────────────────── */}
             {hasHarvest && (
                 <section>
                     <h3 className="flex items-center gap-2 text-lg font-bold text-gray-800 mb-3">
@@ -279,11 +265,10 @@ export const ProfessionCalculator: React.FC = () => {
                                                 {resource.name}
                                             </td>
                                             <td className="px-4 py-3 text-center">
-                                                <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-bold ${
-                                                    isLocked
+                                                <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-bold ${isLocked
                                                         ? 'bg-red-100 text-red-600'
                                                         : 'bg-green-100 text-green-700'
-                                                }`}>
+                                                    }`}>
                                                     {isLocked && <Lock size={10} className="inline mr-1" />}
                                                     Niv. {resourceLevel}
                                                 </span>
@@ -319,7 +304,6 @@ export const ProfessionCalculator: React.FC = () => {
                 </section>
             )}
 
-            {/* ── Table Recettes ─────────────────────────────────────────── */}
             {hasRecipes && (
                 <section>
                     <h3 className="flex items-center gap-2 text-lg font-bold text-gray-800 mb-3">
@@ -348,23 +332,21 @@ export const ProfessionCalculator: React.FC = () => {
                                     return (
                                         <tr
                                             key={recipe.id}
-                                            className={`transition-colors ${
-                                                isLocked || isCapped
+                                            className={`transition-colors ${isLocked || isCapped
                                                     ? 'bg-gray-50 opacity-60'
                                                     : status.kind === 'partial'
                                                         ? 'bg-orange-50 hover:bg-orange-100'
                                                         : 'hover:bg-amber-50'
-                                            }`}
+                                                }`}
                                         >
                                             <td className="px-4 py-3 font-medium text-gray-800">
                                                 {recipe.name}
                                             </td>
                                             <td className="px-4 py-3 text-center">
-                                                <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-bold ${
-                                                    isLocked
+                                                <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-bold ${isLocked
                                                         ? 'bg-red-100 text-red-600'
                                                         : 'bg-amber-100 text-amber-700'
-                                                }`}>
+                                                    }`}>
                                                     {isLocked && <Lock size={10} className="inline mr-1" />}
                                                     Niv. {recipe.level}
                                                 </span>

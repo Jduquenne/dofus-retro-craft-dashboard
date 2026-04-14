@@ -1,7 +1,7 @@
 import React from 'react';
 import { TrendingUp, Target, Award } from 'lucide-react';
-import type { Profession } from '../../types';
-import { getActiveProfessions } from '../../utils/professionHelpers';
+import type { Profession } from '../../../types';
+import { getActiveProfessions } from '../../../utils/professionHelpers';
 
 interface ProfessionStatsProps {
     professions: Profession[];

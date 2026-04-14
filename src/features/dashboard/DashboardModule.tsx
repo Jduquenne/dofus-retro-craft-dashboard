@@ -1,7 +1,7 @@
 import { TrendingUp } from "lucide-react";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../../context/AppContext";
 
-export const Dashboard: React.FC = () => {
+export const DashboardModule: React.FC = () => {
     const { recipes, professions, kamasGoal, calculateCraftCost, calculateMargin } = useAppContext();
 
     const profitableRecipes = recipes.filter(r => calculateMargin(r, 'merchant') > 0);
@@ -87,6 +87,8 @@ export const Dashboard: React.FC = () => {
                     })}
                 </div>
             </div>
+
+            <div className="hidden">{totalProfit}</div>
         </div>
     );
 };

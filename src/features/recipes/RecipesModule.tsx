@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useAppContext } from "../context/AppContext";
+import { useAppContext } from "../../context/AppContext";
 
-export const RecipesManager: React.FC = () => {
+export const RecipesModule: React.FC = () => {
     const { recipes, professions, calculateCraftCost, calculateMargin } = useAppContext();
     const [filter, setFilter] = useState('all');
     const [searchTerm, setSearchTerm] = useState('');
@@ -41,7 +41,7 @@ export const RecipesManager: React.FC = () => {
                     </select>
                     <select
                         value={sortBy}
-                        onChange={(e) => setSortBy(e.target.value as any)}
+                        onChange={(e) => setSortBy(e.target.value as 'name' | 'profit' | 'level')}
                         className="px-4 py-2 border rounded-lg focus:ring-2 focus:ring-amber-500 focus:outline-none"
                     >
                         <option value="profit">Rentabilité</option>
@@ -61,8 +61,7 @@ export const RecipesManager: React.FC = () => {
                     return (
                         <div
                             key={recipe.id}
-                            className={`bg-white rounded-lg shadow p-4 border-2 ${marginMerchant > 0 ? 'border-green-300' : 'border-gray-200'
-                                }`}
+                            className={`bg-white rounded-lg shadow p-4 border-2 ${marginMerchant > 0 ? 'border-green-300' : 'border-gray-200'}`}
                         >
                             <div className="flex justify-between items-start mb-3">
                                 <div>

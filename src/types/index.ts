@@ -55,3 +55,17 @@ export interface KamasGoal {
   current: number;
   expenses: number;
 }
+
+// Ressource du catalogue général (données statiques dans resources-catalog.json)
+export interface CatalogResource {
+  id: string;
+  name: string;
+  category: string; // valeur de CategoryTypes (ex: "wing", "bone", ...)
+  level: number;
+}
+
+// Prix d'une ressource du catalogue (stocké dans IndexedDB)
+export interface CatalogPrice {
+  id: string;    // = CatalogResource.id
+  price: number;
+}

@@ -1,35 +1,53 @@
-import React, { useState } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { AppProvider } from './context/AppContext';
 import { Header } from './components/Header';
-import { Dashboard } from './components/Dashboard';
-import { RecipesManager } from './components/RecipesManager';
-import { ProfessionCalculator } from './components/ProfessionCalculator';
-import { ResourcesManager } from './components/ResourcesManager';
-import { ProfessionsManager } from './components/professions/ProfessionsManager';
-// import { GoalsManager } from './components/GoalManager';
+import { useHashTab } from './hooks/useHashTab';
+
+const ProfessionsModule = lazy(() =>
+  import('./features/professions/ProfessionsModule').then(({ ProfessionsModule: m }) => ({ default: m }))
+);
+const CalculatorModule = lazy(() =>
+  import('./features/calculator/CalculatorModule').then(({ CalculatorModule: m }) => ({ default: m }))
+);
+const ScrollsModule = lazy(() =>
+  import('./features/scrolls/ScrollsModule').then(({ ScrollsModule: m }) => ({ default: m }))
+);
+const CatalogModule = lazy(() =>
+  import('./features/catalog/CatalogModule').then(({ CatalogModule: m }) => ({ default: m }))
+);
+const DashboardModule = lazy(() =>
+  import('./features/dashboard/DashboardModule').then(({ DashboardModule: m }) => ({ default: m }))
+);
+const RecipesModule = lazy(() =>
+  import('./features/recipes/RecipesModule').then(({ RecipesModule: m }) => ({ default: m }))
+);
+const ResourcesModule = lazy(() =>
+  import('./features/resources/ResourcesModule').then(({ ResourcesModule: m }) => ({ default: m }))
+);
+const GoalsModule = lazy(() =>
+  import('./features/goals/GoalsModule').then(({ GoalsModule: m }) => ({ default: m }))
+);
 
 const App: React.FC = () => {
-  const [activeTab, setActiveTab] = useState('professions');
+  const { activeTab, setActiveTab } = useHashTab();
 
   return (
     <AppProvider>
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50">
+      <div className="min-h-screen bg-dofus-bg flex flex-col">
         <Header activeTab={activeTab} setActiveTab={setActiveTab} />
-        <main className="container mx-auto px-4 py-8">
-          {activeTab === 'dashboard' && <Dashboard />}
-          {activeTab === 'calculator' && <ProfessionCalculator />}
-          {activeTab === 'recipes' && <RecipesManager />}
-          {activeTab === 'resources' && <ResourcesManager />}
-          {activeTab === 'professions' && <ProfessionsManager />}
-          {/* {activeTab === 'goals' && <GoalsManager />} */}
+        <main className="container mx-auto px-4 py-6 flex-1">
+          <Suspense fallback={null}>
+            {activeTab === 'dashboard'   && <DashboardModule />}
+            {activeTab === 'calculator'  && <CalculatorModule />}
+            {activeTab === 'recipes'     && <RecipesModule />}
+            {activeTab === 'resources'   && <ResourcesModule />}
+            {activeTab === 'professions' && <ProfessionsModule />}
+            {activeTab === 'scrolls'     && <ScrollsModule />}
+            {activeTab === 'catalog'     && <CatalogModule />}
+          </Suspense>
         </main>
-        <footer className="bg-amber-900 text-white text-center py-4 mt-12">
-          <p className="text-sm">
-            Dora - Outil offline pour gérer vos métiers
-          </p>
-          <p className="text-xs mt-1 text-amber-200">
-            Toutes les données sont stockées localement dans votre navigateur
-          </p>
+        <footer className="text-center py-3 text-xs text-dofus-cream/25 border-t border-dofus-border/40">
+          Dora · Outil offline pour gérer vos métiers Dofus Rétro · données stockées localement
         </footer>
       </div>
     </AppProvider>

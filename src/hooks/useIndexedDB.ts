@@ -1,15 +1,16 @@
 import { useState } from "react";
 import Dexie, { type Table } from "dexie";
-import type { Resource, Recipe, Profession, KamasGoal } from "../types";
+import type { Resource, Recipe, Profession, KamasGoal, CatalogPrice } from "../types";
 
 interface DofusDB extends Dexie {
   resources: Table<Resource>;
   recipes: Table<Recipe>;
   professions: Table<Profession>;
   goals: Table<KamasGoal & { id: string }>;
+  catalogPrices: Table<CatalogPrice>;
 }
 
-const db = new Dexie("DofusRetroCraftDB") as DofusDB;
+export const db = new Dexie("DofusRetroCraftDB") as DofusDB;
 
 db.version(1).stores({
   resources: "id, name, type",
@@ -39,6 +40,15 @@ db.version(3).stores({
   goals: "id",
 }).upgrade((tx) => {
   return tx.table("resources").clear();
+});
+
+// v4 : ajout du catalogue de prix de ressources
+db.version(4).stores({
+  resources: "id, name, type",
+  recipes: "id, name, profession, level",
+  professions: "id, name, currentLevel",
+  goals: "id",
+  catalogPrices: "id",
 });
 
 export const useIndexedDB = () => {

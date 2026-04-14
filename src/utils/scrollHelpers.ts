@@ -1,0 +1,86 @@
+import type {
+  StatScrollData,
+  ScrollMethod,
+  ScrollTierType,
+  ScrollNpcOption,
+} from '../data/scrolls';
+
+export interface ScrollPhaseResult {
+  tierType: ScrollTierType;
+  scrollsNeeded: number;
+  option: ScrollNpcOption;
+}
+
+export interface ResourceTotal {
+  name: string;
+  quantity: number;
+}
+
+export interface ScrollCalculationResult {
+  phases: ScrollPhaseResult[];
+  totalResources: ResourceTotal[];
+}
+
+// Sélections de l'utilisateur : pour chaque tier, quel PNJ choisir (index dans options[])
+export type NpcSelections = Partial<Record<ScrollTierType, string>>; // tierType → option.id
+
+export function calculateScrollsNeeded(
+  stat: StatScrollData,
+  method: ScrollMethod,
+  currentStat: number,
+  targetStat: number,
+  npcSelections: NpcSelections,
+): ScrollCalculationResult {
+  const phases: ScrollPhaseResult[] = [];
+
+  for (const phase of method.phases) {
+    const effectiveFrom = Math.max(phase.from, currentStat);
+    const effectiveTo = Math.min(phase.to, targetStat);
+    const pointsNeeded = Math.max(0, effectiveTo - effectiveFrom);
+
+    if (pointsNeeded <= 0) continue;
+
+    const scrollsNeeded = Math.ceil(pointsNeeded / phase.pointsPerScroll);
+
+    const tier = stat.tiers.find(t => t.type === phase.tierType);
+    if (!tier) continue;
+
+    // Trouver l'option sélectionnée par le joueur, sinon la première par défaut
+    const selectedId = npcSelections[phase.tierType];
+    const option =
+      tier.options.find(o => o.id === selectedId) ?? tier.options[0];
+
+    if (!option) continue;
+
+    phases.push({ tierType: phase.tierType, scrollsNeeded, option });
+  }
+
+  // Agréger toutes les ressources
+  const resourceMap = new Map<string, number>();
+  for (const phase of phases) {
+    for (const resource of phase.option.resources) {
+      const current = resourceMap.get(resource.name) ?? 0;
+      resourceMap.set(resource.name, current + resource.quantity * phase.scrollsNeeded);
+    }
+  }
+
+  const totalResources: ResourceTotal[] = Array.from(resourceMap.entries())
+    .map(([name, quantity]) => ({ name, quantity }))
+    .sort((a, b) => b.quantity - a.quantity);
+
+  return { phases, totalResources };
+}
+
+export const TIER_LABELS: Record<ScrollTierType, string> = {
+  petit: 'Petit',
+  normal: 'Normal',
+  grand: 'Grand',
+  puissant: 'Puissant',
+};
+
+export const TIER_COLORS: Record<ScrollTierType, string> = {
+  petit:    'bg-green-100 text-green-800 border-green-200',
+  normal:   'bg-blue-100 text-blue-800 border-blue-200',
+  grand:    'bg-purple-100 text-purple-800 border-purple-200',
+  puissant: 'bg-amber-100 text-amber-800 border-amber-200',
+};

@@ -5,12 +5,11 @@ import type { Profession } from "../../types";
 import { useProfessionLogic } from '../../hooks/useProfessionLogic';
 import { canModifyProfession, sortProfessionsByLevel } from '../../utils/professionHelpers';
 import { PROFESSION_CATEGORY_TITLES } from '../../constants/professionMappings';
-import { ProfessionCard } from './ProfessionCard';
-import { ProfessionSlotIndicator } from './ProfessionSlotIndicator';
-import { ProfessionStats } from './ProfessionStats';
-import { XpMultiplierSelector } from './XpMultiplierSelector';
+import { ProfessionCard } from './components/ProfessionCard';
+import { ProfessionSlotIndicator } from './components/ProfessionSlotIndicator';
+import { XpMultiplierSelector } from './components/XpMultiplierSelector';
 
-export const ProfessionsManager: React.FC = () => {
+export const ProfessionsModule: React.FC = () => {
     const { professions, setProfessions, recipes, xpMultiplier, setXpMultiplier } = useAppContext();
     const {
         calculateProfessionStats,
@@ -33,12 +32,11 @@ export const ProfessionsManager: React.FC = () => {
     });
 
     return (
-        <div className="space-y-10">
-            <div className="flex flex-col gap-3">
+        <div className="space-y-8">
+            <div className="flex flex-col gap-2">
                 <ProfessionSlotIndicator professions={professions} />
                 <XpMultiplierSelector value={xpMultiplier} onChange={setXpMultiplier} />
             </div>
-            {/* <ProfessionStats professions={professions} /> */}
 
             {(Object.values(ProfessionTypes) as ProfessionTypes[]).map((type) => {
                 const filtered = sortProfessionsByLevel(professions, type);
@@ -46,10 +44,10 @@ export const ProfessionsManager: React.FC = () => {
 
                 return (
                     <div key={type}>
-                        <h2 className="text-2xl font-bold text-gray-800 mb-4 border-b-2 border-amber-500 pb-2">
+                        <h2 className="section-title mb-4">
                             {PROFESSION_CATEGORY_TITLES[type]}
                         </h2>
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
                             {filtered.map((prof) => {
                                 const stats = calculateProfessionStats(prof, xpMultiplier);
                                 const isMaxLevel = prof.currentLevel >= prof.targetLevel;

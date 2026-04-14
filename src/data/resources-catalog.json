@@ -1,0 +1,8954 @@
+[
+  {
+    "id": "7028",
+    "name": "Agathe",
+    "category": "precious_stone",
+    "level": 80
+  },
+  {
+    "id": "7026",
+    "name": "Aigue-Marine",
+    "category": "precious_stone",
+    "level": 60
+  },
+  {
+    "id": "2588",
+    "name": "Aile de Dragodinde",
+    "category": "wing",
+    "level": 29
+  },
+  {
+    "id": "2586",
+    "name": "Aile de Dragodinde Rousse Sauvage",
+    "category": "wing",
+    "level": 29
+  },
+  {
+    "id": "8359",
+    "name": "Aile de Dragoeuf Volant",
+    "category": "wing",
+    "level": 80
+  },
+  {
+    "id": "8767",
+    "name": "Aile du Bitouf des plaines",
+    "category": "wing",
+    "level": 80
+  },
+  {
+    "id": "376",
+    "name": "Aile du Tofu Maléfique",
+    "category": "wing",
+    "level": 3
+  },
+  {
+    "id": "1022",
+    "name": "Ailes cassées",
+    "category": "wing",
+    "level": 1
+  },
+  {
+    "id": "307",
+    "name": "Ailes de Moskito",
+    "category": "wing",
+    "level": 2
+  },
+  {
+    "id": "1456",
+    "name": "Ailes de Scarafeuille blanc",
+    "category": "wing",
+    "level": 32
+  },
+  {
+    "id": "1455",
+    "name": "Ailes de Scarafeuille bleu",
+    "category": "wing",
+    "level": 32
+  },
+  {
+    "id": "1457",
+    "name": "Ailes de Scarafeuille rouge",
+    "category": "wing",
+    "level": 32
+  },
+  {
+    "id": "1458",
+    "name": "Ailes de Scarafeuille vert",
+    "category": "wing",
+    "level": 32
+  },
+  {
+    "id": "8161",
+    "name": "Ailes du Scarabosse Doré",
+    "category": "wing",
+    "level": 70
+  },
+  {
+    "id": "8141",
+    "name": "Ailes du Scarafeuille Noir",
+    "category": "wing",
+    "level": 40
+  },
+  {
+    "id": "2114",
+    "name": "Aliment inconnu",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "747",
+    "name": "Aluminite",
+    "category": "alloy",
+    "level": 10
+  },
+  {
+    "id": "463",
+    "name": "Ambre",
+    "category": "precious_stone",
+    "level": 32
+  },
+  {
+    "id": "918",
+    "name": "Ambre Ancestrale",
+    "category": "precious_stone",
+    "level": 100
+  },
+  {
+    "id": "464",
+    "name": "Ambre d'Abraknyde",
+    "category": "precious_stone",
+    "level": 32
+  },
+  {
+    "id": "1660",
+    "name": "Ambre d'Abraknyde Sombre",
+    "category": "precious_stone",
+    "level": 78
+  },
+  {
+    "id": "7369",
+    "name": "Ambre de Bambouto",
+    "category": "precious_stone",
+    "level": 40
+  },
+  {
+    "id": "7370",
+    "name": "Ambre de Bambouto Sacré",
+    "category": "precious_stone",
+    "level": 120
+  },
+  {
+    "id": "6490",
+    "name": "Ambre du Chêne Mou",
+    "category": "precious_stone",
+    "level": 200
+  },
+  {
+    "id": "8916",
+    "name": "Ambre du Tynril",
+    "category": "precious_stone",
+    "level": 100
+  },
+  {
+    "id": "8783",
+    "name": "Amygdales du Bitouf Sombre",
+    "category": "resource",
+    "level": 100
+  },
+  {
+    "id": "1467",
+    "name": "Antenne du Scarafeuille blanc",
+    "category": "resource",
+    "level": 32
+  },
+  {
+    "id": "1464",
+    "name": "Antenne du Scarafeuille bleu",
+    "category": "resource",
+    "level": 32
+  },
+  {
+    "id": "1465",
+    "name": "Antenne du Scarafeuille rouge",
+    "category": "resource",
+    "level": 32
+  },
+  {
+    "id": "1466",
+    "name": "Antenne du Scarafeuille vert",
+    "category": "resource",
+    "level": 32
+  },
+  {
+    "id": "8160",
+    "name": "Antennes du Scarabosse Doré",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "8140",
+    "name": "Antennes du Scarafeuille Noir",
+    "category": "resource",
+    "level": 40
+  },
+  {
+    "id": "2653",
+    "name": "Arakne Majeure Morte",
+    "category": "resource",
+    "level": 43
+  },
+  {
+    "id": "11528",
+    "name": "Arc brisé du Tireur d'Élite",
+    "category": "resource",
+    "level": 167
+  },
+  {
+    "id": "350",
+    "name": "Argent",
+    "category": "ore",
+    "level": 60
+  },
+  {
+    "id": "2449",
+    "name": "Armée de Tiques",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "7223",
+    "name": "Artefact Pandawushu Air",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "13173",
+    "name": "Artefact Pandawushu Air Fantomatique",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "7222",
+    "name": "Artefact Pandawushu Eau",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "13174",
+    "name": "Artefact Pandawushu Eau Fantomatique",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "7225",
+    "name": "Artefact Pandawushu Feu",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "13175",
+    "name": "Artefact Pandawushu Feu Fantomatique",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "7224",
+    "name": "Artefact Pandawushu Terre",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "13172",
+    "name": "Artefact Pandawushu Terre Fantomatique",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "2331",
+    "name": "Aubergine",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "533",
+    "name": "Avoine",
+    "category": "cereal",
+    "level": 20
+  },
+  {
+    "id": "2036",
+    "name": "Avoine Aurifère",
+    "category": "cereal",
+    "level": 20
+  },
+  {
+    "id": "1671",
+    "name": "Avoine Magique",
+    "category": "cereal",
+    "level": 20
+  },
+  {
+    "id": "2321",
+    "name": "Babines d'Ouginak",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "749",
+    "name": "Bakélélite",
+    "category": "alloy",
+    "level": 40
+  },
+  {
+    "id": "6649",
+    "name": "Ballon bleu",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "6651",
+    "name": "Ballon jaune",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "6648",
+    "name": "Ballon rouge",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "6650",
+    "name": "Ballon vert",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "10831",
+    "name": "Bananagrume",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "2325",
+    "name": "Banane",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "372",
+    "name": "Bandeau du Black Tiwabbit",
+    "category": "resource",
+    "level": 11
+  },
+  {
+    "id": "6706",
+    "name": "Bandelette de la Momie Nova",
+    "category": "resource",
+    "level": 150
+  },
+  {
+    "id": "8001",
+    "name": "Bandelette du Guerrier Koalak",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "8326",
+    "name": "Bandelette du Mominotor",
+    "category": "resource",
+    "level": 100
+  },
+  {
+    "id": "2286",
+    "name": "Bandelettes",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "1792",
+    "name": "Bar Iton",
+    "category": "fish",
+    "level": 70
+  },
+  {
+    "id": "1793",
+    "name": "Bar Iton vidé",
+    "category": "gutted_fish",
+    "level": 40
+  },
+  {
+    "id": "1779",
+    "name": "Bar Rikain",
+    "category": "fish",
+    "level": 40
+  },
+  {
+    "id": "1780",
+    "name": "Bar Rikain vidé",
+    "category": "gutted_fish",
+    "level": 40
+  },
+  {
+    "id": "2621",
+    "name": "Barbe du Chouque",
+    "category": "resource",
+    "level": 94
+  },
+  {
+    "id": "8754",
+    "name": "Barbe inexistante du Barbroussa",
+    "category": "hair",
+    "level": 80
+  },
+  {
+    "id": "8765",
+    "name": "Bâton du Kilibriss",
+    "category": "resource",
+    "level": 100
+  },
+  {
+    "id": "446",
+    "name": "Bauxite",
+    "category": "ore",
+    "level": 70
+  },
+  {
+    "id": "385",
+    "name": "Bave de Bouftou",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "9279",
+    "name": "Bave de Champ à Gnons",
+    "category": "resource",
+    "level": 149
+  },
+  {
+    "id": "2662",
+    "name": "Bave de Rose Démoniaque",
+    "category": "resource",
+    "level": 8
+  },
+  {
+    "id": "8832",
+    "name": "Bave du Kaskargo",
+    "category": "resource",
+    "level": 110
+  },
+  {
+    "id": "8741",
+    "name": "Bec du Kido",
+    "category": "bone",
+    "level": 80
+  },
+  {
+    "id": "412",
+    "name": "Bec du Kwak de Flamme",
+    "category": "bone",
+    "level": 24
+  },
+  {
+    "id": "411",
+    "name": "Bec du Kwak de Glace",
+    "category": "bone",
+    "level": 24
+  },
+  {
+    "id": "1142",
+    "name": "Bec du Kwak de Terre",
+    "category": "bone",
+    "level": 24
+  },
+  {
+    "id": "413",
+    "name": "Bec du Kwak du Vent",
+    "category": "bone",
+    "level": 24
+  },
+  {
+    "id": "366",
+    "name": "Bec du Tofu",
+    "category": "bone",
+    "level": 4
+  },
+  {
+    "id": "6625",
+    "name": "Bilboquet Du Maître Corbac",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1334",
+    "name": "Blague de Soufre",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "289",
+    "name": "Blé",
+    "category": "cereal",
+    "level": 1
+  },
+  {
+    "id": "2018",
+    "name": "Blé d'Or",
+    "category": "cereal",
+    "level": 1
+  },
+  {
+    "id": "2558",
+    "name": "Blop Mort",
+    "category": "resource",
+    "level": 34
+  },
+  {
+    "id": "1468",
+    "name": "Bocal",
+    "category": "alchemy_equipment",
+    "level": 1
+  },
+  {
+    "id": "920",
+    "name": "Bois Ancestral",
+    "category": "wood",
+    "level": 100
+  },
+  {
+    "id": "449",
+    "name": "Bois d'Ebène",
+    "category": "wood",
+    "level": 70
+  },
+  {
+    "id": "471",
+    "name": "Bois d'Erable",
+    "category": "wood",
+    "level": 40
+  },
+  {
+    "id": "461",
+    "name": "Bois d'If",
+    "category": "wood",
+    "level": 50
+  },
+  {
+    "id": "2357",
+    "name": "Bois d'Oliviolet",
+    "category": "wood",
+    "level": 50
+  },
+  {
+    "id": "470",
+    "name": "Bois d'Orme",
+    "category": "wood",
+    "level": 90
+  },
+  {
+    "id": "7013",
+    "name": "Bois de Bambou",
+    "category": "wood",
+    "level": 50
+  },
+  {
+    "id": "7017",
+    "name": "Bois de Bambou Doré",
+    "category": "wood",
+    "level": 45
+  },
+  {
+    "id": "7261",
+    "name": "Bois de Bambou Magique",
+    "category": "wood",
+    "level": 220
+  },
+  {
+    "id": "7014",
+    "name": "Bois de Bambou Sacré",
+    "category": "wood",
+    "level": 100
+  },
+  {
+    "id": "7016",
+    "name": "Bois de Bambou Sombre",
+    "category": "wood",
+    "level": 60
+  },
+  {
+    "id": "7286",
+    "name": "Bois de Bambouto",
+    "category": "wood",
+    "level": 47
+  },
+  {
+    "id": "7289",
+    "name": "Bois de Bambouto Sacré",
+    "category": "wood",
+    "level": 120
+  },
+  {
+    "id": "2358",
+    "name": "Bois de Bombu",
+    "category": "wood",
+    "level": 50
+  },
+  {
+    "id": "472",
+    "name": "Bois de Charme",
+    "category": "wood",
+    "level": 80
+  },
+  {
+    "id": "473",
+    "name": "Bois de Châtaignier",
+    "category": "wood",
+    "level": 10
+  },
+  {
+    "id": "460",
+    "name": "Bois de Chêne",
+    "category": "wood",
+    "level": 30
+  },
+  {
+    "id": "6489",
+    "name": "Bois de Chêne Mou",
+    "category": "wood",
+    "level": 200
+  },
+  {
+    "id": "303",
+    "name": "Bois de Frêne",
+    "category": "wood",
+    "level": 1
+  },
+  {
+    "id": "2379",
+    "name": "Bois de Kaerlier",
+    "category": "wood",
+    "level": 40
+  },
+  {
+    "id": "7925",
+    "name": "Bois de Kaliptus",
+    "category": "wood",
+    "level": 50
+  },
+  {
+    "id": "474",
+    "name": "Bois de Merisier",
+    "category": "wood",
+    "level": 60
+  },
+  {
+    "id": "476",
+    "name": "Bois de Noyer",
+    "category": "wood",
+    "level": 20
+  },
+  {
+    "id": "2250",
+    "name": "Bois de Tronknyde",
+    "category": "wood",
+    "level": 35
+  },
+  {
+    "id": "1329",
+    "name": "Bois élastique",
+    "category": "wood",
+    "level": 1
+  },
+  {
+    "id": "926",
+    "name": "Bois Envoûté",
+    "category": "wood",
+    "level": 45
+  },
+  {
+    "id": "2549",
+    "name": "Boîte de Kanigrou",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "1732",
+    "name": "Bol",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1507",
+    "name": "Bon 1000 Kek",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1510",
+    "name": "Bon 10000 Kek",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1508",
+    "name": "Bon 2000 Kek",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1509",
+    "name": "Bon 5000 Kek",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8075",
+    "name": "Boomerang du Dok Alako",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8064",
+    "name": "Boomerang du Koalak Sanguin",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8076",
+    "name": "Boomerang du Maître Koalak",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8077",
+    "name": "Boomerang du Warko Marron",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "3002",
+    "name": "Botte trouée de Bwork",
+    "category": "resource",
+    "level": 43
+  },
+  {
+    "id": "2622",
+    "name": "Boucle du Chouque",
+    "category": "resource",
+    "level": 94
+  },
+  {
+    "id": "13094",
+    "name": "Bouclier des âmes éclatant",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "2296",
+    "name": "Bouclier Reptilien",
+    "category": "resource",
+    "level": 69
+  },
+  {
+    "id": "417",
+    "name": "Boue du Boo",
+    "category": "resource",
+    "level": 17
+  },
+  {
+    "id": "2274",
+    "name": "Bougie du Mineur Sombre",
+    "category": "resource",
+    "level": 24
+  },
+  {
+    "id": "6476",
+    "name": "Bougie Magique du Mineur Sombre",
+    "category": "resource",
+    "level": 40
+  },
+  {
+    "id": "6652",
+    "name": "Boule à neige foire du trooll",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8737",
+    "name": "Boule polie",
+    "category": "stone",
+    "level": 80
+  },
+  {
+    "id": "437",
+    "name": "Bourgeon d'Abraknyde",
+    "category": "bud",
+    "level": 32
+  },
+  {
+    "id": "1611",
+    "name": "Bourgeon d'Abraknyde Sombre",
+    "category": "bud",
+    "level": 78
+  },
+  {
+    "id": "6736",
+    "name": "Bourgeon de Fourbasse",
+    "category": "bud",
+    "level": 22
+  },
+  {
+    "id": "8495",
+    "name": "Bourgeon de l'Abraknyde Ancestral",
+    "category": "bud",
+    "level": 200
+  },
+  {
+    "id": "6487",
+    "name": "Bourgeon du Chêne Mou",
+    "category": "bud",
+    "level": 200
+  },
+  {
+    "id": "1770",
+    "name": "Bout de Blop Coco",
+    "category": "resource",
+    "level": 34
+  },
+  {
+    "id": "1775",
+    "name": "Bout de Blop Griotte",
+    "category": "resource",
+    "level": 34
+  },
+  {
+    "id": "1777",
+    "name": "Bout de Blop Indigo",
+    "category": "resource",
+    "level": 34
+  },
+  {
+    "id": "1773",
+    "name": "Bout de Blop Reinette",
+    "category": "resource",
+    "level": 34
+  },
+  {
+    "id": "8712",
+    "name": "Bout de Goldemort",
+    "category": "jelly",
+    "level": 1
+  },
+  {
+    "id": "1023",
+    "name": "Bouteille de rhum",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2561",
+    "name": "Bracelet de Force de Trool",
+    "category": "resource",
+    "level": 115
+  },
+  {
+    "id": "8782",
+    "name": "Bractée de Chiendent",
+    "category": "plant",
+    "level": 100
+  },
+  {
+    "id": "8804",
+    "name": "Braguette du Maître Zoth",
+    "category": "resource",
+    "level": 120
+  },
+  {
+    "id": "1847",
+    "name": "Brochet",
+    "category": "fish",
+    "level": 10
+  },
+  {
+    "id": "1849",
+    "name": "Brochet Tupe-Halett",
+    "category": "fish",
+    "level": 10
+  },
+  {
+    "id": "1851",
+    "name": "Brochet Tupe-Halett vidé",
+    "category": "gutted_fish",
+    "level": 10
+  },
+  {
+    "id": "1848",
+    "name": "Brochet vidé",
+    "category": "gutted_fish",
+    "level": 10
+  },
+  {
+    "id": "442",
+    "name": "Bronze",
+    "category": "ore",
+    "level": 20
+  },
+  {
+    "id": "8749",
+    "name": "Bulbe Kouraçao",
+    "category": "plant",
+    "level": 40
+  },
+  {
+    "id": "8750",
+    "name": "Bulbe Malibout",
+    "category": "plant",
+    "level": 40
+  },
+  {
+    "id": "8752",
+    "name": "Bulbe Morito",
+    "category": "plant",
+    "level": 40
+  },
+  {
+    "id": "8751",
+    "name": "Bulbe Passaoh",
+    "category": "plant",
+    "level": 40
+  },
+  {
+    "id": "2623",
+    "name": "Bwak Squelettique",
+    "category": "resource",
+    "level": 94
+  },
+  {
+    "id": "10835",
+    "name": "Cachet du bizut",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "2563",
+    "name": "Cale en bois du Tronknyde",
+    "category": "wood",
+    "level": 35
+  },
+  {
+    "id": "998",
+    "name": "Caleçon Mignon du Capitaine Pirate",
+    "category": "resource",
+    "level": 82
+  },
+  {
+    "id": "8781",
+    "name": "Calice de Fécorce",
+    "category": "plant",
+    "level": 100
+  },
+  {
+    "id": "11534",
+    "name": "Canine de Démon",
+    "category": "bone",
+    "level": 167
+  },
+  {
+    "id": "439",
+    "name": "Canine du Mulou",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "2330",
+    "name": "Capsule Explosive",
+    "category": "resource",
+    "level": 23
+  },
+  {
+    "id": "2613",
+    "name": "Carapace Bleue Vide",
+    "category": "carapace",
+    "level": 24
+  },
+  {
+    "id": "2290",
+    "name": "Carapace de Scarafeuille Blanc",
+    "category": "carapace",
+    "level": 32
+  },
+  {
+    "id": "2291",
+    "name": "Carapace de Scarafeuille Bleu",
+    "category": "carapace",
+    "level": 32
+  },
+  {
+    "id": "8138",
+    "name": "Carapace de Scarafeuille Noir",
+    "category": "carapace",
+    "level": 40
+  },
+  {
+    "id": "2292",
+    "name": "Carapace de Scarafeuille Rouge",
+    "category": "carapace",
+    "level": 32
+  },
+  {
+    "id": "2293",
+    "name": "Carapace de Scarafeuille Vert",
+    "category": "carapace",
+    "level": 32
+  },
+  {
+    "id": "8308",
+    "name": "Carapace de Scaratos",
+    "category": "carapace",
+    "level": 1
+  },
+  {
+    "id": "2487",
+    "name": "Carapace de Scorbute",
+    "category": "carapace",
+    "level": 36
+  },
+  {
+    "id": "8159",
+    "name": "Carapace du Scarabosse Doré",
+    "category": "carapace",
+    "level": 70
+  },
+  {
+    "id": "2611",
+    "name": "Carapace Jaune Vide",
+    "category": "carapace",
+    "level": 24
+  },
+  {
+    "id": "2610",
+    "name": "Carapace Rouge Vide",
+    "category": "carapace",
+    "level": 24
+  },
+  {
+    "id": "2609",
+    "name": "Carapace Verte Vide",
+    "category": "carapace",
+    "level": 24
+  },
+  {
+    "id": "2303",
+    "name": "Carapace vide de Crabe",
+    "category": "carapace",
+    "level": 4
+  },
+  {
+    "id": "1794",
+    "name": "Carpe d'Iem",
+    "category": "fish",
+    "level": 40
+  },
+  {
+    "id": "1795",
+    "name": "Carpe d'Iem vidée",
+    "category": "gutted_fish",
+    "level": 10
+  },
+  {
+    "id": "8779",
+    "name": "Carpelle de Brouture",
+    "category": "plant",
+    "level": 100
+  },
+  {
+    "id": "1796",
+    "name": "Carpette des sables",
+    "category": "fish",
+    "level": 40
+  },
+  {
+    "id": "1797",
+    "name": "Carpette des sables vidée",
+    "category": "gutted_fish",
+    "level": 10
+  },
+  {
+    "id": "1917",
+    "name": "Carré de Porc",
+    "category": "meat",
+    "level": 30
+  },
+  {
+    "id": "1918",
+    "name": "Carré de Porc **",
+    "category": "meat",
+    "level": 50
+  },
+  {
+    "id": "1921",
+    "name": "Carré de Porc ***",
+    "category": "meat",
+    "level": 60
+  },
+  {
+    "id": "1919",
+    "name": "Carré de Porc ****",
+    "category": "meat",
+    "level": 80
+  },
+  {
+    "id": "2004",
+    "name": "Carré de Porc Conservé",
+    "category": "preserved_meat",
+    "level": 30
+  },
+  {
+    "id": "2005",
+    "name": "Carré de Porc Conservé **",
+    "category": "preserved_meat",
+    "level": 50
+  },
+  {
+    "id": "2006",
+    "name": "Carré de Porc Conservé ***",
+    "category": "preserved_meat",
+    "level": 60
+  },
+  {
+    "id": "2007",
+    "name": "Carré de Porc Conservé ****",
+    "category": "preserved_meat",
+    "level": 70
+  },
+  {
+    "id": "2297",
+    "name": "Carreau d'Arbalète",
+    "category": "resource",
+    "level": 34
+  },
+  {
+    "id": "2401",
+    "name": "Carte de Kwelsh",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1020",
+    "name": "Casque cassé",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "3000",
+    "name": "Casque cassé de Bwork",
+    "category": "resource",
+    "level": 43
+  },
+  {
+    "id": "6475",
+    "name": "Casque Cassé du Chafer",
+    "category": "resource",
+    "level": 40
+  },
+  {
+    "id": "361",
+    "name": "Cawotte",
+    "category": "vegetable",
+    "level": 20
+  },
+  {
+    "id": "1734",
+    "name": "Cerise",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "2448",
+    "name": "Cervelle de Bouftou",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "2462",
+    "name": "Cervelle de Chef de Guerre Bouftou",
+    "category": "resource",
+    "level": 19
+  },
+  {
+    "id": "2492",
+    "name": "Chaîne de l'Ouginak",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "1915",
+    "name": "Chair d'Insecte",
+    "category": "meat",
+    "level": 1
+  },
+  {
+    "id": "1916",
+    "name": "Chair d'Insecte **",
+    "category": "meat",
+    "level": 50
+  },
+  {
+    "id": "1993",
+    "name": "Chair d'Insecte Conservée",
+    "category": "preserved_meat",
+    "level": 1
+  },
+  {
+    "id": "1994",
+    "name": "Chair d'Insecte Conservée **",
+    "category": "preserved_meat",
+    "level": 50
+  },
+  {
+    "id": "1898",
+    "name": "Chair de Larve",
+    "category": "meat",
+    "level": 1
+  },
+  {
+    "id": "1899",
+    "name": "Chair de Larve **",
+    "category": "meat",
+    "level": 9
+  },
+  {
+    "id": "1900",
+    "name": "Chair de Larve ***",
+    "category": "meat",
+    "level": 10
+  },
+  {
+    "id": "1990",
+    "name": "Chair de Larve Conservée",
+    "category": "preserved_meat",
+    "level": 1
+  },
+  {
+    "id": "1991",
+    "name": "Chair de Larve Conservée **",
+    "category": "preserved_meat",
+    "level": 10
+  },
+  {
+    "id": "1992",
+    "name": "Chair de Larve Conservée ***",
+    "category": "preserved_meat",
+    "level": 20
+  },
+  {
+    "id": "290",
+    "name": "Champignon",
+    "category": "resource",
+    "level": 5
+  },
+  {
+    "id": "1674",
+    "name": "Champignon Luidegît",
+    "category": "resource",
+    "level": 46
+  },
+  {
+    "id": "425",
+    "name": "Chanvre",
+    "category": "cereal",
+    "level": 70
+  },
+  {
+    "id": "2035",
+    "name": "Chanvre Euphorique",
+    "category": "cereal",
+    "level": 70
+  },
+  {
+    "id": "447",
+    "name": "Charbon",
+    "category": "ore",
+    "level": 1
+  },
+  {
+    "id": "1803",
+    "name": "Chaton-Perche",
+    "category": "fish",
+    "level": 70
+  },
+  {
+    "id": "1804",
+    "name": "Chaton-perche vidé",
+    "category": "gutted_fish",
+    "level": 70
+  },
+  {
+    "id": "8789",
+    "name": "Chaussette du Kimbo",
+    "category": "resource",
+    "level": 500
+  },
+  {
+    "id": "2669",
+    "name": "Chauve souris",
+    "category": "resource",
+    "level": 21
+  },
+  {
+    "id": "11527",
+    "name": "Cheveu d'Ilyzaelle",
+    "category": "resource",
+    "level": 500
+  },
+  {
+    "id": "8740",
+    "name": "Chicot du Flib",
+    "category": "bone",
+    "level": 80
+  },
+  {
+    "id": "1736",
+    "name": "Citron",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "302",
+    "name": "Citrouille",
+    "category": "vegetable",
+    "level": 15
+  },
+  {
+    "id": "2674",
+    "name": "Citrouillette",
+    "category": "fruit",
+    "level": 15
+  },
+  {
+    "id": "2527",
+    "name": "Clakoss",
+    "category": "resource",
+    "level": 160
+  },
+  {
+    "id": "2143",
+    "name": "Clé des Mercenaires",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "9254",
+    "name": "Clef de l'antre du Blop Multicolore",
+    "category": "keys",
+    "level": 90
+  },
+  {
+    "id": "8320",
+    "name": "Clef de l'antre du Dragon Cochon",
+    "category": "keys",
+    "level": 100
+  },
+  {
+    "id": "8971",
+    "name": "Clef de l'Arche d'Otomaï",
+    "category": "keys",
+    "level": 110
+  },
+  {
+    "id": "8977",
+    "name": "Clef de la Canopée du Kimbo",
+    "category": "keys",
+    "level": 180
+  },
+  {
+    "id": "7310",
+    "name": "Clef de la caverne des Bulbes",
+    "category": "keys",
+    "level": 30
+  },
+  {
+    "id": "8917",
+    "name": "Clef de la Grotte Hesque",
+    "category": "keys",
+    "level": 40
+  },
+  {
+    "id": "8307",
+    "name": "Clef de la salle du Minotot",
+    "category": "keys",
+    "level": 150
+  },
+  {
+    "id": "8143",
+    "name": "Clef des Champs",
+    "category": "keys",
+    "level": 10
+  },
+  {
+    "id": "7309",
+    "name": "Clef des Pandikazes",
+    "category": "keys",
+    "level": 120
+  },
+  {
+    "id": "11474",
+    "name": "Clef du Belvédère d'Ilyzaelle",
+    "category": "keys",
+    "level": 190
+  },
+  {
+    "id": "7557",
+    "name": "Clef du Donjon Abraknyde",
+    "category": "keys",
+    "level": 110
+  },
+  {
+    "id": "8545",
+    "name": "Clef du Donjon d'Incarnam",
+    "category": "keys",
+    "level": 1
+  },
+  {
+    "id": "9248",
+    "name": "Clef du donjon des Blops",
+    "category": "keys",
+    "level": 40
+  },
+  {
+    "id": "1568",
+    "name": "Clef du Donjon des Bouftous",
+    "category": "keys",
+    "level": 10
+  },
+  {
+    "id": "8135",
+    "name": "Clef du Donjon des Bworks",
+    "category": "keys",
+    "level": 30
+  },
+  {
+    "id": "8156",
+    "name": "Clef du Donjon des Canidés",
+    "category": "keys",
+    "level": 130
+  },
+  {
+    "id": "7927",
+    "name": "Clef du Donjon des Craqueleurs",
+    "category": "keys",
+    "level": 70
+  },
+  {
+    "id": "8343",
+    "name": "Clef du Donjon des Dragoeufs",
+    "category": "keys",
+    "level": 120
+  },
+  {
+    "id": "7312",
+    "name": "Clef du Donjon des Firefoux",
+    "category": "keys",
+    "level": 170
+  },
+  {
+    "id": "1569",
+    "name": "Clef du Donjon des Forgerons",
+    "category": "keys",
+    "level": 40
+  },
+  {
+    "id": "7311",
+    "name": "Clef du Donjon des Kitsounes",
+    "category": "keys",
+    "level": 150
+  },
+  {
+    "id": "8439",
+    "name": "Clef du Donjon des Rats de Bonta",
+    "category": "keys",
+    "level": 100
+  },
+  {
+    "id": "8438",
+    "name": "Clef du Donjon des Rats de Brâkmar",
+    "category": "keys",
+    "level": 100
+  },
+  {
+    "id": "8139",
+    "name": "Clef du Donjon des Scarafeuilles",
+    "category": "keys",
+    "level": 30
+  },
+  {
+    "id": "1570",
+    "name": "Clef du Donjon des Squelettes",
+    "category": "keys",
+    "level": 30
+  },
+  {
+    "id": "7918",
+    "name": "Clef du Donjon des Tofus",
+    "category": "keys",
+    "level": 30
+  },
+  {
+    "id": "6884",
+    "name": "Clef du Donjon du Bworker",
+    "category": "keys",
+    "level": 180
+  },
+  {
+    "id": "8436",
+    "name": "Clef du Donjon du Chêne Mou",
+    "category": "keys",
+    "level": 140
+  },
+  {
+    "id": "7908",
+    "name": "Clef du Donjon du Koulosse",
+    "category": "keys",
+    "level": 90
+  },
+  {
+    "id": "7926",
+    "name": "Clef du Donjon du Maître Corbac",
+    "category": "keys",
+    "level": 120
+  },
+  {
+    "id": "8437",
+    "name": "Clef du Donjon Ensablé",
+    "category": "keys",
+    "level": 10
+  },
+  {
+    "id": "9247",
+    "name": "Clef du Donjon Fungus",
+    "category": "keys",
+    "level": 180
+  },
+  {
+    "id": "8972",
+    "name": "Clef du Goulet du Rasboul",
+    "category": "keys",
+    "level": 120
+  },
+  {
+    "id": "8975",
+    "name": "Clef du Laboratoire du Tynril",
+    "category": "keys",
+    "level": 140
+  },
+  {
+    "id": "7511",
+    "name": "Clef du labyrinthe du Dragon Cochon",
+    "category": "keys",
+    "level": 100
+  },
+  {
+    "id": "7924",
+    "name": "Clef du Labyrinthe du Minotoror",
+    "category": "keys",
+    "level": 100
+  },
+  {
+    "id": "8073",
+    "name": "Clef du Repaire de Skeunk",
+    "category": "keys",
+    "level": 170
+  },
+  {
+    "id": "11475",
+    "name": "Clef du Sanctuaire de Qu'Tan",
+    "category": "keys",
+    "level": 190
+  },
+  {
+    "id": "8342",
+    "name": "Clef du Sanctuaire des Dragoeufs",
+    "category": "keys",
+    "level": 120
+  },
+  {
+    "id": "8142",
+    "name": "Clef Secrète du Tofulailler Royal",
+    "category": "keys",
+    "level": 140
+  },
+  {
+    "id": "8787",
+    "name": "Cloaque du Poolay",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "1339",
+    "name": "Clochettes",
+    "category": "flower",
+    "level": 1
+  },
+  {
+    "id": "8730",
+    "name": "Coccyx du Corailleur",
+    "category": "bone",
+    "level": 40
+  },
+  {
+    "id": "8792",
+    "name": "Coco du Bitouf aérien",
+    "category": "shell",
+    "level": 110
+  },
+  {
+    "id": "8769",
+    "name": "Coco du Bitouf des plaines",
+    "category": "shell",
+    "level": 80
+  },
+  {
+    "id": "8776",
+    "name": "Coco du Bitouf sombre",
+    "category": "shell",
+    "level": 120
+  },
+  {
+    "id": "642",
+    "name": "Cocon de Ver à Soie",
+    "category": "resource",
+    "level": 6
+  },
+  {
+    "id": "2493",
+    "name": "Coeur d'Ouginak",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "2585",
+    "name": "Coeur de Boue du Boo",
+    "category": "resource",
+    "level": 19
+  },
+  {
+    "id": "2058",
+    "name": "Coeur de Brandon",
+    "category": "resource",
+    "level": 20
+  },
+  {
+    "id": "8516",
+    "name": "Coeur de Bworkcelhaine",
+    "category": "resource",
+    "level": 33
+  },
+  {
+    "id": "2306",
+    "name": "Coeur de Craqueleur",
+    "category": "stone",
+    "level": 45
+  },
+  {
+    "id": "8736",
+    "name": "Coeur de pierre poli",
+    "category": "stone",
+    "level": 80
+  },
+  {
+    "id": "2525",
+    "name": "Coeur du Maitre Corbac",
+    "category": "resource",
+    "level": 160
+  },
+  {
+    "id": "8759",
+    "name": "Coffret maudit du Flib",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "8086",
+    "name": "Coiffe déchiquetée de Drakoalak",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2320",
+    "name": "Collier Cassé d'Ouginak",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "2323",
+    "name": "Colonne Vertébrale",
+    "category": "bone",
+    "level": 34
+  },
+  {
+    "id": "9999",
+    "name": "Copie de la clef du repaire des bandits",
+    "category": "keys",
+    "level": 1
+  },
+  {
+    "id": "1325",
+    "name": "Coque de Noix",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "308",
+    "name": "Coquille de Dragoeuf Blanc",
+    "category": "shell",
+    "level": 64
+  },
+  {
+    "id": "842",
+    "name": "Coquille de Dragoeuf Doré",
+    "category": "shell",
+    "level": 64
+  },
+  {
+    "id": "843",
+    "name": "Coquille de Dragoeuf Noir",
+    "category": "shell",
+    "level": 64
+  },
+  {
+    "id": "1129",
+    "name": "Coquille de Dragoeuf Saphir",
+    "category": "shell",
+    "level": 64
+  },
+  {
+    "id": "8350",
+    "name": "Coquille de Dragoss Blanc",
+    "category": "shell",
+    "level": 50
+  },
+  {
+    "id": "8349",
+    "name": "Coquille de Dragoss de Saphir",
+    "category": "shell",
+    "level": 50
+  },
+  {
+    "id": "8351",
+    "name": "Coquille de Dragoss Doré",
+    "category": "shell",
+    "level": 50
+  },
+  {
+    "id": "8348",
+    "name": "Coquille de Dragoss Noir",
+    "category": "shell",
+    "level": 50
+  },
+  {
+    "id": "8793",
+    "name": "Coquille du Kaskargo",
+    "category": "shell",
+    "level": 110
+  },
+  {
+    "id": "8732",
+    "name": "Corail Kouraçao",
+    "category": "stone",
+    "level": 40
+  },
+  {
+    "id": "8731",
+    "name": "Corail Magistral",
+    "category": "stone",
+    "level": 150
+  },
+  {
+    "id": "8733",
+    "name": "Corail Malibout",
+    "category": "stone",
+    "level": 40
+  },
+  {
+    "id": "8735",
+    "name": "Corail Morito",
+    "category": "stone",
+    "level": 40
+  },
+  {
+    "id": "8734",
+    "name": "Corail Passaoh",
+    "category": "stone",
+    "level": 40
+  },
+  {
+    "id": "8729",
+    "name": "Corail usé",
+    "category": "stone",
+    "level": 40
+  },
+  {
+    "id": "2059",
+    "name": "Corbac Mort",
+    "category": "resource",
+    "level": 20
+  },
+  {
+    "id": "6626",
+    "name": "Corde à Sauter du Captain Chafer",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "9935",
+    "name": "Corde d'escalade",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8365",
+    "name": "Corne brisée de Crocabulia",
+    "category": "bone",
+    "level": 400
+  },
+  {
+    "id": "1680",
+    "name": "Corne Brûlée du Minotoror",
+    "category": "bone",
+    "level": 125
+  },
+  {
+    "id": "383",
+    "name": "Corne de Bouftou",
+    "category": "bone",
+    "level": 9
+  },
+  {
+    "id": "2465",
+    "name": "Corne de Chef de Guerre Bouftou",
+    "category": "bone",
+    "level": 19
+  },
+  {
+    "id": "8327",
+    "name": "Corne de Déminoboule",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "8363",
+    "name": "Corne de Dragoeuf Guerrier",
+    "category": "bone",
+    "level": 80
+  },
+  {
+    "id": "8361",
+    "name": "Corne de Dragoeuf Volant",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "8346",
+    "name": "Corne de Dragoss Blanc",
+    "category": "bone",
+    "level": 50
+  },
+  {
+    "id": "8345",
+    "name": "Corne de Dragoss de Saphire",
+    "category": "bone",
+    "level": 50
+  },
+  {
+    "id": "8347",
+    "name": "Corne de Dragoss Doré",
+    "category": "bone",
+    "level": 50
+  },
+  {
+    "id": "8344",
+    "name": "Corne de Dragoss Noir",
+    "category": "bone",
+    "level": 50
+  },
+  {
+    "id": "8357",
+    "name": "Corne de Dragueuse",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "8328",
+    "name": "Corne de Mominotor",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7906",
+    "name": "Corne du Boufcoul",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "8409",
+    "name": "Corne du Minotot",
+    "category": "bone",
+    "level": 400
+  },
+  {
+    "id": "11531",
+    "name": "Corne en Platine de Palidane",
+    "category": "bone",
+    "level": 194
+  },
+  {
+    "id": "2554",
+    "name": "Côtes de Porkass",
+    "category": "bone",
+    "level": 40
+  },
+  {
+    "id": "432",
+    "name": "Côtes du Rib",
+    "category": "bone",
+    "level": 33
+  },
+  {
+    "id": "641",
+    "name": "Coton Ancestral",
+    "category": "resource",
+    "level": 6
+  },
+  {
+    "id": "2246",
+    "name": "Couronne Brisée du Tofu Royal",
+    "category": "resource",
+    "level": 100
+  },
+  {
+    "id": "1757",
+    "name": "Crabe Sourimi",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1759",
+    "name": "Crabe Sourimi Exotique",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1760",
+    "name": "Crabe Sourimi exotique vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "1758",
+    "name": "Crabe Sourimi vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "9082",
+    "name": "Crâne d'Ecaflip",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9083",
+    "name": "Crâne d'Eniripsa",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9079",
+    "name": "Crâne d'Enutrof",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9078",
+    "name": "Crâne d'Osamodas",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "2336",
+    "name": "Crâne de chafer",
+    "category": "bone",
+    "level": 16
+  },
+  {
+    "id": "6738",
+    "name": "Crâne de Chef Crocodaille",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "9085",
+    "name": "Crâne de Crâ",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9077",
+    "name": "Crâne de Feca",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9084",
+    "name": "Crâne de Iop",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9088",
+    "name": "Crâne de Pandawa",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9087",
+    "name": "Crâne de Sacrieur",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9086",
+    "name": "Crâne de Sadida",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9080",
+    "name": "Crâne de Sram",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "9081",
+    "name": "Crâne de Xélor",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "481",
+    "name": "Crâne du Dragon Cochon",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "2479",
+    "name": "Crête de Porkass",
+    "category": "resource",
+    "level": 18
+  },
+  {
+    "id": "2574",
+    "name": "Crinière de Prespic",
+    "category": "resource",
+    "level": 18
+  },
+  {
+    "id": "2559",
+    "name": "Crinière de Trool",
+    "category": "resource",
+    "level": 115
+  },
+  {
+    "id": "8753",
+    "name": "Crinière fleurie",
+    "category": "plant",
+    "level": 80
+  },
+  {
+    "id": "465",
+    "name": "Cristal",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "2316",
+    "name": "Croc Jaune",
+    "category": "bone",
+    "level": 19
+  },
+  {
+    "id": "2322",
+    "name": "Crocs de Rats",
+    "category": "bone",
+    "level": 50
+  },
+  {
+    "id": "2505",
+    "name": "Croquette",
+    "category": "resource",
+    "level": 19
+  },
+  {
+    "id": "8788",
+    "name": "Croupion du Bitouf aérien",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "8058",
+    "name": "Cubitus de Momie Koalak",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "8488",
+    "name": "Cubitus du Rat Noir",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "883",
+    "name": "Cuir de Boufton Blanc",
+    "category": "leather",
+    "level": 2
+  },
+  {
+    "id": "884",
+    "name": "Cuir de Boufton Noir",
+    "category": "leather",
+    "level": 2
+  },
+  {
+    "id": "304",
+    "name": "Cuir de Bouftou",
+    "category": "leather",
+    "level": 9
+  },
+  {
+    "id": "886",
+    "name": "Cuir de Bouftou Royal",
+    "category": "leather",
+    "level": 35
+  },
+  {
+    "id": "8323",
+    "name": "Cuir de Déminoboule",
+    "category": "leather",
+    "level": 100
+  },
+  {
+    "id": "2999",
+    "name": "Cuir de Minotoror",
+    "category": "leather",
+    "level": 125
+  },
+  {
+    "id": "8324",
+    "name": "Cuir de Mominotor",
+    "category": "leather",
+    "level": 100
+  },
+  {
+    "id": "2275",
+    "name": "Cuir de Porkass",
+    "category": "leather",
+    "level": 40
+  },
+  {
+    "id": "486",
+    "name": "Cuir de Sanglier",
+    "category": "leather",
+    "level": 14
+  },
+  {
+    "id": "2511",
+    "name": "Cuir de Sanglier des Plaines",
+    "category": "leather",
+    "level": 44
+  },
+  {
+    "id": "7907",
+    "name": "Cuir du Boufcoul",
+    "category": "leather",
+    "level": 1
+  },
+  {
+    "id": "887",
+    "name": "Cuir du Chef de Guerre Bouftou",
+    "category": "leather",
+    "level": 19
+  },
+  {
+    "id": "901",
+    "name": "Cuir du Cochon de Lait",
+    "category": "leather",
+    "level": 18
+  },
+  {
+    "id": "487",
+    "name": "Cuir du Dragon Cochon",
+    "category": "leather",
+    "level": 70
+  },
+  {
+    "id": "8407",
+    "name": "Cuir du Minotot",
+    "category": "leather",
+    "level": 100
+  },
+  {
+    "id": "2287",
+    "name": "Cuir Noir",
+    "category": "leather",
+    "level": 74
+  },
+  {
+    "id": "2271",
+    "name": "Cuir Violet de Bwork",
+    "category": "leather",
+    "level": 31
+  },
+  {
+    "id": "1911",
+    "name": "Cuisse de Boufton",
+    "category": "meat",
+    "level": 10
+  },
+  {
+    "id": "1912",
+    "name": "Cuisse de Bouftou **",
+    "category": "meat",
+    "level": 20
+  },
+  {
+    "id": "1913",
+    "name": "Cuisse de Bouftou ***",
+    "category": "meat",
+    "level": 40
+  },
+  {
+    "id": "1914",
+    "name": "Cuisse de Bouftou ****",
+    "category": "meat",
+    "level": 50
+  },
+  {
+    "id": "1995",
+    "name": "Cuisse de Bouftou Conservée",
+    "category": "preserved_meat",
+    "level": 10
+  },
+  {
+    "id": "1997",
+    "name": "Cuisse de Bouftou Conservée **",
+    "category": "preserved_meat",
+    "level": 20
+  },
+  {
+    "id": "1998",
+    "name": "Cuisse de Bouftou Conservée ***",
+    "category": "preserved_meat",
+    "level": 40
+  },
+  {
+    "id": "1999",
+    "name": "Cuisse de Bouftou Conservée ****",
+    "category": "preserved_meat",
+    "level": 50
+  },
+  {
+    "id": "1902",
+    "name": "Cuisse de Wabbit",
+    "category": "meat",
+    "level": 20
+  },
+  {
+    "id": "1903",
+    "name": "Cuisse de Wabbit **",
+    "category": "meat",
+    "level": 40
+  },
+  {
+    "id": "1905",
+    "name": "Cuisse de Wabbit ***",
+    "category": "meat",
+    "level": 60
+  },
+  {
+    "id": "1901",
+    "name": "Cuisse de Wabbit ****",
+    "category": "meat",
+    "level": 80
+  },
+  {
+    "id": "2000",
+    "name": "Cuisse de Wabbit Conservée",
+    "category": "preserved_meat",
+    "level": 20
+  },
+  {
+    "id": "2001",
+    "name": "Cuisse de Wabbit Conservée **",
+    "category": "preserved_meat",
+    "level": 40
+  },
+  {
+    "id": "2002",
+    "name": "Cuisse de Wabbit Conservée ***",
+    "category": "preserved_meat",
+    "level": 60
+  },
+  {
+    "id": "2003",
+    "name": "Cuisse de Wabbit Conservée ****",
+    "category": "preserved_meat",
+    "level": 80
+  },
+  {
+    "id": "441",
+    "name": "Cuivre",
+    "category": "ore",
+    "level": 10
+  },
+  {
+    "id": "8809",
+    "name": "Culotte à l'envers du Roissingue",
+    "category": "resource",
+    "level": 200
+  },
+  {
+    "id": "2643",
+    "name": "Défense de Dragon Cochon",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "2516",
+    "name": "Défense de Sanglier des Plaines",
+    "category": "bone",
+    "level": 44
+  },
+  {
+    "id": "387",
+    "name": "Défense du Sanglier",
+    "category": "bone",
+    "level": 14
+  },
+  {
+    "id": "11532",
+    "name": "Défense Maléfique",
+    "category": "bone",
+    "level": 666
+  },
+  {
+    "id": "6842",
+    "name": "Dent d'Ours",
+    "category": "bone",
+    "level": 22
+  },
+  {
+    "id": "2463",
+    "name": "Dent de Chef de Guerre Bouftou",
+    "category": "bone",
+    "level": 19
+  },
+  {
+    "id": "8368",
+    "name": "Dent de Crocabulia",
+    "category": "bone",
+    "level": 400
+  },
+  {
+    "id": "1664",
+    "name": "Dent de Crocodaille",
+    "category": "bone",
+    "level": 36
+  },
+  {
+    "id": "2179",
+    "name": "Dent de Dragodinde",
+    "category": "bone",
+    "level": 20
+  },
+  {
+    "id": "2259",
+    "name": "Dent de Karne",
+    "category": "bone",
+    "level": 16
+  },
+  {
+    "id": "8489",
+    "name": "Dent de Rat Blanc",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "2509",
+    "name": "Dent de Serpentin",
+    "category": "bone",
+    "level": 10
+  },
+  {
+    "id": "8386",
+    "name": "Dent de Shin Larve",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "305",
+    "name": "Dent de Wabbit",
+    "category": "bone",
+    "level": 20
+  },
+  {
+    "id": "375",
+    "name": "Dent du Tofu Maléfique",
+    "category": "bone",
+    "level": 3
+  },
+  {
+    "id": "2252",
+    "name": "Dent en Or du Craqueleur",
+    "category": "bone",
+    "level": 31
+  },
+  {
+    "id": "7274",
+    "name": "Dent magique de Cooleuvre",
+    "category": "bone",
+    "level": 67
+  },
+  {
+    "id": "2279",
+    "name": "Dent Pointue",
+    "category": "bone",
+    "level": 15
+  },
+  {
+    "id": "2483",
+    "name": "Dentier de Porkass",
+    "category": "bone",
+    "level": 30
+  },
+  {
+    "id": "408",
+    "name": "Dentier du Chafer d'élite",
+    "category": "bone",
+    "level": 43
+  },
+  {
+    "id": "1614",
+    "name": "Dents de Chef Crocodaille",
+    "category": "bone",
+    "level": 69
+  },
+  {
+    "id": "2581",
+    "name": "Dents de Meulou",
+    "category": "bone",
+    "level": 198
+  },
+  {
+    "id": "7510",
+    "name": "Deuxième partie de la clef du labyrinthe du Dragon Cochon",
+    "category": "keys",
+    "level": 100
+  },
+  {
+    "id": "315",
+    "name": "Diamant",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "7033",
+    "name": "Dolomite",
+    "category": "ore",
+    "level": 80
+  },
+  {
+    "id": "1731",
+    "name": "Dose de jus goûtu",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2267",
+    "name": "Dragolait",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "1922",
+    "name": "DragoViande",
+    "category": "meat",
+    "level": 40
+  },
+  {
+    "id": "1923",
+    "name": "DragoViande **",
+    "category": "meat",
+    "level": 60
+  },
+  {
+    "id": "1924",
+    "name": "DragoViande ***",
+    "category": "meat",
+    "level": 70
+  },
+  {
+    "id": "1926",
+    "name": "DragoViande ****",
+    "category": "meat",
+    "level": 80
+  },
+  {
+    "id": "2014",
+    "name": "Dragoviande Conservée",
+    "category": "preserved_meat",
+    "level": 40
+  },
+  {
+    "id": "2015",
+    "name": "Dragoviande Conservée **",
+    "category": "preserved_meat",
+    "level": 60
+  },
+  {
+    "id": "2016",
+    "name": "Dragoviande Conservée ***",
+    "category": "preserved_meat",
+    "level": 70
+  },
+  {
+    "id": "2017",
+    "name": "Dragoviande Conservée ****",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "8756",
+    "name": "Duvet du Kilibriss",
+    "category": "hair",
+    "level": 80
+  },
+  {
+    "id": "311",
+    "name": "Eau",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "746",
+    "name": "Ebonite",
+    "category": "alloy",
+    "level": 20
+  },
+  {
+    "id": "1613",
+    "name": "Ecaille de Chef Crocodaille",
+    "category": "skin",
+    "level": 69
+  },
+  {
+    "id": "1663",
+    "name": "Ecaille de Crocodaille",
+    "category": "skin",
+    "level": 36
+  },
+  {
+    "id": "8354",
+    "name": "Ecaille de Dragoss Blanc",
+    "category": "skin",
+    "level": 50
+  },
+  {
+    "id": "8353",
+    "name": "Ecaille de Dragoss de Saphire",
+    "category": "skin",
+    "level": 50
+  },
+  {
+    "id": "8355",
+    "name": "Ecaille de Dragoss Doré",
+    "category": "skin",
+    "level": 50
+  },
+  {
+    "id": "8352",
+    "name": "Ecaille de Dragoss Noir",
+    "category": "skin",
+    "level": 50
+  },
+  {
+    "id": "8680",
+    "name": "Ecaille poisseuse",
+    "category": "skin",
+    "level": 10
+  },
+  {
+    "id": "434",
+    "name": "Ecorce d'Abraknyde",
+    "category": "bark",
+    "level": 32
+  },
+  {
+    "id": "8494",
+    "name": "Ecorce d'Abraknyde Ancestral",
+    "category": "bark",
+    "level": 200
+  },
+  {
+    "id": "1610",
+    "name": "Ecorce d'Abraknyde Sombre",
+    "category": "bark",
+    "level": 78
+  },
+  {
+    "id": "8772",
+    "name": "Ecorce de Brouture",
+    "category": "bark",
+    "level": 120
+  },
+  {
+    "id": "9263",
+    "name": "Ecorce de Champaknyde",
+    "category": "bark",
+    "level": 113
+  },
+  {
+    "id": "8775",
+    "name": "Ecorce de Chiendent",
+    "category": "bark",
+    "level": 100
+  },
+  {
+    "id": "8774",
+    "name": "Ecorce de Fécorce",
+    "category": "bark",
+    "level": 100
+  },
+  {
+    "id": "8771",
+    "name": "Ecorce de Floribonde",
+    "category": "bark",
+    "level": 120
+  },
+  {
+    "id": "6737",
+    "name": "Ecorce de Fourbasse",
+    "category": "bark",
+    "level": 22
+  },
+  {
+    "id": "1682",
+    "name": "Ecorce de Liroye Merline",
+    "category": "bark",
+    "level": 78
+  },
+  {
+    "id": "8773",
+    "name": "Ecorce de Nerbe",
+    "category": "bark",
+    "level": 100
+  },
+  {
+    "id": "6486",
+    "name": "Ecorce du Chêne Mou",
+    "category": "bark",
+    "level": 200
+  },
+  {
+    "id": "8770",
+    "name": "Ecorce du Tynril",
+    "category": "bark",
+    "level": 500
+  },
+  {
+    "id": "7272",
+    "name": "Ecorce magique de Bulbambou",
+    "category": "bark",
+    "level": 67
+  },
+  {
+    "id": "7270",
+    "name": "Ecorce magique de Bulbiflore",
+    "category": "bark",
+    "level": 26
+  },
+  {
+    "id": "7269",
+    "name": "Ecorce magique de Bulbig",
+    "category": "bark",
+    "level": 150
+  },
+  {
+    "id": "7271",
+    "name": "Ecorce magique de Bulbuisson",
+    "category": "bark",
+    "level": 42
+  },
+  {
+    "id": "8806",
+    "name": "Ecusson du Sergent Zoth",
+    "category": "resource",
+    "level": 120
+  },
+  {
+    "id": "594",
+    "name": "Edelweiss",
+    "category": "flower",
+    "level": 50
+  },
+  {
+    "id": "316",
+    "name": "Emeraude",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "8812",
+    "name": "Encre du Kralamoure géant",
+    "category": "resource",
+    "level": 999
+  },
+  {
+    "id": "2663",
+    "name": "Engrais",
+    "category": "resource",
+    "level": 8
+  },
+  {
+    "id": "3001",
+    "name": "Epaulette de Bwork",
+    "category": "resource",
+    "level": 43
+  },
+  {
+    "id": "2560",
+    "name": "Epaulette de Trool",
+    "category": "resource",
+    "level": 115
+  },
+  {
+    "id": "2299",
+    "name": "Epaulette du Dark Vlad",
+    "category": "resource",
+    "level": 120
+  },
+  {
+    "id": "1977",
+    "name": "Epices",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "9280",
+    "name": "Epine d'Ougah",
+    "category": "resource",
+    "level": 900
+  },
+  {
+    "id": "377",
+    "name": "Epine du Champ Champ",
+    "category": "resource",
+    "level": 5
+  },
+  {
+    "id": "2454",
+    "name": "Estomac de Bouftou",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "2468",
+    "name": "Estomac de Chef de Guerre Bouftou",
+    "category": "resource",
+    "level": 19
+  },
+  {
+    "id": "2631",
+    "name": "Estomac de Gloutovore",
+    "category": "resource",
+    "level": 44
+  },
+  {
+    "id": "2572",
+    "name": "Estomac de Prespic",
+    "category": "resource",
+    "level": 18
+  },
+  {
+    "id": "2510",
+    "name": "Estomac de Sanglier des Plaines",
+    "category": "resource",
+    "level": 44
+  },
+  {
+    "id": "406",
+    "name": "Estomac de Wo Wabbit",
+    "category": "resource",
+    "level": 39
+  },
+  {
+    "id": "444",
+    "name": "Etain",
+    "category": "ore",
+    "level": 50
+  },
+  {
+    "id": "8778",
+    "name": "Etamine de Floribonde",
+    "category": "plant",
+    "level": 100
+  },
+  {
+    "id": "8994",
+    "name": "Etoffe Corailleuse",
+    "category": "fabric",
+    "level": 150
+  },
+  {
+    "id": "6841",
+    "name": "Etoffe d'Ours",
+    "category": "fabric",
+    "level": 22
+  },
+  {
+    "id": "2503",
+    "name": "Etoffe de Croc Gland",
+    "category": "fabric",
+    "level": 19
+  },
+  {
+    "id": "8002",
+    "name": "Etoffe de Dok Alako",
+    "category": "fabric",
+    "level": 40
+  },
+  {
+    "id": "7382",
+    "name": "Etoffe de Fantôme Léopardo",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "7380",
+    "name": "Etoffe de Fantôme Maho Firefoux",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "7379",
+    "name": "Etoffe de Fantôme Pandikaze",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "7393",
+    "name": "Etoffe de Fantôme Pandore",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "7384",
+    "name": "Etoffe de Fantôme Pandule",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "7381",
+    "name": "Etoffe de Fantôme Soryo Firefoux",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "7385",
+    "name": "Etoffe de Fantôme Tanukouï San",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "7383",
+    "name": "Etoffe de Fantôme Yokai Firefoux",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "8995",
+    "name": "Etoffe de Gourlo le Terrible",
+    "category": "fabric",
+    "level": 150
+  },
+  {
+    "id": "2550",
+    "name": "Etoffe de Kanigrou",
+    "category": "fabric",
+    "level": 70
+  },
+  {
+    "id": "7304",
+    "name": "Etoffe de Maho Firefoux",
+    "category": "fabric",
+    "level": 150
+  },
+  {
+    "id": "8400",
+    "name": "Etoffe de Maître Pandore",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "8791",
+    "name": "Etoffe de Meupette",
+    "category": "fabric",
+    "level": 110
+  },
+  {
+    "id": "8801",
+    "name": "Etoffe de Ouassingue",
+    "category": "fabric",
+    "level": 80
+  },
+  {
+    "id": "7259",
+    "name": "Etoffe de Pandikaze",
+    "category": "fabric",
+    "level": 40
+  },
+  {
+    "id": "7307",
+    "name": "Etoffe de Pandore",
+    "category": "fabric",
+    "level": 200
+  },
+  {
+    "id": "7308",
+    "name": "Etoffe de Pandule",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "8380",
+    "name": "Etoffe de Péki",
+    "category": "fabric",
+    "level": 400
+  },
+  {
+    "id": "2513",
+    "name": "Etoffe de Sanglier des Plaines",
+    "category": "fabric",
+    "level": 44
+  },
+  {
+    "id": "7305",
+    "name": "Etoffe de Soryo Firefoux",
+    "category": "fabric",
+    "level": 130
+  },
+  {
+    "id": "8487",
+    "name": "Etoffe de Sphincter Cell",
+    "category": "fabric",
+    "level": 200
+  },
+  {
+    "id": "7306",
+    "name": "Etoffe de Yokai Firefoux",
+    "category": "fabric",
+    "level": 110
+  },
+  {
+    "id": "10587",
+    "name": "Etoffe des Héros",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "8082",
+    "name": "Etoffe du Fauchalak",
+    "category": "fabric",
+    "level": 1
+  },
+  {
+    "id": "1696",
+    "name": "Etoffe du Meulou",
+    "category": "fabric",
+    "level": 198
+  },
+  {
+    "id": "651",
+    "name": "Etoffe du Mulou",
+    "category": "fabric",
+    "level": 70
+  },
+  {
+    "id": "653",
+    "name": "Etoffe du Prespic",
+    "category": "fabric",
+    "level": 17
+  },
+  {
+    "id": "8486",
+    "name": "Etoffe du Rat Blanc",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "8485",
+    "name": "Etoffe du Rat Noir",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "8808",
+    "name": "Etoffe du Roissingue",
+    "category": "fabric",
+    "level": 200
+  },
+  {
+    "id": "652",
+    "name": "Etoffe du Sanglier",
+    "category": "fabric",
+    "level": 13
+  },
+  {
+    "id": "8398",
+    "name": "Etoffe du Wa Wabbit",
+    "category": "fabric",
+    "level": 100
+  },
+  {
+    "id": "654",
+    "name": "Etoffe du Wabbit",
+    "category": "fabric",
+    "level": 18
+  },
+  {
+    "id": "13178",
+    "name": "Etoffe Fantôme du Péki Garou",
+    "category": "fabric",
+    "level": 800
+  },
+  {
+    "id": "8384",
+    "name": "Etoffe Magique de Moon",
+    "category": "fabric",
+    "level": 200
+  },
+  {
+    "id": "8800",
+    "name": "Etoffe Zoth",
+    "category": "fabric",
+    "level": 110
+  },
+  {
+    "id": "9973",
+    "name": "Extrémité du Grattoir",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8565",
+    "name": "Fantôme Bébé Pandawa",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9595",
+    "name": "Fantôme Bouloute du Parrain",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9661",
+    "name": "Fantôme Chacha Angora",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8885",
+    "name": "Fantôme Chacha Tigré",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9671",
+    "name": "Fantôme Crocodaille",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8171",
+    "name": "Fantôme d'Abra Kadabra",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8020",
+    "name": "Fantôme d'Atouin",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7722",
+    "name": "Fantôme d'Ecureuil Chenapan",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11783",
+    "name": "Fantôme d'El Palador",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8173",
+    "name": "Fantôme d'El Scarador",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11805",
+    "name": "Fantôme d'Estok",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7724",
+    "name": "Fantôme de Bilby",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8172",
+    "name": "Fantôme de Bouloute",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7541",
+    "name": "Fantôme de Bwak d'Air",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7540",
+    "name": "Fantôme de Bwak d'Eau",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7539",
+    "name": "Fantôme de Bwak de Feu",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7542",
+    "name": "Fantôme de Bwak de Terre",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8017",
+    "name": "Fantôme de Bworky",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7537",
+    "name": "Fantôme de Chacha",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10986",
+    "name": "Fantôme de Chacha des Glaces",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10109",
+    "name": "Fantôme de Chauffe-souris",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11763",
+    "name": "Fantôme de Chenapandi",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10658",
+    "name": "Fantôme de Chercheur d'Ogrines",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7536",
+    "name": "Fantôme de Chienchien",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7550",
+    "name": "Fantôme de Croum",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "13080",
+    "name": "Fantôme de Croum Aqueux",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "13070",
+    "name": "Fantôme de Croum Igné",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "13071",
+    "name": "Fantôme de Croum Végétal",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "13069",
+    "name": "Fantôme de Croum Volatile",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10807",
+    "name": "Fantôme de Dragoune Dorée",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11558",
+    "name": "Fantôme de Dragoune en Armure",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7549",
+    "name": "Fantôme de Dragoune Rose",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11704",
+    "name": "Fantôme de Dragoune Rouge",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11737",
+    "name": "Fantôme de Flibalak",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7548",
+    "name": "Fantôme de Fotome",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10597",
+    "name": "Fantôme de Gelutin",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11800",
+    "name": "Fantôme de Glouton",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "12824",
+    "name": "Fantôme de Karne",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8016",
+    "name": "Fantôme de Koalak Sanguin",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11466",
+    "name": "Fantôme de Kometh",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7543",
+    "name": "Fantôme de Kouin-Kouin",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7723",
+    "name": "Fantôme de Léopardo",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "12821",
+    "name": "Fantôme de Main de Cire",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7725",
+    "name": "Fantôme de Marcassin",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10868",
+    "name": "Fantôme de Meuch",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7893",
+    "name": "Fantôme de Mini Wa",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11722",
+    "name": "Fantôme de Miniduk",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7551",
+    "name": "Fantôme de Minimino",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11777",
+    "name": "Fantôme de Minipoth",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7544",
+    "name": "Fantôme de Nomoon",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11744",
+    "name": "Fantôme de Oursolaire",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "12765",
+    "name": "Fantôme de Patrick le pâté de sable",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7545",
+    "name": "Fantôme de Péki",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7546",
+    "name": "Fantôme de Petit Chacha Blanc",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7547",
+    "name": "Fantôme de Petit Chienchien Noir",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7726",
+    "name": "Fantôme de Pioute Bleu",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7727",
+    "name": "Fantôme de Pioute Jaune",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7728",
+    "name": "Fantôme de Pioute Rose",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7729",
+    "name": "Fantôme de Pioute Rouge",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7730",
+    "name": "Fantôme de Pioute Vert",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7731",
+    "name": "Fantôme de Pioute Violet",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10870",
+    "name": "Fantôme de Pykur",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10867",
+    "name": "Fantôme de Raknaille",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11739",
+    "name": "Fantôme de Rennowel",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9786",
+    "name": "Fantôme de Shushu de Rushu",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11768",
+    "name": "Fantôme de Tibilax",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "12749",
+    "name": "Fantôme de Tibilax Saphir",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8174",
+    "name": "Fantôme de Tifoux",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "11016",
+    "name": "Fantôme de Tifoux Tigré",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10869",
+    "name": "Fantôme de Tofoudre",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "10108",
+    "name": "Fantôme de Vampyrette",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7538",
+    "name": "Fantôme de Wabbit",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7894",
+    "name": "Fantôme de Willy le Relou",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9666",
+    "name": "Fantôme Dragoune Noire",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "7721",
+    "name": "Fantôme du Vilain Petit Corbac",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8706",
+    "name": "Fantôme Fëanor",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9616",
+    "name": "Fantôme Marcassin",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9665",
+    "name": "Fantôme Miniminotot",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8679",
+    "name": "Fantôme Ross",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "9664",
+    "name": "Fantôme Tiwabbit Kiafin",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "8524",
+    "name": "Fantôme Walk",
+    "category": "pet_ghost",
+    "level": 1
+  },
+  {
+    "id": "583",
+    "name": "Farine Bise",
+    "category": "flour",
+    "level": 20
+  },
+  {
+    "id": "582",
+    "name": "Farine Blanche",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "587",
+    "name": "Farine Complète",
+    "category": "flour",
+    "level": 40
+  },
+  {
+    "id": "531",
+    "name": "Farine d'Avoine",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "2037",
+    "name": "Farine d'Avoine Aurifère",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "529",
+    "name": "Farine d'Orge",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "2033",
+    "name": "Farine d'Orge en Sucre",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "285",
+    "name": "Farine de Blé",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "2019",
+    "name": "Farine de Blé Magique",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "535",
+    "name": "Farine de Houblon",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "2022",
+    "name": "Farine de Houblon Magique",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "690",
+    "name": "Farine de Lin",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "2027",
+    "name": "Farine de Lin magique",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "534",
+    "name": "Farine de Malt",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "7068",
+    "name": "Farine de Riz",
+    "category": "flour",
+    "level": 50
+  },
+  {
+    "id": "530",
+    "name": "Farine de Seigle",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "2030",
+    "name": "Farine de Seigle Magique",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "6672",
+    "name": "Farine de Xavier le Boulanger",
+    "category": "flour",
+    "level": 100
+  },
+  {
+    "id": "9981",
+    "name": "Farine Humée",
+    "category": "flour",
+    "level": 1
+  },
+  {
+    "id": "586",
+    "name": "Farine Paysanne",
+    "category": "flour",
+    "level": 30
+  },
+  {
+    "id": "2526",
+    "name": "Faux du Maitre Corbac",
+    "category": "resource",
+    "level": 160
+  },
+  {
+    "id": "6659",
+    "name": "Faux Koinkoin",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8811",
+    "name": "Faux menton du Bourbassingue",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "8056",
+    "name": "Fémur de Koalak Farouche",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "8490",
+    "name": "Fémur de Sphincter Cell",
+    "category": "bone",
+    "level": 200
+  },
+  {
+    "id": "433",
+    "name": "Fémur du Chafer Archer",
+    "category": "bone",
+    "level": 34
+  },
+  {
+    "id": "8313",
+    "name": "Fémur du Minotoror",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "8410",
+    "name": "Fémur du Minotot",
+    "category": "bone",
+    "level": 400
+  },
+  {
+    "id": "312",
+    "name": "Fer",
+    "category": "ore",
+    "level": 1
+  },
+  {
+    "id": "7287",
+    "name": "Feuille de Bambouto",
+    "category": "plant",
+    "level": 47
+  },
+  {
+    "id": "7288",
+    "name": "Feuille de Bambouto Sacré",
+    "category": "plant",
+    "level": 120
+  },
+  {
+    "id": "9389",
+    "name": "Feuille de Blop Multicolore Royal",
+    "category": "plant",
+    "level": 150
+  },
+  {
+    "id": "9388",
+    "name": "Feuille de Blop Royal",
+    "category": "plant",
+    "level": 100
+  },
+  {
+    "id": "7267",
+    "name": "Feuille de Bulbuisson",
+    "category": "plant",
+    "level": 42
+  },
+  {
+    "id": "2254",
+    "name": "Feuille de Fourbasse",
+    "category": "plant",
+    "level": 22
+  },
+  {
+    "id": "7903",
+    "name": "Feuille de Kaliptus",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "2624",
+    "name": "Feuille de Kokoko",
+    "category": "plant",
+    "level": 42
+  },
+  {
+    "id": "380",
+    "name": "Feuille de Menthe Sauvage",
+    "category": "plant",
+    "level": 30
+  },
+  {
+    "id": "2365",
+    "name": "Feuille de ronce d'Hestia",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "1974",
+    "name": "Feuille de Salace",
+    "category": "vegetable",
+    "level": 1
+  },
+  {
+    "id": "2661",
+    "name": "Feuille de Tournesol Sauvage",
+    "category": "plant",
+    "level": 12
+  },
+  {
+    "id": "2249",
+    "name": "Feuille de Tronknyde",
+    "category": "plant",
+    "level": 35
+  },
+  {
+    "id": "426",
+    "name": "Fibre de Chanvre",
+    "category": "fabric",
+    "level": 46
+  },
+  {
+    "id": "424",
+    "name": "Fibre de Lin",
+    "category": "fabric",
+    "level": 46
+  },
+  {
+    "id": "420",
+    "name": "Ficelle en Lin",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "643",
+    "name": "Fil de Soie",
+    "category": "resource",
+    "level": 5
+  },
+  {
+    "id": "2656",
+    "name": "Fil Résistant",
+    "category": "resource",
+    "level": 43
+  },
+  {
+    "id": "1463",
+    "name": "Fiole à élément",
+    "category": "alchemy_equipment",
+    "level": 1
+  },
+  {
+    "id": "11538",
+    "name": "Flèche Ensorcelée",
+    "category": "resource",
+    "level": 132
+  },
+  {
+    "id": "1772",
+    "name": "Fleur de Blop Coco",
+    "category": "flower",
+    "level": 34
+  },
+  {
+    "id": "9385",
+    "name": "Fleur de Blop Coco Royal",
+    "category": "flower",
+    "level": 100
+  },
+  {
+    "id": "1776",
+    "name": "Fleur de Blop Griotte",
+    "category": "flower",
+    "level": 34
+  },
+  {
+    "id": "9384",
+    "name": "Fleur de Blop Griotte Royal",
+    "category": "flower",
+    "level": 100
+  },
+  {
+    "id": "1778",
+    "name": "Fleur de Blop Indigo",
+    "category": "flower",
+    "level": 34
+  },
+  {
+    "id": "9386",
+    "name": "Fleur de Blop Indigo Royal",
+    "category": "flower",
+    "level": 100
+  },
+  {
+    "id": "9391",
+    "name": "Fleur de Blop Multicolore Royal",
+    "category": "flower",
+    "level": 150
+  },
+  {
+    "id": "1774",
+    "name": "Fleur de Blop Reinette",
+    "category": "flower",
+    "level": 34
+  },
+  {
+    "id": "9387",
+    "name": "Fleur de Blop Reinette Royal",
+    "category": "flower",
+    "level": 100
+  },
+  {
+    "id": "9382",
+    "name": "Fleur de Blopignon",
+    "category": "flower",
+    "level": 40
+  },
+  {
+    "id": "7266",
+    "name": "Fleur de Bulbiflore",
+    "category": "flower",
+    "level": 26
+  },
+  {
+    "id": "428",
+    "name": "Fleur de Chanvre",
+    "category": "flower",
+    "level": 10
+  },
+  {
+    "id": "9381",
+    "name": "Fleur de Gloutoblop",
+    "category": "flower",
+    "level": 50
+  },
+  {
+    "id": "2253",
+    "name": "Fleur de Gloutovore",
+    "category": "flower",
+    "level": 42
+  },
+  {
+    "id": "7904",
+    "name": "Fleur de Kaliptus",
+    "category": "flower",
+    "level": 1
+  },
+  {
+    "id": "421",
+    "name": "Fleur de Lin",
+    "category": "flower",
+    "level": 1
+  },
+  {
+    "id": "7020",
+    "name": "Fleur de Lotus",
+    "category": "wood",
+    "level": 30
+  },
+  {
+    "id": "306",
+    "name": "Fleur de Pissenlit Diabolique",
+    "category": "flower",
+    "level": 5
+  },
+  {
+    "id": "8760",
+    "name": "Foulard du Sparo",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "2295",
+    "name": "Fragment d'Epée Reptilienne",
+    "category": "resource",
+    "level": 69
+  },
+  {
+    "id": "2300",
+    "name": "Fragment d'Os",
+    "category": "bone",
+    "level": 43
+  },
+  {
+    "id": "9281",
+    "name": "Fragment d'Ougalurette",
+    "category": "resource",
+    "level": 900
+  },
+  {
+    "id": "8762",
+    "name": "Fragment de cerveau poli",
+    "category": "precious_stone",
+    "level": 80
+  },
+  {
+    "id": "8371",
+    "name": "Fragment de Coquille d'Aerohouctor le Guerrier",
+    "category": "shell",
+    "level": 80
+  },
+  {
+    "id": "8372",
+    "name": "Fragment de Coquille d'Aquabralak le Guerrier",
+    "category": "shell",
+    "level": 80
+  },
+  {
+    "id": "8370",
+    "name": "Fragment de Coquille d'Ignelicrobur le Guerrier",
+    "category": "shell",
+    "level": 80
+  },
+  {
+    "id": "8369",
+    "name": "Fragment de Coquille de Terrakoubiak le Guerrier",
+    "category": "shell",
+    "level": 80
+  },
+  {
+    "id": "2305",
+    "name": "Fragment de Pierre Pointue",
+    "category": "stone",
+    "level": 45
+  },
+  {
+    "id": "2304",
+    "name": "Fragment de Pierre Polie",
+    "category": "stone",
+    "level": 45
+  },
+  {
+    "id": "381",
+    "name": "Fraise",
+    "category": "fruit",
+    "level": 28
+  },
+  {
+    "id": "398",
+    "name": "Fruit de Palme",
+    "category": "fruit",
+    "level": 32
+  },
+  {
+    "id": "368",
+    "name": "Gelée à la Fraise",
+    "category": "jelly",
+    "level": 28
+  },
+  {
+    "id": "369",
+    "name": "Gelée à la Menthe",
+    "category": "jelly",
+    "level": 10
+  },
+  {
+    "id": "757",
+    "name": "Gelée Bleutée",
+    "category": "jelly",
+    "level": 3
+  },
+  {
+    "id": "370",
+    "name": "Gelée Bleutée Royale",
+    "category": "jelly",
+    "level": 50
+  },
+  {
+    "id": "2436",
+    "name": "Gelée Citron",
+    "category": "jelly",
+    "level": 45
+  },
+  {
+    "id": "2437",
+    "name": "Gelée Citron Royale",
+    "category": "jelly",
+    "level": 200
+  },
+  {
+    "id": "8310",
+    "name": "Gelée de Dégelée",
+    "category": "jelly",
+    "level": 1
+  },
+  {
+    "id": "2242",
+    "name": "Gelée Fraise Royale",
+    "category": "jelly",
+    "level": 150
+  },
+  {
+    "id": "2241",
+    "name": "Gelée Menthe Royale",
+    "category": "jelly",
+    "level": 100
+  },
+  {
+    "id": "10003",
+    "name": "Gelée Sbihaine",
+    "category": "jelly",
+    "level": 1
+  },
+  {
+    "id": "393",
+    "name": "Gland",
+    "category": "seed",
+    "level": 14
+  },
+  {
+    "id": "2632",
+    "name": "Glouto Rhum",
+    "category": "resource",
+    "level": 44
+  },
+  {
+    "id": "1782",
+    "name": "Goujon",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1790",
+    "name": "Goujon Kiye",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1791",
+    "name": "Goujon Kiye vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "1783",
+    "name": "Goujon vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "427",
+    "name": "Graine de Chanvre",
+    "category": "seed",
+    "level": 10
+  },
+  {
+    "id": "8785",
+    "name": "Graine de l'Abrakleur sombre",
+    "category": "seed",
+    "level": 100
+  },
+  {
+    "id": "422",
+    "name": "Graine de Lin",
+    "category": "seed",
+    "level": 1
+  },
+  {
+    "id": "7059",
+    "name": "Graine de Pandouille",
+    "category": "seed",
+    "level": 100
+  },
+  {
+    "id": "300",
+    "name": "Graine de Pavot",
+    "category": "seed",
+    "level": 5
+  },
+  {
+    "id": "2150",
+    "name": "Graine de scorbute",
+    "category": "seed",
+    "level": 36
+  },
+  {
+    "id": "287",
+    "name": "Graine de Sésame",
+    "category": "seed",
+    "level": 1
+  },
+  {
+    "id": "288",
+    "name": "Graine de Tournesol sauvage",
+    "category": "seed",
+    "level": 12
+  },
+  {
+    "id": "1984",
+    "name": "Graisse de Biblop",
+    "category": "resource",
+    "level": 20
+  },
+  {
+    "id": "1983",
+    "name": "Graisse de Gelée",
+    "category": "resource",
+    "level": 20
+  },
+  {
+    "id": "1460",
+    "name": "Grande fiole",
+    "category": "alchemy_equipment",
+    "level": 1
+  },
+  {
+    "id": "8520",
+    "name": "Gratrooll",
+    "category": "oil",
+    "level": 1
+  },
+  {
+    "id": "9976",
+    "name": "Grattoir à dos inachevé",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2506",
+    "name": "Grelot",
+    "category": "resource",
+    "level": 10
+  },
+  {
+    "id": "598",
+    "name": "Greu-Vette",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1786",
+    "name": "Greu-vette Horreur",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1787",
+    "name": "Greu-vette Horreur vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "1781",
+    "name": "Greu-vette vidée",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "440",
+    "name": "Griffe du Mulou",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "2648",
+    "name": "Griffes de Kwak",
+    "category": "resource",
+    "level": 30
+  },
+  {
+    "id": "2645",
+    "name": "Groin de Dragon Cochon",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "2481",
+    "name": "Groin de Porkass",
+    "category": "resource",
+    "level": 18
+  },
+  {
+    "id": "2515",
+    "name": "Groin de Sanglier des Plaines",
+    "category": "resource",
+    "level": 44
+  },
+  {
+    "id": "386",
+    "name": "Groin du Sanglier",
+    "category": "resource",
+    "level": 14
+  },
+  {
+    "id": "2553",
+    "name": "Gros Boulet",
+    "category": "resource",
+    "level": 40
+  },
+  {
+    "id": "1575",
+    "name": "Guildalogemme",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "6671",
+    "name": "Haricot",
+    "category": "seed",
+    "level": 1
+  },
+  {
+    "id": "1324",
+    "name": "Herbe à chat",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "2665",
+    "name": "Herbe Folle",
+    "category": "plant",
+    "level": 9
+  },
+  {
+    "id": "6622",
+    "name": "Hochet du Dark Vlad",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "10716",
+    "name": "Hormone d'Atouin",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10725",
+    "name": "Hormone d'Ecureuil Chenapan",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11806",
+    "name": "Hormone d'Estok",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10717",
+    "name": "Hormone de Bébé Pandawa",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10718",
+    "name": "Hormone de Bilby",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10746",
+    "name": "Hormone de Bouloute du Parrain",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10719",
+    "name": "Hormone de Bwak",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10720",
+    "name": "Hormone de Bworky",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10721",
+    "name": "Hormone de Chacha",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10722",
+    "name": "Hormone de Chacha Angora",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11009",
+    "name": "Hormone de Chacha des Glaces",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10723",
+    "name": "Hormone de Chacha Tigré",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10744",
+    "name": "Hormone de Chauffe-Souris",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11762",
+    "name": "Hormone de Chenapandi",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10810",
+    "name": "Hormone de Chercheur d'Ogrines",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10724",
+    "name": "Hormone de Crocodaille",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "13053",
+    "name": "Hormone de Croum Aqueux",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "13058",
+    "name": "Hormone de Croum Igné",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "13063",
+    "name": "Hormone de Croum Végétal",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "13048",
+    "name": "Hormone de Croum Volatile",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10808",
+    "name": "Hormone de Dragoune Dorée",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10745",
+    "name": "Hormone de Dragoune Noire",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11782",
+    "name": "Hormone de El Palador",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10726",
+    "name": "Hormone de Fëanor",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11716",
+    "name": "Hormone de Flibalak",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10747",
+    "name": "Hormone de Gelutin",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11801",
+    "name": "Hormone de Glouton",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "12819",
+    "name": "Hormone de Karne",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10727",
+    "name": "Hormone de Koalak Sanguin",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11470",
+    "name": "Hormone de Kometh",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10728",
+    "name": "Hormone de Kouin-Kouin",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10729",
+    "name": "Hormone de Léopardo",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "12820",
+    "name": "Hormone de Main de Cire",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10741",
+    "name": "Hormone de Marcassin",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10880",
+    "name": "Hormone de Meuch",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10730",
+    "name": "Hormone de Mini Wa",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11718",
+    "name": "Hormone de Miniduk",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10742",
+    "name": "Hormone de Miniminotot",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11776",
+    "name": "Hormone de Minipoth",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10731",
+    "name": "Hormone de Nomoon",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11728",
+    "name": "Hormone de Oursolaire",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "12762",
+    "name": "Hormone de Patrick le pâté de sable",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10732",
+    "name": "Hormone de Péki",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10733",
+    "name": "Hormone de Petit Chacha Blanc",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10734",
+    "name": "Hormone de Petit Chienchien Noir",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10735",
+    "name": "Hormone de Pioute",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10882",
+    "name": "Hormone de Pykur",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10879",
+    "name": "Hormone de Raknaille",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11720",
+    "name": "Hormone de Rennowel",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10736",
+    "name": "Hormone de Ross",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10748",
+    "name": "Hormone de Shushu de Rushu",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11767",
+    "name": "Hormone de Tibilax",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "12748",
+    "name": "Hormone de Tibilax Saphir",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "11031",
+    "name": "Hormone de Tifoux Tigré",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10743",
+    "name": "Hormone de Tiwabbit Kiafin",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10881",
+    "name": "Hormone de Tofoudre",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10749",
+    "name": "Hormone de Vampyrette",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10737",
+    "name": "Hormone de Vilain Petit Corbac",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10738",
+    "name": "Hormone de Wabbit",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10739",
+    "name": "Hormone de Walk",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10740",
+    "name": "Hormone de Willy le Relou",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "401",
+    "name": "Houblon",
+    "category": "cereal",
+    "level": 30
+  },
+  {
+    "id": "2021",
+    "name": "Houblon Brillant",
+    "category": "cereal",
+    "level": 30
+  },
+  {
+    "id": "1973",
+    "name": "Huile à frire",
+    "category": "oil",
+    "level": 1
+  },
+  {
+    "id": "397",
+    "name": "Huile de Koode",
+    "category": "oil",
+    "level": 32
+  },
+  {
+    "id": "390",
+    "name": "Huile de Noix",
+    "category": "oil",
+    "level": 32
+  },
+  {
+    "id": "396",
+    "name": "Huile de Palme",
+    "category": "oil",
+    "level": 32
+  },
+  {
+    "id": "399",
+    "name": "Huile de Sésame",
+    "category": "oil",
+    "level": 1
+  },
+  {
+    "id": "389",
+    "name": "Huile de Tournesol Sauvage",
+    "category": "oil",
+    "level": 12
+  },
+  {
+    "id": "8739",
+    "name": "Humérus du Sparo",
+    "category": "bone",
+    "level": 80
+  },
+  {
+    "id": "1428",
+    "name": "Immortelle",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "1004",
+    "name": "Indispensable Corde",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "479",
+    "name": "Ivoire",
+    "category": "bone",
+    "level": 40
+  },
+  {
+    "id": "12804",
+    "name": "Jeton d'entrée au Gladiatrool",
+    "category": "resource",
+    "level": 50
+  },
+  {
+    "id": "1749",
+    "name": "Jeton de la Foire du Trool",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "6885",
+    "name": "Jeton du Bworker",
+    "category": "resource",
+    "level": 100
+  },
+  {
+    "id": "7919",
+    "name": "Jeton du Maître de Jeu",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8807",
+    "name": "Jus de Ouassingue",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "1328",
+    "name": "Kama énigmatique",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "6458",
+    "name": "Kobalite",
+    "category": "alloy",
+    "level": 100
+  },
+  {
+    "id": "443",
+    "name": "Kobalte",
+    "category": "ore",
+    "level": 30
+  },
+  {
+    "id": "2619",
+    "name": "Kokolait",
+    "category": "resource",
+    "level": 14
+  },
+  {
+    "id": "2618",
+    "name": "Kokopaille",
+    "category": "resource",
+    "level": 14
+  },
+  {
+    "id": "1018",
+    "name": "Kole",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2500",
+    "name": "Kolérat Mort",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "750",
+    "name": "Kouartz",
+    "category": "alloy",
+    "level": 60
+  },
+  {
+    "id": "600",
+    "name": "Kralamoure",
+    "category": "fish",
+    "level": 20
+  },
+  {
+    "id": "1799",
+    "name": "Kralamoure Unique",
+    "category": "fish",
+    "level": 20
+  },
+  {
+    "id": "1800",
+    "name": "Kralamoure Unique vidé",
+    "category": "gutted_fish",
+    "level": 20
+  },
+  {
+    "id": "1798",
+    "name": "Kralamoure vidé",
+    "category": "gutted_fish",
+    "level": 20
+  },
+  {
+    "id": "6457",
+    "name": "Kriptonite",
+    "category": "alloy",
+    "level": 80
+  },
+  {
+    "id": "929",
+    "name": "Kristalite",
+    "category": "precious_stone",
+    "level": 120
+  },
+  {
+    "id": "881",
+    "name": "Laine de Boufton Blanc",
+    "category": "wool",
+    "level": 2
+  },
+  {
+    "id": "885",
+    "name": "Laine de Boufton Noir",
+    "category": "wool",
+    "level": 2
+  },
+  {
+    "id": "384",
+    "name": "Laine de Bouftou",
+    "category": "wool",
+    "level": 9
+  },
+  {
+    "id": "880",
+    "name": "Laine de Bouftou Royal",
+    "category": "wool",
+    "level": 35
+  },
+  {
+    "id": "7905",
+    "name": "Laine du Boufcoul",
+    "category": "wool",
+    "level": 1
+  },
+  {
+    "id": "882",
+    "name": "Laine du Chef de Guerre Bouftou",
+    "category": "wool",
+    "level": 19
+  },
+  {
+    "id": "2998",
+    "name": "Laine du Minotoror",
+    "category": "wool",
+    "level": 125
+  },
+  {
+    "id": "8406",
+    "name": "Laine du Minotot",
+    "category": "wool",
+    "level": 400
+  },
+  {
+    "id": "1694",
+    "name": "Laine du Trool Furieux",
+    "category": "wool",
+    "level": 115
+  },
+  {
+    "id": "2266",
+    "name": "Lait de Cochon de Lait",
+    "category": "resource",
+    "level": 18
+  },
+  {
+    "id": "2596",
+    "name": "Lait de Dragodinde",
+    "category": "resource",
+    "level": 29
+  },
+  {
+    "id": "9278",
+    "name": "Lamelle de Champbis",
+    "category": "resource",
+    "level": 144
+  },
+  {
+    "id": "2634",
+    "name": "Lance Cassée",
+    "category": "resource",
+    "level": 24
+  },
+  {
+    "id": "2466",
+    "name": "Langue de Chef de Guerre Bouftou",
+    "category": "resource",
+    "level": 19
+  },
+  {
+    "id": "2302",
+    "name": "Langue de Crabe",
+    "category": "resource",
+    "level": 4
+  },
+  {
+    "id": "2504",
+    "name": "Langue de Croc Gland",
+    "category": "resource",
+    "level": 19
+  },
+  {
+    "id": "9269",
+    "name": "Langue du Champodonte",
+    "category": "resource",
+    "level": 134
+  },
+  {
+    "id": "374",
+    "name": "Langue du Pissenlit Diabolique",
+    "category": "plant",
+    "level": 5
+  },
+  {
+    "id": "2507",
+    "name": "Langue Fourchue",
+    "category": "resource",
+    "level": 10
+  },
+  {
+    "id": "8364",
+    "name": "Lanière en cuir du Dragoeuf Guerrier",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "286",
+    "name": "Levure de Boulanger",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "423",
+    "name": "Lin",
+    "category": "cereal",
+    "level": 40
+  },
+  {
+    "id": "2026",
+    "name": "Lin Tempête",
+    "category": "cereal",
+    "level": 40
+  },
+  {
+    "id": "2277",
+    "name": "Linceul",
+    "category": "fabric",
+    "level": 65
+  },
+  {
+    "id": "745",
+    "name": "Lingot d'Or",
+    "category": "alloy",
+    "level": 10
+  },
+  {
+    "id": "1462",
+    "name": "Liquide vampiresque",
+    "category": "resource",
+    "level": 30
+  },
+  {
+    "id": "2642",
+    "name": "Mâchoire de Rib",
+    "category": "bone",
+    "level": 33
+  },
+  {
+    "id": "748",
+    "name": "Magnésite",
+    "category": "alloy",
+    "level": 30
+  },
+  {
+    "id": "8757",
+    "name": "Maillot de corps de Barbroussa",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "2584",
+    "name": "Main de Boo",
+    "category": "resource",
+    "level": 19
+  },
+  {
+    "id": "6478",
+    "name": "Makroute Déchiqueté",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "405",
+    "name": "Malt",
+    "category": "cereal",
+    "level": 60
+  },
+  {
+    "id": "9975",
+    "name": "Manche du Grattoir",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "445",
+    "name": "Manganèse",
+    "category": "ore",
+    "level": 40
+  },
+  {
+    "id": "2251",
+    "name": "Méga Pierre du Craqueleur",
+    "category": "stone",
+    "level": 45
+  },
+  {
+    "id": "8394",
+    "name": "Méga Pierre du Craqueleur Légendaire",
+    "category": "stone",
+    "level": 100
+  },
+  {
+    "id": "1978",
+    "name": "Mesure de Poivre",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1730",
+    "name": "Mesure de sel",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "1527",
+    "name": "Metaria bleue",
+    "category": "metaria",
+    "level": 5
+  },
+  {
+    "id": "1528",
+    "name": "Metaria jaune",
+    "category": "metaria",
+    "level": 5
+  },
+  {
+    "id": "1536",
+    "name": "Metaria Mage bleue",
+    "category": "metaria",
+    "level": 50
+  },
+  {
+    "id": "1538",
+    "name": "Metaria Mage jaune",
+    "category": "metaria",
+    "level": 50
+  },
+  {
+    "id": "1535",
+    "name": "Metaria Mage rouge",
+    "category": "metaria",
+    "level": 50
+  },
+  {
+    "id": "1537",
+    "name": "Metaria Mage verte",
+    "category": "metaria",
+    "level": 50
+  },
+  {
+    "id": "1526",
+    "name": "Metaria rouge",
+    "category": "metaria",
+    "level": 5
+  },
+  {
+    "id": "1531",
+    "name": "Metaria Triame bleue",
+    "category": "metaria",
+    "level": 25
+  },
+  {
+    "id": "1534",
+    "name": "Metaria Triame jaune",
+    "category": "metaria",
+    "level": 25
+  },
+  {
+    "id": "1533",
+    "name": "Metaria Triame rouge",
+    "category": "metaria",
+    "level": 25
+  },
+  {
+    "id": "1532",
+    "name": "Metaria Triame verte",
+    "category": "metaria",
+    "level": 25
+  },
+  {
+    "id": "1529",
+    "name": "Metaria verte",
+    "category": "metaria",
+    "level": 5
+  },
+  {
+    "id": "480",
+    "name": "Minerai Etrange",
+    "category": "ore",
+    "level": 24
+  },
+  {
+    "id": "8144",
+    "name": "Mojo du Meulou",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8396",
+    "name": "Mojo du Mulou",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "11537",
+    "name": "Morceau de Bâton du Sorcier Démon",
+    "category": "resource",
+    "level": 172
+  },
+  {
+    "id": "8758",
+    "name": "Morceau de caleçon de Gourlo",
+    "category": "resource",
+    "level": 200
+  },
+  {
+    "id": "9251",
+    "name": "Morceau de clef Coco",
+    "category": "keys",
+    "level": 40
+  },
+  {
+    "id": "9249",
+    "name": "Morceau de clef Griotte",
+    "category": "keys",
+    "level": 40
+  },
+  {
+    "id": "9252",
+    "name": "Morceau de clef Indigo",
+    "category": "keys",
+    "level": 40
+  },
+  {
+    "id": "9250",
+    "name": "Morceau de clef Reinette",
+    "category": "keys",
+    "level": 40
+  },
+  {
+    "id": "8805",
+    "name": "Mouchoir de la Gamine Zoth",
+    "category": "resource",
+    "level": 120
+  },
+  {
+    "id": "8517",
+    "name": "Moumoule",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2301",
+    "name": "Moustache de Kolérat",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "8763",
+    "name": "Moustache du Mufafah",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "1927",
+    "name": "Museau",
+    "category": "meat",
+    "level": 30
+  },
+  {
+    "id": "1929",
+    "name": "Museau **",
+    "category": "meat",
+    "level": 50
+  },
+  {
+    "id": "1930",
+    "name": "Museau ***",
+    "category": "meat",
+    "level": 70
+  },
+  {
+    "id": "2008",
+    "name": "Museau Conservé",
+    "category": "preserved_meat",
+    "level": 30
+  },
+  {
+    "id": "2009",
+    "name": "Museau Conservé **",
+    "category": "preserved_meat",
+    "level": 50
+  },
+  {
+    "id": "2010",
+    "name": "Museau Conservé ***",
+    "category": "preserved_meat",
+    "level": 70
+  },
+  {
+    "id": "2499",
+    "name": "Museau de Kolérat",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "9941",
+    "name": "Nacre",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "9940",
+    "name": "Nacre brute",
+    "category": "stone",
+    "level": 20
+  },
+  {
+    "id": "8796",
+    "name": "Noeud de l'Abrakleur clair",
+    "category": "wood",
+    "level": 120
+  },
+  {
+    "id": "2676",
+    "name": "Noeul Mort",
+    "category": "resource",
+    "level": 274
+  },
+  {
+    "id": "394",
+    "name": "Noisette",
+    "category": "seed",
+    "level": 14
+  },
+  {
+    "id": "391",
+    "name": "Noix de Cajou",
+    "category": "seed",
+    "level": 32
+  },
+  {
+    "id": "997",
+    "name": "Noix de Kokoko",
+    "category": "fruit",
+    "level": 42
+  },
+  {
+    "id": "1678",
+    "name": "Noix de Kokoko Traumatisée",
+    "category": "fruit",
+    "level": 42
+  },
+  {
+    "id": "392",
+    "name": "Noix de Pécan",
+    "category": "seed",
+    "level": 32
+  },
+  {
+    "id": "1709",
+    "name": "Nonos",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "2491",
+    "name": "Oeil d'Ouginak",
+    "category": "eye",
+    "level": 51
+  },
+  {
+    "id": "2460",
+    "name": "Oeil de Boufton",
+    "category": "eye",
+    "level": 2
+  },
+  {
+    "id": "2453",
+    "name": "Oeil de Bouftou",
+    "category": "eye",
+    "level": 9
+  },
+  {
+    "id": "9277",
+    "name": "Oeil de Champmane",
+    "category": "eye",
+    "level": 152
+  },
+  {
+    "id": "2056",
+    "name": "Oeil de Corbac",
+    "category": "eye",
+    "level": 20
+  },
+  {
+    "id": "2583",
+    "name": "Oeil de Crabe",
+    "category": "eye",
+    "level": 4
+  },
+  {
+    "id": "2552",
+    "name": "Oeil de Kanigrou",
+    "category": "eye",
+    "level": 70
+  },
+  {
+    "id": "2495",
+    "name": "Oeil de Kolérat",
+    "category": "eye",
+    "level": 9
+  },
+  {
+    "id": "2283",
+    "name": "Oeil de Kwoan",
+    "category": "eye",
+    "level": 8
+  },
+  {
+    "id": "2580",
+    "name": "Oeil de Meulou",
+    "category": "eye",
+    "level": 198
+  },
+  {
+    "id": "2578",
+    "name": "Oeil de Mulou",
+    "category": "eye",
+    "level": 70
+  },
+  {
+    "id": "2579",
+    "name": "Oeil du Milimulou",
+    "category": "eye",
+    "level": 22
+  },
+  {
+    "id": "2654",
+    "name": "Oeuf d'Arakne Majeure",
+    "category": "egg",
+    "level": 43
+  },
+  {
+    "id": "847",
+    "name": "Oeuf de Dragoeuf Blanc",
+    "category": "egg",
+    "level": 74
+  },
+  {
+    "id": "844",
+    "name": "Oeuf de Dragoeuf de Saphir",
+    "category": "egg",
+    "level": 74
+  },
+  {
+    "id": "845",
+    "name": "Oeuf de Dragoeuf Doré",
+    "category": "egg",
+    "level": 74
+  },
+  {
+    "id": "846",
+    "name": "Oeuf de Dragoeuf Noir",
+    "category": "egg",
+    "level": 74
+  },
+  {
+    "id": "367",
+    "name": "Oeuf de Tofu",
+    "category": "egg",
+    "level": 4
+  },
+  {
+    "id": "2673",
+    "name": "Oeuf pourri",
+    "category": "egg",
+    "level": 3
+  },
+  {
+    "id": "1975",
+    "name": "Oignon",
+    "category": "vegetable",
+    "level": 1
+  },
+  {
+    "id": "382",
+    "name": "Ongle de Chevaucheur de Karne",
+    "category": "bone",
+    "level": 16
+  },
+  {
+    "id": "2528",
+    "name": "Ongle de Kanigrou",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "11533",
+    "name": "Ongle Désincarné de Qu'Tan",
+    "category": "bone",
+    "level": 666
+  },
+  {
+    "id": "313",
+    "name": "Or",
+    "category": "ore",
+    "level": 80
+  },
+  {
+    "id": "2326",
+    "name": "Orange",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "13100",
+    "name": "Orbe Fantosmyque",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "10563",
+    "name": "Orbe reconstituant",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "593",
+    "name": "Orchidée Freyesque",
+    "category": "flower",
+    "level": 40
+  },
+  {
+    "id": "2647",
+    "name": "Oreille de Cochon de Lait",
+    "category": "ear",
+    "level": 20
+  },
+  {
+    "id": "2551",
+    "name": "Oreille de Kanigrou",
+    "category": "ear",
+    "level": 70
+  },
+  {
+    "id": "2497",
+    "name": "Oreille de Kolérat",
+    "category": "ear",
+    "level": 9
+  },
+  {
+    "id": "2486",
+    "name": "Oreille de Porkass",
+    "category": "ear",
+    "level": 18
+  },
+  {
+    "id": "8768",
+    "name": "Oreille déchirée de Pumbaa",
+    "category": "ear",
+    "level": 80
+  },
+  {
+    "id": "419",
+    "name": "Oreille du Grand Pa Wabbit",
+    "category": "ear",
+    "level": 39
+  },
+  {
+    "id": "2317",
+    "name": "Oreilles de Loup",
+    "category": "ear",
+    "level": 19
+  },
+  {
+    "id": "360",
+    "name": "Oreilles du Tiwabbit",
+    "category": "ear",
+    "level": 11
+  },
+  {
+    "id": "400",
+    "name": "Orge",
+    "category": "cereal",
+    "level": 10
+  },
+  {
+    "id": "2032",
+    "name": "Orge en Sucre",
+    "category": "cereal",
+    "level": 10
+  },
+  {
+    "id": "1336",
+    "name": "Orties",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "6843",
+    "name": "Os d'Ours",
+    "category": "bone",
+    "level": 22
+  },
+  {
+    "id": "310",
+    "name": "Os de Chafer",
+    "category": "bone",
+    "level": 34
+  },
+  {
+    "id": "11536",
+    "name": "Os de Chafer Maudit",
+    "category": "bone",
+    "level": 135
+  },
+  {
+    "id": "2664",
+    "name": "Os de Crocodaille",
+    "category": "bone",
+    "level": 36
+  },
+  {
+    "id": "7403",
+    "name": "Os de Fantôme Léopardo",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7404",
+    "name": "Os de Fantôme Maho Firefoux",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7405",
+    "name": "Os de Fantôme Pandikaze",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7406",
+    "name": "Os de Fantôme Pandore",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7407",
+    "name": "Os de Fantôme Pandule",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7408",
+    "name": "Os de Fantôme Soryo Firefoux",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7410",
+    "name": "Os de Fantôme Tanukouï San",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "7411",
+    "name": "Os de Fantôme Yokai Firefoux",
+    "category": "bone",
+    "level": 100
+  },
+  {
+    "id": "8055",
+    "name": "Os de Mama Koalak",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "8083",
+    "name": "Os de Pékeualak",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "8515",
+    "name": "Os de Trooll",
+    "category": "bone",
+    "level": 5
+  },
+  {
+    "id": "430",
+    "name": "Os Invisible du Chafer Invisible",
+    "category": "bone",
+    "level": 23
+  },
+  {
+    "id": "1675",
+    "name": "Os Surprise du Chafer Fantassin",
+    "category": "bone",
+    "level": 35
+  },
+  {
+    "id": "1327",
+    "name": "Os taillé",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "1676",
+    "name": "Osier Enchanté",
+    "category": "resource",
+    "level": 69
+  },
+  {
+    "id": "6480",
+    "name": "Osier Sombre",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "6479",
+    "name": "Ours Déchiqueté",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "2280",
+    "name": "Paille Vampiresque",
+    "category": "resource",
+    "level": 22
+  },
+  {
+    "id": "2502",
+    "name": "Papatte de Croc Gland",
+    "category": "leg",
+    "level": 19
+  },
+  {
+    "id": "12842",
+    "name": "Passe de vieille Pie",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2324",
+    "name": "Pastèque",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "9949",
+    "name": "Pâte à Tra Khben",
+    "category": "jelly",
+    "level": 1
+  },
+  {
+    "id": "7285",
+    "name": "Patte d'Araknawa",
+    "category": "leg",
+    "level": 43
+  },
+  {
+    "id": "365",
+    "name": "Patte d'Arakne",
+    "category": "leg",
+    "level": 2
+  },
+  {
+    "id": "1673",
+    "name": "Patte d'Arakne Magique",
+    "category": "leg",
+    "level": 2
+  },
+  {
+    "id": "1652",
+    "name": "Patte d'Arakne Majeure",
+    "category": "leg",
+    "level": 39
+  },
+  {
+    "id": "2318",
+    "name": "Patte d'ours",
+    "category": "leg",
+    "level": 12
+  },
+  {
+    "id": "2060",
+    "name": "Patte de Corbac",
+    "category": "leg",
+    "level": 20
+  },
+  {
+    "id": "2571",
+    "name": "Patte de Prespic",
+    "category": "leg",
+    "level": 18
+  },
+  {
+    "id": "2490",
+    "name": "Patte de Scorbute",
+    "category": "leg",
+    "level": 36
+  },
+  {
+    "id": "2288",
+    "name": "Patte de Wabbit",
+    "category": "leg",
+    "level": 18
+  },
+  {
+    "id": "6845",
+    "name": "Peau d'Ours",
+    "category": "skin",
+    "level": 22
+  },
+  {
+    "id": "9401",
+    "name": "Peau de Bworker",
+    "category": "skin",
+    "level": 400
+  },
+  {
+    "id": "8388",
+    "name": "Peau de Bworkette",
+    "category": "skin",
+    "level": 100
+  },
+  {
+    "id": "8483",
+    "name": "Peau de Chaman d'Egoutant",
+    "category": "skin",
+    "level": 40
+  },
+  {
+    "id": "6740",
+    "name": "Peau de Chef Crocodaille",
+    "category": "skin",
+    "level": 69
+  },
+  {
+    "id": "8053",
+    "name": "Peau de Chevaucheur Koalak",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "8390",
+    "name": "Peau de Cochon de Farle",
+    "category": "skin",
+    "level": 50
+  },
+  {
+    "id": "7273",
+    "name": "Peau de Cooleuvre",
+    "category": "skin",
+    "level": 67
+  },
+  {
+    "id": "8367",
+    "name": "Peau de Crocabulia",
+    "category": "skin",
+    "level": 400
+  },
+  {
+    "id": "6739",
+    "name": "Peau de Crocodaille",
+    "category": "skin",
+    "level": 36
+  },
+  {
+    "id": "8391",
+    "name": "Peau de Don Dorgan",
+    "category": "skin",
+    "level": 60
+  },
+  {
+    "id": "8392",
+    "name": "Peau de Don Duss Ang",
+    "category": "skin",
+    "level": 60
+  },
+  {
+    "id": "8362",
+    "name": "Peau de Dragoeuf Guerrier",
+    "category": "skin",
+    "level": 80
+  },
+  {
+    "id": "8360",
+    "name": "Peau de Dragoeuf Volant",
+    "category": "skin",
+    "level": 70
+  },
+  {
+    "id": "8356",
+    "name": "Peau de Dragueuse",
+    "category": "skin",
+    "level": 70
+  },
+  {
+    "id": "8054",
+    "name": "Peau de Drakoalak",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "2264",
+    "name": "Peau de Gobelin",
+    "category": "skin",
+    "level": 16
+  },
+  {
+    "id": "7030",
+    "name": "Peau de Kanigrou",
+    "category": "skin",
+    "level": 70
+  },
+  {
+    "id": "7279",
+    "name": "Peau de Kitsou Nae",
+    "category": "skin",
+    "level": 19
+  },
+  {
+    "id": "7282",
+    "name": "Peau de Kitsou Nakwa",
+    "category": "skin",
+    "level": 60
+  },
+  {
+    "id": "7281",
+    "name": "Peau de Kitsou Nere",
+    "category": "skin",
+    "level": 80
+  },
+  {
+    "id": "7280",
+    "name": "Peau de Kitsou Nufeu",
+    "category": "skin",
+    "level": 111
+  },
+  {
+    "id": "8050",
+    "name": "Peau de Koalak Immature",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "8314",
+    "name": "Peau de Kraméléhon",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "362",
+    "name": "Peau de Larve Bleue",
+    "category": "skin",
+    "level": 2
+  },
+  {
+    "id": "363",
+    "name": "Peau de Larve Orange",
+    "category": "skin",
+    "level": 9
+  },
+  {
+    "id": "364",
+    "name": "Peau de Larve Verte",
+    "category": "skin",
+    "level": 7
+  },
+  {
+    "id": "1681",
+    "name": "Peau de Larve Verte Magique",
+    "category": "skin",
+    "level": 7
+  },
+  {
+    "id": "7301",
+    "name": "Peau de Léopardo",
+    "category": "skin",
+    "level": 40
+  },
+  {
+    "id": "7298",
+    "name": "Peau de Maho Firefoux",
+    "category": "skin",
+    "level": 150
+  },
+  {
+    "id": "8052",
+    "name": "Peau de Maître Koalak",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "8401",
+    "name": "Peau de Maître Pandore",
+    "category": "skin",
+    "level": 100
+  },
+  {
+    "id": "8315",
+    "name": "Peau de Mandrine",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "8546",
+    "name": "Peau de Milimilou",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "8312",
+    "name": "Peau de Minoskito",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "8682",
+    "name": "Peau de Mob l'Eponge",
+    "category": "skin",
+    "level": 10
+  },
+  {
+    "id": "8383",
+    "name": "Peau de Moon",
+    "category": "skin",
+    "level": 200
+  },
+  {
+    "id": "7260",
+    "name": "Peau de Pandikaze",
+    "category": "skin",
+    "level": 40
+  },
+  {
+    "id": "7302",
+    "name": "Peau de Pandore",
+    "category": "skin",
+    "level": 200
+  },
+  {
+    "id": "7303",
+    "name": "Peau de Pandule",
+    "category": "skin",
+    "level": 100
+  },
+  {
+    "id": "8084",
+    "name": "Peau de Piralak",
+    "category": "skin",
+    "level": 1
+  },
+  {
+    "id": "8492",
+    "name": "Peau de Rat Blanc",
+    "category": "skin",
+    "level": 100
+  },
+  {
+    "id": "8482",
+    "name": "Peau de Rat d'Egoutant",
+    "category": "skin",
+    "level": 42
+  },
+  {
+    "id": "8681",
+    "name": "Peau de Raul Mops",
+    "category": "skin",
+    "level": 40
+  },
+  {
+    "id": "1891",
+    "name": "Peau de serpentin",
+    "category": "skin",
+    "level": 10
+  },
+  {
+    "id": "8385",
+    "name": "Peau de Shin Larve",
+    "category": "skin",
+    "level": 100
+  },
+  {
+    "id": "8404",
+    "name": "Peau de Skeunk",
+    "category": "skin",
+    "level": 400
+  },
+  {
+    "id": "7299",
+    "name": "Peau de Soryo Firefoux",
+    "category": "skin",
+    "level": 130
+  },
+  {
+    "id": "8493",
+    "name": "Peau de Sphincter Cell",
+    "category": "skin",
+    "level": 200
+  },
+  {
+    "id": "7283",
+    "name": "Peau de Tanukouï San",
+    "category": "skin",
+    "level": 85
+  },
+  {
+    "id": "2605",
+    "name": "Peau de Trukikol",
+    "category": "skin",
+    "level": 12
+  },
+  {
+    "id": "7300",
+    "name": "Peau de Yokai Firefoux",
+    "category": "skin",
+    "level": 110
+  },
+  {
+    "id": "8996",
+    "name": "Peau du Rasboul Majeur",
+    "category": "skin",
+    "level": 250
+  },
+  {
+    "id": "8491",
+    "name": "Peau du Rat Noir",
+    "category": "skin",
+    "level": 100
+  },
+  {
+    "id": "8997",
+    "name": "Peau lacérée du Tynril",
+    "category": "skin",
+    "level": 400
+  },
+  {
+    "id": "11535",
+    "name": "Peau Malodorante de Démon",
+    "category": "skin",
+    "level": 172
+  },
+  {
+    "id": "1086",
+    "name": "Peinture noire",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "6603",
+    "name": "Peluche du Bouftou",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6605",
+    "name": "Peluche du Bouftou Royal",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6619",
+    "name": "Peluche du Champ",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6615",
+    "name": "Peluche du Dopeul Crâ",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6607",
+    "name": "Peluche du Dopeul Ecaflip",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6611",
+    "name": "Peluche du Dopeul Eniripsa",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6612",
+    "name": "Peluche du Dopeul Enutrof",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6613",
+    "name": "Peluche du Dopeul Féca",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6608",
+    "name": "Peluche du Dopeul Iop",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6614",
+    "name": "Peluche du Dopeul Osamodas",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "7923",
+    "name": "Peluche du Dopeul Pandawa",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "7922",
+    "name": "Peluche du Dopeul Sacrieur",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6606",
+    "name": "Peluche du Dopeul Sadida",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6610",
+    "name": "Peluche du Dopeul Sram",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6616",
+    "name": "Peluche du Dopeul Xélor",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6624",
+    "name": "Peluche du Dragon Cochon",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6658",
+    "name": "Peluche du Mulou",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6620",
+    "name": "Peluche du Prespic",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6617",
+    "name": "Peluche du Sanglier",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6618",
+    "name": "Peluche du Tofu",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "6621",
+    "name": "Peluche du Wabbit",
+    "category": "stuffed_animal",
+    "level": 1
+  },
+  {
+    "id": "1801",
+    "name": "Perche",
+    "category": "fish",
+    "level": 70
+  },
+  {
+    "id": "1802",
+    "name": "Perche vidée",
+    "category": "gutted_fish",
+    "level": 70
+  },
+  {
+    "id": "8795",
+    "name": "Perruque du Kimbo",
+    "category": "hair",
+    "level": 500
+  },
+  {
+    "id": "2557",
+    "name": "Pétale de Blop",
+    "category": "flower",
+    "level": 34
+  },
+  {
+    "id": "309",
+    "name": "Pétale de Rose Démoniaque",
+    "category": "flower",
+    "level": 6
+  },
+  {
+    "id": "2659",
+    "name": "Pétale de Tournesol Sauvage",
+    "category": "flower",
+    "level": 12
+  },
+  {
+    "id": "2602",
+    "name": "Pétale de Trukikol",
+    "category": "flower",
+    "level": 12
+  },
+  {
+    "id": "8745",
+    "name": "Pétale Kouraçao",
+    "category": "flower",
+    "level": 40
+  },
+  {
+    "id": "8157",
+    "name": "Pétale Magique du Tournesol Affamé",
+    "category": "flower",
+    "level": 20
+  },
+  {
+    "id": "8746",
+    "name": "Pétale Malibout",
+    "category": "flower",
+    "level": 40
+  },
+  {
+    "id": "8748",
+    "name": "Pétale Morito",
+    "category": "flower",
+    "level": 40
+  },
+  {
+    "id": "8747",
+    "name": "Pétale Passaoh",
+    "category": "flower",
+    "level": 40
+  },
+  {
+    "id": "10121",
+    "name": "Petit caillou",
+    "category": "stone",
+    "level": 1
+  },
+  {
+    "id": "2328",
+    "name": "Petite Perle Dorée",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "10909",
+    "name": "Phéromone de Tofu",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "2599",
+    "name": "Pic de Dragodinde",
+    "category": "bone",
+    "level": 29
+  },
+  {
+    "id": "2598",
+    "name": "Pic de Dragodinde Rousse Sauvage",
+    "category": "bone",
+    "level": 29
+  },
+  {
+    "id": "407",
+    "name": "Pic du Prespic",
+    "category": "bone",
+    "level": 18
+  },
+  {
+    "id": "2187",
+    "name": "Pichon Eud'Compet",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "274",
+    "name": "Pièce du Puzzle de la Griffe",
+    "category": "stone",
+    "level": 12
+  },
+  {
+    "id": "276",
+    "name": "Pièce du Trésor du Badoul",
+    "category": "resource",
+    "level": 12
+  },
+  {
+    "id": "578",
+    "name": "Pierre à Aiguiser",
+    "category": "stone",
+    "level": 1
+  },
+  {
+    "id": "8376",
+    "name": "Pierre d'Aerotrugobur le Malveillant",
+    "category": "stone",
+    "level": 100
+  },
+  {
+    "id": "7025",
+    "name": "Pierre d'Agathe",
+    "category": "stone",
+    "level": 80
+  },
+  {
+    "id": "7023",
+    "name": "Pierre d'Aigue-Marine",
+    "category": "stone",
+    "level": 60
+  },
+  {
+    "id": "8374",
+    "name": "Pierre d'Aqualikros l'Impitoyable",
+    "category": "stone",
+    "level": 100
+  },
+  {
+    "id": "544",
+    "name": "Pierre d'Emeraude",
+    "category": "stone",
+    "level": 30
+  },
+  {
+    "id": "8373",
+    "name": "Pierre d'Ignerkocropos l'Affamé",
+    "category": "stone",
+    "level": 100
+  },
+  {
+    "id": "545",
+    "name": "Pierre de Cristal",
+    "category": "stone",
+    "level": 30
+  },
+  {
+    "id": "1679",
+    "name": "Pierre de Crystaloboule",
+    "category": "precious_stone",
+    "level": 16
+  },
+  {
+    "id": "543",
+    "name": "Pierre de Diamant",
+    "category": "stone",
+    "level": 30
+  },
+  {
+    "id": "965",
+    "name": "Pierre de Dopeul",
+    "category": "precious_stone",
+    "level": 41
+  },
+  {
+    "id": "450",
+    "name": "Pierre de Granit",
+    "category": "stone",
+    "level": 30
+  },
+  {
+    "id": "547",
+    "name": "Pierre de Rubis",
+    "category": "stone",
+    "level": 30
+  },
+  {
+    "id": "546",
+    "name": "Pierre de Saphir",
+    "category": "stone",
+    "level": 30
+  },
+  {
+    "id": "9953",
+    "name": "Pierre de souillure bleue",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "9950",
+    "name": "Pierre de souillure bleue impure",
+    "category": "stone",
+    "level": 1
+  },
+  {
+    "id": "9954",
+    "name": "Pierre de souillure jaune",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "9951",
+    "name": "Pierre de souillure jaune impure",
+    "category": "stone",
+    "level": 1
+  },
+  {
+    "id": "9955",
+    "name": "Pierre de souillure verte",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "9952",
+    "name": "Pierre de souillure verte impure",
+    "category": "stone",
+    "level": 1
+  },
+  {
+    "id": "8375",
+    "name": "Pierre de Terraburkal le Perfide",
+    "category": "stone",
+    "level": 100
+  },
+  {
+    "id": "7024",
+    "name": "Pierre de Topaze",
+    "category": "stone",
+    "level": 70
+  },
+  {
+    "id": "431",
+    "name": "Pierre du Craqueleur",
+    "category": "stone",
+    "level": 31
+  },
+  {
+    "id": "8102",
+    "name": "Pierre du Craqueleur Légendaire",
+    "category": "stone",
+    "level": 120
+  },
+  {
+    "id": "8402",
+    "name": "Pierre du Koulosse",
+    "category": "stone",
+    "level": 100
+  },
+  {
+    "id": "2364",
+    "name": "Pierre du Savoir",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "11529",
+    "name": "Pierre Perchée du Craqueleur Céleste",
+    "category": "stone",
+    "level": 178
+  },
+  {
+    "id": "8998",
+    "name": "Pierre précieuse du Kimbo",
+    "category": "precious_stone",
+    "level": 900
+  },
+  {
+    "id": "8744",
+    "name": "Pince de Crustorail",
+    "category": "bone",
+    "level": 40
+  },
+  {
+    "id": "2245",
+    "name": "Pince de Scorbute",
+    "category": "bone",
+    "level": 36
+  },
+  {
+    "id": "379",
+    "name": "Pince du Crabe",
+    "category": "bone",
+    "level": 4
+  },
+  {
+    "id": "8777",
+    "name": "Pistil du Tynril",
+    "category": "plant",
+    "level": 500
+  },
+  {
+    "id": "7663",
+    "name": "Planche en Bambou",
+    "category": "plank",
+    "level": 50
+  },
+  {
+    "id": "7669",
+    "name": "Planche en Bambou Doré",
+    "category": "plank",
+    "level": 45
+  },
+  {
+    "id": "7670",
+    "name": "Planche en Bambou Magique",
+    "category": "plank",
+    "level": 220
+  },
+  {
+    "id": "7665",
+    "name": "Planche en Bambou Sacré",
+    "category": "plank",
+    "level": 100
+  },
+  {
+    "id": "7664",
+    "name": "Planche en Bambou Sombre",
+    "category": "plank",
+    "level": 80
+  },
+  {
+    "id": "7666",
+    "name": "Planche en Bois Ancestral",
+    "category": "plank",
+    "level": 100
+  },
+  {
+    "id": "7671",
+    "name": "Planche en Bois de Bambouto",
+    "category": "plank",
+    "level": 20
+  },
+  {
+    "id": "7672",
+    "name": "Planche en Bois de Bambouto Sacré",
+    "category": "plank",
+    "level": 87
+  },
+  {
+    "id": "8078",
+    "name": "Planche en Bois de Kaliptus",
+    "category": "plank",
+    "level": 70
+  },
+  {
+    "id": "1001",
+    "name": "Planche en bois de Kokoko",
+    "category": "plank",
+    "level": 42
+  },
+  {
+    "id": "7668",
+    "name": "Planche en Bois de Tronknyde",
+    "category": "plank",
+    "level": 35
+  },
+  {
+    "id": "7667",
+    "name": "Planche en Bois Envoûté",
+    "category": "plank",
+    "level": 45
+  },
+  {
+    "id": "7661",
+    "name": "Planche en Bombu",
+    "category": "plank",
+    "level": 35
+  },
+  {
+    "id": "7658",
+    "name": "Planche en Charme",
+    "category": "plank",
+    "level": 80
+  },
+  {
+    "id": "6868",
+    "name": "Planche en Châtaignier",
+    "category": "plank",
+    "level": 10
+  },
+  {
+    "id": "7653",
+    "name": "Planche en Chêne",
+    "category": "plank",
+    "level": 30
+  },
+  {
+    "id": "7655",
+    "name": "Planche en Ebène",
+    "category": "plank",
+    "level": 70
+  },
+  {
+    "id": "7657",
+    "name": "Planche en Erable",
+    "category": "plank",
+    "level": 40
+  },
+  {
+    "id": "459",
+    "name": "Planche en Frêne",
+    "category": "plank",
+    "level": 1
+  },
+  {
+    "id": "7654",
+    "name": "Planche en If",
+    "category": "plank",
+    "level": 50
+  },
+  {
+    "id": "7660",
+    "name": "Planche en Merisier",
+    "category": "plank",
+    "level": 60
+  },
+  {
+    "id": "7659",
+    "name": "Planche en Noyer",
+    "category": "plank",
+    "level": 20
+  },
+  {
+    "id": "7662",
+    "name": "Planche en Oliviolet",
+    "category": "plank",
+    "level": 35
+  },
+  {
+    "id": "7656",
+    "name": "Planche en Orme",
+    "category": "plank",
+    "level": 90
+  },
+  {
+    "id": "8249",
+    "name": "Plume de Buveur",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "1889",
+    "name": "Plume de Corbac",
+    "category": "feather",
+    "level": 20
+  },
+  {
+    "id": "8252",
+    "name": "Plume de Corbac Apprivoisé",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "8766",
+    "name": "Plume de fesse du Kido",
+    "category": "feather",
+    "level": 80
+  },
+  {
+    "id": "6897",
+    "name": "Plume de Piou Bleu",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "6902",
+    "name": "Plume de Piou Jaune",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "6903",
+    "name": "Plume de Piou Rose",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "6900",
+    "name": "Plume de Piou Rouge",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "6899",
+    "name": "Plume de Piou Vert",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "6898",
+    "name": "Plume de Piou Violet",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "2675",
+    "name": "Plume de Tofu Maléfique",
+    "category": "feather",
+    "level": 3
+  },
+  {
+    "id": "2247",
+    "name": "Plume de Tofu Royal",
+    "category": "feather",
+    "level": 100
+  },
+  {
+    "id": "8557",
+    "name": "Plume du Batofu",
+    "category": "feather",
+    "level": 20
+  },
+  {
+    "id": "1685",
+    "name": "Plume du Dernier Poolay",
+    "category": "feather",
+    "level": 32
+  },
+  {
+    "id": "415",
+    "name": "Plume du Kwak de Flamme",
+    "category": "feather",
+    "level": 24
+  },
+  {
+    "id": "414",
+    "name": "Plume du Kwak de Glace",
+    "category": "feather",
+    "level": 24
+  },
+  {
+    "id": "1141",
+    "name": "Plume du Kwak de Terre",
+    "category": "feather",
+    "level": 24
+  },
+  {
+    "id": "416",
+    "name": "Plume du Kwak de Vent",
+    "category": "feather",
+    "level": 24
+  },
+  {
+    "id": "1892",
+    "name": "Plume du Maître Corbac",
+    "category": "feather",
+    "level": 160
+  },
+  {
+    "id": "8309",
+    "name": "Plume du Serpiplume",
+    "category": "feather",
+    "level": 1
+  },
+  {
+    "id": "8158",
+    "name": "Plume Graisseuse du Tofu Ventripotent",
+    "category": "feather",
+    "level": 50
+  },
+  {
+    "id": "11526",
+    "name": "Plume nacrée d'Ilyzaelle",
+    "category": "feather",
+    "level": 500
+  },
+  {
+    "id": "1670",
+    "name": "Plume Pointue de Kwak du Vent",
+    "category": "feather",
+    "level": 24
+  },
+  {
+    "id": "8387",
+    "name": "Plume Vibrante du Tofu Royal",
+    "category": "feather",
+    "level": 200
+  },
+  {
+    "id": "301",
+    "name": "Plumes de Tofu",
+    "category": "feather",
+    "level": 4
+  },
+  {
+    "id": "8799",
+    "name": "Poil d'aisselle de Pumbaa",
+    "category": "hair",
+    "level": 100
+  },
+  {
+    "id": "2248",
+    "name": "Poil d'Ouginak",
+    "category": "hair",
+    "level": 51
+  },
+  {
+    "id": "8389",
+    "name": "Poil de Bworkette",
+    "category": "hair",
+    "level": 100
+  },
+  {
+    "id": "8484",
+    "name": "Poil de Chaman d'Egoutant",
+    "category": "hair",
+    "level": 40
+  },
+  {
+    "id": "8321",
+    "name": "Poil de Déminoboule",
+    "category": "hair",
+    "level": 100
+  },
+  {
+    "id": "8393",
+    "name": "Poil de Dragon Cochon",
+    "category": "hair",
+    "level": 100
+  },
+  {
+    "id": "8311",
+    "name": "Poil de Gamino",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "1890",
+    "name": "Poil de Kanigrou",
+    "category": "hair",
+    "level": 70
+  },
+  {
+    "id": "8399",
+    "name": "Poil de Maître Pandore",
+    "category": "hair",
+    "level": 100
+  },
+  {
+    "id": "8322",
+    "name": "Poil de Mominotor",
+    "category": "hair",
+    "level": 100
+  },
+  {
+    "id": "8251",
+    "name": "Poil de Péki",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "8570",
+    "name": "Poil de Rat Bontarien",
+    "category": "hair",
+    "level": 40
+  },
+  {
+    "id": "8571",
+    "name": "Poil de Rat Brâkmarien",
+    "category": "hair",
+    "level": 40
+  },
+  {
+    "id": "8481",
+    "name": "Poil de Rat d'Egoutant",
+    "category": "hair",
+    "level": 42
+  },
+  {
+    "id": "8250",
+    "name": "Poil de Renarbo",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "1894",
+    "name": "Poil de Sanglier des Plaines",
+    "category": "hair",
+    "level": 44
+  },
+  {
+    "id": "8405",
+    "name": "Poil de Skeunk",
+    "category": "hair",
+    "level": 400
+  },
+  {
+    "id": "8397",
+    "name": "Poil du Wa Wabbit",
+    "category": "hair",
+    "level": 100
+  },
+  {
+    "id": "6844",
+    "name": "Poils d'Ours",
+    "category": "hair",
+    "level": 22
+  },
+  {
+    "id": "1672",
+    "name": "Poils Darits",
+    "category": "hair",
+    "level": 18
+  },
+  {
+    "id": "409",
+    "name": "Poils de Barbe du Bwork Mage",
+    "category": "hair",
+    "level": 23
+  },
+  {
+    "id": "418",
+    "name": "Poils de Barbe du Grand Pa Wabbit",
+    "category": "hair",
+    "level": 39
+  },
+  {
+    "id": "8065",
+    "name": "Poils de Barbe du Warko Marron",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "8066",
+    "name": "Poils de Barbe du Warko Violet",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "646",
+    "name": "Poils de Black Tiwabbit",
+    "category": "hair",
+    "level": 11
+  },
+  {
+    "id": "2315",
+    "name": "Poils de Crocs Glands",
+    "category": "hair",
+    "level": 19
+  },
+  {
+    "id": "650",
+    "name": "Poils de Grand Pa Wabbit",
+    "category": "hair",
+    "level": 39
+  },
+  {
+    "id": "7275",
+    "name": "Poils de Kitsou Nae",
+    "category": "hair",
+    "level": 29
+  },
+  {
+    "id": "7278",
+    "name": "Poils de Kitsou Nakwa",
+    "category": "hair",
+    "level": 60
+  },
+  {
+    "id": "7277",
+    "name": "Poils de Kitsou Nere",
+    "category": "hair",
+    "level": 80
+  },
+  {
+    "id": "7276",
+    "name": "Poils de Kitsou Nufeu",
+    "category": "hair",
+    "level": 111
+  },
+  {
+    "id": "8085",
+    "name": "Poils de Koalak Forestier",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "8059",
+    "name": "Poils de Koalak Griotte",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "8062",
+    "name": "Poils de Koalak Indigo",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "8060",
+    "name": "Poils de Koalak Koko",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "8061",
+    "name": "Poils de Koalak Reinette",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "7343",
+    "name": "Poils de Léopardo",
+    "category": "hair",
+    "level": 50
+  },
+  {
+    "id": "7292",
+    "name": "Poils de Maho Firefoux",
+    "category": "hair",
+    "level": 150
+  },
+  {
+    "id": "6441",
+    "name": "Poils de Moon",
+    "category": "hair",
+    "level": 200
+  },
+  {
+    "id": "7258",
+    "name": "Poils de Pandikaze",
+    "category": "hair",
+    "level": 40
+  },
+  {
+    "id": "7295",
+    "name": "Poils de Pandore",
+    "category": "hair",
+    "level": 200
+  },
+  {
+    "id": "7297",
+    "name": "Poils de Pandule",
+    "category": "hair",
+    "level": 150
+  },
+  {
+    "id": "7293",
+    "name": "Poils de Soryo Firefoux",
+    "category": "hair",
+    "level": 130
+  },
+  {
+    "id": "761",
+    "name": "Poils de souris",
+    "category": "hair",
+    "level": 1
+  },
+  {
+    "id": "7284",
+    "name": "Poils de Tanukouï San",
+    "category": "hair",
+    "level": 85
+  },
+  {
+    "id": "648",
+    "name": "Poils de Wabbit",
+    "category": "hair",
+    "level": 18
+  },
+  {
+    "id": "649",
+    "name": "Poils de Wo Wabbit",
+    "category": "hair",
+    "level": 39
+  },
+  {
+    "id": "7294",
+    "name": "Poils de Yokai Firefoux",
+    "category": "hair",
+    "level": 110
+  },
+  {
+    "id": "1691",
+    "name": "Poils du Meulou",
+    "category": "hair",
+    "level": 198
+  },
+  {
+    "id": "1690",
+    "name": "Poils du Milimulou",
+    "category": "hair",
+    "level": 22
+  },
+  {
+    "id": "840",
+    "name": "Poils du Minotoror",
+    "category": "hair",
+    "level": 125
+  },
+  {
+    "id": "291",
+    "name": "Poils du Mulou",
+    "category": "hair",
+    "level": 70
+  },
+  {
+    "id": "388",
+    "name": "Poils du Sanglier",
+    "category": "hair",
+    "level": 14
+  },
+  {
+    "id": "429",
+    "name": "Pointe de Flèche du Bwork Archer",
+    "category": "resource",
+    "level": 24
+  },
+  {
+    "id": "2329",
+    "name": "Poire",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "1461",
+    "name": "Poison cinglant",
+    "category": "resource",
+    "level": 20
+  },
+  {
+    "id": "603",
+    "name": "Poisson Chaton",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1761",
+    "name": "Poisson Chaton vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "1754",
+    "name": "Poisson Igloo",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1755",
+    "name": "Poisson Igloo vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "1750",
+    "name": "Poisson Pané",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1751",
+    "name": "Poisson pané vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "1762",
+    "name": "Poisson Tigre",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1763",
+    "name": "Poisson Tigre vidé",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "2556",
+    "name": "Pollen de Blop",
+    "category": "resource",
+    "level": 34
+  },
+  {
+    "id": "2327",
+    "name": "Pomme",
+    "category": "fruit",
+    "level": 1
+  },
+  {
+    "id": "537",
+    "name": "Pomme de Terre",
+    "category": "vegetable",
+    "level": 1
+  },
+  {
+    "id": "2494",
+    "name": "Pommeau d'Epée",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "538",
+    "name": "Pommes de Terre épluchées",
+    "category": "vegetable",
+    "level": 1
+  },
+  {
+    "id": "2630",
+    "name": "Pot de Gloutovore",
+    "category": "resource",
+    "level": 44
+  },
+  {
+    "id": "1341",
+    "name": "Potion d'Averse",
+    "category": "smithmagic_potion",
+    "level": 25
+  },
+  {
+    "id": "1340",
+    "name": "Potion d'Eboulement",
+    "category": "smithmagic_potion",
+    "level": 25
+  },
+  {
+    "id": "1333",
+    "name": "Potion d'Etincelle",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "1345",
+    "name": "Potion d'Incendie",
+    "category": "smithmagic_potion",
+    "level": 50
+  },
+  {
+    "id": "1347",
+    "name": "Potion d'Ouragan",
+    "category": "smithmagic_potion",
+    "level": 50
+  },
+  {
+    "id": "2539",
+    "name": "Potion de Copeaux de Bois",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "2543",
+    "name": "Potion de Copeaux de Bois Rares",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "2540",
+    "name": "Potion de Copeaux de Bois Solides",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "1337",
+    "name": "Potion de Courant d'Air",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "1335",
+    "name": "Potion de Crachin",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "1343",
+    "name": "Potion de Flambée",
+    "category": "smithmagic_potion",
+    "level": 25
+  },
+  {
+    "id": "2529",
+    "name": "Potion de métal liquide",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "2538",
+    "name": "Potion de métal lourd liquide",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "2541",
+    "name": "Potion de métal précieux liquide",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "1342",
+    "name": "Potion de Rafale",
+    "category": "smithmagic_potion",
+    "level": 25
+  },
+  {
+    "id": "1338",
+    "name": "Potion de Secousse",
+    "category": "smithmagic_potion",
+    "level": 1
+  },
+  {
+    "id": "1348",
+    "name": "Potion de Séisme",
+    "category": "smithmagic_potion",
+    "level": 50
+  },
+  {
+    "id": "1346",
+    "name": "Potion de Tsunami",
+    "category": "smithmagic_potion",
+    "level": 50
+  },
+  {
+    "id": "6601",
+    "name": "Poudre d'Artifice",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "2239",
+    "name": "Poudre d'Eniripsa",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "10715",
+    "name": "Poudre de Créatoune",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "519",
+    "name": "Poudre de Perlinpainpain",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "8012",
+    "name": "Poudre de résurrection",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "8761",
+    "name": "Poudre explosive de Gourlo",
+    "category": "powder",
+    "level": 200
+  },
+  {
+    "id": "1986",
+    "name": "Poudre Temporelle",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "2628",
+    "name": "Poupée Vaudou Archer",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "2626",
+    "name": "Poupée Vaudou Jav",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "2627",
+    "name": "Poupée Vaudou Sarbak",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "2625",
+    "name": "Poupée Vaudou Thierry",
+    "category": "resource",
+    "level": 51
+  },
+  {
+    "id": "9622",
+    "name": "Pousse de Tanfouguite",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "7015",
+    "name": "Pousses de Bambou",
+    "category": "wood",
+    "level": 50
+  },
+  {
+    "id": "7268",
+    "name": "Pousses de Bulbambou",
+    "category": "plant",
+    "level": 67
+  },
+  {
+    "id": "1003",
+    "name": "Poutre en Bois de Kokoko",
+    "category": "wood",
+    "level": 42
+  },
+  {
+    "id": "7509",
+    "name": "Première partie de la clef du labyrinthe du Dragon Cochon",
+    "category": "keys",
+    "level": 100
+  },
+  {
+    "id": "8358",
+    "name": "Protection de la Dragueuse",
+    "category": "shell",
+    "level": 70
+  },
+  {
+    "id": "6904",
+    "name": "Protection usagée du Bworker",
+    "category": "resource",
+    "level": 200
+  },
+  {
+    "id": "7035",
+    "name": "Pyrute",
+    "category": "alloy",
+    "level": 100
+  },
+  {
+    "id": "2464",
+    "name": "Queue de Chef de Guerre Bouftou",
+    "category": "tail",
+    "level": 19
+  },
+  {
+    "id": "2501",
+    "name": "Queue de Croc Gland",
+    "category": "tail",
+    "level": 19
+  },
+  {
+    "id": "2594",
+    "name": "Queue de Dragodinde",
+    "category": "tail",
+    "level": 17
+  },
+  {
+    "id": "2591",
+    "name": "Queue de Dragodinde Rousse Sauvage",
+    "category": "tail",
+    "level": 27
+  },
+  {
+    "id": "2644",
+    "name": "Queue de Dragon Cochon",
+    "category": "tail",
+    "level": 70
+  },
+  {
+    "id": "8063",
+    "name": "Queue de Koalak Sanguin",
+    "category": "tail",
+    "level": 1
+  },
+  {
+    "id": "2496",
+    "name": "Queue de Kolérat",
+    "category": "tail",
+    "level": 9
+  },
+  {
+    "id": "2667",
+    "name": "Queue de Minotoror",
+    "category": "tail",
+    "level": 125
+  },
+  {
+    "id": "2573",
+    "name": "Queue de Prespic",
+    "category": "tail",
+    "level": 18
+  },
+  {
+    "id": "2512",
+    "name": "Queue de Sanglier des Plaines",
+    "category": "tail",
+    "level": 44
+  },
+  {
+    "id": "1893",
+    "name": "Queue de scorbute",
+    "category": "tail",
+    "level": 36
+  },
+  {
+    "id": "438",
+    "name": "Queue du Mulou",
+    "category": "tail",
+    "level": 70
+  },
+  {
+    "id": "8798",
+    "name": "Queue emplumée du Rasboul Majeur",
+    "category": "tail",
+    "level": 500
+  },
+  {
+    "id": "8381",
+    "name": "Queue Magique du Péki",
+    "category": "tail",
+    "level": 400
+  },
+  {
+    "id": "435",
+    "name": "Racine d'Abraknyde",
+    "category": "root",
+    "level": 32
+  },
+  {
+    "id": "8496",
+    "name": "Racine d'Abraknyde Ancestral",
+    "category": "root",
+    "level": 200
+  },
+  {
+    "id": "1612",
+    "name": "Racine d'Abraknyde Sombre",
+    "category": "root",
+    "level": 78
+  },
+  {
+    "id": "7264",
+    "name": "Racine de Bulbambou",
+    "category": "root",
+    "level": 67
+  },
+  {
+    "id": "7262",
+    "name": "Racine de Bulbiflore",
+    "category": "root",
+    "level": 26
+  },
+  {
+    "id": "7265",
+    "name": "Racine de Bulbig",
+    "category": "root",
+    "level": 150
+  },
+  {
+    "id": "7263",
+    "name": "Racine de Bulbuisson",
+    "category": "root",
+    "level": 42
+  },
+  {
+    "id": "6735",
+    "name": "Racine de Fourbasse",
+    "category": "root",
+    "level": 22
+  },
+  {
+    "id": "9383",
+    "name": "Racine de Tronkoblop",
+    "category": "root",
+    "level": 40
+  },
+  {
+    "id": "6488",
+    "name": "Racine du Chêne Mou",
+    "category": "root",
+    "level": 200
+  },
+  {
+    "id": "7290",
+    "name": "Racine Magique de Bambouto",
+    "category": "root",
+    "level": 20
+  },
+  {
+    "id": "7291",
+    "name": "Racine Magique de Bambouto Sacré",
+    "category": "root",
+    "level": 87
+  },
+  {
+    "id": "1784",
+    "name": "Raie Bleue",
+    "category": "fish",
+    "level": 50
+  },
+  {
+    "id": "1785",
+    "name": "Raie bleue vidée",
+    "category": "gutted_fish",
+    "level": 50
+  },
+  {
+    "id": "1788",
+    "name": "Raie de Farle",
+    "category": "fish",
+    "level": 50
+  },
+  {
+    "id": "1789",
+    "name": "Raie de Farle vidée",
+    "category": "gutted_fish",
+    "level": 50
+  },
+  {
+    "id": "8790",
+    "name": "Rembourrage de Meupette",
+    "category": "resource",
+    "level": 110
+  },
+  {
+    "id": "1853",
+    "name": "Requin Marché-Libre",
+    "category": "fish",
+    "level": 80
+  },
+  {
+    "id": "1854",
+    "name": "Requin marché-libre vidé",
+    "category": "gutted_fish",
+    "level": 80
+  },
+  {
+    "id": "602",
+    "name": "Requin Marteau-Faucille",
+    "category": "fish",
+    "level": 80
+  },
+  {
+    "id": "1852",
+    "name": "Requin marteau-faucille vidé",
+    "category": "gutted_fish",
+    "level": 80
+  },
+  {
+    "id": "1985",
+    "name": "Résine d'Abraknyde",
+    "category": "resource",
+    "level": 50
+  },
+  {
+    "id": "2620",
+    "name": "Rhum de Qualité",
+    "category": "resource",
+    "level": 94
+  },
+  {
+    "id": "2633",
+    "name": "Rhum Fourbe",
+    "category": "resource",
+    "level": 24
+  },
+  {
+    "id": "7018",
+    "name": "Riz",
+    "category": "cereal",
+    "level": 20
+  },
+  {
+    "id": "13177",
+    "name": "Riz Kar",
+    "category": "cereal",
+    "level": 20
+  },
+  {
+    "id": "6818",
+    "name": "Rose démoniaque coupée",
+    "category": "flower",
+    "level": 1
+  },
+  {
+    "id": "8803",
+    "name": "Rotule du Disciple Zoth",
+    "category": "bone",
+    "level": 120
+  },
+  {
+    "id": "467",
+    "name": "Rubis",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "1524",
+    "name": "Rune Age",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "1525",
+    "name": "Rune Cha",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7433",
+    "name": "Rune Cri",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "10057",
+    "name": "Rune de chasse",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7508",
+    "name": "Rune de Signature",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "7435",
+    "name": "Rune Do",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7436",
+    "name": "Rune Do Per",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7437",
+    "name": "Rune Do Ren",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "1519",
+    "name": "Rune Fo",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "1557",
+    "name": "Rune Ga Pa",
+    "category": "smithmagic_rune",
+    "level": 50
+  },
+  {
+    "id": "1558",
+    "name": "Rune Ga Pme",
+    "category": "smithmagic_rune",
+    "level": 50
+  },
+  {
+    "id": "12988",
+    "name": "Rune Gata Pa",
+    "category": "smithmagic_rune",
+    "level": 50
+  },
+  {
+    "id": "12989",
+    "name": "Rune Gata Pme",
+    "category": "smithmagic_rune",
+    "level": 50
+  },
+  {
+    "id": "13302",
+    "name": "Rune Gata Po",
+    "category": "smithmagic_rune",
+    "level": 50
+  },
+  {
+    "id": "1522",
+    "name": "Rune Ine",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7448",
+    "name": "Rune Ini",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7442",
+    "name": "Rune Invo",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "1549",
+    "name": "Rune Pa Age",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "1550",
+    "name": "Rune Pa Cha",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "10618",
+    "name": "Rune Pa Do Per",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "1545",
+    "name": "Rune Pa Fo",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "1547",
+    "name": "Rune Pa Ine",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7449",
+    "name": "Rune Pa Ini",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "10613",
+    "name": "Rune Pa Pi",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "10615",
+    "name": "Rune Pa Pi Per",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7444",
+    "name": "Rune Pa Pod",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "10662",
+    "name": "Rune Pa Prospe",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "1546",
+    "name": "Rune Pa Sa",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "1548",
+    "name": "Rune Pa Vi",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7446",
+    "name": "Rune Pi",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7447",
+    "name": "Rune Pi Per",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7438",
+    "name": "Rune Po",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7443",
+    "name": "Rune Pod",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7451",
+    "name": "Rune Prospe",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "1555",
+    "name": "Rune Ra Age",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "1556",
+    "name": "Rune Ra Cha",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "10619",
+    "name": "Rune Ra Do Per",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "1551",
+    "name": "Rune Ra Fo",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "1553",
+    "name": "Rune Ra Ine",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "7450",
+    "name": "Rune Ra Ini",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "10616",
+    "name": "Rune Ra Pi Per",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "7445",
+    "name": "Rune Ra Pod",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "1552",
+    "name": "Rune Ra Sa",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "1554",
+    "name": "Rune Ra Vi",
+    "category": "smithmagic_rune",
+    "level": 30
+  },
+  {
+    "id": "7453",
+    "name": "Rune Ré Air",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7454",
+    "name": "Rune Ré Eau",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7452",
+    "name": "Rune Ré Feu",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7456",
+    "name": "Rune Ré Neutre",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7458",
+    "name": "Rune Ré Per Air",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7560",
+    "name": "Rune Ré Per Eau",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7457",
+    "name": "Rune Ré Per Feu",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7460",
+    "name": "Rune Ré Per Neutre",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7459",
+    "name": "Rune Ré Per Terre",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7455",
+    "name": "Rune Ré Terre",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "1521",
+    "name": "Rune Sa",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "7434",
+    "name": "Rune So",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "1523",
+    "name": "Rune Vi",
+    "category": "smithmagic_rune",
+    "level": 10
+  },
+  {
+    "id": "8379",
+    "name": "Rune Vie",
+    "category": "smithmagic_rune",
+    "level": 20
+  },
+  {
+    "id": "7036",
+    "name": "Rutile",
+    "category": "alloy",
+    "level": 100
+  },
+  {
+    "id": "2451",
+    "name": "Sabot de Bouftou",
+    "category": "bone",
+    "level": 9
+  },
+  {
+    "id": "2467",
+    "name": "Sabot de Chef de Guerre Bouftou",
+    "category": "bone",
+    "level": 18
+  },
+  {
+    "id": "2514",
+    "name": "Sabot de Sanglier des Plaines",
+    "category": "bone",
+    "level": 44
+  },
+  {
+    "id": "2666",
+    "name": "Sabot du Minotoror",
+    "category": "bone",
+    "level": 125
+  },
+  {
+    "id": "8408",
+    "name": "Sabot du Minotot",
+    "category": "bone",
+    "level": 400
+  },
+  {
+    "id": "1683",
+    "name": "Sac à Patates Clair",
+    "category": "resource",
+    "level": 12
+  },
+  {
+    "id": "1684",
+    "name": "Sac à Patates Sombre",
+    "category": "resource",
+    "level": 12
+  },
+  {
+    "id": "8738",
+    "name": "Sacrum magistral",
+    "category": "bone",
+    "level": 150
+  },
+  {
+    "id": "9969",
+    "name": "Salace de poissons empoisonnée",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "838",
+    "name": "Sang d'Oni",
+    "category": "resource",
+    "level": 75
+  },
+  {
+    "id": "2455",
+    "name": "Sang de Bouftou",
+    "category": "resource",
+    "level": 9
+  },
+  {
+    "id": "477",
+    "name": "Sang de Dragon Cochon",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "2378",
+    "name": "Sang de Roche",
+    "category": "stone",
+    "level": 1
+  },
+  {
+    "id": "2012",
+    "name": "Sang de Scorbute",
+    "category": "resource",
+    "level": 36
+  },
+  {
+    "id": "752",
+    "name": "Sang du Vampire",
+    "category": "resource",
+    "level": 15
+  },
+  {
+    "id": "466",
+    "name": "Saphir",
+    "category": "precious_stone",
+    "level": 50
+  },
+  {
+    "id": "1805",
+    "name": "Sardine Brillante",
+    "category": "fish",
+    "level": 20
+  },
+  {
+    "id": "1806",
+    "name": "Sardine Brillante vidée",
+    "category": "gutted_fish",
+    "level": 50
+  },
+  {
+    "id": "1807",
+    "name": "Sardine Sombre",
+    "category": "fish",
+    "level": 20
+  },
+  {
+    "id": "1808",
+    "name": "Sardine Sombre vidée",
+    "category": "gutted_fish",
+    "level": 50
+  },
+  {
+    "id": "2268",
+    "name": "Scalp de Bwork Archer",
+    "category": "resource",
+    "level": 24
+  },
+  {
+    "id": "3209",
+    "name": "Scalp de Bwork Mage",
+    "category": "resource",
+    "level": 23
+  },
+  {
+    "id": "2577",
+    "name": "Scalp de Meulou",
+    "category": "resource",
+    "level": 198
+  },
+  {
+    "id": "2576",
+    "name": "Scalp de Milimulou",
+    "category": "resource",
+    "level": 22
+  },
+  {
+    "id": "2575",
+    "name": "Scalp de Mulou",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "10018",
+    "name": "Schéma de la Pince à Linge",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "10019",
+    "name": "Seau de Pinces à Linge",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "532",
+    "name": "Seigle",
+    "category": "cereal",
+    "level": 50
+  },
+  {
+    "id": "2029",
+    "name": "Seigle Résistant",
+    "category": "cereal",
+    "level": 50
+  },
+  {
+    "id": "284",
+    "name": "Sel",
+    "category": "powder",
+    "level": 1
+  },
+  {
+    "id": "2555",
+    "name": "Selle en Cuir",
+    "category": "leather",
+    "level": 40
+  },
+  {
+    "id": "8780",
+    "name": "Sépale de Nerbe",
+    "category": "plant",
+    "level": 80
+  },
+  {
+    "id": "792",
+    "name": "Sève d'Abraknyde",
+    "category": "resource",
+    "level": 45
+  },
+  {
+    "id": "501",
+    "name": "Sève d'Abraknyde Retravaillée",
+    "category": "resource",
+    "level": 30
+  },
+  {
+    "id": "448",
+    "name": "Silex",
+    "category": "stone",
+    "level": 22
+  },
+  {
+    "id": "1326",
+    "name": "Silex Sanglant",
+    "category": "stone",
+    "level": 1
+  },
+  {
+    "id": "7032",
+    "name": "Silicate",
+    "category": "ore",
+    "level": 70
+  },
+  {
+    "id": "3208",
+    "name": "Slip de Bwork Archer",
+    "category": "leather",
+    "level": 23
+  },
+  {
+    "id": "2562",
+    "name": "Slip de Trool",
+    "category": "leather",
+    "level": 115
+  },
+  {
+    "id": "2646",
+    "name": "Slip en cuir de Cochon de Lait",
+    "category": "leather",
+    "level": 20
+  },
+  {
+    "id": "2480",
+    "name": "Slip en cuir de Porkass",
+    "category": "leather",
+    "level": 18
+  },
+  {
+    "id": "485",
+    "name": "Slip en cuir du Chafer Lancier",
+    "category": "leather",
+    "level": 44
+  },
+  {
+    "id": "756",
+    "name": "Slip en Cuir Moulant du Vampire",
+    "category": "leather",
+    "level": 15
+  },
+  {
+    "id": "8797",
+    "name": "Souche de l'Abrakleur clair",
+    "category": "wood",
+    "level": 120
+  },
+  {
+    "id": "2482",
+    "name": "Soulier de Porkass",
+    "category": "resource",
+    "level": 18
+  },
+  {
+    "id": "371",
+    "name": "Sourcil de Moskito",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8764",
+    "name": "Sourcil du Rasboul majeur",
+    "category": "resource",
+    "level": 400
+  },
+  {
+    "id": "2564",
+    "name": "Sourcils de Tronknyde",
+    "category": "wood",
+    "level": 35
+  },
+  {
+    "id": "1771",
+    "name": "Souris verte",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "6770",
+    "name": "Sousouris",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1634",
+    "name": "Sphère à Metarias",
+    "category": "metaria",
+    "level": 1
+  },
+  {
+    "id": "378",
+    "name": "Sporme du Champ Champ",
+    "category": "resource",
+    "level": 5
+  },
+  {
+    "id": "13176",
+    "name": "Sublime Artefact Pandawushu Fantomatique",
+    "category": "precious_stone",
+    "level": 1
+  },
+  {
+    "id": "10970",
+    "name": "Sueur de dragodinde",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "1506",
+    "name": "Symbole de l'étrange",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "8784",
+    "name": "Talon d'achille de l'Abrakleur sombre",
+    "category": "resource",
+    "level": 100
+  },
+  {
+    "id": "1733",
+    "name": "Terrine",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "2582",
+    "name": "Testicules de Meulou",
+    "category": "resource",
+    "level": 198
+  },
+  {
+    "id": "292",
+    "name": "Testicules du Mulou",
+    "category": "resource",
+    "level": 70
+  },
+  {
+    "id": "7386",
+    "name": "Testicules du Tanukouï San",
+    "category": "resource",
+    "level": 120
+  },
+  {
+    "id": "2806",
+    "name": "Testicules Magiques du Meulou",
+    "category": "resource",
+    "level": 198
+  },
+  {
+    "id": "2805",
+    "name": "Testicules Magiques du Mulou",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "8057",
+    "name": "Tibia de Koalak Fossoyeur",
+    "category": "bone",
+    "level": 1
+  },
+  {
+    "id": "8802",
+    "name": "Tibia du Guerrier Zoth",
+    "category": "bone",
+    "level": 120
+  },
+  {
+    "id": "7220",
+    "name": "Ticket de loterie",
+    "category": "resource",
+    "level": 2
+  },
+  {
+    "id": "1089",
+    "name": "Ticket île de moon",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "373",
+    "name": "Tige de Pissenlit Diabolique",
+    "category": "plant",
+    "level": 6
+  },
+  {
+    "id": "10030",
+    "name": "Tissu de Rapiéçage",
+    "category": "fabric",
+    "level": 1
+  },
+  {
+    "id": "2278",
+    "name": "Tissu Invisible",
+    "category": "fabric",
+    "level": 23
+  },
+  {
+    "id": "2273",
+    "name": "Tissu Pourpre",
+    "category": "fabric",
+    "level": 23
+  },
+  {
+    "id": "2281",
+    "name": "Tissu Sanguin",
+    "category": "fabric",
+    "level": 15
+  },
+  {
+    "id": "2285",
+    "name": "Tissu Sombre",
+    "category": "fabric",
+    "level": 50
+  },
+  {
+    "id": "999",
+    "name": "Toile peu ragoutante",
+    "category": "fabric",
+    "level": 1
+  },
+  {
+    "id": "1000",
+    "name": "Tonneau vide",
+    "category": "resource",
+    "level": 1
+  },
+  {
+    "id": "7027",
+    "name": "Topaze",
+    "category": "precious_stone",
+    "level": 70
+  },
+  {
+    "id": "2282",
+    "name": "Touffe de Cheveux Blancs",
+    "category": "resource",
+    "level": 24
+  },
+  {
+    "id": "8755",
+    "name": "Touffe rousse du Flib",
+    "category": "hair",
+    "level": 80
+  },
+  {
+    "id": "8810",
+    "name": "Tourbe séchée de Tourbassingue",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "2617",
+    "name": "Tranche de Nodkoko",
+    "category": "resource",
+    "level": 14
+  },
+  {
+    "id": "2565",
+    "name": "Tranche de Tronknyde",
+    "category": "resource",
+    "level": 35
+  },
+  {
+    "id": "2566",
+    "name": "Tranche Magique de Tronknyde",
+    "category": "resource",
+    "level": 35
+  },
+  {
+    "id": "395",
+    "name": "Trèfle à 5 feuilles",
+    "category": "plant",
+    "level": 20
+  },
+  {
+    "id": "8403",
+    "name": "Tresse du Koulosse",
+    "category": "resource",
+    "level": 100
+  },
+  {
+    "id": "8786",
+    "name": "Tresse du Poolay",
+    "category": "resource",
+    "level": 80
+  },
+  {
+    "id": "2484",
+    "name": "Trident Cassé",
+    "category": "resource",
+    "level": 18
+  },
+  {
+    "id": "9267",
+    "name": "Trompe de la Tromperelle",
+    "category": "resource",
+    "level": 125
+  },
+  {
+    "id": "1002",
+    "name": "Tronc de Kokoko",
+    "category": "wood",
+    "level": 42
+  },
+  {
+    "id": "1844",
+    "name": "Truite",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1846",
+    "name": "Truite Ancestrale",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1976",
+    "name": "Truite Ancestrale vidée",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "607",
+    "name": "Truite Vaseuse",
+    "category": "fish",
+    "level": 1
+  },
+  {
+    "id": "1845",
+    "name": "Truite vidée",
+    "category": "gutted_fish",
+    "level": 1
+  },
+  {
+    "id": "2607",
+    "name": "Trukikol Mort",
+    "category": "resource",
+    "level": 14
+  },
+  {
+    "id": "1459",
+    "name": "Tube longiforme",
+    "category": "alchemy_equipment",
+    "level": 1
+  },
+  {
+    "id": "2508",
+    "name": "Venin de Serpentin",
+    "category": "resource",
+    "level": 10
+  },
+  {
+    "id": "8813",
+    "name": "Ventouse du Kralamoure géant",
+    "category": "resource",
+    "level": 999
+  },
+  {
+    "id": "2652",
+    "name": "Ver d'Air",
+    "category": "resource",
+    "level": 30
+  },
+  {
+    "id": "2650",
+    "name": "Ver d'Eau",
+    "category": "resource",
+    "level": 30
+  },
+  {
+    "id": "2651",
+    "name": "Ver de Feu",
+    "category": "resource",
+    "level": 30
+  },
+  {
+    "id": "2649",
+    "name": "Ver de Terre",
+    "category": "resource",
+    "level": 30
+  },
+  {
+    "id": "1344",
+    "name": "Verveine",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "11569",
+    "name": "Viande d'Ange",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "11570",
+    "name": "Viande d'Ange **",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "9769",
+    "name": "Viande d'Ange ***",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "9770",
+    "name": "Viande d'Ange ****",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "11571",
+    "name": "Viande d'Ange Conservée",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "11572",
+    "name": "Viande d'Ange Conservée **",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "9776",
+    "name": "Viande d'Ange Conservée ***",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "9777",
+    "name": "Viande d'Ange Conservée ****",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "1896",
+    "name": "Viande d'Oiseau",
+    "category": "meat",
+    "level": 1
+  },
+  {
+    "id": "1897",
+    "name": "Viande d'Oiseau **",
+    "category": "meat",
+    "level": 40
+  },
+  {
+    "id": "1933",
+    "name": "Viande d'Oiseau ****",
+    "category": "meat",
+    "level": 30
+  },
+  {
+    "id": "1987",
+    "name": "Viande d'Oiseau Conservée",
+    "category": "preserved_meat",
+    "level": 1
+  },
+  {
+    "id": "1988",
+    "name": "Viande d'Oiseau Conservée **",
+    "category": "preserved_meat",
+    "level": 40
+  },
+  {
+    "id": "1989",
+    "name": "Viande d'Oiseau Conservée ****",
+    "category": "preserved_meat",
+    "level": 60
+  },
+  {
+    "id": "8500",
+    "name": "Viande de Crocodaille",
+    "category": "meat",
+    "level": 70
+  },
+  {
+    "id": "8503",
+    "name": "Viande de Crocodaille Conservée",
+    "category": "preserved_meat",
+    "level": 70
+  },
+  {
+    "id": "9764",
+    "name": "Viande de Démon",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "9766",
+    "name": "Viande de Démon **",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "9767",
+    "name": "Viande de Démon ***",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "9768",
+    "name": "Viande de Démon ****",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "9771",
+    "name": "Viande de Démon Conservée",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "9773",
+    "name": "Viande de Démon Conservée **",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "9774",
+    "name": "Viande de Démon Conservée ***",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "9775",
+    "name": "Viande de Démon Conservée ****",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "13183",
+    "name": "Viande de Fantôme Conservée",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "13184",
+    "name": "Viande de Fantôme Conservée **",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "13185",
+    "name": "Viande de Fantôme Conservée ***",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "13186",
+    "name": "Viande de Fantôme Conservée ****",
+    "category": "preserved_meat",
+    "level": 90
+  },
+  {
+    "id": "8498",
+    "name": "Viande de Kanigrou",
+    "category": "meat",
+    "level": 80
+  },
+  {
+    "id": "8501",
+    "name": "Viande de Kanigrou Conservée",
+    "category": "preserved_meat",
+    "level": 80
+  },
+  {
+    "id": "8499",
+    "name": "Viande de Koalak",
+    "category": "meat",
+    "level": 60
+  },
+  {
+    "id": "8502",
+    "name": "Viande de Koalak Conservée",
+    "category": "preserved_meat",
+    "level": 120
+  },
+  {
+    "id": "13179",
+    "name": "Viande Fantôme",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "13180",
+    "name": "Viande Fantôme **",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "13181",
+    "name": "Viande Fantôme ***",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "13182",
+    "name": "Viande Fantôme ****",
+    "category": "meat",
+    "level": 90
+  },
+  {
+    "id": "848",
+    "name": "Vieil Os de Dragoeuf",
+    "category": "bone",
+    "level": 70
+  },
+  {
+    "id": "1332",
+    "name": "Vieux Trèfle à 4 feuilles",
+    "category": "plant",
+    "level": 1
+  },
+  {
+    "id": "2294",
+    "name": "Viscères de Scarafeuille",
+    "category": "resource",
+    "level": 32
+  },
+  {
+    "id": "2488",
+    "name": "Viscères de Scorbute",
+    "category": "resource",
+    "level": 36
+  },
+  {
+    "id": "8137",
+    "name": "Viscères du Scarabosse Doré",
+    "category": "resource",
+    "level": 70
+  }
+]

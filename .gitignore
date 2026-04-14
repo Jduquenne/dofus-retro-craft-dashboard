@@ -11,6 +11,7 @@ node_modules
 dist
 dist-ssr
 *.local
+public/inspi_dofus_retro
 
 # Editor directories and files
 .vscode/*
