@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import type { ScrollStatId } from '../data/scrolls';
+import type { ScrollStatId } from '../types/scrolls';
 import type { NpcSelections } from '../utils/scrollHelpers';
 
 const STORAGE_KEY = 'scrolls-list';

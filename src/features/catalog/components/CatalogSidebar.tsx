@@ -1,6 +1,6 @@
 import React from 'react';
 import { Search, X } from 'lucide-react';
-import { CATEGORY_LABELS } from '../../../data/categoryTypes';
+import { CATEGORY_LABELS } from '../../../types/categoryTypes';
 
 interface CatalogSidebarProps {
     searchText: string;

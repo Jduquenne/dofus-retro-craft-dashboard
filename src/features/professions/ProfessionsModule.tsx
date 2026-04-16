@@ -1,6 +1,6 @@
 import React from 'react';
 import { useAppContext } from "../../context/AppContext";
-import { ProfessionTypes } from "../../data/professionTypes";
+import { ProfessionTypes } from "../../types/professionTypes";
 import type { Profession } from "../../types";
 import { useProfessionLogic } from '../../hooks/useProfessionLogic';
 import { canModifyProfession, sortProfessionsByLevel } from '../../utils/professionHelpers';

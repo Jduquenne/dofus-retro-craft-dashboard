@@ -1,0 +1,81 @@
+{
+  "id": "agilite",
+  "label": "Agilité",
+  "icon": "🌬️",
+  "tiers": [
+    {
+      "type": "petit",
+      "pointsPerUse": 1,
+      "statLimit": 25,
+      "options": [
+        {
+          "id": "agi-petit-edrige",
+          "npc": "Edrige Valling",
+          "position": [0, 3],
+          "resources": [
+            { "name": "Anneaux Agilesques", "quantity": 100, "kind": "equipment" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "pointsPerUse": 1,
+      "statLimit": 50,
+      "options": [
+        {
+          "id": "agi-normal-loopine",
+          "npc": "Loopine",
+          "position": [2, 17],
+          "resources": [
+            { "name": "Gland", "quantity": 70 }
+          ]
+        },
+        {
+          "id": "agi-normal-max",
+          "npc": "Max",
+          "position": [8, -2],
+          "resources": [
+            { "name": "Gland", "quantity": 70 },
+            { "name": "Langue de Pissenlit Diabolique", "quantity": 70 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grand",
+      "pointsPerUse": 1,
+      "statLimit": 80,
+      "options": [
+        {
+          "id": "agi-grand-leeaibig",
+          "npc": "Lee Aibig",
+          "position": [3, 4],
+          "resources": [
+            { "name": "Gland", "quantity": 75 },
+            { "name": "Langue de Pissenlit Diabolique", "quantity": 75 },
+            { "name": "Pétale de Rose Démoniaque", "quantity": 70 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "puissant",
+      "pointsPerUse": 2,
+      "statLimit": 100,
+      "options": [
+        {
+          "id": "agi-puissant-leeaibig",
+          "npc": "Lee Aibig",
+          "position": [3, 4],
+          "resources": [
+            { "name": "Gland", "quantity": 80 },
+            { "name": "Langue de Pissenlit Diabolique", "quantity": 80 },
+            { "name": "Pétale de Rose Démoniaque", "quantity": 80 },
+            { "name": "Sporme de Champ Champ", "quantity": 20 }
+          ]
+        }
+      ]
+    }
+  ]
+}

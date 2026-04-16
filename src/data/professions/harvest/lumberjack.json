@@ -1,0 +1,47 @@
+[
+  {
+    "id": "frene",
+    "name": "Frêne",
+    "category": "wood",
+    "pods": 2,
+    "level": 1,
+    "description": "Un bois clair et résistant, très répandu dans les plaines autour d'Astrub.",
+    "xpPerHarvest": 30
+  },
+  {
+    "id": "chataignier",
+    "name": "Châtaignier",
+    "category": "wood",
+    "pods": 2,
+    "level": 20,
+    "description": "Un bois à la teinte chaude, recherché par les artisans de Bonta.",
+    "xpPerHarvest": 50
+  },
+  {
+    "id": "noyer",
+    "name": "Noyer",
+    "category": "wood",
+    "pods": 3,
+    "level": 40,
+    "description": "Un bois sombre et dense, idéal pour la fabrication d'armes solides.",
+    "xpPerHarvest": 70
+  },
+  {
+    "id": "chene",
+    "name": "Chêne",
+    "category": "wood",
+    "pods": 3,
+    "level": 60,
+    "description": "Le roi des arbres, dont le bois est prisé des forgerons les plus expérimentés.",
+    "xpPerHarvest": 100
+  },
+  {
+    "id": "bombu",
+    "name": "Bombu",
+    "category": "wood",
+    "pods": 4,
+    "level": 80,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 150
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cuisse_bouftou",
+    "name": "Cuisse de Bouftou",
+    "category": "meat",
+    "pods": 3,
+    "level": 1,
+    "description": "La cuisse d'un Bouftou, découpée avec le couteau du chasseur. Tendresse garantie.",
+    "xpPerHarvest": 10
+  },
+  {
+    "id": "viande_larve",
+    "name": "Viande de Larve",
+    "category": "meat",
+    "pods": 2,
+    "level": 1,
+    "description": "Un morceau de chair gélatineuse prélevé sur une Larve. Peu appétissant mais nutritif.",
+    "xpPerHarvest": 10
+  },
+  {
+    "id": "filet_tofu",
+    "name": "Filet de Tofu",
+    "category": "meat",
+    "pods": 1,
+    "level": 10,
+    "description": "Un minuscule filet prélevé sur un Tofu. Il faut en attraper beaucoup pour faire un repas.",
+    "xpPerHarvest": 15
+  },
+  {
+    "id": "cuisse_chafer",
+    "name": "Cuisse de Chafer",
+    "category": "meat",
+    "pods": 3,
+    "level": 20,
+    "description": "La patte d'un Chafer, croustillante à souhait une fois grillée.",
+    "xpPerHarvest": 20
+  },
+  {
+    "id": "cote_crobak",
+    "name": "Côte de Crobak",
+    "category": "meat",
+    "pods": 4,
+    "level": 30,
+    "description": "Une côte prélevée sur un Crobak. Sa viande dense est très prisée des bouchers.",
+    "xpPerHarvest": 25
+  },
+  {
+    "id": "filet_bwork",
+    "name": "Filet de Bwork",
+    "category": "meat",
+    "pods": 4,
+    "level": 40,
+    "description": "Un morceau de viande prélevé sur un Bwork, difficile à chasser mais délicieux.",
+    "xpPerHarvest": 30
+  },
+  {
+    "id": "rumsteck_sanglier",
+    "name": "Rumsteck de Sanglier",
+    "category": "meat",
+    "pods": 5,
+    "level": 50,
+    "description": "Un beau morceau de sanglier sauvage, parfait pour un festin de chasseur.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "gigot_blop",
+    "name": "Gigot de Blop",
+    "category": "meat",
+    "pods": 4,
+    "level": 60,
+    "description": "Le gigot gélatineux d'un Blop. Sa texture étrange cache une saveur surprenante.",
+    "xpPerHarvest": 40
+  },
+  {
+    "id": "patte_scarafeuille",
+    "name": "Patte de Scarafeuille",
+    "category": "meat",
+    "pods": 3,
+    "level": 70,
+    "description": "La patte d'un Scarafeuille, croquante et parfumée aux herbes sauvages.",
+    "xpPerHarvest": 45
+  },
+  {
+    "id": "longe_dragon",
+    "name": "Longe de Dragon",
+    "category": "meat",
+    "pods": 8,
+    "level": 80,
+    "description": "Un morceau noble prélevé sur un Dragon. Seuls les chasseurs les plus aguerris peuvent l'obtenir.",
+    "xpPerHarvest": 55
+  }
+]

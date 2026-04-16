@@ -1,0 +1,3273 @@
+[
+  {
+    "id": "349",
+    "name": "Sertisseur",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5016.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1241",
+    "name": "Tailladeuse d'Arcs Magiques",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "50096",
+        "name": "Ambre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1242",
+    "name": "Tailladeuse de Baguettes Magiques",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50096",
+        "name": "Ambre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "358",
+    "name": "Tailladeuse d'Arc",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "356",
+    "name": "Tailladeuse de Bâton",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "389",
+    "name": "Coupe Cuir",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5018.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "357",
+    "name": "Tailladeuse de Baguette",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6773",
+    "name": "Coupe Cuir du Cordomage",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5053.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "51127",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6771",
+    "name": "Sertisseur du Joaillomage",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5052.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 18
+      },
+      {
+        "resourceId": "51127",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8777",
+    "name": "Tailladeuse de Manche",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1243",
+    "name": "Tailladeuse de Bâtons Magiques",
+    "profession": "dagger-smith",
+    "level": 1,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 8
+      },
+      {
+        "resourceId": "50096",
+        "name": "Ambre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "37",
+    "name": "Petites Dagues de Boisaille",
+    "profession": "dagger-smith",
+    "level": 2,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "38",
+    "name": "Dagues de Boisaille",
+    "profession": "dagger-smith",
+    "level": 4,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "39",
+    "name": "Grandes Dagues de Boisaille",
+    "profession": "dagger-smith",
+    "level": 6,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "40",
+    "name": "Puissantes Dagues de Boisaille",
+    "profession": "dagger-smith",
+    "level": 7,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "96",
+    "name": "Petites Dagues de Fouraille",
+    "profession": "dagger-smith",
+    "level": 10,
+    "image": "5003.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "100",
+    "name": "Petites Dagues de Croclage",
+    "profession": "dagger-smith",
+    "level": 10,
+    "image": "5004.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "97",
+    "name": "Dagues de Fouraille",
+    "profession": "dagger-smith",
+    "level": 11,
+    "image": "5003.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "210",
+    "name": "Leurnettes",
+    "profession": "dagger-smith",
+    "level": 12,
+    "image": "5009.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6245",
+    "name": "Dagues du Bandit",
+    "profession": "dagger-smith",
+    "level": 12,
+    "image": "5009.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "5004",
+        "name": "Petites Dagues de Croclage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "5003",
+        "name": "Petites Dagues de Fouraille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "5010",
+        "name": "Petites Dagues de Boisaille",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "98",
+    "name": "Grandes Dagues de Fouraille",
+    "profession": "dagger-smith",
+    "level": 12,
+    "image": "5003.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "101",
+    "name": "Dagues de Croclage",
+    "profession": "dagger-smith",
+    "level": 13,
+    "image": "5004.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "99",
+    "name": "Puissantes Dagues de Fouraille",
+    "profession": "dagger-smith",
+    "level": 13,
+    "image": "5003.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 3
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "102",
+    "name": "Grandes Dagues de Croclage",
+    "profession": "dagger-smith",
+    "level": 15,
+    "image": "5004.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "103",
+    "name": "Impressionantes Dagues de Croclage",
+    "profession": "dagger-smith",
+    "level": 17,
+    "image": "5004.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 6
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1055",
+    "name": "L'Ergot Mina",
+    "profession": "dagger-smith",
+    "level": 20,
+    "image": "5014.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "608",
+    "name": "Petites Dagues Sylvestres",
+    "profession": "dagger-smith",
+    "level": 20,
+    "image": "5006.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "609",
+    "name": "Dagues Sylvestres",
+    "profession": "dagger-smith",
+    "level": 23,
+    "image": "5006.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "610",
+    "name": "Grandes Dagues Sylvestres",
+    "profession": "dagger-smith",
+    "level": 25,
+    "image": "5006.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "724",
+    "name": "Queues de Chatons",
+    "profession": "dagger-smith",
+    "level": 25,
+    "image": "5020.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "611",
+    "name": "Puissantes Dagues Sylvestres",
+    "profession": "dagger-smith",
+    "level": 27,
+    "image": "5006.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "104",
+    "name": "Bashers",
+    "profession": "dagger-smith",
+    "level": 29,
+    "image": "5005.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1187",
+    "name": "Dagues O'Bert",
+    "profession": "dagger-smith",
+    "level": 30,
+    "image": "5001.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "612",
+    "name": "Petites Dagues Eguisées",
+    "profession": "dagger-smith",
+    "level": 30,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 3
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1059",
+    "name": "Dagues Tylo",
+    "profession": "dagger-smith",
+    "level": 30,
+    "image": "5012.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1058",
+    "name": "Le Rasoir Infernal",
+    "profession": "dagger-smith",
+    "level": 30,
+    "image": "5017.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 6
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "720",
+    "name": "Petit couteau à Stek",
+    "profession": "dagger-smith",
+    "level": 32,
+    "image": "5013.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "613",
+    "name": "Dagues Eguisées",
+    "profession": "dagger-smith",
+    "level": 33,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 3
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1054",
+    "name": "Les Lames en Table",
+    "profession": "dagger-smith",
+    "level": 33,
+    "image": "5013.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "631",
+    "name": "Dagues Ancestrales",
+    "profession": "dagger-smith",
+    "level": 34,
+    "image": "5008.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "735",
+    "name": "Epée Cassée du Chevalier Malchanceux",
+    "profession": "dagger-smith",
+    "level": 35,
+    "image": "5043.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 3
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "721",
+    "name": "Couteau à Stek",
+    "profession": "dagger-smith",
+    "level": 35,
+    "image": "5013.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "614",
+    "name": "Grandes Dagues Eguisées",
+    "profession": "dagger-smith",
+    "level": 36,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 3
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "722",
+    "name": "Grand couteau à Stek",
+    "profession": "dagger-smith",
+    "level": 38,
+    "image": "5013.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 6
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "615",
+    "name": "Puissantes Dagues Eguisées",
+    "profession": "dagger-smith",
+    "level": 39,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 3
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1056",
+    "name": "Dagues Eulasse",
+    "profession": "dagger-smith",
+    "level": 40,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "725",
+    "name": "Dagues Cruelles d'Elorie Entuwan",
+    "profession": "dagger-smith",
+    "level": 40,
+    "image": "5007.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "723",
+    "name": "Large Couteau à Stek",
+    "profession": "dagger-smith",
+    "level": 41,
+    "image": "5013.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 7
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1057",
+    "name": "Dagues Aj'Deh'Là",
+    "profession": "dagger-smith",
+    "level": 44,
+    "image": "5019.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38673",
+        "name": "Bois de Bambou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "63390",
+        "name": "DragoViande ***",
+        "quantity": 8
+      },
+      {
+        "resourceId": "111211",
+        "name": "Coquille de Dragoeuf Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40658",
+        "name": "Ebonite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "726",
+    "name": "Petite Lame de Fon",
+    "profession": "dagger-smith",
+    "level": 44,
+    "image": "5014.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "211",
+    "name": "Dagues Eurfolles",
+    "profession": "dagger-smith",
+    "level": 46,
+    "image": "5010.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39111",
+        "name": "Silicate",
+        "quantity": 9
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 8
+      },
+      {
+        "resourceId": "50096",
+        "name": "Ambre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6294",
+    "name": "Dagues Honies",
+    "profession": "dagger-smith",
+    "level": 46,
+    "image": "5050.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38673",
+        "name": "Bois de Bambou",
+        "quantity": 3
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "727",
+    "name": "Lame de Fon",
+    "profession": "dagger-smith",
+    "level": 48,
+    "image": "5014.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 6
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 6
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "728",
+    "name": "Grande Lame de Fon",
+    "profession": "dagger-smith",
+    "level": 52,
+    "image": "5014.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 7
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 7
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "730",
+    "name": "Petite Dague Fourbesque",
+    "profession": "dagger-smith",
+    "level": 53,
+    "image": "5011.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "47126",
+        "name": "Os Invisible du Chafer Invisible",
+        "quantity": 4
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "51144",
+        "name": "Pierre de Diamant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "729",
+    "name": "Puissante lame de Fon",
+    "profession": "dagger-smith",
+    "level": 56,
+    "image": "5014.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 8
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 8
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "731",
+    "name": "Dague Fourbesque",
+    "profession": "dagger-smith",
+    "level": 58,
+    "image": "5011.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 6
+      },
+      {
+        "resourceId": "47126",
+        "name": "Os Invisible du Chafer Invisible",
+        "quantity": 5
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "51144",
+        "name": "Pierre de Diamant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6540",
+    "name": "Dagues Aerdala",
+    "profession": "dagger-smith",
+    "level": 62,
+    "image": "5051.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "98142",
+        "name": "Racine de Bulbiflore",
+        "quantity": 10
+      },
+      {
+        "resourceId": "98145",
+        "name": "Racine de Bulbambou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "50105",
+        "name": "Artefact Pandawushu Air",
+        "quantity": 8
+      },
+      {
+        "resourceId": "59045",
+        "name": "Peau de Kitsou Nere",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50101",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "732",
+    "name": "Superbe Dague Fourbesque",
+    "profession": "dagger-smith",
+    "level": 63,
+    "image": "5011.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 7
+      },
+      {
+        "resourceId": "47126",
+        "name": "Os Invisible du Chafer Invisible",
+        "quantity": 6
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "51144",
+        "name": "Pierre de Diamant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "105",
+    "name": "Blessdags",
+    "profession": "dagger-smith",
+    "level": 64,
+    "image": "5055.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "39076",
+        "name": "Bauxite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50096",
+        "name": "Ambre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15544",
+        "name": "Sang de Dragon Cochon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "733",
+    "name": "Hypnotique Dague Fourbesque",
+    "profession": "dagger-smith",
+    "level": 67,
+    "image": "5011.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 7
+      },
+      {
+        "resourceId": "47126",
+        "name": "Os Invisible du Chafer Invisible",
+        "quantity": 7
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "51144",
+        "name": "Pierre de Diamant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7741",
+    "name": "Dagues Ruyère",
+    "profession": "dagger-smith",
+    "level": 67,
+    "image": "5061.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15282",
+        "name": "Souris verte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15423",
+        "name": "Lait de Cochon de Lait",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15424",
+        "name": "Lait de Dragodinde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "54010",
+        "name": "Barbe inexistante du Barbroussa",
+        "quantity": 1
+      },
+      {
+        "resourceId": "54012",
+        "name": "Duvet du Kilibriss",
+        "quantity": 20
+      },
+      {
+        "resourceId": "15017",
+        "name": "Bâton du Kilibriss",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7742",
+    "name": "Griffettes",
+    "profession": "dagger-smith",
+    "level": 69,
+    "image": "5062.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "48051",
+        "name": "Poudre de résurrection",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47642",
+        "name": "Corne de Mominotor",
+        "quantity": 1
+      },
+      {
+        "resourceId": "59626",
+        "name": "Ecaille poisseuse",
+        "quantity": 20
+      },
+      {
+        "resourceId": "59627",
+        "name": "Peau de Raul Mops",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15012",
+        "name": "Morceau de caleçon de Gourlo",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15015",
+        "name": "Moustache du Mufafah",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "106",
+    "name": "Chakra Style",
+    "profession": "dagger-smith",
+    "level": 73,
+    "image": "5008.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39111",
+        "name": "Silicate",
+        "quantity": 10
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50096",
+        "name": "Ambre",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "734",
+    "name": "Lames Sanglantes D'Ortimus Contrari",
+    "profession": "dagger-smith",
+    "level": 80,
+    "image": "5019.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5893",
+    "name": "Dagues Hischantes",
+    "profession": "dagger-smith",
+    "level": 80,
+    "image": "5042.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "40658",
+        "name": "Ebonite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "40659",
+        "name": "Magnésite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "3028",
+    "name": "La Thor-Boyaux",
+    "profession": "dagger-smith",
+    "level": 83,
+    "image": "5031.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "47088",
+        "name": "Ivoire",
+        "quantity": 10
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "40706",
+        "name": "Kriptonite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "3029",
+    "name": "Daguette du Captain Chafer",
+    "profession": "dagger-smith",
+    "level": 83,
+    "image": "5032.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 10
+      },
+      {
+        "resourceId": "40487",
+        "name": "Bakélélite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "40706",
+        "name": "Kriptonite",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "3032",
+    "name": "Dague Lutination",
+    "profession": "dagger-smith",
+    "level": 90,
+    "image": "5035.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 15
+      },
+      {
+        "resourceId": "40659",
+        "name": "Magnésite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15576",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "3030",
+    "name": "Dague Rafeuse",
+    "profession": "dagger-smith",
+    "level": 95,
+    "image": "5033.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 15
+      },
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 4
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40706",
+        "name": "Kriptonite",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6475",
+    "name": "Dagues Maydhyn China",
+    "profession": "dagger-smith",
+    "level": 100,
+    "image": "5045.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 12
+      },
+      {
+        "resourceId": "40659",
+        "name": "Magnésite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38673",
+        "name": "Bois de Bambou",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "50103",
+        "name": "Agathe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40707",
+        "name": "Rutile",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7615",
+    "name": "Dagues du Rat Noir",
+    "profession": "dagger-smith",
+    "level": 108,
+    "image": "5059.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47013",
+        "name": "Dent de Wabbit",
+        "quantity": 45
+      },
+      {
+        "resourceId": "47106",
+        "name": "Canine du Mulou",
+        "quantity": 15
+      },
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 4
+      },
+      {
+        "resourceId": "40658",
+        "name": "Ebonite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40659",
+        "name": "Magnésite",
+        "quantity": 6
+      },
+      {
+        "resourceId": "47464",
+        "name": "Crocs de Rats",
+        "quantity": 45
+      },
+      {
+        "resourceId": "47658",
+        "name": "Cubitus du Rat Noir",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6473",
+    "name": "Dagues Rhumes",
+    "profession": "dagger-smith",
+    "level": 113,
+    "image": "5048.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "40706",
+        "name": "Kriptonite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "50102",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40707",
+        "name": "Rutile",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38670",
+        "name": "Bois de Bambou Magique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6296",
+    "name": "Dagues de l'Apprenti Tueur de Bouftons",
+    "profession": "dagger-smith",
+    "level": 113,
+    "image": "5046.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "40660",
+        "name": "Aluminite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "50101",
+        "name": "Aigue-Marine",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "40707",
+        "name": "Rutile",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "3031",
+    "name": "Dague Régah",
+    "profession": "dagger-smith",
+    "level": 120,
+    "image": "5034.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 20
+      },
+      {
+        "resourceId": "47088",
+        "name": "Ivoire",
+        "quantity": 50
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38140",
+        "name": "Bois Envoûté",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47618",
+        "name": "Défense de Dragon Cochon",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40706",
+        "name": "Kriptonite",
+        "quantity": 9
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5892",
+    "name": "Dagues R'Hoh",
+    "profession": "dagger-smith",
+    "level": 121,
+    "image": "5041.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 20
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 4
+      },
+      {
+        "resourceId": "40487",
+        "name": "Bakélélite",
+        "quantity": 8
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 8
+      },
+      {
+        "resourceId": "40706",
+        "name": "Kriptonite",
+        "quantity": 8
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6476",
+    "name": "Sertisseur de Ramougre",
+    "profession": "dagger-smith",
+    "level": 127,
+    "image": "5049.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "40487",
+        "name": "Bakélélite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "50102",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "50103",
+        "name": "Agathe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40707",
+        "name": "Rutile",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50001",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47003",
+        "name": "Os de Fantôme Léopardo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7594",
+    "name": "Dagues du Dragoeuf",
+    "profession": "dagger-smith",
+    "level": 128,
+    "image": "5058.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47101",
+        "name": "Fémur du Chafer Archer",
+        "quantity": 25
+      },
+      {
+        "resourceId": "40487",
+        "name": "Bakélélite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38674",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 6
+      },
+      {
+        "resourceId": "47001",
+        "name": "Os de Fantôme Tanukouï San",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47640",
+        "name": "Tibia de Koalak Fossoyeur",
+        "quantity": 6
+      },
+      {
+        "resourceId": "47647",
+        "name": "Corne de Dragoss de Saphire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "111740",
+        "name": "Coquille de Dragoss Blanc",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7305",
+    "name": "Les Dagues du Bouwin",
+    "profession": "dagger-smith",
+    "level": 135,
+    "image": "5056.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 23
+      },
+      {
+        "resourceId": "40706",
+        "name": "Kriptonite",
+        "quantity": 12
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 11
+      },
+      {
+        "resourceId": "47004",
+        "name": "Os de Fantôme Pandikaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47002",
+        "name": "Os de Fantôme Yokai Firefoux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47010",
+        "name": "Os de Pékeualak",
+        "quantity": 90
+      },
+      {
+        "resourceId": "47648",
+        "name": "Corne de Dragoss Noir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47646",
+        "name": "Corne de Dragoss Blanc",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6295",
+    "name": "Dagues Réceuses",
+    "profession": "dagger-smith",
+    "level": 143,
+    "image": "5047.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 8
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50102",
+        "name": "Topaze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 6
+      },
+      {
+        "resourceId": "40707",
+        "name": "Rutile",
+        "quantity": 5
+      },
+      {
+        "resourceId": "98099",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "50001",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 5
+      },
+      {
+        "resourceId": "47008",
+        "name": "Os de Fantôme Maho Firefoux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8044",
+    "name": "Kriss Toubal",
+    "profession": "dagger-smith",
+    "level": 149,
+    "image": "5068.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50240",
+        "name": "Pierre de Crystaloboule",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39111",
+        "name": "Silicate",
+        "quantity": 28
+      },
+      {
+        "resourceId": "78013",
+        "name": "Rune So",
+        "quantity": 26
+      },
+      {
+        "resourceId": "55722",
+        "name": "Etoffe Magique de Moon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "111002",
+        "name": "Coco du Bitouf sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15018",
+        "name": "Amygdales du Bitouf Sombre",
+        "quantity": 38
+      },
+      {
+        "resourceId": "15021",
+        "name": "Cloaque du Poolay",
+        "quantity": 38
+      },
+      {
+        "resourceId": "59048",
+        "name": "Peau du Rasboul Majeur",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6293",
+    "name": "Dagues Lassay",
+    "profession": "dagger-smith",
+    "level": 150,
+    "image": "5044.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "40487",
+        "name": "Bakélélite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 19
+      },
+      {
+        "resourceId": "50102",
+        "name": "Topaze",
+        "quantity": 6
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40707",
+        "name": "Rutile",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38674",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 7
+      },
+      {
+        "resourceId": "98099",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "47005",
+        "name": "Os de Fantôme Pandore",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8043",
+    "name": "Dagues Ruik",
+    "profession": "dagger-smith",
+    "level": 158,
+    "image": "5067.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15177",
+        "name": "Rhum de Qualité",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15177",
+        "name": "Glouto Rhum",
+        "quantity": 90
+      },
+      {
+        "resourceId": "15177",
+        "name": "Rhum Fourbe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39110",
+        "name": "Dolomite",
+        "quantity": 23
+      },
+      {
+        "resourceId": "53645",
+        "name": "Plume Vibrante du Tofu Royal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "111002",
+        "name": "Coco du Bitouf sombre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "54013",
+        "name": "Perruque du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "55018",
+        "name": "Etoffe de Ouassingue",
+        "quantity": 59
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8042",
+    "name": "Dagues Eudin",
+    "profession": "dagger-smith",
+    "level": 171,
+    "image": "5066.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15558",
+        "name": "Clakoss",
+        "quantity": 1
+      },
+      {
+        "resourceId": "78014",
+        "name": "Rune Cri",
+        "quantity": 150
+      },
+      {
+        "resourceId": "15021",
+        "name": "Cloaque du Poolay",
+        "quantity": 43
+      },
+      {
+        "resourceId": "15022",
+        "name": "Croupion du Bitouf aérien",
+        "quantity": 62
+      },
+      {
+        "resourceId": "55017",
+        "name": "Etoffe Zoth",
+        "quantity": 45
+      },
+      {
+        "resourceId": "15757",
+        "name": "Ecusson du Sergent Zoth",
+        "quantity": 7
+      },
+      {
+        "resourceId": "15761",
+        "name": "Faux menton du Bourbassingue",
+        "quantity": 8
+      },
+      {
+        "resourceId": "50109",
+        "name": "Pierre précieuse du Kimbo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8041",
+    "name": "Dague Adou",
+    "profession": "dagger-smith",
+    "level": 175,
+    "image": "5065.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15723",
+        "name": "Boomerang du Maître Koalak",
+        "quantity": 4
+      },
+      {
+        "resourceId": "59620",
+        "name": "Peau de Skeunk",
+        "quantity": 1
+      },
+      {
+        "resourceId": "54012",
+        "name": "Duvet du Kilibriss",
+        "quantity": 113
+      },
+      {
+        "resourceId": "15018",
+        "name": "Amygdales du Bitouf Sombre",
+        "quantity": 82
+      },
+      {
+        "resourceId": "15020",
+        "name": "Tresse du Poolay",
+        "quantity": 11
+      },
+      {
+        "resourceId": "15023",
+        "name": "Chaussette du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "54013",
+        "name": "Perruque du Kimbo",
+        "quantity": 3
+      },
+      {
+        "resourceId": "47021",
+        "name": "Rotule du Disciple Zoth",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8276",
+    "name": "Lame Assacre",
+    "profession": "dagger-smith",
+    "level": 182,
+    "image": "5070.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15446",
+        "name": "Fragment d'Epée Reptilienne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15608",
+        "name": "Bwak Squelettique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6048",
+        "name": "Lame du Chef Bwork",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50003",
+        "name": "Fragment de cerveau poli",
+        "quantity": 150
+      },
+      {
+        "resourceId": "15017",
+        "name": "Bâton du Kilibriss",
+        "quantity": 22
+      },
+      {
+        "resourceId": "15019",
+        "name": "Talon d'achille de l'Abrakleur sombre",
+        "quantity": 11
+      },
+      {
+        "resourceId": "50001",
+        "name": "Ambre du Tynril",
+        "quantity": 2
+      },
+      {
+        "resourceId": "59009",
+        "name": "Peau de Bworker",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8237",
+    "name": "Couteaux à Champignons",
+    "profession": "dagger-smith",
+    "level": 187,
+    "image": "5069.svg",
+    "category": "Dague",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47652",
+        "name": "Corne brisée de Crocabulia",
+        "quantity": 2
+      },
+      {
+        "resourceId": "36011",
+        "name": "Bractée de Chiendent",
+        "quantity": 50
+      },
+      {
+        "resourceId": "47020",
+        "name": "Tibia du Guerrier Zoth",
+        "quantity": 20
+      },
+      {
+        "resourceId": "96109",
+        "name": "Ecorce de Champaknyde",
+        "quantity": 12
+      },
+      {
+        "resourceId": "15764",
+        "name": "Trompe de la Tromperelle",
+        "quantity": 10
+      },
+      {
+        "resourceId": "109587",
+        "name": "Oeil de Champmane",
+        "quantity": 11
+      },
+      {
+        "resourceId": "15045",
+        "name": "Bave de Champ à Gnons",
+        "quantity": 15
+      },
+      {
+        "resourceId": "15040",
+        "name": "Epine d'Ougah",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

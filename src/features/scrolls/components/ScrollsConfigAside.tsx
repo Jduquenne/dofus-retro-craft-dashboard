@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapPin } from 'lucide-react';
 import { SCROLL_METHODS } from '../../../data/scrolls';
-import type { ScrollTierType, StatScrollData } from '../../../data/scrolls';
+import type { ScrollTierType, StatScrollData } from '../../../types/scrolls';
 import { TIER_LABELS, TIER_COLORS } from '../../../utils/scrollHelpers';
 import type { ScrollPhaseResult } from '../../../utils/scrollHelpers';
 

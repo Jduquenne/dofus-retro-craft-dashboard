@@ -1,8 +1,8 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { db } from './useIndexedDB';
-import { CATEGORY_LABELS } from '../data/categoryTypes';
+import { CATEGORY_LABELS } from '../types/categoryTypes';
 import type { CatalogResource } from '../types';
-import rawCatalog from '../data/resources-catalog.json';
+import rawCatalog from '../data/resources/resources-catalog.json';
 
 // ── Clé de tri alphanumérique français ─────────────────────────────────────
 // Règle : supprimer accents + articles/prépositions + 's' final (singulier=pluriel)

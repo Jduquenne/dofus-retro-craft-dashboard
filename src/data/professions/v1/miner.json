@@ -1,0 +1,101 @@
+[
+  {
+    "id": "10462",
+    "name": "Petite Pierre d'âme heureuse",
+    "profession": "miner",
+    "level": 1,
+    "image": "3750.svg",
+    "category": "Pierre d'âme",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "51150",
+        "name": "Pierre de Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "51151",
+        "name": "Pierre de Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "51141",
+        "name": "Pierre de Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50003",
+        "name": "Fragment de cerveau poli",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10458",
+    "name": "Petite Pierre d'âme",
+    "profession": "miner",
+    "level": 1,
+    "image": "2500.svg",
+    "category": "Pierre d'âme",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "51127",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "51455",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39075",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1250",
+        "name": "Petite Pierre d'âme hasardeuse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10454",
+    "name": "Petite Pierre d'âme hasardeuse",
+    "profession": "miner",
+    "level": 1,
+    "image": "1250.svg",
+    "category": "Pierre d'âme",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "51074",
+        "name": "Silex",
+        "quantity": 1
+      },
+      {
+        "resourceId": "51001",
+        "name": "Pierre de Granit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "51454",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 1
+      },
+      {
+        "resourceId": "100",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  }
+]

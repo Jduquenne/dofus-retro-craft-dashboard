@@ -1,6 +1,6 @@
 import React from 'react';
 import { scrollsData } from '../../../data/scrolls';
-import type { ScrollStatId } from '../../../data/scrolls';
+import type { ScrollStatId } from '../../../types/scrolls';
 
 interface StatSelectorProps {
     selectedStat: ScrollStatId;

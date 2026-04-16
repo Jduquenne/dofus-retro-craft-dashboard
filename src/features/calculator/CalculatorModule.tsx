@@ -1,20 +1,30 @@
 import React, { useState, useMemo } from 'react';
 import { useAppContext } from '../../context/AppContext';
-import { ProfessionTypes } from '../../data/professionTypes';
+import { ProfessionTypes } from '../../types/professionTypes';
 import { PROFESSION_XP_TABLE } from '../../utils/professionXP';
-import { HARVEST_CATEGORIES_BY_PROFESSION } from '../../constants/professionMappings';
+import { HARVEST_RESOURCES_BY_PROFESSION } from '../../data/harvestResources';
 import { ProfessionSelector } from './components/ProfessionSelector';
 import { HarvestTable } from './components/HarvestTable';
 import { RecipeTable } from './components/RecipeTable';
-import type { Recipe, Resource } from '../../types';
+import type { Recipe } from '../../types';
 
 export const CalculatorModule: React.FC = () => {
-    const { professions, recipes, resources, xpMultiplier } = useAppContext();
+    const { professions, recipes, xpMultiplier } = useAppContext();
 
     const [selectedProfId, setSelectedProfId] = useState<string>('');
     const [currentLevel, setCurrentLevel] = useState(1);
     const [currentXP, setCurrentXP] = useState(0);
     const [targetLevel, setTargetLevel] = useState(100);
+
+    const craftableProfessions = useMemo(
+        () => professions
+            .filter(p => p.type !== ProfessionTypes.SMITHMAGUS)
+            .sort((a, b) => {
+                if (a.type !== b.type) return a.type === ProfessionTypes.HARVEST ? -1 : 1;
+                return a.name.localeCompare(b.name, 'fr');
+            }),
+        [professions],
+    );
 
     const selectedProf = professions.find(p => p.id === selectedProfId);
 
@@ -38,13 +48,10 @@ export const CalculatorModule: React.FC = () => {
 
     const xpNeeded = Math.max(0, (PROFESSION_XP_TABLE[targetLevel] ?? 0) - currentXP);
 
-    const harvestResources = useMemo((): Resource[] => {
+    const harvestResources = useMemo(() => {
         if (!selectedProf || selectedProf.type !== ProfessionTypes.HARVEST) return [];
-        const categories = HARVEST_CATEGORIES_BY_PROFESSION[selectedProf.id] ?? [];
-        return resources
-            .filter(r => categories.includes(r.category) && (r.xpPerHarvest ?? 0) > 0)
-            .sort((a, b) => Number(a.level) - Number(b.level));
-    }, [selectedProf, resources]);
+        return HARVEST_RESOURCES_BY_PROFESSION[selectedProf.id] ?? [];
+    }, [selectedProf]);
 
     const profRecipes = useMemo((): Recipe[] => {
         if (!selectedProf) return [];
@@ -56,7 +63,7 @@ export const CalculatorModule: React.FC = () => {
     return (
         <div className="space-y-4">
             <ProfessionSelector
-                professions={professions}
+                professions={craftableProfessions}
                 selectedProfId={selectedProfId}
                 currentLevel={currentLevel}
                 currentXP={currentXP}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { RefreshCw, ChevronDown } from 'lucide-react';
 import type { Profession } from '../../../types';
+import { ProfessionTypes } from '../../../types/professionTypes';
 
 interface ProfessionSelectorProps {
     professions: Profession[];
@@ -44,9 +45,16 @@ export const ProfessionSelector: React.FC<ProfessionSelectorProps> = ({
                         className="input-dofus w-full appearance-none pr-7 cursor-pointer"
                     >
                         <option value="">— Choisir un métier —</option>
-                        {professions.map(p => (
-                            <option key={p.id} value={p.id}>{p.icon} {p.name}</option>
-                        ))}
+                        <optgroup label="🌾 Récolte">
+                            {professions.filter(p => p.type === ProfessionTypes.HARVEST).map(p => (
+                                <option key={p.id} value={p.id}>{p.icon} {p.name}</option>
+                            ))}
+                        </optgroup>
+                        <optgroup label="⚒️ Craft">
+                            {professions.filter(p => p.type === ProfessionTypes.CRAFT).map(p => (
+                                <option key={p.id} value={p.id}>{p.icon} {p.name}</option>
+                            ))}
+                        </optgroup>
                     </select>
                     <ChevronDown size={13} className="absolute right-2 top-1/2 -translate-y-1/2 text-dofus-text-md pointer-events-none" />
                 </div>

@@ -3,7 +3,7 @@ import type {
   ScrollMethod,
   ScrollTierType,
   ScrollNpcOption,
-} from '../data/scrolls';
+} from '../types/scrolls';
 
 export interface ScrollPhaseResult {
   tierType: ScrollTierType;

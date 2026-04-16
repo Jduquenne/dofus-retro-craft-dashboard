@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ortie",
+    "name": "Ortie",
+    "category": "plant",
+    "pods": 1,
+    "level": 1,
+    "description": "Une plante urticante qui pousse partout. Malgré son caractère irritant, elle est indispensable à de nombreuses potions.",
+    "xpPerHarvest": 10
+  },
+  {
+    "id": "trefle",
+    "name": "Trèfle",
+    "category": "flower",
+    "pods": 1,
+    "level": 1,
+    "description": "Une petite fleur porte-bonheur. En trouver un à quatre feuilles porte chance... et de l'XP.",
+    "xpPerHarvest": 10
+  },
+  {
+    "id": "sauge",
+    "name": "Sauge",
+    "category": "plant",
+    "pods": 1,
+    "level": 10,
+    "description": "Une plante aromatique aux propriétés médicinales reconnues de tous les alchimistes.",
+    "xpPerHarvest": 15
+  },
+  {
+    "id": "menthe_sauvage",
+    "name": "Menthe Sauvage",
+    "category": "plant",
+    "pods": 1,
+    "level": 10,
+    "description": "Une plante fraîche et vivace que l'on trouve au bord des ruisseaux.",
+    "xpPerHarvest": 15
+  },
+  {
+    "id": "belladone",
+    "name": "Belladone",
+    "category": "plant",
+    "pods": 1,
+    "level": 20,
+    "description": "Une plante aux baies toxiques, à manipuler avec précaution. Très utilisée en alchimie.",
+    "xpPerHarvest": 20
+  },
+  {
+    "id": "ginseng",
+    "name": "Ginseng",
+    "category": "root",
+    "pods": 1,
+    "level": 30,
+    "description": "Une racine tonique dont les vertus énergisantes sont appréciées des aventuriers.",
+    "xpPerHarvest": 25
+  },
+  {
+    "id": "mandragore",
+    "name": "Mandragore",
+    "category": "root",
+    "pods": 1,
+    "level": 40,
+    "description": "Une racine en forme humanoïde dont le cri légendaire peut assommer n'importe qui.",
+    "xpPerHarvest": 30
+  },
+  {
+    "id": "edelweiss",
+    "name": "Édelweiss",
+    "category": "flower",
+    "pods": 1,
+    "level": 50,
+    "description": "Une fleur rare poussant en altitude, symbole de pureté et de courage.",
+    "xpPerHarvest": 40
+  },
+  {
+    "id": "kaliptus",
+    "name": "Kaliptus",
+    "category": "plant",
+    "pods": 1,
+    "level": 60,
+    "description": "Une plante exotique aux huiles essentielles puissantes, venue des contrées lointaines.",
+    "xpPerHarvest": 50
+  }
+]

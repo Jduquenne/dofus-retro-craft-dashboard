@@ -1,5 +1,5 @@
-import { CategoryTypes } from "../data/categoryTypes";
-import { ProfessionTypes } from "../data/professionTypes";
+import { CategoryTypes } from "../types/categoryTypes";
+import { ProfessionTypes } from "../types/professionTypes";
 
 /**
  * Mapping entre les métiers de forgemagie et leurs métiers de craft requis
@@ -33,7 +33,7 @@ export const PROFESSION_CATEGORY_TITLES: Record<ProfessionTypes, string> = {
 export const HARVEST_CATEGORIES_BY_PROFESSION: Partial<Record<string, CategoryTypes[]>> = {
   peasant: [CategoryTypes.CEREAL],
   lumberjack: [CategoryTypes.WOOD],
-  minor: [CategoryTypes.ORE],
+  miner: [CategoryTypes.ORE],
   alchemist: [CategoryTypes.FLOWER, CategoryTypes.ROOT, CategoryTypes.BUD, CategoryTypes.PLANT],
   fisherman: [CategoryTypes.FISH],
   hunter: [CategoryTypes.MEAT],

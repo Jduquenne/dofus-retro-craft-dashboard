@@ -1,0 +1,3210 @@
+[
+  {
+    "id": "57",
+    "name": "Baguette de Boisaille",
+    "profession": "wand-carver",
+    "level": 2,
+    "image": "3008.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "58",
+    "name": "Grande Baguette de Boisaille",
+    "profession": "wand-carver",
+    "level": 4,
+    "image": "3008.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "59",
+    "name": "Puissante Baguette de Boisaille",
+    "profession": "wand-carver",
+    "level": 5,
+    "image": "3008.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1042",
+    "name": "Demi-Baguette",
+    "profession": "wand-carver",
+    "level": 11,
+    "image": "3013.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      },
+      {
+        "resourceId": "33006",
+        "name": "Pain aux Céréales",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "78",
+    "name": "Baguette de Glace",
+    "profession": "wand-carver",
+    "level": 13,
+    "image": "3002.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53112",
+        "name": "Plume du Kwak de Glace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "77",
+    "name": "Petite Baguette de Glace",
+    "profession": "wand-carver",
+    "level": 13,
+    "image": "3002.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53112",
+        "name": "Plume du Kwak de Glace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "79",
+    "name": "Grande Baguette de Glace",
+    "profession": "wand-carver",
+    "level": 14,
+    "image": "3002.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53112",
+        "name": "Plume du Kwak de Glace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "794",
+    "name": "Petite Baguette Heure",
+    "profession": "wand-carver",
+    "level": 15,
+    "image": "3017.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15125",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "80",
+    "name": "Puissante Baguette de Glace",
+    "profession": "wand-carver",
+    "level": 15,
+    "image": "3002.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53112",
+        "name": "Plume du Kwak de Glace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "204",
+    "name": "Baguette de Liriel",
+    "profession": "wand-carver",
+    "level": 20,
+    "image": "3005.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47015",
+        "name": "Os de Chafer",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "795",
+    "name": "Baguette Heure",
+    "profession": "wand-carver",
+    "level": 20,
+    "image": "3017.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15125",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "81",
+    "name": "Petite Baguette d'Intelligence",
+    "profession": "wand-carver",
+    "level": 20,
+    "image": "3001.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "82",
+    "name": "Petite Baguette de Sagesse",
+    "profession": "wand-carver",
+    "level": 20,
+    "image": "3004.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1186",
+    "name": "Baguette de Feu Follesque",
+    "profession": "wand-carver",
+    "level": 20,
+    "image": "3014.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "66241",
+        "name": "Metaria rouge",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "3008",
+        "name": "Baguette de Boisaille",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "564",
+    "name": "Baguette de Sagesse",
+    "profession": "wand-carver",
+    "level": 23,
+    "image": "3004.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "561",
+    "name": "Baguette d'Intelligence",
+    "profession": "wand-carver",
+    "level": 24,
+    "image": "3001.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7322",
+    "name": "Baguette du Tofu",
+    "profession": "wand-carver",
+    "level": 25,
+    "image": "3058.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47037",
+        "name": "Bec du Tofu",
+        "quantity": 8
+      },
+      {
+        "resourceId": "53014",
+        "name": "Plumes de Tofu",
+        "quantity": 7
+      },
+      {
+        "resourceId": "105038",
+        "name": "Oeuf de Tofu",
+        "quantity": 5
+      },
+      {
+        "resourceId": "53120",
+        "name": "Plume du Batofu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "796",
+    "name": "Grande Baguette Heure",
+    "profession": "wand-carver",
+    "level": 25,
+    "image": "3017.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15125",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "565",
+    "name": "Grande Baguette de Sagesse",
+    "profession": "wand-carver",
+    "level": 25,
+    "image": "3004.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "562",
+    "name": "Grande Baguette d'Intelligence",
+    "profession": "wand-carver",
+    "level": 27,
+    "image": "3001.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "566",
+    "name": "Puissante Baguette de Sagesse",
+    "profession": "wand-carver",
+    "level": 27,
+    "image": "3004.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6459",
+    "name": "Baguette Rangleuse",
+    "profession": "wand-carver",
+    "level": 27,
+    "image": "3048.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "98142",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98143",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98145",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38675",
+        "name": "Bois de Bambouto",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "563",
+    "name": "Puissante Baguette d'Intelligence",
+    "profession": "wand-carver",
+    "level": 29,
+    "image": "3001.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "797",
+    "name": "Terrifiante Baguette Heure",
+    "profession": "wand-carver",
+    "level": 30,
+    "image": "3017.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15125",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "825",
+    "name": "Petite Baguette à Pans",
+    "profession": "wand-carver",
+    "level": 30,
+    "image": "3020.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      },
+      {
+        "resourceId": "9002",
+        "name": "Anneau Vitalesque",
+        "quantity": 5
+      },
+      {
+        "resourceId": "56534",
+        "name": "Cuir de Boufton Blanc",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "329",
+    "name": "Baguette en Racine d'Abraknyde",
+    "profession": "wand-carver",
+    "level": 33,
+    "image": "3003.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "96103",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "98102",
+        "name": "Racine d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50097",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 20
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "826",
+    "name": "Baguette à Pans",
+    "profession": "wand-carver",
+    "level": 35,
+    "image": "3020.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 10
+      },
+      {
+        "resourceId": "9002",
+        "name": "Anneau Vitalesque",
+        "quantity": 7
+      },
+      {
+        "resourceId": "56534",
+        "name": "Cuir de Boufton Blanc",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1043",
+    "name": "Daguette",
+    "profession": "wand-carver",
+    "level": 35,
+    "image": "3017.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "5005",
+        "name": "Bashers",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "3017",
+        "name": "Baguette Heure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "26025",
+        "name": "Potion de Courant d'Air",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "798",
+    "name": "Petite Baguette d'Eglise",
+    "profession": "wand-carver",
+    "level": 36,
+    "image": "3016.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 7
+      },
+      {
+        "resourceId": "15089",
+        "name": "Sang du Vampire",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "829",
+    "name": "Discrète Baguette d'Houvette",
+    "profession": "wand-carver",
+    "level": 40,
+    "image": "3019.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "36045",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 10
+      },
+      {
+        "resourceId": "47134",
+        "name": "Pic du Prespic",
+        "quantity": 11
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "827",
+    "name": "Grande Baguette à Pans",
+    "profession": "wand-carver",
+    "level": 40,
+    "image": "3020.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 12
+      },
+      {
+        "resourceId": "9002",
+        "name": "Anneau Vitalesque",
+        "quantity": 9
+      },
+      {
+        "resourceId": "56534",
+        "name": "Cuir de Boufton Blanc",
+        "quantity": 14
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6402",
+    "name": "Baguette Larvesque",
+    "profession": "wand-carver",
+    "level": 40,
+    "image": "3019.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "59032",
+        "name": "Peau de Larve Bleue",
+        "quantity": 4
+      },
+      {
+        "resourceId": "59033",
+        "name": "Peau de Larve Orange",
+        "quantity": 3
+      },
+      {
+        "resourceId": "59034",
+        "name": "Peau de Larve Verte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "48002",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15483",
+        "name": "Petite Perle Dorée",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "799",
+    "name": "Baguette d'Eglise",
+    "profession": "wand-carver",
+    "level": 41,
+    "image": "3016.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 9
+      },
+      {
+        "resourceId": "15089",
+        "name": "Sang du Vampire",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6453",
+    "name": "Baguette Cetera",
+    "profession": "wand-carver",
+    "level": 43,
+    "image": "3050.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38673",
+        "name": "Bois de Bambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98142",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1046",
+    "name": "Baguette Sylvien",
+    "profession": "wand-carver",
+    "level": 43,
+    "image": "3015.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "50096",
+        "name": "Ambre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "40660",
+        "name": "Aluminite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "828",
+    "name": "Indispensable Baguette à Pans",
+    "profession": "wand-carver",
+    "level": 45,
+    "image": "3020.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39077",
+        "name": "Kobalte",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 14
+      },
+      {
+        "resourceId": "9002",
+        "name": "Anneau Vitalesque",
+        "quantity": 11
+      },
+      {
+        "resourceId": "56534",
+        "name": "Cuir de Boufton Blanc",
+        "quantity": 16
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "830",
+    "name": "Baguette d'Houvette",
+    "profession": "wand-carver",
+    "level": 45,
+    "image": "3019.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 8
+      },
+      {
+        "resourceId": "36045",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 14
+      },
+      {
+        "resourceId": "47134",
+        "name": "Pic du Prespic",
+        "quantity": 11
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "800",
+    "name": "Lourde Baguette d'Eglise",
+    "profession": "wand-carver",
+    "level": 46,
+    "image": "3016.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 11
+      },
+      {
+        "resourceId": "15089",
+        "name": "Sang du Vampire",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1045",
+    "name": "L'Hyldegarde",
+    "profession": "wand-carver",
+    "level": 48,
+    "image": "3008.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40659",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "824",
+    "name": "Baguette Ni'Ninnin",
+    "profession": "wand-carver",
+    "level": 50,
+    "image": "3018.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 10
+      },
+      {
+        "resourceId": "108230",
+        "name": "Bourgeon d'Abraknyde Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "831",
+    "name": "Grande Baguette d'Houvette",
+    "profession": "wand-carver",
+    "level": 50,
+    "image": "3019.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 11
+      },
+      {
+        "resourceId": "36045",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 18
+      },
+      {
+        "resourceId": "47134",
+        "name": "Pic du Prespic",
+        "quantity": 11
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "203",
+    "name": "Baguette Deuh-Pain",
+    "profession": "wand-carver",
+    "level": 50,
+    "image": "3009.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "48260",
+        "name": "Sel",
+        "quantity": 50
+      },
+      {
+        "resourceId": "52251",
+        "name": "Farine de Blé",
+        "quantity": 25
+      },
+      {
+        "resourceId": "48137",
+        "name": "Levure de Boulanger",
+        "quantity": 25
+      },
+      {
+        "resourceId": "15026",
+        "name": "Eau",
+        "quantity": 50
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "84",
+    "name": "Baguette des Cieux",
+    "profession": "wand-carver",
+    "level": 52,
+    "image": "3006.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50025",
+        "name": "Diamant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 10
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 11
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "823",
+    "name": "Imposante Baguette d'Eglise",
+    "profession": "wand-carver",
+    "level": 52,
+    "image": "3016.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "39109",
+        "name": "Bronze",
+        "quantity": 14
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 13
+      },
+      {
+        "resourceId": "15089",
+        "name": "Sang du Vampire",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "832",
+    "name": "Traumatisante Baguette d'Houvette",
+    "profession": "wand-carver",
+    "level": 55,
+    "image": "3019.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 14
+      },
+      {
+        "resourceId": "36045",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 22
+      },
+      {
+        "resourceId": "47134",
+        "name": "Pic du Prespic",
+        "quantity": 11
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "835",
+    "name": "Petite Baguette Meneuse",
+    "profession": "wand-carver",
+    "level": 56,
+    "image": "3021.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "104048",
+        "name": "Aile du Tofu Maléfique",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1001",
+        "name": "Amulette du Petit Hibou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1005",
+        "name": "Amulette du Petit Ours",
+        "quantity": 10
+      },
+      {
+        "resourceId": "16023",
+        "name": "Lisseur",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1044",
+    "name": "Le Tison Fûté",
+    "profession": "wand-carver",
+    "level": 59,
+    "image": "3012.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "3008",
+        "name": "Puissante Baguette de Boisaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "26020",
+        "name": "Potion de Flambée",
+        "quantity": 5
+      },
+      {
+        "resourceId": "26021",
+        "name": "Potion d'Incendie",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7329",
+    "name": "Baguette du Scarabosse Doré",
+    "profession": "wand-carver",
+    "level": 59,
+    "image": "3059.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "107441",
+        "name": "Carapace de Scarafeuille Blanc",
+        "quantity": 2
+      },
+      {
+        "resourceId": "107442",
+        "name": "Carapace de Scarafeuille Bleu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "107443",
+        "name": "Carapace de Scarafeuille Rouge",
+        "quantity": 2
+      },
+      {
+        "resourceId": "107444",
+        "name": "Carapace de Scarafeuille Vert",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15732",
+        "name": "Antennes du Scarabosse Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "104733",
+        "name": "Ailes du Scarabosse Doré",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "836",
+    "name": "Baguette Meneuse",
+    "profession": "wand-carver",
+    "level": 61,
+    "image": "3021.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1001",
+        "name": "Amulette du Hibou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1005",
+        "name": "Amulette de l'Ours",
+        "quantity": 10
+      },
+      {
+        "resourceId": "104048",
+        "name": "Aile du Tofu Maléfique",
+        "quantity": 7
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "16023",
+        "name": "Lisseur",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5876",
+    "name": "Balgourde des Clairettes",
+    "profession": "wand-carver",
+    "level": 63,
+    "image": "3043.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40487",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6454",
+    "name": "Baguette Hylique",
+    "profession": "wand-carver",
+    "level": 63,
+    "image": "3051.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38673",
+        "name": "Bois de Bambou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "98145",
+        "name": "Racine de Bulbambou",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1047",
+    "name": "Pieu Vampirique",
+    "profession": "wand-carver",
+    "level": 65,
+    "image": "3014.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "3005",
+        "name": "Baguette de Liriel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "26021",
+        "name": "Potion d'Incendie",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15188",
+        "name": "Liquide vampiresque",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "837",
+    "name": "Grande Baguette Meneuse",
+    "profession": "wand-carver",
+    "level": 66,
+    "image": "3021.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1001",
+        "name": "Belle Amulette du Hibou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1005",
+        "name": "Belle Amulette de l'Ours",
+        "quantity": 10
+      },
+      {
+        "resourceId": "104048",
+        "name": "Aile du Tofu Maléfique",
+        "quantity": 9
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "16023",
+        "name": "Lisseur",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5875",
+    "name": "Baguette en Racine d'Abraknyde Sombre",
+    "profession": "wand-carver",
+    "level": 67,
+    "image": "3040.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "108230",
+        "name": "Bourgeon d'Abraknyde Sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "838",
+    "name": "Excellente Baguette Meneuse",
+    "profession": "wand-carver",
+    "level": 71,
+    "image": "3021.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1001",
+        "name": "Puissante Amulette du Hibou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1005",
+        "name": "Puissante Amulette de l'Ours",
+        "quantity": 10
+      },
+      {
+        "resourceId": "104048",
+        "name": "Aile du Tofu Maléfique",
+        "quantity": 11
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "16023",
+        "name": "Lisseur",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7752",
+    "name": "Bagdette Café",
+    "profession": "wand-carver",
+    "level": 72,
+    "image": "3061.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 8
+      },
+      {
+        "resourceId": "59628",
+        "name": "Peau de Mob l'Eponge",
+        "quantity": 3
+      },
+      {
+        "resourceId": "51009",
+        "name": "Corail Magistral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47018",
+        "name": "Humérus du Sparo",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47019",
+        "name": "Chicot du Flib",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5380",
+    "name": "Baguette Helles",
+    "profession": "wand-carver",
+    "level": 75,
+    "image": "3022.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "104048",
+        "name": "Aile du Tofu Maléfique",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15529",
+        "name": "Grelot",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7753",
+    "name": "La Bidjiz",
+    "profession": "wand-carver",
+    "level": 79,
+    "image": "3062.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 3
+      },
+      {
+        "resourceId": "51151",
+        "name": "Pierre de Saphir",
+        "quantity": 17
+      },
+      {
+        "resourceId": "55726",
+        "name": "Etoffe du Rat Blanc",
+        "quantity": 2
+      },
+      {
+        "resourceId": "54012",
+        "name": "Duvet du Kilibriss",
+        "quantity": 17
+      },
+      {
+        "resourceId": "48001",
+        "name": "Poudre explosive de Gourlo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15019",
+        "name": "Talon d'achille de l'Abrakleur sombre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5895",
+    "name": "Baguette de Kouartz",
+    "profession": "wand-carver",
+    "level": 80,
+    "image": "3041.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50025",
+        "name": "Diamant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 12
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "40664",
+        "name": "Kouartz",
+        "quantity": 20
+      },
+      {
+        "resourceId": "38140",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1395",
+    "name": "Baguette Affeulante",
+    "profession": "wand-carver",
+    "level": 80,
+    "image": "3024.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15171",
+        "name": "Kole",
+        "quantity": 6
+      },
+      {
+        "resourceId": "66243",
+        "name": "Metaria Mage rouge",
+        "quantity": 1
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "36421",
+        "name": "Feuille de Fourbasse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6455",
+    "name": "Baguette Hincelle",
+    "profession": "wand-carver",
+    "level": 81,
+    "image": "3052.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38670",
+        "name": "Bois de Bambou Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98142",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98143",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98145",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5896",
+    "name": "La Migraine",
+    "profession": "wand-carver",
+    "level": 85,
+    "image": "3045.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50097",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 20
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15575",
+        "name": "Tranche de Tronknyde",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5819",
+    "name": "Baguette Molle",
+    "profession": "wand-carver",
+    "level": 85,
+    "image": "3033.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15527",
+        "name": "Langue de Croc Gland",
+        "quantity": 3
+      },
+      {
+        "resourceId": "15568",
+        "name": "Blop Mort",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15590",
+        "name": "Main de Boo",
+        "quantity": 3
+      },
+      {
+        "resourceId": "65595",
+        "name": "Queue de Dragodinde",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5820",
+    "name": "Baguette Irréelle",
+    "profession": "wand-carver",
+    "level": 90,
+    "image": "3032.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47015",
+        "name": "Os de Chafer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "47158",
+        "name": "Côtes du Rib",
+        "quantity": 10
+      },
+      {
+        "resourceId": "47015",
+        "name": "Os Surprise du Chafer Fantassin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "55434",
+        "name": "Tissu Sanguin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47465",
+        "name": "Colonne Vertébrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47617",
+        "name": "Mâchoire de Rib",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15645",
+        "name": "Noeul Mort",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5821",
+    "name": "Baguette Velue",
+    "profession": "wand-carver",
+    "level": 95,
+    "image": "3031.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "54197",
+        "name": "Poils de Wo Wabbit",
+        "quantity": 10
+      },
+      {
+        "resourceId": "54201",
+        "name": "Poils du Minotoror",
+        "quantity": 1
+      },
+      {
+        "resourceId": "54553",
+        "name": "Poils du Meulou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "54359",
+        "name": "Poil de Kanigrou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "54414",
+        "name": "Poil d'Ouginak",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7958",
+    "name": "Branche de l'Abrakleur sombre",
+    "profession": "wand-carver",
+    "level": 97,
+    "image": "3064.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15017",
+        "name": "Bâton du Kilibriss",
+        "quantity": 2
+      },
+      {
+        "resourceId": "96005",
+        "name": "Ecorce de Brouture",
+        "quantity": 3
+      },
+      {
+        "resourceId": "96003",
+        "name": "Ecorce de Nerbe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "96006",
+        "name": "Ecorce de Fécorce",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15019",
+        "name": "Talon d'achille de l'Abrakleur sombre",
+        "quantity": 8
+      },
+      {
+        "resourceId": "58001",
+        "name": "Graine de l'Abrakleur sombre",
+        "quantity": 48
+      },
+      {
+        "resourceId": "59048",
+        "name": "Peau du Rasboul Majeur",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6458",
+    "name": "Baguette Rhon",
+    "profession": "wand-carver",
+    "level": 105,
+    "image": "3049.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38675",
+        "name": "Bois de Bambouto",
+        "quantity": 15
+      },
+      {
+        "resourceId": "98100",
+        "name": "Racine Magique de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6452",
+    "name": "Baguette Nah",
+    "profession": "wand-carver",
+    "level": 105,
+    "image": "3054.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "50102",
+        "name": "Topaze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98144",
+        "name": "Racine de Bulbig",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38675",
+        "name": "Bois de Bambouto",
+        "quantity": 15
+      },
+      {
+        "resourceId": "38674",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "98100",
+        "name": "Racine Magique de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "83",
+    "name": "La Baguette des Limbes",
+    "profession": "wand-carver",
+    "level": 105,
+    "image": "3007.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50025",
+        "name": "Diamant",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 6
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 5
+      },
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 14
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 12
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6456",
+    "name": "Baguette Houffe-Craitien",
+    "profession": "wand-carver",
+    "level": 112,
+    "image": "3046.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38573",
+        "name": "Cale en bois du Tronknyde",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38574",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "50103",
+        "name": "Agathe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98142",
+        "name": "Racine de Bulbiflore",
+        "quantity": 9
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5894",
+    "name": "Amrothiline",
+    "profession": "wand-carver",
+    "level": 120,
+    "image": "3044.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50025",
+        "name": "Diamant",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 20
+      },
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 20
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "50638",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38574",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5873",
+    "name": "Baguette d'Elya Wood",
+    "profession": "wand-carver",
+    "level": 120,
+    "image": "3039.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 20
+      },
+      {
+        "resourceId": "38678",
+        "name": "Bois Ancestral",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38140",
+        "name": "Bois Envoûté",
+        "quantity": 3
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "15576",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7480",
+    "name": "Baguette du Dragoeuf",
+    "profession": "wand-carver",
+    "level": 124,
+    "image": "3060.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 14
+      },
+      {
+        "resourceId": "47007",
+        "name": "Os de Fantôme Soryo Firefoux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 16
+      },
+      {
+        "resourceId": "47639",
+        "name": "Fémur de Koalak Farouche",
+        "quantity": 3
+      },
+      {
+        "resourceId": "54662",
+        "name": "Poils de Koalak Koko",
+        "quantity": 30
+      },
+      {
+        "resourceId": "47643",
+        "name": "Corne de Déminoboule",
+        "quantity": 1
+      },
+      {
+        "resourceId": "59608",
+        "name": "Ecaille de Dragoss de Saphire",
+        "quantity": 19
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6649",
+    "name": "Baguette Houalle",
+    "profession": "wand-carver",
+    "level": 126,
+    "image": "3055.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38669",
+        "name": "Bois de Bambou Doré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "50101",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98143",
+        "name": "Racine de Bulbuisson",
+        "quantity": 4
+      },
+      {
+        "resourceId": "96106",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 2
+      },
+      {
+        "resourceId": "50001",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47002",
+        "name": "Os de Fantôme Yokai Firefoux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6457",
+    "name": "Baguette Ourderie",
+    "profession": "wand-carver",
+    "level": 127,
+    "image": "3047.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 15
+      },
+      {
+        "resourceId": "98143",
+        "name": "Racine de Bulbuisson",
+        "quantity": 5
+      },
+      {
+        "resourceId": "96106",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98099",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50001",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47007",
+        "name": "Os de Fantôme Soryo Firefoux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7301",
+    "name": "Baguette Gyver",
+    "profession": "wand-carver",
+    "level": 128,
+    "image": "3056.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 5
+      },
+      {
+        "resourceId": "47411",
+        "name": "Pince de Scorbute",
+        "quantity": 60
+      },
+      {
+        "resourceId": "15493",
+        "name": "Armée de Tiques",
+        "quantity": 100
+      },
+      {
+        "resourceId": "47511",
+        "name": "Dentier de Porkass",
+        "quantity": 40
+      },
+      {
+        "resourceId": "15635",
+        "name": "Engrais",
+        "quantity": 10
+      },
+      {
+        "resourceId": "36069",
+        "name": "Feuille de Bambouto",
+        "quantity": 50
+      },
+      {
+        "resourceId": "36068",
+        "name": "Feuille de Bambouto Sacré",
+        "quantity": 42
+      },
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7959",
+    "name": "Branche de l'Abrakleur clair",
+    "profession": "wand-carver",
+    "level": 132,
+    "image": "3065.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "96002",
+        "name": "Ecorce de Floribonde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "96004",
+        "name": "Ecorce de Chiendent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "36010",
+        "name": "Sépale de Nerbe",
+        "quantity": 34
+      },
+      {
+        "resourceId": "36012",
+        "name": "Calice de Fécorce",
+        "quantity": 28
+      },
+      {
+        "resourceId": "38002",
+        "name": "Noeud de l'Abrakleur clair",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38003",
+        "name": "Souche de l'Abrakleur clair",
+        "quantity": 52
+      },
+      {
+        "resourceId": "59629",
+        "name": "Peau lacérée du Tynril",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7302",
+    "name": "Baguette Iots",
+    "profession": "wand-carver",
+    "level": 138,
+    "image": "3057.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47129",
+        "name": "Dentier du Chafer d'élite",
+        "quantity": 15
+      },
+      {
+        "resourceId": "96542",
+        "name": "Ecorce de Liroye Merline",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47411",
+        "name": "Pince de Scorbute",
+        "quantity": 110
+      },
+      {
+        "resourceId": "38670",
+        "name": "Bois de Bambou Magique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "98142",
+        "name": "Racine de Bulbiflore",
+        "quantity": 23
+      },
+      {
+        "resourceId": "47007",
+        "name": "Os de Fantôme Soryo Firefoux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 24
+      },
+      {
+        "resourceId": "104733",
+        "name": "Ailes du Scarabosse Doré",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6395",
+    "name": "La Xyothine",
+    "profession": "wand-carver",
+    "level": 145,
+    "image": "3053.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 30
+      },
+      {
+        "resourceId": "105206",
+        "name": "Oeuf de Dragoeuf Noir",
+        "quantity": 10
+      },
+      {
+        "resourceId": "105207",
+        "name": "Oeuf de Dragoeuf Blanc",
+        "quantity": 10
+      },
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 20
+      },
+      {
+        "resourceId": "50101",
+        "name": "Aigue-Marine",
+        "quantity": 5
+      },
+      {
+        "resourceId": "40708",
+        "name": "Pyrute",
+        "quantity": 6
+      },
+      {
+        "resourceId": "47008",
+        "name": "Os de Fantôme Maho Firefoux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5874",
+    "name": "Baguette du Chêne Mou",
+    "profession": "wand-carver",
+    "level": 172,
+    "image": "3042.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38140",
+        "name": "Bois Envoûté",
+        "quantity": 10
+      },
+      {
+        "resourceId": "108665",
+        "name": "Bourgeon du Chêne Mou",
+        "quantity": 3
+      },
+      {
+        "resourceId": "50669",
+        "name": "Ambre du Chêne Mou",
+        "quantity": 8
+      },
+      {
+        "resourceId": "3040",
+        "name": "Baguette en Racine d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 30
+      },
+      {
+        "resourceId": "47645",
+        "name": "Corne de Dragoss Doré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "96006",
+        "name": "Ecorce de Fécorce",
+        "quantity": 5
+      },
+      {
+        "resourceId": "58001",
+        "name": "Graine de l'Abrakleur sombre",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8235",
+    "name": "Baguetterelle",
+    "profession": "wand-carver",
+    "level": 184,
+    "image": "3066.svg",
+    "category": "Baguette",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "3053",
+        "name": "La Xyothine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15017",
+        "name": "Bâton du Kilibriss",
+        "quantity": 19
+      },
+      {
+        "resourceId": "96001",
+        "name": "Ecorce du Tynril",
+        "quantity": 2
+      },
+      {
+        "resourceId": "96005",
+        "name": "Ecorce de Brouture",
+        "quantity": 14
+      },
+      {
+        "resourceId": "96004",
+        "name": "Ecorce de Chiendent",
+        "quantity": 13
+      },
+      {
+        "resourceId": "111003",
+        "name": "Coco du Bitouf aérien",
+        "quantity": 12
+      },
+      {
+        "resourceId": "96109",
+        "name": "Ecorce de Champaknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15764",
+        "name": "Trompe de la Tromperelle",
+        "quantity": 21
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

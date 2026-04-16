@@ -15,18 +15,6 @@ const ScrollsModule = lazy(() =>
 const CatalogModule = lazy(() =>
   import('./features/catalog/CatalogModule').then(({ CatalogModule: m }) => ({ default: m }))
 );
-const DashboardModule = lazy(() =>
-  import('./features/dashboard/DashboardModule').then(({ DashboardModule: m }) => ({ default: m }))
-);
-const RecipesModule = lazy(() =>
-  import('./features/recipes/RecipesModule').then(({ RecipesModule: m }) => ({ default: m }))
-);
-const ResourcesModule = lazy(() =>
-  import('./features/resources/ResourcesModule').then(({ ResourcesModule: m }) => ({ default: m }))
-);
-const GoalsModule = lazy(() =>
-  import('./features/goals/GoalsModule').then(({ GoalsModule: m }) => ({ default: m }))
-);
 const PodModule = lazy(() =>
   import('./features/pods/PodModule').then(({ PodModule: m }) => ({ default: m }))
 );
@@ -40,10 +28,7 @@ const App: React.FC = () => {
         <Header activeTab={activeTab} setActiveTab={setActiveTab} />
         <main className="container mx-auto px-4 py-6 flex-1">
           <Suspense fallback={null}>
-            {activeTab === 'dashboard'   && <DashboardModule />}
             {activeTab === 'calculator'  && <CalculatorModule />}
-            {activeTab === 'recipes'     && <RecipesModule />}
-            {activeTab === 'resources'   && <ResourcesModule />}
             {activeTab === 'professions' && <ProfessionsModule />}
             {activeTab === 'scrolls'     && <ScrollsModule />}
             {activeTab === 'catalog'     && <CatalogModule />}

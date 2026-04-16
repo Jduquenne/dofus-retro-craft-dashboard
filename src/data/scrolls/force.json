@@ -1,0 +1,89 @@
+{
+  "id": "force",
+  "label": "Force",
+  "icon": "💪",
+  "tiers": [
+    {
+      "type": "petit",
+      "pointsPerUse": 1,
+      "statLimit": 25,
+      "options": [
+        {
+          "id": "for-petit-rish",
+          "npc": "Rish Claymore",
+          "position": [1, 3],
+          "resources": [
+            { "name": "Epine de Champ Champ", "quantity": 100 }
+          ]
+        },
+        {
+          "id": "for-petit-keck",
+          "npc": "Keck Auprune",
+          "position": [2, 0],
+          "resources": [
+            { "name": "Peau de Larve Bleue", "quantity": 100 }
+          ]
+        },
+        {
+          "id": "for-petit-ronsha",
+          "npc": "Ronsha",
+          "position": [1, -2],
+          "resources": [
+            { "name": "Pic de Prespic", "quantity": 80 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "pointsPerUse": 1,
+      "statLimit": 50,
+      "options": [
+        {
+          "id": "for-normal-otho",
+          "npc": "Otho Laringo",
+          "position": [-2, -3],
+          "resources": [
+            { "name": "Pic de Prespic", "quantity": 70 },
+            { "name": "Pince de Crabe", "quantity": 70 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grand",
+      "pointsPerUse": 1,
+      "statLimit": 80,
+      "options": [
+        {
+          "id": "for-grand-heul",
+          "npc": "Heûl Leise",
+          "position": [8, -2],
+          "resources": [
+            { "name": "Côtes de Rib", "quantity": 40 },
+            { "name": "Pic de Prespic", "quantity": 70 },
+            { "name": "Pince de Crabe", "quantity": 75 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "puissant",
+      "pointsPerUse": 2,
+      "statLimit": 100,
+      "options": [
+        {
+          "id": "for-puissant-otho",
+          "npc": "Otho Laringo",
+          "position": [-2, -3],
+          "resources": [
+            { "name": "Côtes de Rib", "quantity": 45 },
+            { "name": "Pic de Prespic", "quantity": 75 },
+            { "name": "Pince de Crabe", "quantity": 75 },
+            { "name": "Silex", "quantity": 30 }
+          ]
+        }
+      ]
+    }
+  ]
+}

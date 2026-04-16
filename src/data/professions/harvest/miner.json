@@ -1,0 +1,92 @@
+[
+  {
+    "id": "fer",
+    "name": "Fer",
+    "category": "ore",
+    "pods": 5,
+    "level": 1,
+    "description": "Le minerai de base, omniprésent dans les mines d'Astrub et de Bonta.",
+    "xpPerHarvest": 10
+  },
+  {
+    "id": "cuivre",
+    "name": "Cuivre",
+    "category": "ore",
+    "pods": 5,
+    "level": 10,
+    "description": "Un métal rougeâtre souple, base de nombreux alliages utilisés en bijouterie.",
+    "xpPerHarvest": 15
+  },
+  {
+    "id": "manganese",
+    "name": "Manganèse",
+    "category": "ore",
+    "pods": 5,
+    "level": 25,
+    "description": "Un minerai grisâtre nécessaire à la fabrication d'aciers spéciaux.",
+    "xpPerHarvest": 25
+  },
+  {
+    "id": "cobalt",
+    "name": "Cobalt",
+    "category": "ore",
+    "pods": 6,
+    "level": 40,
+    "description": "Un minerai bleuté aux reflets métalliques, extrait des mines profondes.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "argent",
+    "name": "Argent",
+    "category": "ore",
+    "pods": 6,
+    "level": 55,
+    "description": "Un métal précieux à l'éclat lunaire, très recherché des bijoutiers.",
+    "xpPerHarvest": 45
+  },
+  {
+    "id": "or",
+    "name": "Or",
+    "category": "ore",
+    "pods": 6,
+    "level": 60,
+    "description": "Le métal le plus précieux du Monde des Douze, symbole de richesse et de pouvoir.",
+    "xpPerHarvest": 50
+  },
+  {
+    "id": "bauxite",
+    "name": "Bauxite",
+    "category": "ore",
+    "pods": 6,
+    "level": 60,
+    "description": "Un minerai rougeâtre dont on extrait l'aluminium, présent dans les falaises arides.",
+    "xpPerHarvest": 50
+  },
+  {
+    "id": "silicate",
+    "name": "Silicate",
+    "category": "ore",
+    "pods": 7,
+    "level": 70,
+    "description": "Un minerai cristallin translucide, extrait des cavernes à haute altitude.",
+    "xpPerHarvest": 60
+  },
+  {
+    "id": "obsidienne",
+    "name": "Obsidienne",
+    "category": "ore",
+    "pods": 7,
+    "level": 80,
+    "description": "Une roche volcanique noire comme la nuit, d'une dureté exceptionnelle.",
+    "xpPerHarvest": 70
+  },
+  {
+    "id": "dolomite",
+    "name": "Dolomite",
+    "category": "ore",
+    "pods": 8,
+    "level": 90,
+    "description": "Un minerai rare présent uniquement dans les couches les plus profondes du sol.",
+    "xpPerHarvest": 80
+  }
+]

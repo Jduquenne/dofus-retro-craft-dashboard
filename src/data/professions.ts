@@ -43,7 +43,7 @@ export const initialProfessions: Profession[] = [
     unlocked: false,
   },
   {
-    id: "minor",
+    id: "miner",
     type: ProfessionTypes.HARVEST,
     name: "Mineur",
     currentLevel: 1,

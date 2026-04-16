@@ -1,5 +1,5 @@
 import type { Profession } from "../types";
-import { ProfessionTypes } from "../data/professionTypes";
+import { ProfessionTypes } from "../types/professionTypes";
 import {
   PROFESSION_CONSTANTS,
   SMITHMAGUS_TO_CRAFT_MAPPING,

@@ -1,0 +1,3116 @@
+[
+  {
+    "id": "33",
+    "name": "Petit Arc de Boisaille",
+    "profession": "bow-carver",
+    "level": 1,
+    "image": "2001.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "34",
+    "name": "Arc de Boisaille",
+    "profession": "bow-carver",
+    "level": 2,
+    "image": "2001.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "35",
+    "name": "Grand Arc de Boisaille",
+    "profession": "bow-carver",
+    "level": 3,
+    "image": "2001.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 6
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "36",
+    "name": "Puissant Arc de Boisaille",
+    "profession": "bow-carver",
+    "level": 4,
+    "image": "2001.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 7
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "560",
+    "name": "Arc Hade",
+    "profession": "bow-carver",
+    "level": 8,
+    "image": "2001.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "559",
+    "name": "Arc Sifflant",
+    "profession": "bow-carver",
+    "level": 11,
+    "image": "2015.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "142",
+    "name": "Petit Arc Déroutant",
+    "profession": "bow-carver",
+    "level": 14,
+    "image": "2003.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "786",
+    "name": "Petit Arc Buse",
+    "profession": "bow-carver",
+    "level": 15,
+    "image": "2017.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53014",
+        "name": "Plumes de Tofu",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1036",
+    "name": "Arc Holic",
+    "profession": "bow-carver",
+    "level": 15,
+    "image": "2004.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15026",
+        "name": "Eau",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "26022",
+        "name": "Potion de Crachin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "143",
+    "name": "Arc Déroutant",
+    "profession": "bow-carver",
+    "level": 16,
+    "image": "2003.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "787",
+    "name": "Arc Buse",
+    "profession": "bow-carver",
+    "level": 18,
+    "image": "2017.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53014",
+        "name": "Plumes de Tofu",
+        "quantity": 9
+      },
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "809",
+    "name": "Petit Arc Ecologique",
+    "profession": "bow-carver",
+    "level": 18,
+    "image": "2020.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "144",
+    "name": "Grand Arc Déroutant",
+    "profession": "bow-carver",
+    "level": 18,
+    "image": "2003.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "145",
+    "name": "Puissant Arc Déroutant",
+    "profession": "bow-carver",
+    "level": 19,
+    "image": "2003.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 11
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "207",
+    "name": "Arc du Bwork Archer",
+    "profession": "bow-carver",
+    "level": 20,
+    "image": "2004.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15125",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "788",
+    "name": "Grand Arc Buse",
+    "profession": "bow-carver",
+    "level": 21,
+    "image": "2017.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53014",
+        "name": "Plumes de Tofu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "201",
+    "name": "Arc Hancihaile",
+    "profession": "bow-carver",
+    "level": 22,
+    "image": "2016.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "810",
+    "name": "Arc Ecologique",
+    "profession": "bow-carver",
+    "level": 23,
+    "image": "2020.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "789",
+    "name": "Puissant Arc Buse",
+    "profession": "bow-carver",
+    "level": 24,
+    "image": "2017.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "53014",
+        "name": "Plumes de Tofu",
+        "quantity": 11
+      },
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 6
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "148",
+    "name": "Nomoon",
+    "profession": "bow-carver",
+    "level": 28,
+    "image": "2009.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "322",
+    "name": "Arc en Racine d'Abraknyde",
+    "profession": "bow-carver",
+    "level": 28,
+    "image": "2001.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98102",
+        "name": "Racine d'Abraknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50097",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "811",
+    "name": "Grand Arc Ecologique",
+    "profession": "bow-carver",
+    "level": 28,
+    "image": "2020.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "790",
+    "name": "Petit Arc en Corne de Bouftou",
+    "profession": "bow-carver",
+    "level": 29,
+    "image": "2022.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "47055",
+        "name": "Corne de Bouftou",
+        "quantity": 6
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1037",
+    "name": "Arc du Xueluom",
+    "profession": "bow-carver",
+    "level": 30,
+    "image": "2051.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 12
+      },
+      {
+        "resourceId": "40659",
+        "name": "Magnésite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "200",
+    "name": "Arc de Triomphe",
+    "profession": "bow-carver",
+    "level": 30,
+    "image": "2011.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "202",
+    "name": "Arc de Jeanne",
+    "profession": "bow-carver",
+    "level": 30,
+    "image": "2015.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "791",
+    "name": "Arc en Corne de Bouftou",
+    "profession": "bow-carver",
+    "level": 32,
+    "image": "2022.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 6
+      },
+      {
+        "resourceId": "47055",
+        "name": "Corne de Bouftou",
+        "quantity": 8
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "149",
+    "name": "La Corde de Yamato",
+    "profession": "bow-carver",
+    "level": 33,
+    "image": "2010.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39108",
+        "name": "Cuivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "812",
+    "name": "Célèbre Arc Ecologique",
+    "profession": "bow-carver",
+    "level": 33,
+    "image": "2020.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "805",
+    "name": "Arc dit Kéha, version soldée",
+    "profession": "bow-carver",
+    "level": 35,
+    "image": "2021.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 8
+      },
+      {
+        "resourceId": "95093",
+        "name": "Planche en Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "51127",
+        "name": "Pierre à Aiguiser",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "792",
+    "name": "Arc Lourd en Corne de Bouftou",
+    "profession": "bow-carver",
+    "level": 35,
+    "image": "2022.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 7
+      },
+      {
+        "resourceId": "47055",
+        "name": "Corne de Bouftou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "395",
+    "name": "Corde d'Ivan Nowé",
+    "profession": "bow-carver",
+    "level": 36,
+    "image": "2001.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "813",
+    "name": "Arc de Cristal Opaque",
+    "profession": "bow-carver",
+    "level": 38,
+    "image": "2018.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2001",
+        "name": "Petit Arc de Boisaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "48002",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "105207",
+        "name": "Oeuf de Dragoeuf Blanc",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "804",
+    "name": "Arc Royal en Corne de Bouftou",
+    "profession": "bow-carver",
+    "level": 38,
+    "image": "2022.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39024",
+        "name": "Fer",
+        "quantity": 8
+      },
+      {
+        "resourceId": "47055",
+        "name": "Corne de Bouftou",
+        "quantity": 12
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "806",
+    "name": "Arc dit Kéha, version standard",
+    "profession": "bow-carver",
+    "level": 39,
+    "image": "2021.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "95093",
+        "name": "Planche en Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "51127",
+        "name": "Pierre à Aiguiser",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1282",
+    "name": "Abrarc",
+    "profession": "bow-carver",
+    "level": 39,
+    "image": "2024.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "96103",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "98102",
+        "name": "Racine d'Abraknyde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "108104",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1041",
+    "name": "Arc Hidsad",
+    "profession": "bow-carver",
+    "level": 40,
+    "image": "2012.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 20
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38092",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1039",
+    "name": "Arc à Poulie Sciée",
+    "profession": "bow-carver",
+    "level": 41,
+    "image": "2010.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "96103",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "807",
+    "name": "Arc dit Kéha, version spéciale",
+    "profession": "bow-carver",
+    "level": 43,
+    "image": "2021.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 12
+      },
+      {
+        "resourceId": "95093",
+        "name": "Planche en Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "51127",
+        "name": "Pierre à Aiguiser",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "814",
+    "name": "Arc de Cristal",
+    "profession": "bow-carver",
+    "level": 44,
+    "image": "2018.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2001",
+        "name": "Arc de Boisaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "48002",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 20
+      },
+      {
+        "resourceId": "105207",
+        "name": "Oeuf de Dragoeuf Blanc",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "413",
+    "name": "Arc des Rivages",
+    "profession": "bow-carver",
+    "level": 46,
+    "image": "2038.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "98102",
+        "name": "Racine d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "808",
+    "name": "Arc dit Kéha, nouvelle version",
+    "profession": "bow-carver",
+    "level": 47,
+    "image": "2021.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "39397",
+        "name": "Manganèse",
+        "quantity": 14
+      },
+      {
+        "resourceId": "95093",
+        "name": "Planche en Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38153",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "51127",
+        "name": "Pierre à Aiguiser",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1038",
+    "name": "Arc de Boo",
+    "profession": "bow-carver",
+    "level": 50,
+    "image": "2006.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15116",
+        "name": "Boue du Boo",
+        "quantity": 20
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15590",
+        "name": "Main de Boo",
+        "quantity": 12
+      },
+      {
+        "resourceId": "15591",
+        "name": "Coeur de Boue du Boo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1040",
+    "name": "L'Arc à Hick",
+    "profession": "bow-carver",
+    "level": 50,
+    "image": "2011.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38017",
+        "name": "Bois de Frêne",
+        "quantity": 12
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98102",
+        "name": "Racine d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "815",
+    "name": "Arc de Cristal Translucide",
+    "profession": "bow-carver",
+    "level": 50,
+    "image": "2018.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2001",
+        "name": "Grand Arc de Boisaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 8
+      },
+      {
+        "resourceId": "48002",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 30
+      },
+      {
+        "resourceId": "105207",
+        "name": "Oeuf de Dragoeuf Blanc",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "817",
+    "name": "Petit Arc du Roi des Borins",
+    "profession": "bow-carver",
+    "level": 54,
+    "image": "2023.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "9035",
+        "name": "L'Ecaliseur",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "5006",
+        "name": "Petites Dagues Sylvestres",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6349",
+    "name": "Arc de Kuri",
+    "profession": "bow-carver",
+    "level": 56,
+    "image": "2043.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 15
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38673",
+        "name": "Bois de Bambou",
+        "quantity": 15
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "816",
+    "name": "Arc de Cristal Pur",
+    "profession": "bow-carver",
+    "level": 56,
+    "image": "2018.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2001",
+        "name": "Puissant Arc de Boisaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38086",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "48002",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 40
+      },
+      {
+        "resourceId": "105207",
+        "name": "Oeuf de Dragoeuf Blanc",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5870",
+    "name": "Le Tronknydum",
+    "profession": "bow-carver",
+    "level": 57,
+    "image": "2041.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38573",
+        "name": "Cale en bois du Tronknyde",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38574",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15575",
+        "name": "Tranche de Tronknyde",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "818",
+    "name": "Arc du Roi des Borins",
+    "profession": "bow-carver",
+    "level": 60,
+    "image": "2023.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 15
+      },
+      {
+        "resourceId": "9035",
+        "name": "L'Ecaliseur",
+        "quantity": 3
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 15
+      },
+      {
+        "resourceId": "5006",
+        "name": "Dagues Sylvestres",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "146",
+    "name": "Xaveur",
+    "profession": "bow-carver",
+    "level": 60,
+    "image": "2005.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39022",
+        "name": "Or",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 3
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38139",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7227",
+    "name": "Arc du Koalak",
+    "profession": "bow-carver",
+    "level": 61,
+    "image": "2052.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 16
+      },
+      {
+        "resourceId": "55720",
+        "name": "Etoffe de Dok Alako",
+        "quantity": 3
+      },
+      {
+        "resourceId": "54660",
+        "name": "Poils de Koalak Griotte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "54662",
+        "name": "Poils de Koalak Koko",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47010",
+        "name": "Os de Pékeualak",
+        "quantity": 4
+      },
+      {
+        "resourceId": "59008",
+        "name": "Peau de Piralak",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "819",
+    "name": "Elégant Arc du Roi des Borins",
+    "profession": "bow-carver",
+    "level": 66,
+    "image": "2023.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 20
+      },
+      {
+        "resourceId": "9035",
+        "name": "L'Ecaliseur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 20
+      },
+      {
+        "resourceId": "5006",
+        "name": "Grandes Dagues Sylvestres",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5834",
+    "name": "Arc du Pêcheur",
+    "profession": "bow-carver",
+    "level": 70,
+    "image": "2032.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "96103",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 10
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "820",
+    "name": "Surpuissant Arc du Roi des Borins",
+    "profession": "bow-carver",
+    "level": 72,
+    "image": "2023.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "39028",
+        "name": "Argent",
+        "quantity": 25
+      },
+      {
+        "resourceId": "9035",
+        "name": "L'Ecaliseur",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38095",
+        "name": "Bois de Noyer",
+        "quantity": 25
+      },
+      {
+        "resourceId": "5006",
+        "name": "Puissantes Dagues Sylvestres",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7751",
+    "name": "Le Kikoularc",
+    "profession": "bow-carver",
+    "level": 79,
+    "image": "2057.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2001",
+        "name": "Arc en Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "48002",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 80
+      },
+      {
+        "resourceId": "59628",
+        "name": "Peau de Mob l'Eponge",
+        "quantity": 4
+      },
+      {
+        "resourceId": "51007",
+        "name": "Coeur de pierre poli",
+        "quantity": 3
+      },
+      {
+        "resourceId": "15011",
+        "name": "Maillot de corps de Barbroussa",
+        "quantity": 12
+      },
+      {
+        "resourceId": "50003",
+        "name": "Fragment de cerveau poli",
+        "quantity": 15
+      },
+      {
+        "resourceId": "55729",
+        "name": "Etoffe de Gourlo le Terrible",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5826",
+    "name": "Arc Boutant",
+    "profession": "bow-carver",
+    "level": 80,
+    "image": "2013.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 20
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "47088",
+        "name": "Ivoire",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7750",
+    "name": "Geish'Arc",
+    "profession": "bow-carver",
+    "level": 81,
+    "image": "2056.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15486",
+        "name": "Fil de Soie",
+        "quantity": 1
+      },
+      {
+        "resourceId": "35005",
+        "name": "Pétale Malibout",
+        "quantity": 3
+      },
+      {
+        "resourceId": "36006",
+        "name": "Bulbe Malibout",
+        "quantity": 19
+      },
+      {
+        "resourceId": "36002",
+        "name": "Crinière fleurie",
+        "quantity": 3
+      },
+      {
+        "resourceId": "15012",
+        "name": "Morceau de caleçon de Gourlo",
+        "quantity": 3
+      },
+      {
+        "resourceId": "15014",
+        "name": "Foulard du Sparo",
+        "quantity": 12
+      },
+      {
+        "resourceId": "15015",
+        "name": "Moustache du Mufafah",
+        "quantity": 19
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5832",
+    "name": "Arc Ange",
+    "profession": "bow-carver",
+    "level": 82,
+    "image": "2031.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38482",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38574",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15575",
+        "name": "Tranche de Tronknyde",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5827",
+    "name": "Arc Chiduc",
+    "profession": "bow-carver",
+    "level": 87,
+    "image": "2014.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 15
+      },
+      {
+        "resourceId": "39078",
+        "name": "Etain",
+        "quantity": 8
+      },
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 7
+      },
+      {
+        "resourceId": "38138",
+        "name": "Bois de Charme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "50097",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5863",
+    "name": "Arc du Sram Archer",
+    "profession": "bow-carver",
+    "level": 90,
+    "image": "2040.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38140",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "96231",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "108230",
+        "name": "Bourgeon d'Abraknyde Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6479",
+    "name": "Arc Anum",
+    "profession": "bow-carver",
+    "level": 96,
+    "image": "2049.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15118",
+        "name": "Ficelle en Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38673",
+        "name": "Bois de Bambou",
+        "quantity": 12
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38669",
+        "name": "Bois de Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "96106",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6448",
+    "name": "Arc Assin",
+    "profession": "bow-carver",
+    "level": 107,
+    "image": "2045.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 15
+      },
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 30
+      },
+      {
+        "resourceId": "98145",
+        "name": "Racine de Bulbambou",
+        "quantity": 30
+      },
+      {
+        "resourceId": "98144",
+        "name": "Racine de Bulbig",
+        "quantity": 6
+      },
+      {
+        "resourceId": "96106",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 2
+      },
+      {
+        "resourceId": "50002",
+        "name": "Ambre de Bambouto",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6447",
+    "name": "Arc Hanne",
+    "profession": "bow-carver",
+    "level": 120,
+    "image": "2044.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38669",
+        "name": "Bois de Bambou Doré",
+        "quantity": 6
+      },
+      {
+        "resourceId": "50103",
+        "name": "Agathe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "40707",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "98144",
+        "name": "Racine de Bulbig",
+        "quantity": 3
+      },
+      {
+        "resourceId": "96107",
+        "name": "Ecorce magique de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47007",
+        "name": "Os de Fantôme Soryo Firefoux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5833",
+    "name": "Arc Chitecte",
+    "profession": "bow-carver",
+    "level": 120,
+    "image": "2030.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50023",
+        "name": "Emeraude",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 4
+      },
+      {
+        "resourceId": "38677",
+        "name": "Bois d'Orme",
+        "quantity": 30
+      },
+      {
+        "resourceId": "38140",
+        "name": "Bois Envoûté",
+        "quantity": 6
+      },
+      {
+        "resourceId": "38416",
+        "name": "Bois de Tronknyde",
+        "quantity": 30
+      },
+      {
+        "resourceId": "15575",
+        "name": "Tranche de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15576",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "5864",
+    "name": "Arc du Chafer Archer",
+    "profession": "bow-carver",
+    "level": 120,
+    "image": "2039.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38073",
+        "name": "Bois d'Ebène",
+        "quantity": 25
+      },
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 25
+      },
+      {
+        "resourceId": "50098",
+        "name": "Cristal",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 4
+      },
+      {
+        "resourceId": "47450",
+        "name": "Fragment d'Os",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15575",
+        "name": "Tranche de Tronknyde",
+        "quantity": 12
+      },
+      {
+        "resourceId": "15576",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7316",
+    "name": "Arc Rainier",
+    "profession": "bow-carver",
+    "level": 121,
+    "image": "2053.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50099",
+        "name": "Saphir",
+        "quantity": 8
+      },
+      {
+        "resourceId": "98232",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "38481",
+        "name": "Bois d'Oliviolet",
+        "quantity": 12
+      },
+      {
+        "resourceId": "98143",
+        "name": "Racine de Bulbuisson",
+        "quantity": 11
+      },
+      {
+        "resourceId": "98100",
+        "name": "Racine Magique de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 13
+      },
+      {
+        "resourceId": "47647",
+        "name": "Corne de Dragoss de Saphire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47650",
+        "name": "Corne de Dragoeuf Volant",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7479",
+    "name": "Arc du Dragoeuf",
+    "profession": "bow-carver",
+    "level": 122,
+    "image": "2055.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47054",
+        "name": "Ongle de Chevaucheur de Karne",
+        "quantity": 25
+      },
+      {
+        "resourceId": "47450",
+        "name": "Fragment d'Os",
+        "quantity": 10
+      },
+      {
+        "resourceId": "47004",
+        "name": "Os de Fantôme Pandikaze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "47006",
+        "name": "Os de Fantôme Pandule",
+        "quantity": 3
+      },
+      {
+        "resourceId": "47010",
+        "name": "Os de Pékeualak",
+        "quantity": 30
+      },
+      {
+        "resourceId": "47647",
+        "name": "Corne de Dragoss de Saphire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47651",
+        "name": "Corne de Dragoeuf Guerrier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7985",
+    "name": "Kask'Arc Go",
+    "profession": "bow-carver",
+    "level": 122,
+    "image": "2058.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 17
+      },
+      {
+        "resourceId": "47640",
+        "name": "Tibia de Koalak Fossoyeur",
+        "quantity": 24
+      },
+      {
+        "resourceId": "36007",
+        "name": "Pistil du Tynril",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15020",
+        "name": "Tresse du Poolay",
+        "quantity": 6
+      },
+      {
+        "resourceId": "111004",
+        "name": "Coquille du Kaskargo",
+        "quantity": 8
+      },
+      {
+        "resourceId": "65001",
+        "name": "Queue emplumée du Rasboul Majeur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47020",
+        "name": "Tibia du Guerrier Zoth",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15006",
+        "name": "Bave du Kaskargo",
+        "quantity": 69
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6472",
+    "name": "Jakchir Arc",
+    "profession": "bow-carver",
+    "level": 124,
+    "image": "2050.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "38669",
+        "name": "Bois de Bambou Doré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38674",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 4
+      },
+      {
+        "resourceId": "98099",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "50001",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47004",
+        "name": "Os de Fantôme Pandikaze",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6450",
+    "name": "Arc Huledela",
+    "profession": "bow-carver",
+    "level": 124,
+    "image": "2047.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38672",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "50102",
+        "name": "Topaze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "96106",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 2
+      },
+      {
+        "resourceId": "96108",
+        "name": "Ecorce magique de Bulbambou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38674",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "50001",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47004",
+        "name": "Os de Fantôme Pandikaze",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7317",
+    "name": "Arc Chtelion",
+    "profession": "bow-carver",
+    "level": 129,
+    "image": "2054.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50100",
+        "name": "Rubis",
+        "quantity": 11
+      },
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38140",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "47009",
+        "name": "Corne du Boufcoul",
+        "quantity": 10
+      },
+      {
+        "resourceId": "38001",
+        "name": "Bois de Kaliptus",
+        "quantity": 15
+      },
+      {
+        "resourceId": "47010",
+        "name": "Os de Pékeualak",
+        "quantity": 25
+      },
+      {
+        "resourceId": "47651",
+        "name": "Corne de Dragoeuf Guerrier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "54669",
+        "name": "Poil de Skeunk",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6449",
+    "name": "Arc Lavoine",
+    "profession": "bow-carver",
+    "level": 130,
+    "image": "2046.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 2
+      },
+      {
+        "resourceId": "38167",
+        "name": "Tronc de Kokoko",
+        "quantity": 30
+      },
+      {
+        "resourceId": "38573",
+        "name": "Cale en bois du Tronknyde",
+        "quantity": 12
+      },
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 6
+      },
+      {
+        "resourceId": "50102",
+        "name": "Topaze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "96107",
+        "name": "Ecorce magique de Bulbuisson",
+        "quantity": 2
+      },
+      {
+        "resourceId": "47006",
+        "name": "Os de Fantôme Pandule",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6451",
+    "name": "Arc Hisedaisange",
+    "profession": "bow-carver",
+    "level": 143,
+    "image": "2048.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "50108",
+        "name": "Ambre Ancestrale",
+        "quantity": 4
+      },
+      {
+        "resourceId": "15631",
+        "name": "Fil Résistant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "38671",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38669",
+        "name": "Bois de Bambou Doré",
+        "quantity": 4
+      },
+      {
+        "resourceId": "50101",
+        "name": "Aigue-Marine",
+        "quantity": 5
+      },
+      {
+        "resourceId": "38670",
+        "name": "Bois de Bambou Magique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "98144",
+        "name": "Racine de Bulbig",
+        "quantity": 50
+      },
+      {
+        "resourceId": "47005",
+        "name": "Os de Fantôme Pandore",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8039",
+    "name": "Arc à Chon",
+    "profession": "bow-carver",
+    "level": 151,
+    "image": "2059.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "15486",
+        "name": "Fil de Soie",
+        "quantity": 2
+      },
+      {
+        "resourceId": "15177",
+        "name": "Rhum de Qualité",
+        "quantity": 3
+      },
+      {
+        "resourceId": "47017",
+        "name": "Pince de Crustorail",
+        "quantity": 130
+      },
+      {
+        "resourceId": "96002",
+        "name": "Ecorce de Floribonde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "15022",
+        "name": "Croupion du Bitouf aérien",
+        "quantity": 32
+      },
+      {
+        "resourceId": "55016",
+        "name": "Etoffe de Meupette",
+        "quantity": 9
+      },
+      {
+        "resourceId": "111003",
+        "name": "Coco du Bitouf aérien",
+        "quantity": 2
+      },
+      {
+        "resourceId": "54013",
+        "name": "Perruque du Kimbo",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8040",
+    "name": "Arc Oleptik",
+    "profession": "bow-carver",
+    "level": 185,
+    "image": "2060.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "38094",
+        "name": "Bois d'If",
+        "quantity": 32
+      },
+      {
+        "resourceId": "26021",
+        "name": "Potion d'Incendie",
+        "quantity": 6
+      },
+      {
+        "resourceId": "26027",
+        "name": "Potion d'Ouragan",
+        "quantity": 6
+      },
+      {
+        "resourceId": "65751",
+        "name": "Queue Magique du Péki",
+        "quantity": 1
+      },
+      {
+        "resourceId": "15016",
+        "name": "Sourcil du Rasboul majeur",
+        "quantity": 3
+      },
+      {
+        "resourceId": "38002",
+        "name": "Noeud de l'Abrakleur clair",
+        "quantity": 8
+      },
+      {
+        "resourceId": "15758",
+        "name": "Jus de Ouassingue",
+        "quantity": 12
+      },
+      {
+        "resourceId": "50109",
+        "name": "Pierre précieuse du Kimbo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8234",
+    "name": "Arc à Lamelles",
+    "profession": "bow-carver",
+    "level": 187,
+    "image": "2061.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "47656",
+        "name": "Fémur du Minotot",
+        "quantity": 3
+      },
+      {
+        "resourceId": "47022",
+        "name": "Bec du Kido",
+        "quantity": 25
+      },
+      {
+        "resourceId": "15017",
+        "name": "Bâton du Kilibriss",
+        "quantity": 21
+      },
+      {
+        "resourceId": "36009",
+        "name": "Carpelle de Brouture",
+        "quantity": 24
+      },
+      {
+        "resourceId": "111003",
+        "name": "Coco du Bitouf aérien",
+        "quantity": 11
+      },
+      {
+        "resourceId": "47020",
+        "name": "Tibia du Guerrier Zoth",
+        "quantity": 13
+      },
+      {
+        "resourceId": "96109",
+        "name": "Ecorce de Champaknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "15766",
+        "name": "Lamelle de Champbis",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10020",
+    "name": "L'Arc Adie",
+    "profession": "bow-carver",
+    "level": 195,
+    "image": "2069.svg",
+    "category": "Arc",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "40704",
+        "name": "Kobalite",
+        "quantity": 23
+      },
+      {
+        "resourceId": "38668",
+        "name": "Bois de Chêne Mou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2055",
+        "name": "Arc du Dragoeuf",
+        "quantity": 1
+      },
+      {
+        "resourceId": "110736",
+        "name": "Gelée de Dégelée",
+        "quantity": 58
+      },
+      {
+        "resourceId": "36014",
+        "name": "Feuille de Blop Multicolore Royal",
+        "quantity": 43
+      },
+      {
+        "resourceId": "53646",
+        "name": "Plume nacrée d'Ilyzaelle",
+        "quantity": 5
+      },
+      {
+        "resourceId": "15777",
+        "name": "Arc brisé du Tireur d'Élite",
+        "quantity": 21
+      },
+      {
+        "resourceId": "47801",
+        "name": "Corne en Platine de Palidane",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

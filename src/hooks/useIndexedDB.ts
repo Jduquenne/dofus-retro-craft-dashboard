@@ -51,6 +51,18 @@ db.version(4).stores({
   catalogPrices: "id",
 });
 
+// v6 : rechargement recettes depuis recipesCatalog + fix typo minor → miner
+db.version(6).stores({
+  resources: "id, name, type",
+  recipes: "id, name, profession, level",
+  professions: "id, name, currentLevel",
+  goals: "id",
+  catalogPrices: "id",
+}).upgrade(async tx => {
+  await tx.table('recipes').clear();
+  await tx.table('professions').where('id').equals('minor').modify({ id: 'miner' });
+});
+
 // v5 : migration id catalogPrices string → number
 db.version(5).stores({
   resources: "id, name, type",

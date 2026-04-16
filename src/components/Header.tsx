@@ -4,11 +4,11 @@ import dora from '../../public/dora.svg'
 
 export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) => void }> = ({ activeTab, setActiveTab }) => {
     const tabs = [
-        { id: 'professions', label: 'Métiers',        icon: <TrendingUp size={16} /> },
-        { id: 'calculator',  label: 'Calculateur XP', icon: <Calculator  size={16} /> },
-        { id: 'scrolls',     label: 'Parchemins',     icon: <ScrollText  size={16} /> },
-        { id: 'catalog',     label: 'Ressources',     icon: <Database    size={16} /> },
-        { id: 'pods',        label: 'Calcul POD',     icon: <Package     size={16} /> },
+        { id: 'professions', label: 'Métiers', icon: <TrendingUp size={16} /> },
+        { id: 'catalog', label: 'Ressources', icon: <Database size={16} /> },
+        { id: 'scrolls', label: 'Parchemins', icon: <ScrollText size={16} /> },
+        { id: 'calculator', label: 'Calcul XP métiers', icon: <Calculator size={16} /> },
+        { id: 'pods', label: 'Calcul POD', icon: <Package size={16} /> },
     ];
 
     return (
@@ -31,11 +31,10 @@ export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) =
                             <button
                                 key={tab.id}
                                 onClick={() => setActiveTab(tab.id)}
-                                className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-t transition-all border border-b-0 ${
-                                    isActive
-                                        ? 'bg-dofus-panel text-dofus-text border-dofus-border'
-                                        : 'bg-[#2E1A0A]/80 text-dofus-cream/60 border-[#5A3510]/60 hover:bg-[#3A2010] hover:text-dofus-cream/90'
-                                }`}
+                                className={`flex items-center gap-2 px-4 py-2 text-sm font-medium rounded-t transition-all border border-b-0 ${isActive
+                                    ? 'bg-dofus-panel text-dofus-text border-dofus-border'
+                                    : 'bg-[#2E1A0A]/80 text-dofus-cream/60 border-[#5A3510]/60 hover:bg-[#3A2010] hover:text-dofus-cream/90'
+                                    }`}
                             >
                                 <span className={isActive ? 'text-dofus-orange' : ''}>{tab.icon}</span>
                                 {tab.label}

@@ -1,6 +1,6 @@
 import { CRAFT_XP_BY_SLOTS, MAX_LEVEL_BY_SLOTS, UNLOCK_LEVEL_BY_SLOTS } from '../constants/craftXP';
 import { PROFESSION_XP_TABLE } from './professionXP';
-import type { Recipe, Resource } from '../types';
+import type { Recipe, HarvestResource } from '../types';
 
 export const XP_TO_SLOTS: Record<number, number> = {};
 Object.entries(CRAFT_XP_BY_SLOTS).forEach(([slots, xp]) => {
@@ -44,16 +44,15 @@ export function getRecipeStatus(
 }
 
 export function getHarvestStatus(
-    resource: Resource,
+    resource: HarvestResource,
     currentLevel: number,
     currentXP: number,
     targetLevel: number,
     xpMultiplier: number
 ): HarvestStatus {
-    const resourceLevel = Number(resource.level) || 1;
-    if (currentLevel < resourceLevel) return { kind: 'locked', unlockLevel: resourceLevel };
+    if (currentLevel < resource.level) return { kind: 'locked', unlockLevel: resource.level };
 
-    const xpPerHarvest = (resource.xpPerHarvest ?? 0) * xpMultiplier;
+    const xpPerHarvest = resource.xpPerHarvest * xpMultiplier;
     if (xpPerHarvest <= 0) return { kind: 'valid', harvestsNeeded: 0 };
 
     const targetXP = PROFESSION_XP_TABLE[targetLevel] ?? 0;

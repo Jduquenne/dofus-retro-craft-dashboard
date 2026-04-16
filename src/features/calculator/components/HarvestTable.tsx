@@ -1,10 +1,10 @@
 import React from 'react';
 import { Lock, Wheat } from 'lucide-react';
-import type { Resource } from '../../../types';
+import type { HarvestResource } from '../../../types';
 import { getHarvestStatus } from '../../../utils/calculatorHelpers';
 
 interface HarvestTableProps {
-    resources: Resource[];
+    resources: HarvestResource[];
     currentLevel: number;
     currentXP: number;
     targetLevel: number;
@@ -37,7 +37,7 @@ export const HarvestTable: React.FC<HarvestTableProps> = ({
                     {resources.map(resource => {
                         const status = getHarvestStatus(resource, currentLevel, currentXP, targetLevel, xpMultiplier);
                         const isLocked = status.kind === 'locked';
-                        const resourceLevel = Number(resource.level) || 1;
+                        const resourceLevel = resource.level;
                         const effectiveXP = (resource.xpPerHarvest ?? 0) * xpMultiplier;
 
                         return (

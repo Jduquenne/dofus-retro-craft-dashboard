@@ -1,0 +1,81 @@
+{
+  "id": "chance",
+  "label": "Chance",
+  "icon": "🍀",
+  "tiers": [
+    {
+      "type": "petit",
+      "pointsPerUse": 1,
+      "statLimit": 25,
+      "options": [
+        {
+          "id": "cha-petit-aliakelle",
+          "npc": "Ali Akelle",
+          "position": [2, -2],
+          "resources": [
+            { "name": "Pattes d'Arakne", "quantity": 80 }
+          ]
+        },
+        {
+          "id": "cha-petit-azralazarus",
+          "npc": "Azra Lazarus",
+          "position": [0, 2],
+          "resources": [
+            { "name": "Amulette du Bucheron", "quantity": 1, "kind": "equipment" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "pointsPerUse": 1,
+      "statLimit": 50,
+      "options": [
+        {
+          "id": "cha-normal-koussein",
+          "npc": "Koussein Trengon",
+          "position": [4, 8],
+          "resources": [
+            { "name": "Pattes d'Arakne", "quantity": 90 },
+            { "name": "Trèfles à 5 feuilles", "quantity": 65 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grand",
+      "pointsPerUse": 1,
+      "statLimit": 80,
+      "options": [
+        {
+          "id": "cha-grand-assistant",
+          "npc": "Assistant d'Otomaï",
+          "position": [-2, -4],
+          "resources": [
+            { "name": "Ongles Chevaucheurs de Karne", "quantity": 40 },
+            { "name": "Pattes d'Arakne", "quantity": 75 },
+            { "name": "Trèfles à 5 feuilles", "quantity": 60 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "puissant",
+      "pointsPerUse": 2,
+      "statLimit": 100,
+      "options": [
+        {
+          "id": "cha-puissant-bolzano",
+          "npc": "Bolzano Vieilletrasse",
+          "position": [2, 5],
+          "resources": [
+            { "name": "Ongles Chevaucheurs de Karne", "quantity": 40 },
+            { "name": "Pattes d'Arakne", "quantity": 60 },
+            { "name": "Trèfles à 5 feuilles", "quantity": 55 },
+            { "name": "Queues du Mulou", "quantity": 15 }
+          ]
+        }
+      ]
+    }
+  ]
+}

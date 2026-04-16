@@ -1,5 +1,5 @@
-import type { CategoryTypes } from "../data/categoryTypes";
-import type { ProfessionTypes } from "../data/professionTypes";
+import type { CategoryTypes } from "./categoryTypes";
+import type { ProfessionTypes } from "./professionTypes";
 
 export interface Resource {
   id: string;
@@ -26,6 +26,7 @@ export interface MonsterDrops {
 export interface RecipeResource {
   resourceId: string;
   quantity: number;
+  name?: string;
 }
 
 export interface Recipe {
@@ -35,8 +36,10 @@ export interface Recipe {
   level: number;
   resources: RecipeResource[];
   xpGained: number;
-  hdvPrice: number;
   merchantPrice: number;
+  image?: string;
+  category?: string;
+  isSecret?: boolean;
 }
 
 export interface Profession {
@@ -63,7 +66,18 @@ export interface PodItem {
   quantity: number;
 }
 
-// Ressource du catalogue général (données statiques dans resources-catalog.json)
+// Ressource récoltable d'un métier de récolte (données statiques dans professions/harvest/*.json)
+export interface HarvestResource {
+  id: string;
+  name: string;
+  category: CategoryTypes;
+  pods: number;
+  level: number;
+  description: string;
+  xpPerHarvest: number;
+}
+
+// Ressource du catalogue général (données statiques dans data/resources/resources-catalog.json)
 export interface CatalogResource {
   id: number;
   name: string;

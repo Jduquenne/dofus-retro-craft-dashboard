@@ -1,4 +1,4 @@
-import rawCatalog from '../data/resources-catalog.json';
+import rawCatalog from '../data/resources/resources-catalog.json';
 import type { CatalogResource } from '../types';
 
 const catalogByName = new Map<string, CatalogResource>(

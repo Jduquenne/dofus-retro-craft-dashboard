@@ -15,7 +15,7 @@ interface AppContextType {
     kamasGoal: KamasGoal;
     setKamasGoal: (goal: KamasGoal) => void;
     calculateCraftCost: (recipe: Recipe) => number;
-    calculateMargin: (recipe: Recipe, type: 'hdv' | 'merchant') => number;
+    calculateMargin: (recipe: Recipe) => number;
     xpMultiplier: number;
     setXpMultiplier: (value: number) => void;
     isLoading: boolean;
@@ -102,10 +102,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         }, 0);
     };
 
-    const calculateMargin = (recipe: Recipe, type: 'hdv' | 'merchant'): number => {
+    const calculateMargin = (recipe: Recipe): number => {
         const cost = calculateCraftCost(recipe);
-        const price = type === 'hdv' ? recipe.hdvPrice : recipe.merchantPrice;
-        return price - cost;
+        return recipe.merchantPrice - cost;
     };
 
     return (

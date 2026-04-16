@@ -22,30 +22,41 @@ src/
 ├── features/               # Modules par route (feature-based)
 │   ├── professions/
 │   │   ├── components/     # Sous-composants de la feature
-│   │   │   ├── ProfessionCard.tsx
-│   │   │   ├── ProfessionInputs.tsx
-│   │   │   ├── ProfessionSlotIndicator.tsx
-│   │   │   ├── XpMultiplierSelector.tsx
-│   │   │   ├── ProfessionStats.tsx
-│   │   │   └── CraftOptionsDisplay.tsx
-│   │   └── ProfessionsModule.tsx   # Point d'entrée de la route
+│   │   └── ProfessionsModule.tsx
 │   ├── calculator/
+│   │   ├── components/
 │   │   └── CalculatorModule.tsx
 │   ├── scrolls/
+│   │   ├── components/
 │   │   └── ScrollsModule.tsx
 │   ├── catalog/
+│   │   ├── components/
 │   │   └── CatalogModule.tsx
-│   ├── dashboard/          # Désactivé dans la nav
-│   ├── recipes/            # Désactivé dans la nav
-│   ├── resources/          # Désactivé dans la nav
-│   └── goals/              # Désactivé dans la nav
+│   └── pods/
+│       ├── components/
+│       └── PodModule.tsx
 ├── context/
 │   └── AppContext.tsx      # État global via React Context
 ├── hooks/
 │   ├── useIndexedDB.ts     # CRUD IndexedDB
 │   └── useProfessionLogic.ts # Calculs métiers (XP, niveaux, slots)
-├── types/index.ts          # Interfaces Resource, Recipe, Profession, KamasGoal
-├── data/                   # Données statiques du jeu (professions, recettes, ressources)
+├── types/                  # Tous les types TypeScript du domaine
+│   ├── index.ts            # Interfaces principales (Resource, Recipe, Profession…)
+│   ├── categoryTypes.ts    # Enum CategoryTypes + CATEGORY_LABELS
+│   ├── professionTypes.ts  # Enum ProfessionTypes
+│   └── scrolls.ts          # Types parchemins (ScrollStatId, ScrollTier…)
+├── data/                   # Données statiques du jeu (JSON + wrappers typés)
+│   ├── resources/
+│   │   └── resources-catalog.json   # Catalogue général de toutes les ressources
+│   ├── professions/
+│   │   ├── harvest/        # Ressources récoltables par métier (lumberjack.json…)
+│   │   └── v1/             # Recettes de craft par métier (sword_smith_v1.json…)
+│   ├── scrolls/            # Données parchemins par stat + méthodes (agilite.json…)
+│   ├── resources.ts        # Re-export typé de resources-catalog.json
+│   ├── scrolls.ts          # Re-export typé des JSON parchemins
+│   ├── harvestResources.ts # Map professionId → HarvestResource[]
+│   ├── recipesCatalog.ts   # Agrégation des recettes v1
+│   └── professions.ts      # Données initiales des métiers
 ├── constants/              # Tables XP, mappings métiers
 └── utils/                  # Helpers (validation, calculs XP, professionHelpers)
 ```
@@ -169,7 +180,26 @@ Toutes les saisies utilisateur passent par `professionValidation.ts` avant mise 
 
 ### Données statiques
 
-Modifier les données du jeu dans `/src/data/` et `/src/constants/`. Ne pas hardcoder dans les composants.
+Toutes les données du jeu vivent en **JSON** dans `src/data/`. Un fichier `.ts` dans `data/` est uniquement un wrapper typé qui importe le JSON et le réexporte — jamais de tableau ou d'objet de données inline en TypeScript.
+
+```typescript
+// Mauvais : données inline en TypeScript
+export const scrollsData: StatScrollData[] = [
+  { id: "agilite", label: "Agilité", tiers: [ ... 80 lignes ... ] },
+];
+
+// Bon : JSON dans data/scrolls/agilite.json, wrapper dans data/scrolls.ts
+import agiliteData from './scrolls/agilite.json';
+export const scrollsData: StatScrollData[] = [agiliteData, ...] as StatScrollData[];
+```
+
+**Structure des données par domaine :**
+- `data/resources/` — catalogue général des ressources (`resources-catalog.json`)
+- `data/professions/harvest/` — ressources récoltables par métier (`lumberjack.json`, `miner.json`…)
+- `data/professions/v1/` — recettes de craft par métier (`sword_smith_v1.json`…)
+- `data/scrolls/` — données parchemins par stat + méthodes (`agilite.json`, `methods.json`…)
+
+Ne pas hardcoder dans les composants.
 
 ### UI
 
@@ -224,12 +254,25 @@ features/scrolls/
 
 Tout composant qui utilise des hooks, a une logique significative, ou dépasse ~15 lignes doit vivre dans son propre fichier. Les sous-composants inline ne sont acceptables que pour des wrappers purement présentationnels sans hooks et sans interface de props.
 
+### Séparation types / données
+
+Les types TypeScript (interfaces, enums, type aliases) appartiennent à `src/types/`, jamais à `src/data/`. Un fichier dans `src/data/` ne doit contenir que des imports JSON et des réexports typés.
+
+```
+src/types/                  ← interfaces, enums, type aliases
+src/data/                   ← JSON + wrappers de réexport typé
+```
+
+- `CategoryTypes`, `ProfessionTypes` → `src/types/categoryTypes.ts`, `src/types/professionTypes.ts`
+- Types d'un domaine spécifique (ex: parchemins) → `src/types/scrolls.ts`
+- Interfaces partagées (Recipe, Profession…) → `src/types/index.ts`
+
 ### Interfaces de props
 
 - Toujours nommées `<ComponentName>Props` (ex: `ProfessionCardProps`).
 - Co-localisées dans le même fichier que le composant.
 - Ne jamais utiliser de noms génériques comme `interface Props`.
-- Les types du domaine partagés appartiennent à `types/index.ts` — jamais définis dans un fichier de composant.
+- Les types du domaine partagés appartiennent à `src/types/` — jamais définis dans un fichier de composant.
 
 ### Fichiers `.tsx` vs `.ts`
 
@@ -337,10 +380,7 @@ La version est dans `package.json`. Avant tout message de commit, incrémenter l
 | ScrollsModule       | `features/scrolls/`               | **Actif** — onglet Parchemins     |
 | CatalogModule       | `features/catalog/`               | **Actif** — onglet Ressources     |
 | CalculatorModule    | `features/calculator/`            | **Actif** — onglet Calculateur XP |
-| DashboardModule     | `features/dashboard/`             | Codé, désactivé dans la nav       |
-| RecipesModule       | `features/recipes/`               | Codé, désactivé dans la nav       |
-| ResourcesModule     | `features/resources/`             | Codé, désactivé dans la nav       |
-| GoalsModule         | `features/goals/`                 | Codé, désactivé dans la nav       |
+| PodModule           | `features/pods/`                  | **Actif** — onglet Pods           |
 
 ## Commandes
 

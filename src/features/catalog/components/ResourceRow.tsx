@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { CATEGORY_LABELS } from '../../../data/categoryTypes';
+import { CATEGORY_LABELS } from '../../../types/categoryTypes';
 import type { CatalogResource } from '../../../types';
 
 interface ResourceRowProps {

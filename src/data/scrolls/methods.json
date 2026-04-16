@@ -1,0 +1,22 @@
+[
+  {
+    "id": "method_1",
+    "label": "Méthode 1",
+    "description": "25 petits + 25 normaux + 29 grands + 11 puissants",
+    "phases": [
+      { "tierType": "petit",    "from": 0,  "to": 25,  "pointsPerScroll": 1 },
+      { "tierType": "normal",   "from": 25, "to": 50,  "pointsPerScroll": 1 },
+      { "tierType": "grand",    "from": 50, "to": 79,  "pointsPerScroll": 1 },
+      { "tierType": "puissant", "from": 79, "to": 101, "pointsPerScroll": 2 }
+    ]
+  },
+  {
+    "id": "method_2",
+    "label": "Méthode 2",
+    "description": "25 petits + 38 puissants",
+    "phases": [
+      { "tierType": "petit",    "from": 0,  "to": 25,  "pointsPerScroll": 1 },
+      { "tierType": "puissant", "from": 25, "to": 101, "pointsPerScroll": 2 }
+    ]
+  }
+]

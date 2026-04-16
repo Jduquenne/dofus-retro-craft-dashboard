@@ -1,0 +1,92 @@
+[
+  {
+    "id": "breme",
+    "name": "Brème",
+    "category": "fish",
+    "pods": 2,
+    "level": 1,
+    "description": "Un poisson plat et argenté, très commun dans les rivières du Monde des Douze.",
+    "xpPerHarvest": 10
+  },
+  {
+    "id": "truite",
+    "name": "Truite",
+    "category": "fish",
+    "pods": 2,
+    "level": 10,
+    "description": "Un poisson vif aux reflets irisés, prisé des pêcheurs débutants.",
+    "xpPerHarvest": 15
+  },
+  {
+    "id": "carpe_koi",
+    "name": "Carpe Koi",
+    "category": "fish",
+    "pods": 3,
+    "level": 20,
+    "description": "Un poisson ornemental aux couleurs vives, originaire de Pandala.",
+    "xpPerHarvest": 20
+  },
+  {
+    "id": "brochet",
+    "name": "Brochet",
+    "category": "fish",
+    "pods": 3,
+    "level": 30,
+    "description": "Un prédateur des eaux douces, réputé pour sa combativité au bout de la ligne.",
+    "xpPerHarvest": 25
+  },
+  {
+    "id": "sardine",
+    "name": "Sardine",
+    "category": "fish",
+    "pods": 2,
+    "level": 40,
+    "description": "Un petit poisson de mer abondant dans les eaux côtières de Sufokia.",
+    "xpPerHarvest": 30
+  },
+  {
+    "id": "sandre",
+    "name": "Sandre",
+    "category": "fish",
+    "pods": 3,
+    "level": 50,
+    "description": "Un poisson de fond aux reflets dorés, difficile à attraper.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "silure",
+    "name": "Silure",
+    "category": "fish",
+    "pods": 5,
+    "level": 60,
+    "description": "Un poisson géant des grandes profondeurs, qui peut dépasser la taille d'un Iop.",
+    "xpPerHarvest": 40
+  },
+  {
+    "id": "dorade_royale",
+    "name": "Dorade Royale",
+    "category": "fish",
+    "pods": 4,
+    "level": 70,
+    "description": "Un poisson noble aux écailles dorées, que seuls les pêcheurs chevronnés parviennent à capturer.",
+    "xpPerHarvest": 45
+  },
+  {
+    "id": "anguille",
+    "name": "Anguille",
+    "category": "fish",
+    "pods": 3,
+    "level": 80,
+    "description": "Un poisson serpentiforme insaisissable, vivant dans les fonds vaseux.",
+    "xpPerHarvest": 50
+  },
+  {
+    "id": "piranha",
+    "name": "Piranha",
+    "category": "fish",
+    "pods": 2,
+    "level": 100,
+    "description": "Un poisson carnivore redoutable des eaux tropicales. Pêcher en le regardant dans les yeux est déconseillé.",
+    "xpPerHarvest": 60
+  }
+]

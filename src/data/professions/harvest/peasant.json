@@ -1,0 +1,83 @@
+[
+  {
+    "id": "ble",
+    "name": "Blé",
+    "category": "cereal",
+    "pods": 1,
+    "level": 1,
+    "description": "Un épi de blé tout ce qu'il y a de plus ordinaire.",
+    "xpPerHarvest": 10
+  },
+  {
+    "id": "orge",
+    "name": "Orge",
+    "category": "cereal",
+    "pods": 1,
+    "level": 10,
+    "description": "Une céréale rustique très présente dans les champs de Bonta.",
+    "xpPerHarvest": 15
+  },
+  {
+    "id": "avoine",
+    "name": "Avoine",
+    "category": "cereal",
+    "pods": 1,
+    "level": 20,
+    "description": "Céréale à tiges creuses, prisée par les éleveurs de Dragodindes.",
+    "xpPerHarvest": 20
+  },
+  {
+    "id": "houblon",
+    "name": "Houblon",
+    "category": "cereal",
+    "pods": 1,
+    "level": 30,
+    "description": "Plante grimpante indispensable à la fabrication des meilleures bières de la région.",
+    "xpPerHarvest": 25
+  },
+  {
+    "id": "lin",
+    "name": "Lin",
+    "category": "cereal",
+    "pods": 1,
+    "level": 40,
+    "description": "Plante fibreuse dont on extrait aussi des fleurs aux propriétés alchimiques.",
+    "xpPerHarvest": 30
+  },
+  {
+    "id": "seigle",
+    "name": "Seigle",
+    "category": "cereal",
+    "pods": 1,
+    "level": 50,
+    "description": "Céréale robuste qui pousse dans les terrains les plus ingrats.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "riz",
+    "name": "Riz",
+    "category": "cereal",
+    "pods": 1,
+    "level": 50,
+    "description": "Céréale cultivée dans les zones humides d'Akwadala et de Pandala.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "malt",
+    "name": "Malt",
+    "category": "cereal",
+    "pods": 1,
+    "level": 60,
+    "description": "Orge germée et séchée, base indispensable des brasseries de Bonta.",
+    "xpPerHarvest": 40
+  },
+  {
+    "id": "chanvre",
+    "name": "Chanvre",
+    "category": "cereal",
+    "pods": 1,
+    "level": 70,
+    "description": "Plante aux multiples usages, ses fibres sont récoltées par les paysans les plus expérimentés.",
+    "xpPerHarvest": 45
+  }
+]

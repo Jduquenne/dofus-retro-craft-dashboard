@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { scrollsData, SCROLL_METHODS } from '../../data/scrolls';
-import type { ScrollStatId, ScrollTierType } from '../../data/scrolls';
+import type { ScrollStatId, ScrollTierType } from '../../types/scrolls';
 import { calculateScrollsNeeded } from '../../utils/scrollHelpers';
 import { useScrollsStorage } from '../../hooks/useScrollsStorage';
 import { useScrollResourcePrices } from '../../hooks/useScrollResourcePrices';

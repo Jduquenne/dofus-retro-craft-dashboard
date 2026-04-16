@@ -1,0 +1,76 @@
+{
+  "id": "intelligence",
+  "label": "Intelligence",
+  "icon": "🧠",
+  "tiers": [
+    {
+      "type": "petit",
+      "pointsPerUse": 1,
+      "statLimit": 25,
+      "options": [
+        {
+          "id": "int-petit-elya",
+          "npc": "Elya Wood",
+          "position": [7, 1],
+          "resources": [
+            { "name": "Ceinture de Chance", "quantity": 100, "kind": "equipment" }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "normal",
+      "pointsPerUse": 1,
+      "statLimit": 50,
+      "options": [
+        {
+          "id": "int-normal-eowine",
+          "npc": "Eowïne Fiole",
+          "position": [0, 5],
+          "resources": [
+            { "name": "Peau de Larve Bleue", "quantity": 50 },
+            { "name": "Peau de Larve Orange", "quantity": 40 },
+            { "name": "Peau de Larve Verte", "quantity": 40 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "grand",
+      "pointsPerUse": 1,
+      "statLimit": 80,
+      "options": [
+        {
+          "id": "int-grand-drogho",
+          "npc": "Drogho Cralasar",
+          "position": [5, 4],
+          "resources": [
+            { "name": "Aile de Tofu Maléfique", "quantity": 30 },
+            { "name": "Peau de Larve Bleue", "quantity": 45 },
+            { "name": "Peau de Larve Orange", "quantity": 45 },
+            { "name": "Peau de Larve Verte", "quantity": 45 }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "puissant",
+      "pointsPerUse": 2,
+      "statLimit": 100,
+      "options": [
+        {
+          "id": "int-puissant-ozen",
+          "npc": "Ozen Le Sage",
+          "position": [2, 2],
+          "resources": [
+            { "name": "Aile de Tofu Maléfique", "quantity": 40 },
+            { "name": "Peau de Larve Bleue", "quantity": 60 },
+            { "name": "Peau de Larve Orange", "quantity": 50 },
+            { "name": "Peau de Larve Verte", "quantity": 50 },
+            { "name": "Sang du Vampire", "quantity": 30 }
+          ]
+        }
+      ]
+    }
+  ]
+}
