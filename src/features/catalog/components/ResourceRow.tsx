@@ -5,7 +5,7 @@ import type { CatalogResource } from '../../../types';
 interface ResourceRowProps {
     resource: CatalogResource;
     price: number;
-    onPriceChange: (id: string, price: number) => void;
+    onPriceChange: (id: number, price: number) => void;
 }
 
 export const ResourceRow = React.memo(({ resource, price, onPriceChange }: ResourceRowProps) => {
@@ -29,11 +29,19 @@ export const ResourceRow = React.memo(({ resource, price, onPriceChange }: Resou
     return (
         <div
             onClick={handleRowClick}
-            className={`grid grid-cols-[1fr_96px_120px_36px] items-center px-3 py-[5px] border-b border-dofus-border/15 transition-colors text-xs border-l-2 cursor-text ${
+            className={`grid grid-cols-[28px_1fr_96px_120px_36px] items-center px-3 py-[5px] border-b border-dofus-border/15 transition-colors text-xs border-l-2 cursor-text ${
                 isActive
                     ? 'bg-dofus-orange/10 border-l-dofus-orange'
                     : 'hover:bg-dofus-panel-dk/20 border-l-transparent'
             }`}>
+            <img
+                src={`${import.meta.env.BASE_URL}assets/resources/${resource.image}`}
+                alt=""
+                width={24}
+                height={24}
+                className="w-6 h-6 object-contain shrink-0"
+                onError={e => { (e.currentTarget as HTMLImageElement).style.visibility = 'hidden'; }}
+            />
             <span className={`font-medium truncate pr-2 transition-colors ${isActive ? 'text-dofus-text' : 'text-dofus-text-md'}`}>
                 {resource.name}
             </span>

@@ -8,13 +8,13 @@ export function useScrollResourcePrices(
     resources: ResourceTotal[],
     manualPrices: Record<string, number>,
 ): Record<string, ResolvedPrice> {
-    const [catalogPrices, setCatalogPrices] = useState<Record<string, number>>({});
+    const [catalogPrices, setCatalogPrices] = useState<Record<number, number>>({});
 
     useEffect(() => {
         let active = true;
         db.catalogPrices.toArray().then(rows => {
             if (!active) return;
-            const map: Record<string, number> = {};
+            const map: Record<number, number> = {};
             for (const row of rows) map[row.id] = row.price;
             setCatalogPrices(map);
         });

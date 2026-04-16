@@ -29,7 +29,7 @@ const catalog = (rawCatalog as CatalogResource[])
 const BATCH_SIZE = 60;
 
 export function useResourceCatalog() {
-  const [prices, setPrices] = useState<Record<string, number>>({});
+  const [prices, setPrices] = useState<Record<number, number>>({});
   const [searchText, setSearchText] = useState('');
   const [selectedCategories, setSelectedCategories] = useState<Set<string>>(new Set());
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
@@ -37,13 +37,13 @@ export function useResourceCatalog() {
   // Chargement initial des prix depuis IndexedDB
   useEffect(() => {
     db.catalogPrices.toArray().then(rows => {
-      const map: Record<string, number> = {};
+      const map: Record<number, number> = {};
       for (const row of rows) map[row.id] = row.price;
       setPrices(map);
     });
   }, []);
 
-  const setPrice = useCallback((id: string, price: number) => {
+  const setPrice = useCallback((id: number, price: number) => {
     setPrices(prev => ({ ...prev, [id]: price }));
     if (price > 0) {
       db.catalogPrices.put({ id, price });

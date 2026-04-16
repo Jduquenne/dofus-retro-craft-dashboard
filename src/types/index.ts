@@ -65,14 +65,17 @@ export interface PodItem {
 
 // Ressource du catalogue général (données statiques dans resources-catalog.json)
 export interface CatalogResource {
-  id: string;
+  id: number;
   name: string;
   category: string; // valeur de CategoryTypes (ex: "wing", "bone", ...)
   level: number;
+  pods: number;
+  description: string;
+  image: string;
 }
 
 // Prix d'une ressource du catalogue (stocké dans IndexedDB)
 export interface CatalogPrice {
-  id: string;    // = CatalogResource.id
+  id: number;    // = CatalogResource.id
   price: number;
 }

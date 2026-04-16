@@ -14,5 +14,5 @@ export type PriceSource = 'catalog' | 'manual' | 'none';
 export interface ResolvedPrice {
     price: number;
     source: PriceSource;
-    catalogId?: string;
+    catalogId?: number;
 }

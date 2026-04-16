@@ -51,6 +51,23 @@ db.version(4).stores({
   catalogPrices: "id",
 });
 
+// v5 : migration id catalogPrices string → number
+db.version(5).stores({
+  resources: "id, name, type",
+  recipes: "id, name, profession, level",
+  professions: "id, name, currentLevel",
+  goals: "id",
+  catalogPrices: "id",
+}).upgrade(async tx => {
+  const old = await tx.table<{ id: string; price: number }>('catalogPrices').toArray();
+  await tx.table('catalogPrices').clear();
+  if (old.length > 0) {
+    await tx.table('catalogPrices').bulkAdd(
+      old.map(row => ({ id: Number(row.id), price: row.price })),
+    );
+  }
+});
+
 export const useIndexedDB = () => {
   const [isLoaded, setIsLoaded] = useState(false);
 
