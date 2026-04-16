@@ -56,6 +56,13 @@ export interface KamasGoal {
   expenses: number;
 }
 
+export interface PodItem {
+  id: string;
+  name: string;
+  podWeight: number;
+  quantity: number;
+}
+
 // Ressource du catalogue général (données statiques dans resources-catalog.json)
 export interface CatalogResource {
   id: string;

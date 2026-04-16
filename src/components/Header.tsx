@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calculator, Database, ScrollText, TrendingUp } from "lucide-react";
+import { Calculator, Database, Package, ScrollText, TrendingUp } from "lucide-react";
 import dora from '../../public/dora.svg'
 
 export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) => void }> = ({ activeTab, setActiveTab }) => {
@@ -8,6 +8,7 @@ export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) =
         { id: 'calculator',  label: 'Calculateur XP', icon: <Calculator  size={16} /> },
         { id: 'scrolls',     label: 'Parchemins',     icon: <ScrollText  size={16} /> },
         { id: 'catalog',     label: 'Ressources',     icon: <Database    size={16} /> },
+        { id: 'pods',        label: 'Calcul POD',     icon: <Package     size={16} /> },
     ];
 
     return (

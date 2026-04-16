@@ -27,6 +27,9 @@ const ResourcesModule = lazy(() =>
 const GoalsModule = lazy(() =>
   import('./features/goals/GoalsModule').then(({ GoalsModule: m }) => ({ default: m }))
 );
+const PodModule = lazy(() =>
+  import('./features/pods/PodModule').then(({ PodModule: m }) => ({ default: m }))
+);
 
 const App: React.FC = () => {
   const { activeTab, setActiveTab } = useHashTab();
@@ -44,6 +47,7 @@ const App: React.FC = () => {
             {activeTab === 'professions' && <ProfessionsModule />}
             {activeTab === 'scrolls'     && <ScrollsModule />}
             {activeTab === 'catalog'     && <CatalogModule />}
+            {activeTab === 'pods'        && <PodModule />}
           </Suspense>
         </main>
         <footer className="text-center py-3 text-xs text-dofus-cream/25 border-t border-dofus-border/40">

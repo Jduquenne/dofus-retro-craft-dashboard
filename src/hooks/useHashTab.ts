@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const VALID_TABS = ['professions', 'calculator', 'scrolls', 'catalog'] as const;
+const VALID_TABS = ['professions', 'calculator', 'scrolls', 'catalog', 'pods'] as const;
 type TabId = (typeof VALID_TABS)[number];
 const DEFAULT_TAB: TabId = 'professions';
 

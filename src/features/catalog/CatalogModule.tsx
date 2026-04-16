@@ -69,11 +69,11 @@ export const CatalogModule: React.FC = () => {
                 />
 
                 <div className="panel rounded flex-1 min-h-0 flex flex-col overflow-hidden">
-                    <div className="grid grid-cols-[1fr_140px_40px_96px] px-3 py-2 border-b-2 border-dofus-border/40 bg-dofus-border/30 text-[10px] font-semibold text-dofus-cream uppercase tracking-wider shrink-0">
+                    <div className="grid grid-cols-[1fr_96px_120px_36px] px-3 py-2 border-b-2 border-dofus-border/40 bg-dofus-border/30 text-[10px] font-semibold text-dofus-cream uppercase tracking-wider shrink-0">
                         <span>Ressource</span>
-                        <span>Catégorie</span>
-                        <span className="text-center">Niv.</span>
                         <span className="text-right">Prix/u (k)</span>
+                        <span className="pl-3">Catégorie</span>
+                        <span className="text-center">Niv.</span>
                     </div>
 
                     <div className="overflow-y-auto flex-1 min-h-0">

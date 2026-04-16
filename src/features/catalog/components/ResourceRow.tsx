@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useState, useCallback, useRef } from 'react';
 import { CATEGORY_LABELS } from '../../../data/categoryTypes';
 import type { CatalogResource } from '../../../types';
 
@@ -9,6 +9,9 @@ interface ResourceRowProps {
 }
 
 export const ResourceRow = React.memo(({ resource, price, onPriceChange }: ResourceRowProps) => {
+    const [isActive, setIsActive] = useState(false);
+    const inputRef = useRef<HTMLInputElement>(null);
+
     const handleChange = useCallback(
         (e: React.ChangeEvent<HTMLInputElement>) => {
             onPriceChange(resource.id, Number(e.target.value) || 0);
@@ -16,21 +19,41 @@ export const ResourceRow = React.memo(({ resource, price, onPriceChange }: Resou
         [resource.id, onPriceChange],
     );
 
+    const handleRowClick = useCallback((e: React.MouseEvent) => {
+        if ((e.target as HTMLElement).tagName !== 'INPUT') {
+            inputRef.current?.focus();
+            inputRef.current?.select();
+        }
+    }, []);
+
     return (
-        <div className="grid grid-cols-[1fr_140px_40px_96px] items-center px-3 py-[5px] border-b border-dofus-border/15 hover:bg-dofus-panel-dk/20 text-xs">
-            <span className="text-dofus-text font-medium truncate pr-2">{resource.name}</span>
-            <span className="text-dofus-text-lt truncate">
-                {CATEGORY_LABELS[resource.category] ?? resource.category}
+        <div
+            onClick={handleRowClick}
+            className={`grid grid-cols-[1fr_96px_120px_36px] items-center px-3 py-[5px] border-b border-dofus-border/15 transition-colors text-xs border-l-2 cursor-text ${
+                isActive
+                    ? 'bg-dofus-orange/10 border-l-dofus-orange'
+                    : 'hover:bg-dofus-panel-dk/20 border-l-transparent'
+            }`}>
+            <span className={`font-medium truncate pr-2 transition-colors ${isActive ? 'text-dofus-text' : 'text-dofus-text-md'}`}>
+                {resource.name}
             </span>
-            <span className="text-dofus-text-lt text-center font-mono">{resource.level}</span>
             <input
+                ref={inputRef}
                 type="number"
                 min={0}
                 value={price || ''}
                 placeholder="—"
+                onFocus={() => setIsActive(true)}
+                onBlur={() => setIsActive(false)}
                 onChange={handleChange}
                 className="input-dofus w-full text-right font-mono text-xs py-0.5 placeholder-dofus-text-lt"
             />
+            <span className={`truncate pl-3 transition-colors ${isActive ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
+                {CATEGORY_LABELS[resource.category] ?? resource.category}
+            </span>
+            <span className={`text-center font-mono transition-colors ${isActive ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
+                {resource.level}
+            </span>
         </div>
     );
 }, (prev, next) => prev.price === next.price && prev.resource.id === next.resource.id);

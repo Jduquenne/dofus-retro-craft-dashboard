@@ -3,6 +3,7 @@ import { scrollsData, SCROLL_METHODS } from '../../data/scrolls';
 import type { ScrollStatId, ScrollTierType } from '../../data/scrolls';
 import { calculateScrollsNeeded } from '../../utils/scrollHelpers';
 import { useScrollsStorage } from '../../hooks/useScrollsStorage';
+import { useScrollResourcePrices } from '../../hooks/useScrollResourcePrices';
 import { StatSelector } from './components/StatSelector';
 import { StatRangePanel } from './components/StatRangePanel';
 import { ScrollsConfigAside } from './components/ScrollsConfigAside';
@@ -42,8 +43,13 @@ export const ScrollsModule: React.FC = () => {
         [stat, method, currentStat, targetStat, npcSelections],
     );
 
+    const resolvedPrices = useScrollResourcePrices(result.totalResources, resourcePrices);
+
     const totalScrolls = result.phases.reduce((acc, p) => acc + p.scrollsNeeded, 0);
-    const totalCost = result.totalResources.reduce((sum, r) => sum + r.quantity * (resourcePrices[r.name] ?? 0), 0);
+    const totalCost = result.totalResources.reduce(
+        (sum, r) => sum + r.quantity * (resolvedPrices[r.name]?.price ?? 0),
+        0,
+    );
     const phasesWithMultiPnj = result.phases.filter(p => {
         const tier = stat.tiers.find(t => t.type === p.tierType);
         return tier && tier.options.length > 1;
@@ -77,9 +83,10 @@ export const ScrollsModule: React.FC = () => {
                     {result.totalResources.length > 0 && (
                         <ResourcesPriceTable
                             resources={result.totalResources}
-                            resourcePrices={resourcePrices}
+                            resolvedPrices={resolvedPrices}
                             totalCost={totalCost}
                             onPriceChange={setResourcePrice}
+                            onResetToManual={name => setResourcePrice(name, 0)}
                         />
                     )}
                 </div>
