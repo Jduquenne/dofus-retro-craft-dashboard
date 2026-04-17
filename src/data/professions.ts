@@ -1,5 +1,5 @@
 import type { Profession } from "../types";
-import { ProfessionTypes } from "./professionTypes";
+import { ProfessionTypes } from "../types/professionTypes";
 
 export const initialProfessions: Profession[] = [
   {
