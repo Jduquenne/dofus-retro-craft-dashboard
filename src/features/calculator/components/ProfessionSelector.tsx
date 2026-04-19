@@ -3,6 +3,9 @@ import { RefreshCw, ChevronDown } from 'lucide-react';
 import type { Profession } from '../../../types';
 import { ProfessionTypes } from '../../../types/professionTypes';
 
+const SMITH_IDS = new Set(['sword_smith', 'hammer_smith', 'shovel_smith', 'dagger_smith', 'axe_smith', 'shield_smith']);
+const CARVER_IDS = new Set(['bow_carver', 'staff_carver', 'wand_carver']);
+
 interface ProfessionSelectorProps {
     professions: Profession[];
     selectedProfId: string;
@@ -51,7 +54,17 @@ export const ProfessionSelector: React.FC<ProfessionSelectorProps> = ({
                             ))}
                         </optgroup>
                         <optgroup label="⚒️ Craft">
-                            {professions.filter(p => p.type === ProfessionTypes.CRAFT).map(p => (
+                            {professions.filter(p => p.type === ProfessionTypes.CRAFT && !SMITH_IDS.has(p.id) && !CARVER_IDS.has(p.id)).map(p => (
+                                <option key={p.id} value={p.id}>{p.icon} {p.name}</option>
+                            ))}
+                        </optgroup>
+                        <optgroup label="🔨 Forgeron">
+                            {professions.filter(p => SMITH_IDS.has(p.id)).map(p => (
+                                <option key={p.id} value={p.id}>{p.icon} {p.name}</option>
+                            ))}
+                        </optgroup>
+                        <optgroup label="🪵 Sculpteur">
+                            {professions.filter(p => CARVER_IDS.has(p.id)).map(p => (
                                 <option key={p.id} value={p.id}>{p.icon} {p.name}</option>
                             ))}
                         </optgroup>

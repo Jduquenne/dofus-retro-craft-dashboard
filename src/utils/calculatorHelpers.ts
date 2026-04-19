@@ -1,6 +1,7 @@
 import { CRAFT_XP_BY_SLOTS, MAX_LEVEL_BY_SLOTS, UNLOCK_LEVEL_BY_SLOTS } from '../constants/craftXP';
 import { PROFESSION_XP_TABLE } from './professionXP';
-import type { Recipe, HarvestResource } from '../types';
+import { findInCatalog } from './scrollResourceHelpers';
+import type { Recipe, HarvestResource, RecipeResource } from '../types';
 
 export const XP_TO_SLOTS: Record<number, number> = {};
 Object.entries(CRAFT_XP_BY_SLOTS).forEach(([slots, xp]) => {
@@ -41,6 +42,14 @@ export function getRecipeStatus(
 
     if (targetLevel > maxLevel) return { kind: 'partial', craftsToMax: crafts, maxLevel };
     return { kind: 'valid', craftsNeeded: crafts };
+}
+
+export function computeCraftCost(resources: RecipeResource[], prices: Record<number, number>): number {
+    return resources.reduce((sum, res) => {
+        const entry = findInCatalog(res.name ?? '');
+        const price = entry ? (prices[entry.id] ?? 0) : 0;
+        return sum + price * res.quantity;
+    }, 0);
 }
 
 export function getHarvestStatus(

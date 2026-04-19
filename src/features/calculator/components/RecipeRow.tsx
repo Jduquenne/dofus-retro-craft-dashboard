@@ -31,6 +31,9 @@ export const RecipeRow: React.FC<RecipeRowProps> = ({
   const isLocked = status.kind === 'locked';
   const isCapped = status.kind === 'capped';
   const isPartial = status.kind === 'partial';
+  const craftsNeeded =
+    status.kind === 'valid' ? status.craftsNeeded :
+    status.kind === 'partial' ? status.craftsToMax : 0;
 
   const rowClass = `border-b border-dofus-border/15 transition-colors cursor-pointer select-none ${
     isLocked || isCapped
@@ -116,6 +119,7 @@ export const RecipeRow: React.FC<RecipeRowProps> = ({
             <RecipeIngredientList
               resources={recipe.resources}
               prices={prices}
+              craftsNeeded={craftsNeeded}
               onPriceChange={onPriceChange}
             />
           </td>

@@ -84,7 +84,7 @@ src/
 | `dofus-border-md` | `#7A5228` | Bordure secondaire (medium) |
 | `dofus-orange` | `#CC6000` | Accent principal, bouton primaire, valeurs actives |
 | `dofus-orange-lt` | `#E07818` | Orange hover |
-| `dofus-gold` | `#C8981A` | Titres (`section-title`), valeurs importantes |
+| `dofus-gold` | `#6B4E00` | Titres (`section-title`), valeurs importantes |
 | `dofus-text` | `#1A0E04` | Texte principal |
 | `dofus-text-md` | `#5A3A18` | Texte secondaire |
 | `dofus-text-lt` | `#9A7858` | Texte tertiaire, labels, placeholders |

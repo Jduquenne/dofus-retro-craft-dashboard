@@ -3,45 +3,135 @@
     "id": "frene",
     "name": "Frêne",
     "category": "wood",
-    "pods": 2,
+    "pods": 5,
     "level": 1,
     "description": "Un bois clair et résistant, très répandu dans les plaines autour d'Astrub.",
-    "xpPerHarvest": 30
+    "xpPerHarvest": 10
   },
   {
     "id": "chataignier",
     "name": "Châtaignier",
     "category": "wood",
-    "pods": 2,
-    "level": 20,
+    "pods": 5,
+    "level": 10,
     "description": "Un bois à la teinte chaude, recherché par les artisans de Bonta.",
-    "xpPerHarvest": 50
+    "xpPerHarvest": 15
   },
   {
     "id": "noyer",
     "name": "Noyer",
     "category": "wood",
-    "pods": 3,
-    "level": 40,
+    "pods": 5,
+    "level": 20,
     "description": "Un bois sombre et dense, idéal pour la fabrication d'armes solides.",
-    "xpPerHarvest": 70
+    "xpPerHarvest": 20
   },
   {
     "id": "chene",
     "name": "Chêne",
     "category": "wood",
-    "pods": 3,
-    "level": 60,
+    "pods": 5,
+    "level": 30,
     "description": "Le roi des arbres, dont le bois est prisé des forgerons les plus expérimentés.",
-    "xpPerHarvest": 100
+    "xpPerHarvest": 25
   },
   {
     "id": "bombu",
     "name": "Bombu",
     "category": "wood",
-    "pods": 4,
+    "pods": 5,
+    "level": 35,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 27
+  },
+  {
+    "id": "oliviolet",
+    "name": "Oliviolet",
+    "category": "wood",
+    "pods": 5,
+    "level": 35,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 27
+  },
+  {
+    "id": "erable",
+    "name": "Érable",
+    "category": "wood",
+    "pods": 5,
+    "level": 40,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 30
+  },
+  {
+    "id": "if",
+    "name": "If",
+    "category": "wood",
+    "pods": 5,
+    "level": 50,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "bambou",
+    "name": "Bambou",
+    "category": "wood",
+    "pods": 5,
+    "level": 50,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "merisier",
+    "name": "Mérisier",
+    "category": "wood",
+    "pods": 5,
+    "level": 60,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 40
+  },
+  {
+    "id": "ebene",
+    "name": "Ebène",
+    "category": "wood",
+    "pods": 5,
+    "level": 70,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 45
+  },
+  {
+    "id": "kalyptus",
+    "name": "Kalyptus",
+    "category": "wood",
+    "pods": 5,
+    "level": 75,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 47
+  },
+  {
+    "id": "charme",
+    "name": "Charme",
+    "category": "wood",
+    "pods": 5,
     "level": 80,
     "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
-    "xpPerHarvest": 150
+    "xpPerHarvest": 50
+  },
+  {
+    "id": "bambou sombre",
+    "name": "Bambou sombre",
+    "category": "wood",
+    "pods": 5,
+    "level": 80,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 50
+  },
+  {
+    "id": "orme",
+    "name": "Orme",
+    "category": "wood",
+    "pods": 5,
+    "level": 90,
+    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "xpPerHarvest": 55
   }
 ]

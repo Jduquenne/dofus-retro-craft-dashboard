@@ -16,7 +16,7 @@ export default {
           'border-md':  '#7A5228',
           orange:       '#CC6000',
           'orange-lt':  '#E07818',
-          gold:         '#C8981A',
+          gold:         '#6B4E00',
           text:         '#1A0E04',
           'text-md':    '#5A3A18',
           'text-lt':    '#9A7858',

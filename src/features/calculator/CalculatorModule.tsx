@@ -6,6 +6,8 @@ import { HARVEST_RESOURCES_BY_PROFESSION } from '../../data/harvestResources';
 import { ProfessionSelector } from './components/ProfessionSelector';
 import { HarvestTable } from './components/HarvestTable';
 import { RecipeTable } from './components/RecipeTable';
+import { XPModeTabs } from './components/XPModeTabs';
+import type { XPMode } from './components/XPModeTabs';
 import type { Recipe } from '../../types';
 
 export const CalculatorModule: React.FC = () => {
@@ -15,6 +17,7 @@ export const CalculatorModule: React.FC = () => {
     const [currentLevel, setCurrentLevel] = useState(1);
     const [currentXP, setCurrentXP] = useState(0);
     const [targetLevel, setTargetLevel] = useState(100);
+    const [xpMode, setXpMode] = useState<XPMode>('harvest');
 
     const craftableProfessions = useMemo(
         () => professions
@@ -30,6 +33,7 @@ export const CalculatorModule: React.FC = () => {
 
     const handleProfessionChange = (profId: string) => {
         setSelectedProfId(profId);
+        setXpMode('harvest');
         const prof = professions.find(p => p.id === profId);
         if (prof) {
             setCurrentLevel(prof.currentLevel);
@@ -83,7 +87,16 @@ export const CalculatorModule: React.FC = () => {
                 </div>
             )}
 
-            {harvestResources.length > 0 && (
+            {selectedProfId && (harvestResources.length > 0 || profRecipes.length > 0) && (
+                <XPModeTabs
+                    mode={xpMode}
+                    hasHarvest={harvestResources.length > 0}
+                    hasRecipe={profRecipes.length > 0}
+                    onChange={setXpMode}
+                />
+            )}
+
+            {harvestResources.length > 0 && xpMode === 'harvest' && (
                 <HarvestTable
                     resources={harvestResources}
                     currentLevel={currentLevel}
@@ -93,7 +106,7 @@ export const CalculatorModule: React.FC = () => {
                 />
             )}
 
-            {profRecipes.length > 0 && (
+            {profRecipes.length > 0 && (harvestResources.length === 0 || xpMode === 'recipe') && (
                 <RecipeTable
                     recipes={profRecipes}
                     currentLevel={currentLevel}
