@@ -1,12 +1,16 @@
-import React, { useState } from 'react';
-import { Info, Target } from 'lucide-react';
+import React from 'react';
+import { Target } from 'lucide-react';
 import type { Profession } from '../../../types';
 import { ProfessionTypes } from '../../../types/professionTypes';
 import type { ProfessionStats } from '../../../hooks/useProfessionLogic';
 import { ProfessionInputs } from './ProfessionInputs';
 import { getRequiredCraftProfession } from '../../../utils/professionHelpers';
-import { getAvailableSlots } from '../../../constants/craftXP';
-import { CraftOptionsDisplay } from './CraftOptionsDisplay';
+
+function formatXP(xp: number): string {
+    if (xp >= 1_000_000) return `${(xp / 1_000_000).toFixed(1).replace('.0', '')}M`;
+    if (xp >= 1_000) return `${(xp / 1_000).toFixed(1).replace('.0', '')}k`;
+    return xp.toString();
+}
 
 interface ProfessionCardProps {
     profession: Profession;
@@ -33,15 +37,12 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
     onXPChange,
     onTargetLevelChange
 }) => {
-    const [showTooltip, setShowTooltip] = useState(false);
-
     const shouldShowObjectiveInfo = isActive && !isMaxLevel && stats.levelsRemaining > 0;
-    const availableSlots = getAvailableSlots(profession.currentLevel);
 
     return (
         <div
-            className={`panel rounded p-4 relative transition-all ${
-                isMaxLevel && isActive ? 'ring-2 ring-dofus-success ring-offset-1 ring-offset-dofus-bg' : ''
+            className={`panel rounded p-3 relative transition-all flex flex-col gap-3 ${
+                isMaxLevel && isActive ? 'ring-2 ring-dofus-success/60 ring-offset-1 ring-offset-dofus-bg' : ''
             } ${!canModify ? 'opacity-50' : ''}`}
         >
             {!canModify && (
@@ -70,30 +71,33 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                 </div>
             )}
 
-            <div className="absolute top-2.5 right-2.5">
-                {isActive ? (
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-success/20 text-dofus-success border border-dofus-success/30">
-                        ✓ Actif
-                    </span>
-                ) : canModify ? (
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-gold/20 text-dofus-gold border border-dofus-gold/30 animate-pulse">
-                        ⭐ Libre
-                    </span>
-                ) : (
-                    <span className="text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-error/20 text-dofus-error border border-dofus-error/30">
-                        🔒
-                    </span>
-                )}
-            </div>
-
-            <div className="flex items-center gap-2 mb-3">
-                <span className="text-3xl">{profession.icon}</span>
+            {/* Header */}
+            <div className="flex items-start gap-2.5">
+                <span className="text-2xl leading-none mt-0.5 shrink-0">{profession.icon}</span>
                 <div className="flex-1 min-w-0">
-                    <h3 className="text-sm font-bold text-dofus-text truncate">{profession.name}</h3>
-                    <div className="flex items-center gap-1.5">
-                        <p className="text-xs text-dofus-text-md">Niv. {profession.currentLevel}</p>
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                        <h3 className="text-sm font-bold text-dofus-text truncate leading-tight">{profession.name}</h3>
+                        {isActive ? (
+                            <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-success/20 text-dofus-success border border-dofus-success/30">
+                                ✓ Actif
+                            </span>
+                        ) : canModify ? (
+                            <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-gold/20 text-dofus-gold border border-dofus-gold/30 animate-pulse">
+                                ⭐ Libre
+                            </span>
+                        ) : (
+                            <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-error/20 text-dofus-error border border-dofus-error/30">
+                                🔒
+                            </span>
+                        )}
+                    </div>
+                    <div className="flex items-baseline gap-1 mt-0.5">
+                        <span className="text-base font-bold font-mono text-dofus-orange leading-none">
+                            {profession.currentLevel}
+                        </span>
+                        <span className="text-[10px] text-dofus-text-lt">/ 100</span>
                         {isMaxLevel && isActive && (
-                            <span className="text-[10px] bg-dofus-success/15 text-dofus-success px-1.5 py-0.5 rounded-full">
+                            <span className="text-[10px] bg-dofus-success/15 text-dofus-success px-1.5 py-0.5 rounded-full ml-0.5">
                                 Objectif ✓
                             </span>
                         )}
@@ -101,11 +105,8 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                 </div>
             </div>
 
-            <div className="mb-3">
-                <div className="flex justify-between text-[10px] mb-1 text-dofus-text-lt">
-                    <span>XP</span>
-                    <span className="font-mono">{stats.currentTotalXP.toLocaleString()} / {stats.nextLevelBaseXP.toLocaleString()}</span>
-                </div>
+            {/* XP Bar */}
+            <div className="space-y-1">
                 <div className="w-full bg-dofus-border-md/20 rounded-full h-2 overflow-hidden">
                     <div
                         className="h-2 rounded-full transition-all duration-300"
@@ -115,12 +116,14 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                         }}
                     />
                 </div>
-                <div className="flex justify-between text-[9px] text-dofus-text-lt mt-0.5">
-                    <span>{stats.currentLevelBaseXP.toLocaleString()}</span>
-                    <span>{stats.nextLevelBaseXP.toLocaleString()}</span>
+                <div className="flex justify-between items-center text-[10px]">
+                    <span className="text-dofus-text-lt font-mono">{stats.currentTotalXP.toLocaleString()}</span>
+                    <span className="text-dofus-orange font-semibold">{Math.round(stats.progress)}%</span>
+                    <span className="text-dofus-text-lt font-mono">{stats.nextLevelBaseXP.toLocaleString()}</span>
                 </div>
             </div>
 
+            {/* Inputs */}
             <ProfessionInputs
                 profession={profession}
                 stats={stats}
@@ -130,50 +133,20 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                 onTargetLevelChange={onTargetLevelChange}
             />
 
+            {/* Objective strip — always visible, no tooltip */}
             {shouldShowObjectiveInfo && (
-                <div className="relative flex items-center justify-center mt-3">
-                    <div
-                        className="relative"
-                        onMouseEnter={() => setShowTooltip(true)}
-                        onMouseLeave={() => setShowTooltip(false)}
-                    >
-                        <div className="flex items-center gap-1.5 px-3 py-1.5 panel-sm rounded cursor-help hover:bg-dofus-panel transition-colors">
-                            <Info size={13} className="text-dofus-orange" />
-                            <span className="text-xs font-medium text-dofus-text">Objectif niv. {profession.targetLevel}</span>
-                        </div>
-
-                        {showTooltip && (
-                            <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 z-50">
-                                <div className="panel rounded-lg p-3 min-w-[220px] shadow-xl">
-                                    <div className="absolute top-full left-1/2 -translate-x-1/2 -mt-px">
-                                        <div className="border-8 border-transparent border-t-dofus-border" />
-                                    </div>
-
-                                    <h4 className="font-dofus font-semibold text-dofus-gold text-xs flex items-center gap-1 mb-2">
-                                        <Target size={12} />
-                                        Vers niveau {profession.targetLevel}
-                                    </h4>
-
-                                    <div className="space-y-1.5 text-xs text-dofus-text">
-                                        <div className="flex justify-between items-center bg-dofus-panel-dk/50 rounded px-2 py-1">
-                                            <span className="text-dofus-text-md">Niveaux restants</span>
-                                            <span className="font-bold text-dofus-orange">{stats.levelsRemaining}</span>
-                                        </div>
-                                        <div className="flex justify-between items-center bg-dofus-panel-dk/50 rounded px-2 py-1">
-                                            <span className="text-dofus-text-md">XP nécessaire</span>
-                                            <span className="font-bold text-dofus-orange">{stats.xpNeeded.toLocaleString()}</span>
-                                        </div>
-                                        <CraftOptionsDisplay
-                                            currentLevel={profession.currentLevel}
-                                            currentXP={profession.currentXP}
-                                            targetLevel={profession.targetLevel}
-                                            availableSlots={availableSlots}
-                                            xpMultiplier={xpMultiplier}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
-                        )}
+                <div className="pt-2.5 border-t border-dofus-border/20 space-y-1">
+                    <div className="flex items-center gap-1 text-[10px] text-dofus-text-lt">
+                        <Target size={11} className="text-dofus-orange shrink-0" />
+                        <span>Objectif niv. <span className="font-semibold text-dofus-text-md">{profession.targetLevel}</span></span>
+                    </div>
+                    <div className="flex items-center gap-2 flex-wrap">
+                        <span className="text-[10px] font-mono text-dofus-text-md font-semibold bg-dofus-panel-dk/40 px-1.5 py-0.5 rounded">
+                            {stats.levelsRemaining} niv.
+                        </span>
+                        <span className="text-[10px] font-mono font-bold text-dofus-orange bg-dofus-orange/10 px-1.5 py-0.5 rounded border border-dofus-orange/20">
+                            {formatXP(stats.xpNeeded)} XP
+                        </span>
                     </div>
                 </div>
             )}

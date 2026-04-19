@@ -24,10 +24,13 @@ export const StatRangePanel: React.FC<StatRangePanelProps> = ({
     const delta = targetStat - currentStat;
 
     return (
-        <div className="panel rounded p-4 space-y-4">
+        <div className="panel rounded p-3 sm:p-4 space-y-3 sm:space-y-4">
             <div className="flex items-center justify-between">
-                <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold">Progression</p>
+                <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold hidden sm:block">Progression</p>
                 <span className="text-xs text-dofus-text-md font-medium">{statIcon} {statLabel}</span>
+                <span className={`text-sm font-bold font-mono sm:hidden ${(targetStat - currentStat) > 0 ? 'text-dofus-orange' : 'text-dofus-success'}`}>
+                    {(targetStat - currentStat) > 0 ? `+${targetStat - currentStat} pts` : '✓ objectif atteint'}
+                </span>
             </div>
 
             <div className="flex items-center gap-6 justify-center">
@@ -57,7 +60,7 @@ export const StatRangePanel: React.FC<StatRangePanelProps> = ({
                 </div>
             </div>
 
-            <div className="space-y-2">
+            <div className="space-y-1.5">
                 <div className="flex items-center gap-3">
                     <span className="text-[10px] text-dofus-text-lt w-12 shrink-0">Actuel</span>
                     <input

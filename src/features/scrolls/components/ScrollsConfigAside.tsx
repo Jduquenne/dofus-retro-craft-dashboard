@@ -26,7 +26,7 @@ export const ScrollsConfigAside: React.FC<ScrollsConfigAsideProps> = ({
     onMethodChange,
     onNpcSelect,
 }) => (
-    <aside className="w-64 shrink-0 panel rounded p-3 flex flex-col gap-0 overflow-y-auto">
+    <aside className="w-full lg:w-64 shrink-0 panel rounded p-3 flex flex-col gap-0 overflow-y-auto">
 
         <section>
             <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold mb-2">Méthode</p>

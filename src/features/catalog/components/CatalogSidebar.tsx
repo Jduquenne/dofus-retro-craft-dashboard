@@ -25,7 +25,7 @@ export const CatalogSidebar: React.FC<CatalogSidebarProps> = ({
     onToggleCategory,
     onClearFilters,
 }) => (
-    <div className="w-44 shrink-0 flex flex-col gap-2 min-h-0">
+    <div className="w-full sm:w-44 shrink-0 flex flex-col gap-2 min-h-0 max-h-52 sm:max-h-none">
         <div className="relative">
             <Search size={12} className="absolute left-2.5 top-1/2 -translate-y-1/2 text-dofus-text-lt pointer-events-none" />
             <input

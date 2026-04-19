@@ -57,8 +57,8 @@ export const PodItemsTable: React.FC<PodItemsTableProps> = ({
         )}
       </div>
 
-      <div className="flex-1 overflow-y-auto max-h-72">
-        <table className="w-full text-sm">
+      <div className="flex-1 overflow-y-auto overflow-x-auto max-h-72">
+        <table className="w-full text-sm min-w-[340px]">
           <thead>
             <tr className="bg-dofus-panel-dk/30 border-b border-dofus-border/20">
               <th className="text-left px-3 py-1.5 text-[10px] uppercase tracking-wider text-dofus-text-lt font-medium">Nom</th>
@@ -121,7 +121,7 @@ export const PodItemsTable: React.FC<PodItemsTableProps> = ({
         </table>
       </div>
 
-      <div className="border-t border-dofus-border/30 bg-dofus-panel-lt/30 px-3 py-2.5 flex gap-2 items-end">
+      <div className="border-t border-dofus-border/30 bg-dofus-panel-lt/30 px-3 py-2.5 flex flex-wrap gap-2 items-end">
         <div className="flex flex-col gap-0.5 flex-1">
           <label className="text-[9px] uppercase tracking-wider text-dofus-text-lt">Nom</label>
           <input

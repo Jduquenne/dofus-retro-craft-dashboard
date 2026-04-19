@@ -29,7 +29,7 @@ export const ResourceRow = React.memo(({ resource, price, onPriceChange }: Resou
     return (
         <div
             onClick={handleRowClick}
-            className={`grid grid-cols-[28px_1fr_96px_120px_36px] items-center px-3 py-[5px] border-b border-dofus-border/15 transition-colors text-xs border-l-2 cursor-text ${
+            className={`grid grid-cols-[28px_1fr_96px] sm:grid-cols-[28px_1fr_96px_120px_36px] items-center px-3 py-[5px] border-b border-dofus-border/15 transition-colors text-xs border-l-2 cursor-text ${
                 isActive
                     ? 'bg-dofus-orange/10 border-l-dofus-orange'
                     : 'hover:bg-dofus-panel-dk/20 border-l-transparent'
@@ -56,10 +56,10 @@ export const ResourceRow = React.memo(({ resource, price, onPriceChange }: Resou
                 onChange={handleChange}
                 className="input-dofus w-full text-right font-mono text-xs py-0.5 placeholder-dofus-text-lt"
             />
-            <span className={`truncate pl-3 transition-colors ${isActive ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
+            <span className={`hidden sm:block truncate pl-3 transition-colors ${isActive ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
                 {CATEGORY_LABELS[resource.category] ?? resource.category}
             </span>
-            <span className={`text-center font-mono transition-colors ${isActive ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
+            <span className={`hidden sm:block text-center font-mono transition-colors ${isActive ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
                 {resource.level}
             </span>
         </div>

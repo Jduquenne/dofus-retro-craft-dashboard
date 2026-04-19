@@ -58,52 +58,49 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
                             if (e.target.value === '' || parseInt(e.target.value) < 1)
                                 onLevelChange('1', profession.targetLevel);
                         }}
-                        className="input-dofus w-full"
-                        placeholder="1-100"
+                        className="input-dofus w-full text-center font-mono font-bold"
+                        placeholder="1–100"
                         disabled={disabled}
                     />
-                    <div className="text-[9px] text-dofus-text-lt mt-0.5">Min: 1 · Max: 100</div>
                 </div>
 
                 <div>
-                    <label className="block text-[10px] text-dofus-text-lt mb-1 uppercase tracking-wide">XP totale</label>
+                    <label className="block text-[10px] text-dofus-text-lt mb-1 uppercase tracking-wide">Objectif</label>
                     <input
                         type="text"
                         inputMode="numeric"
                         pattern="[0-9]*"
-                        value={profession.currentXP}
-                        onChange={e => onXPChange(e.target.value)}
-                        onBlur={e => {
-                            if (e.target.value === '') {
-                                onXPChange(getXPForLevel(profession.currentLevel).toString());
-                            }
+                        value={tempTargetLevel}
+                        onChange={e => {
+                            const v = e.target.value;
+                            if (v === '' || /^\d+$/.test(v)) setTempTargetLevel(v);
                         }}
-                        className="input-dofus w-full"
-                        placeholder={stats.currentLevelBaseXP.toString()}
+                        onKeyDown={handleTargetLevelKeyDown}
+                        onBlur={handleTargetLevelBlur}
+                        className="input-dofus w-full text-center font-mono font-bold"
+                        placeholder="1–100"
                         disabled={disabled}
                     />
-                    <div className="text-[9px] text-dofus-text-lt mt-0.5">Min: {stats.currentLevelBaseXP.toLocaleString()}</div>
                 </div>
             </div>
 
             <div>
-                <label className="block text-[10px] text-dofus-text-lt mb-1 uppercase tracking-wide">Objectif niveau</label>
+                <label className="block text-[10px] text-dofus-text-lt mb-1 uppercase tracking-wide">XP totale</label>
                 <input
                     type="text"
                     inputMode="numeric"
                     pattern="[0-9]*"
-                    value={tempTargetLevel}
-                    onChange={e => {
-                        const v = e.target.value;
-                        if (v === '' || /^\d+$/.test(v)) setTempTargetLevel(v);
+                    value={profession.currentXP}
+                    onChange={e => onXPChange(e.target.value)}
+                    onBlur={e => {
+                        if (e.target.value === '') {
+                            onXPChange(getXPForLevel(profession.currentLevel).toString());
+                        }
                     }}
-                    onKeyDown={handleTargetLevelKeyDown}
-                    onBlur={handleTargetLevelBlur}
-                    className="input-dofus w-full"
-                    placeholder={`${profession.currentLevel}-100`}
+                    className="input-dofus w-full font-mono text-sm"
+                    placeholder={stats.currentLevelBaseXP.toString()}
                     disabled={disabled}
                 />
-                <div className="text-[9px] text-dofus-text-lt mt-0.5">Min: {profession.currentLevel} · Max: 100</div>
             </div>
         </div>
     );

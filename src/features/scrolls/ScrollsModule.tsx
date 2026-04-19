@@ -7,6 +7,7 @@ import { useScrollResourcePrices } from '../../hooks/useScrollResourcePrices';
 import { StatSelector } from './components/StatSelector';
 import { StatRangePanel } from './components/StatRangePanel';
 import { ScrollsConfigAside } from './components/ScrollsConfigAside';
+import { ScrollsMobileSettings } from './components/ScrollsMobileSettings';
 import { ResourcesPriceTable } from './components/ResourcesPriceTable';
 
 const MAX_STAT = 101;
@@ -55,40 +56,51 @@ export const ScrollsModule: React.FC = () => {
         return tier && tier.options.length > 1;
     });
 
+    const settingsProps = {
+        stat,
+        methodId,
+        npcSelections,
+        phasesWithMultiPnj,
+        phases: result.phases,
+        totalScrolls,
+        onMethodChange: (id: string) => updateEntry(selectedStat, { methodId: id }),
+        onNpcSelect: handleNpcSelect,
+    };
+
+    const rangeProps = {
+        statLabel: stat.label,
+        statIcon: stat.icon,
+        currentStat,
+        targetStat,
+        onCurrentChange: handleCurrentStat,
+        onTargetChange: handleTargetStat,
+    };
+
+    const resourcesProps = result.totalResources.length > 0 ? {
+        resources: result.totalResources,
+        resolvedPrices,
+        totalCost,
+        onPriceChange: setResourcePrice,
+        onResetToManual: (name: string) => setResourcePrice(name, 0),
+    } : null;
+
     return (
         <div className="flex flex-col gap-4">
             <StatSelector selectedStat={selectedStat} onSelect={setSelectedStat} />
 
-            <div className="flex gap-4 items-start">
-                <ScrollsConfigAside
-                    stat={stat}
-                    methodId={methodId}
-                    npcSelections={npcSelections}
-                    phasesWithMultiPnj={phasesWithMultiPnj}
-                    phases={result.phases}
-                    totalScrolls={totalScrolls}
-                    onMethodChange={id => updateEntry(selectedStat, { methodId: id })}
-                    onNpcSelect={handleNpcSelect}
-                />
+            {/* Mobile */}
+            <div className="flex flex-col gap-4 lg:hidden">
+                <StatRangePanel {...rangeProps} />
+                <ScrollsMobileSettings {...settingsProps} />
+                {resourcesProps && <ResourcesPriceTable {...resourcesProps} />}
+            </div>
 
+            {/* Desktop */}
+            <div className="hidden lg:flex gap-4 items-start">
+                <ScrollsConfigAside {...settingsProps} />
                 <div className="flex flex-col gap-3 flex-1 min-w-0">
-                    <StatRangePanel
-                        statLabel={stat.label}
-                        statIcon={stat.icon}
-                        currentStat={currentStat}
-                        targetStat={targetStat}
-                        onCurrentChange={handleCurrentStat}
-                        onTargetChange={handleTargetStat}
-                    />
-                    {result.totalResources.length > 0 && (
-                        <ResourcesPriceTable
-                            resources={result.totalResources}
-                            resolvedPrices={resolvedPrices}
-                            totalCost={totalCost}
-                            onPriceChange={setResourcePrice}
-                            onResetToManual={name => setResourcePrice(name, 0)}
-                        />
-                    )}
+                    <StatRangePanel {...rangeProps} />
+                    {resourcesProps && <ResourcesPriceTable {...resourcesProps} />}
                 </div>
             </div>
         </div>

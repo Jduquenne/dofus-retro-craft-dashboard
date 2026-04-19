@@ -394,3 +394,33 @@ npm run lint      # ESLint
 ## Déploiement
 
 GitHub Pages — base path configuré dans `vite.config.ts`. CI/CD via `.github/workflows/deploy.yml`.
+
+---
+
+## Règle Responsive (obligatoire)
+
+**Tout composant et feature doit être responsive mobile-first.** L'application doit être utilisable sur mobile (≥ 320px) sans débordement horizontal ni contenu inaccessible.
+
+### Breakpoints Tailwind utilisés
+
+| Breakpoint | Largeur | Usage typique |
+|---|---|---|
+| *(défaut)* | 0px+ | Mobile portrait |
+| `sm:` | 640px+ | Mobile paysage / petite tablette |
+| `lg:` | 1024px+ | Desktop |
+
+### Règles de layout
+
+- **Sidebars fixes (w-44, w-64…)** → `w-full sm:w-44` ou `w-full lg:w-64` selon la complexité du contenu
+- **Layout flex côte à côte** → toujours préfixer avec `flex-col sm:flex-row` ou `flex-col lg:flex-row`
+- **Tableaux HTML** → toujours wrappés dans `<div className="overflow-x-auto">` avec `min-w-[Xpx]` sur le `<table>` pour garantir la lisibilité
+- **Grilles à colonnes fixes en pixels** → masquer les colonnes secondaires sur mobile avec `hidden sm:block` / `hidden sm:grid-cols-*`
+- **Labels de navigation** → masquer sur mobile avec `hidden sm:inline`, afficher un label court (`sm:hidden`)
+- **`height: calc(100vh - Xpx)` inline** → remplacer par des classes Tailwind avec variante responsive : `h-[calc(100vh-160px)] sm:h-[calc(100vh-270px)]`
+
+### Ce qui est interdit
+
+- Un layout `flex` ou `grid` avec des largeurs fixes sans aucun breakpoint responsive
+- Un `<table>` sans wrapper `overflow-x-auto`
+- Un inline style `height: calc(...)` non adapté au mobile
+- Des colonnes de grid en pixels (`grid-cols-[Xpx_...]`) sans fallback mobile

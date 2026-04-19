@@ -39,7 +39,7 @@ export const CatalogModule: React.FC = () => {
     const pricesSetCount = Object.keys(prices).filter(id => prices[id] > 0).length;
 
     return (
-        <div className="flex flex-col gap-3" style={{ height: 'calc(100vh - 270px)' }}>
+        <div className="flex flex-col gap-3 h-[calc(100vh-160px)] sm:h-[calc(100vh-270px)]">
             <div className="flex items-center justify-between gap-4">
                 <h2 className="section-title border-0 pb-0 shrink-0">Catalogue des Ressources</h2>
                 <div className="flex items-center gap-2 text-xs text-dofus-text-lt">
@@ -55,7 +55,7 @@ export const CatalogModule: React.FC = () => {
                 </div>
             </div>
 
-            <div className="flex gap-3 flex-1 min-h-0">
+            <div className="flex flex-col sm:flex-row gap-3 flex-1 min-h-0">
                 <CatalogSidebar
                     searchText={searchText}
                     selectedCategories={selectedCategories}
@@ -69,12 +69,12 @@ export const CatalogModule: React.FC = () => {
                 />
 
                 <div className="panel rounded flex-1 min-h-0 flex flex-col overflow-hidden">
-                    <div className="grid grid-cols-[28px_1fr_96px_120px_36px] px-3 py-2 border-b-2 border-dofus-border/40 bg-dofus-border/30 text-[10px] font-semibold text-dofus-cream uppercase tracking-wider shrink-0">
+                    <div className="grid grid-cols-[28px_1fr_96px] sm:grid-cols-[28px_1fr_96px_120px_36px] px-3 py-2 border-b-2 border-dofus-border/40 bg-dofus-border/30 text-[10px] font-semibold text-dofus-cream uppercase tracking-wider shrink-0">
                         <span />
                         <span>Ressource</span>
                         <span className="text-right">Prix/u (k)</span>
-                        <span className="pl-3">Catégorie</span>
-                        <span className="text-center">Niv.</span>
+                        <span className="hidden sm:block pl-3">Catégorie</span>
+                        <span className="hidden sm:block text-center">Niv.</span>
                     </div>
 
                     <div className="overflow-y-auto flex-1 min-h-0">

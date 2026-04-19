@@ -35,11 +35,11 @@ export const ProfessionSelector: React.FC<ProfessionSelectorProps> = ({
     onTargetLevelChange,
     onSync,
 }) => (
-    <div className="panel rounded p-4">
-        <h2 className="section-title text-sm mb-4">Calculateur XP Métiers</h2>
+    <div className="panel rounded p-3 sm:p-4">
+        <h2 className="section-title text-sm mb-2 sm:mb-4 hidden sm:block">Calculateur XP Métiers</h2>
 
-        <div className="flex flex-col sm:flex-row gap-3 flex-wrap items-end">
-            <div className="flex flex-col gap-1 min-w-[200px]">
+        <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-2 sm:gap-3 sm:items-end">
+            <div className="flex flex-col gap-1 col-span-2 sm:col-span-1 sm:min-w-[200px]">
                 <label className="text-[10px] text-dofus-text-lt uppercase tracking-wide">Métier</label>
                 <div className="relative">
                     <select
@@ -78,16 +78,7 @@ export const ProfessionSelector: React.FC<ProfessionSelectorProps> = ({
                 <input
                     type="number" min={1} max={100} value={currentLevel}
                     onChange={e => onLevelChange(Math.max(1, Math.min(100, Number(e.target.value))))}
-                    className="input-dofus w-20 text-center font-mono"
-                />
-            </div>
-
-            <div className="flex flex-col gap-1">
-                <label className="text-[10px] text-dofus-text-lt uppercase tracking-wide">XP actuelle</label>
-                <input
-                    type="number" min={0} value={currentXP}
-                    onChange={e => onXPChange(Math.max(0, Number(e.target.value)))}
-                    className="input-dofus w-32 font-mono"
+                    className="input-dofus w-full sm:w-20 text-center font-mono"
                 />
             </div>
 
@@ -96,12 +87,21 @@ export const ProfessionSelector: React.FC<ProfessionSelectorProps> = ({
                 <input
                     type="number" min={currentLevel} max={100} value={targetLevel}
                     onChange={e => onTargetLevelChange(Math.max(currentLevel, Math.min(100, Number(e.target.value))))}
-                    className="input-dofus w-20 text-center font-mono"
+                    className="input-dofus w-full sm:w-20 text-center font-mono"
+                />
+            </div>
+
+            <div className="flex flex-col gap-1 col-span-2 sm:col-span-1">
+                <label className="text-[10px] text-dofus-text-lt uppercase tracking-wide">XP actuelle</label>
+                <input
+                    type="number" min={0} value={currentXP}
+                    onChange={e => onXPChange(Math.max(0, Number(e.target.value)))}
+                    className="input-dofus w-full sm:w-32 font-mono"
                 />
             </div>
 
             {selectedProfId && (
-                <button onClick={onSync} className="btn-secondary flex items-center gap-1.5 text-xs">
+                <button onClick={onSync} className="btn-secondary col-span-2 sm:col-span-1 flex items-center justify-center gap-1.5 text-xs">
                     <RefreshCw size={13} />
                     Sync
                 </button>
@@ -109,7 +109,7 @@ export const ProfessionSelector: React.FC<ProfessionSelectorProps> = ({
         </div>
 
         {selectedProfId && (
-            <div className="mt-3 pt-3 border-t border-dofus-border/30 flex flex-wrap gap-4 text-xs">
+            <div className="mt-2 pt-2 border-t border-dofus-border/30 flex flex-wrap gap-3 text-xs">
                 <span className="text-dofus-text-md">
                     XP nécessaire :{' '}
                     <strong className="text-dofus-orange font-mono">{xpNeeded.toLocaleString('fr-FR')}</strong>

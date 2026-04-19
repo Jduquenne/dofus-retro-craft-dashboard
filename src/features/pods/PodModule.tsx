@@ -22,8 +22,8 @@ export const PodModule: React.FC = () => {
         onUsedPodsChange={setUsedPods}
       />
 
-      <div className="flex gap-4 items-start">
-        <div className="flex-1 min-w-0">
+      <div className="flex flex-col sm:flex-row gap-4 items-start">
+        <div className="flex-1 min-w-0 w-full">
           <PodItemsTable
             items={items}
             podPerRun={podPerRun}
@@ -34,7 +34,7 @@ export const PodModule: React.FC = () => {
           />
         </div>
 
-        <div className="w-64 shrink-0">
+        <div className="w-full sm:w-64 shrink-0">
           <PodResultPanel
             freePods={freePods}
             podPerRun={podPerRun}

@@ -17,7 +17,7 @@ export const ProfessionStats: React.FC<ProfessionStatsProps> = ({ professions })
     ).length;
 
     return (
-        <div className="panel-sm rounded p-3 flex items-center justify-around">
+        <div className="panel-sm rounded p-3 flex flex-wrap items-center justify-around gap-3">
             <div className="flex items-center gap-2.5">
                 <Award size={18} className="text-dofus-gold shrink-0" />
                 <div>

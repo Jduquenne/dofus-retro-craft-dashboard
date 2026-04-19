@@ -23,8 +23,8 @@ export const HarvestTable: React.FC<HarvestTableProps> = ({
             <Wheat size={15} />
             Récoltes
         </h3>
-        <div className="panel rounded overflow-hidden">
-            <table className="w-full text-xs">
+        <div className="panel rounded overflow-hidden overflow-x-auto">
+            <table className="w-full text-xs min-w-[380px]">
                 <thead>
                     <tr className="bg-dofus-border/40 text-dofus-cream text-[10px] uppercase tracking-wider">
                         <th className="text-left px-4 py-2.5 font-semibold">Ressource</th>
