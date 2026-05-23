@@ -1,0 +1,5854 @@
+[
+  {
+    "id": "7682",
+    "name": "Abreuvoir en Bois de Kokoko",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7682.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1001",
+        "name": "Planche en bois de Kokoko",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7593",
+    "name": "Abreuvoir en Châtaignier",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7593.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7590",
+    "name": "Abreuvoir en Frêne",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7590.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7595",
+    "name": "Abreuvoir en Noyer",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7595.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7771",
+    "name": "Baffeur en Bois de Kokoko",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7771.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1001",
+        "name": "Planche en bois de Kokoko",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7626",
+    "name": "Baffeur en Châtaignier",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7626.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7759",
+    "name": "Baffeur en Frêne",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7759.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7760",
+    "name": "Baffeur en Noyer",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7760.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7623",
+    "name": "Caresseur en Plume de Piou Bleu",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7623.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6897",
+        "name": "Plume de Piou Bleu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7735",
+    "name": "Caresseur en Plume de Piou Jaune",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7735.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6902",
+        "name": "Plume de Piou Jaune",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7736",
+    "name": "Caresseur en Plume de Piou Rose",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7736.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6903",
+        "name": "Plume de Piou Rose",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7734",
+    "name": "Caresseur en Plume de Piou Rouge",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7734.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6900",
+        "name": "Plume de Piou Rouge",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7733",
+    "name": "Caresseur en Plume de Piou Vert",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7733.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6899",
+        "name": "Plume de Piou Vert",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7624",
+    "name": "Caresseur en Plume de Piou Violet",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7624.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6898",
+        "name": "Plume de Piou Violet",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8917",
+    "name": "Clef de la Grotte Hesque",
+    "profession": "handyman",
+    "level": 1,
+    "image": "resources/keys/8917.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8730",
+        "name": "Coccyx du Corailleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8744",
+        "name": "Pince de Crustorail",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8143",
+    "name": "Clef des Champs",
+    "profession": "handyman",
+    "level": 1,
+    "image": "resources/keys/8143.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2659",
+        "name": "Pétale de Tournesol Sauvage",
+        "quantity": 3
+      },
+      {
+        "resourceId": "306",
+        "name": "Fleur de Pissenlit Diabolique",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8437",
+    "name": "Clef du Donjon Ensablé",
+    "profession": "handyman",
+    "level": 1,
+    "image": "resources/keys/8437.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8680",
+        "name": "Ecaille poisseuse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1782",
+        "name": "Goujon",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 10
+  },
+  {
+    "id": "9935",
+    "name": "Corde d'escalade",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/ressource/9935.svg",
+    "category": "Ressource",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "425",
+        "name": "Chanvre",
+        "quantity": 30
+      },
+      {
+        "resourceId": "643",
+        "name": "Fil de Soie",
+        "quantity": 5
+      },
+      {
+        "resourceId": "string_resistant",
+        "name": "String résistant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7635",
+    "name": "Dragofesse en Cuir de Boufton Blanc",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7635.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "883",
+        "name": "Cuir de Boufton Blanc",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7636",
+    "name": "Dragofesse en Cuir de Boufton Noir",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7636.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "884",
+        "name": "Cuir de Boufton Noir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7797",
+    "name": "Foudroyeur en Bois de Kokoko",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7797.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1001",
+        "name": "Planche en bois de Kokoko",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7782",
+    "name": "Foudroyeur en Châtaignier",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7782.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7775",
+    "name": "Foudroyeur en Frêne",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7775.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7783",
+    "name": "Foudroyeur en Noyer",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7783.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7689",
+    "name": "Mangeoire en Bois de Kokoko",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7689.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1001",
+        "name": "Planche en bois de Kokoko",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7614",
+    "name": "Mangeoire en Châtaignier",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7614.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7607",
+    "name": "Mangeoire en Frêne",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7607.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7615",
+    "name": "Mangeoire en Noyer",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/breeding_item/7615.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7509",
+    "name": "Première partie de la clef du labyrinthe du Dragon Cochon",
+    "profession": "handyman",
+    "level": 1,
+    "image": "resources/keys/7509.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2481",
+        "name": "Groin de Porkass",
+        "quantity": 3
+      },
+      {
+        "resourceId": "386",
+        "name": "Groin du Sanglier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8990",
+    "name": "Prisme de conquête",
+    "profession": "handyman",
+    "level": 1,
+    "image": "items/key/8990.svg",
+    "category": "Prisme",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2539",
+        "name": "Potion de Copeaux de Bois",
+        "quantity": 1
+      },
+      {
+        "resourceId": "429",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "548",
+        "name": "Potion de Rappel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2529",
+        "name": "Potion de métal liquide",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7675",
+    "name": "Abreuvoir en Bois de Tronknyde",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7675.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7668",
+        "name": "Planche en Bois de Tronknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7600",
+    "name": "Abreuvoir en Bombu",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7600.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7591",
+    "name": "Abreuvoir en Chêne",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7591.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7601",
+    "name": "Abreuvoir en Oliviolet",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7601.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7662",
+        "name": "Planche en Oliviolet",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7769",
+    "name": "Baffeur en Bois de Tronknyde",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7769.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7668",
+        "name": "Planche en Bois de Tronknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7763",
+    "name": "Baffeur en Bombu",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7763.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7627",
+    "name": "Baffeur en Chêne",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7627.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7764",
+    "name": "Baffeur en Oliviolet",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7764.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7662",
+        "name": "Planche en Oliviolet",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7622",
+    "name": "Caresseur en Plume de Tofu",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7622.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "301",
+        "name": "Plumes de Tofu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7737",
+    "name": "Caresseur en Plume de Tofu Maléfique",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7737.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2675",
+        "name": "Plume de Tofu Maléfique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7310",
+    "name": "Clef de la caverne des Bulbes",
+    "profession": "handyman",
+    "level": 10,
+    "image": "resources/keys/7310.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1568",
+    "name": "Clef du Donjon des Bouftous",
+    "profession": "handyman",
+    "level": 10,
+    "image": "resources/keys/1568.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2451",
+        "name": "Sabot de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2453",
+        "name": "Oeil de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "384",
+        "name": "Laine de Bouftou",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1570",
+    "name": "Clef du Donjon des Squelettes",
+    "profession": "handyman",
+    "level": 10,
+    "image": "resources/keys/1570.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "433",
+        "name": "Fémur du Chafer Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "430",
+        "name": "Os Invisible du Chafer Invisible",
+        "quantity": 1
+      },
+      {
+        "resourceId": "310",
+        "name": "Os de Chafer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7918",
+    "name": "Clef du Donjon des Tofus",
+    "profession": "handyman",
+    "level": 10,
+    "image": "resources/keys/7918.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "301",
+        "name": "Plumes de Tofu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "366",
+        "name": "Bec du Tofu",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7908",
+    "name": "Clef du Donjon du Koulosse",
+    "profession": "handyman",
+    "level": 10,
+    "image": "resources/keys/7908.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8002",
+        "name": "Etoffe de Dok Alako",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8084",
+        "name": "Peau de Piralak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8083",
+        "name": "Os de Pékeualak",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7637",
+    "name": "Dragofesse en Cuir de Bouftou",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7637.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "304",
+        "name": "Cuir de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7792",
+    "name": "Foudroyeur en Bois de Tronknyde",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7792.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7668",
+        "name": "Planche en Bois de Tronknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7785",
+    "name": "Foudroyeur en Bombu",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7785.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7776",
+    "name": "Foudroyeur en Chêne",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7776.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7786",
+    "name": "Foudroyeur en Oliviolet",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7786.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7662",
+        "name": "Planche en Oliviolet",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7690",
+    "name": "Mangeoire en Bois de Tronknyde",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7690.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7668",
+        "name": "Planche en Bois de Tronknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7617",
+    "name": "Mangeoire en Bombu",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7617.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7608",
+    "name": "Mangeoire en Chêne",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7608.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7618",
+    "name": "Mangeoire en Oliviolet",
+    "profession": "handyman",
+    "level": 10,
+    "image": "items/breeding_item/7618.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7662",
+        "name": "Planche en Oliviolet",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7602",
+    "name": "Abreuvoir en Bambou",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7602.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7678",
+    "name": "Abreuvoir en Bois de Bambouto",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7678.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7671",
+        "name": "Planche en Bois de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7592",
+    "name": "Abreuvoir en Erable",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7592.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7657",
+        "name": "Planche en Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7762",
+    "name": "Baffeur en Bambou",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7762.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7773",
+    "name": "Baffeur en Bois de Bambouto",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7773.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7671",
+        "name": "Planche en Bois de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7757",
+    "name": "Baffeur en Erable",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7757.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7657",
+        "name": "Planche en Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7738",
+    "name": "Caresseur en Plume de Corbac",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7738.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1889",
+        "name": "Plume de Corbac",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9254",
+    "name": "Clef de l'antre du Blop Multicolore",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/9254.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9251",
+        "name": "Morceau de clef Coco",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9250",
+        "name": "Morceau de clef Reinette",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9249",
+        "name": "Morceau de clef Griotte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9252",
+        "name": "Morceau de clef Indigo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8320",
+    "name": "Clef de l'antre du Dragon Cochon",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/8320.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2515",
+        "name": "Groin de Sanglier des Plaines",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8392",
+        "name": "Peau de Don Duss Ang",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8391",
+        "name": "Peau de Don Dorgan",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8390",
+        "name": "Peau de Cochon de Farle",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7309",
+    "name": "Clef des Pandikazes",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/7309.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7297",
+        "name": "Poils de Pandule",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7258",
+        "name": "Poils de Pandikaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7303",
+        "name": "Peau de Pandule",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7260",
+        "name": "Peau de Pandikaze",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7557",
+    "name": "Clef du Donjon Abraknyde",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/7557.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "437",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8135",
+    "name": "Clef du Donjon des Bworks",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/8135.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "3001",
+        "name": "Epaulette de Bwork",
+        "quantity": 2
+      },
+      {
+        "resourceId": "3002",
+        "name": "Botte trouée de Bwork",
+        "quantity": 2
+      },
+      {
+        "resourceId": "429",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "3208",
+        "name": "Slip de Bwork Archer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7927",
+    "name": "Clef du Donjon des Craqueleurs",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/7927.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2252",
+        "name": "Dent en Or du Craqueleur",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 4
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8343",
+    "name": "Clef du Donjon des Dragoeufs",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/8343.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8374",
+        "name": "Pierre d'Aqualikros l'Impitoyable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8375",
+        "name": "Pierre de Terraburkal le Perfide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8376",
+        "name": "Pierre d'Aerotrugobur le Malveillant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8373",
+        "name": "Pierre d'Ignerkocropos l'Affamé",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1569",
+    "name": "Clef du Donjon des Forgerons",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/1569.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2274",
+        "name": "Bougie du Mineur Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7311",
+    "name": "Clef du Donjon des Kitsounes",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/7311.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7281",
+        "name": "Peau de Kitsou Nere",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7280",
+        "name": "Peau de Kitsou Nufeu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7279",
+        "name": "Peau de Kitsou Nae",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7282",
+        "name": "Peau de Kitsou Nakwa",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8439",
+    "name": "Clef du Donjon des Rats de Bonta",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/8439.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8481",
+        "name": "Poil de Rat d'Egoutant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8483",
+        "name": "Peau de Chaman d'Egoutant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8570",
+        "name": "Poil de Rat Bontarien",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2322",
+        "name": "Crocs de Rats",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8438",
+    "name": "Clef du Donjon des Rats de Brâkmar",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/8438.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2322",
+        "name": "Crocs de Rats",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8571",
+        "name": "Poil de Rat Brâkmarien",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8483",
+        "name": "Peau de Chaman d'Egoutant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8481",
+        "name": "Poil de Rat d'Egoutant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8139",
+    "name": "Clef du Donjon des Scarafeuilles",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/8139.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1467",
+        "name": "Antenne du Scarafeuille blanc",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1466",
+        "name": "Antenne du Scarafeuille vert",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1464",
+        "name": "Antenne du Scarafeuille bleu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1465",
+        "name": "Antenne du Scarafeuille rouge",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7926",
+    "name": "Clef du Donjon du Maître Corbac",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/7926.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2056",
+        "name": "Oeil de Corbac",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8359",
+        "name": "Aile de Dragoeuf Volant",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1889",
+        "name": "Plume de Corbac",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2060",
+        "name": "Patte de Corbac",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7924",
+    "name": "Clef du Labyrinthe du Minotoror",
+    "profession": "handyman",
+    "level": 20,
+    "image": "resources/keys/7924.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8309",
+        "name": "Plume du Serpiplume",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8312",
+        "name": "Peau de Minoskito",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8315",
+        "name": "Peau de Mandrine",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8314",
+        "name": "Peau de Kraméléhon",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7691",
+    "name": "Dragofesse en Cuir de Chef de Guerre Bouftou",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7691.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "887",
+        "name": "Cuir du Chef de Guerre Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7697",
+    "name": "Dragofesse en Cuir de Porkass",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7697.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2275",
+        "name": "Cuir de Porkass",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7693",
+    "name": "Dragofesse en Cuir de Sanglier",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7693.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "486",
+        "name": "Cuir de Sanglier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7787",
+    "name": "Foudroyeur en Bambou",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7787.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7795",
+    "name": "Foudroyeur en Bois de Bambouto",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7795.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7671",
+        "name": "Planche en Bois de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7780",
+    "name": "Foudroyeur en Erable",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7780.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7657",
+        "name": "Planche en Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7619",
+    "name": "Mangeoire en Bambou",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7619.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7687",
+    "name": "Mangeoire en Bois de Bambouto",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7687.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7671",
+        "name": "Planche en Bois de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7612",
+    "name": "Mangeoire en Erable",
+    "profession": "handyman",
+    "level": 20,
+    "image": "items/breeding_item/7612.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7657",
+        "name": "Planche en Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7597",
+    "name": "Abreuvoir en If",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7597.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7654",
+        "name": "Planche en If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7596",
+    "name": "Abreuvoir en Merisier",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7596.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7660",
+        "name": "Planche en Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7629",
+    "name": "Baffeur en If",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7629.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7654",
+        "name": "Planche en If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7761",
+    "name": "Baffeur en Merisier",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7761.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7660",
+        "name": "Planche en Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7740",
+    "name": "Caresseur en Plume de Kwak de Flamme",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7740.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "415",
+        "name": "Plume du Kwak de Flamme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7739",
+    "name": "Caresseur en Plume de Kwak de Glace",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7739.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "414",
+        "name": "Plume du Kwak de Glace",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7742",
+    "name": "Caresseur en Plume de Kwak de Terre",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7742.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1141",
+        "name": "Plume du Kwak de Terre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7741",
+    "name": "Caresseur en Plume de Kwak de Vent",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7741.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "416",
+        "name": "Plume du Kwak de Vent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8142",
+    "name": "Clef Secrète du Tofulailler Royal",
+    "profession": "handyman",
+    "level": 40,
+    "image": "resources/keys/8142.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7918",
+        "name": "Clef du Donjon des Tofus",
+        "quantity": 1
+      },
+      {
+        "resourceId": "366",
+        "name": "Bec du Tofu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "301",
+        "name": "Plumes de Tofu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8342",
+    "name": "Clef du Sanctuaire des Dragoeufs",
+    "profession": "handyman",
+    "level": 40,
+    "image": "resources/keys/8342.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8369",
+        "name": "Fragment de Coquille de Terrakoubiak le Guerrier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8371",
+        "name": "Fragment de Coquille d'Aerohouctor le Guerrier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "847",
+        "name": "Oeuf de Dragoeuf Blanc",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8372",
+        "name": "Fragment de Coquille d'Aquabralak le Guerrier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8370",
+        "name": "Fragment de Coquille d'Ignelicrobur le Guerrier",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 10
+  },
+  {
+    "id": "9248",
+    "name": "Clef du donjon des Blops",
+    "profession": "handyman",
+    "level": 40,
+    "image": "resources/keys/9248.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1774",
+        "name": "Fleur de Blop Reinette",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1772",
+        "name": "Fleur de Blop Coco",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1776",
+        "name": "Fleur de Blop Griotte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1778",
+        "name": "Fleur de Blop Indigo",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2556",
+        "name": "Pollen de Blop",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7511",
+    "name": "Clef du labyrinthe du Dragon Cochon",
+    "profession": "handyman",
+    "level": 40,
+    "image": "resources/keys/7511.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7510",
+        "name": "Deuxième partie de la clef du labyrinthe du Dragon Cochon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7509",
+        "name": "Première partie de la clef du labyrinthe du Dragon Cochon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2482",
+        "name": "Soulier de Porkass",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2486",
+        "name": "Oreille de Porkass",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2484",
+        "name": "Trident Cassé",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7695",
+    "name": "Dragofesse en Cuir de Cochon de Lait",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7695.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "901",
+        "name": "Cuir du Cochon de Lait",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7777",
+    "name": "Foudroyeur en If",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7777.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7654",
+        "name": "Planche en If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7784",
+    "name": "Foudroyeur en Merisier",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7784.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7660",
+        "name": "Planche en Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7609",
+    "name": "Mangeoire en If",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7609.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7654",
+        "name": "Planche en If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7616",
+    "name": "Mangeoire en Merisier",
+    "profession": "handyman",
+    "level": 40,
+    "image": "items/breeding_item/7616.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7660",
+        "name": "Planche en Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7677",
+    "name": "Abreuvoir en Bambou Magique",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7677.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7670",
+        "name": "Planche en Bambou Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7594",
+    "name": "Abreuvoir en Charme",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7594.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7658",
+        "name": "Planche en Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7598",
+    "name": "Abreuvoir en Ebène",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7598.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7655",
+        "name": "Planche en Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7772",
+    "name": "Baffeur en Bambou Magique",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7772.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7670",
+        "name": "Planche en Bambou Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7758",
+    "name": "Baffeur en Charme",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7758.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7658",
+        "name": "Planche en Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7755",
+    "name": "Baffeur en Ebène",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7755.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7655",
+        "name": "Planche en Ebène",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7743",
+    "name": "Caresseur en Plume du Dernier Poolay",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7743.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1685",
+        "name": "Plume du Dernier Poolay",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8156",
+    "name": "Clef du Donjon des Canidés",
+    "profession": "handyman",
+    "level": 60,
+    "image": "resources/keys/8156.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2491",
+        "name": "Oeil d'Ouginak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2579",
+        "name": "Oeil du Milimulou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "440",
+        "name": "Griffe du Mulou",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2551",
+        "name": "Oreille de Kanigrou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2321",
+        "name": "Babines d'Ouginak",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7312",
+    "name": "Clef du Donjon des Firefoux",
+    "profession": "handyman",
+    "level": 60,
+    "image": "resources/keys/7312.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7299",
+        "name": "Peau de Soryo Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7294",
+        "name": "Poils de Yokai Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7298",
+        "name": "Peau de Maho Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7300",
+        "name": "Peau de Yokai Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7293",
+        "name": "Poils de Soryo Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7292",
+        "name": "Poils de Maho Firefoux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7696",
+    "name": "Dragofesse en Cuir Violet de Bwork",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7696.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2271",
+        "name": "Cuir Violet de Bwork",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7699",
+    "name": "Dragofesse en Cuir de Sanglier des Plaines",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7699.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2511",
+        "name": "Cuir de Sanglier des Plaines",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7794",
+    "name": "Foudroyeur en Bambou Magique",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7794.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7670",
+        "name": "Planche en Bambou Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7781",
+    "name": "Foudroyeur en Charme",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7781.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7658",
+        "name": "Planche en Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7778",
+    "name": "Foudroyeur en Ebène",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7778.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7655",
+        "name": "Planche en Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7686",
+    "name": "Mangeoire en Bambou Magique",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7686.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7670",
+        "name": "Planche en Bambou Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7613",
+    "name": "Mangeoire en Charme",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7613.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7658",
+        "name": "Planche en Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7610",
+    "name": "Mangeoire en Ebène",
+    "profession": "handyman",
+    "level": 60,
+    "image": "items/breeding_item/7610.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7655",
+        "name": "Planche en Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7603",
+    "name": "Abreuvoir en Bambou Sombre",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7603.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7664",
+        "name": "Planche en Bambou Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7679",
+    "name": "Abreuvoir en Bois de Bambouto Sacré",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7679.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7672",
+        "name": "Planche en Bois de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7599",
+    "name": "Abreuvoir en Orme",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7599.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7656",
+        "name": "Planche en Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7765",
+    "name": "Baffeur en Bambou Sombre",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7765.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7664",
+        "name": "Planche en Bambou Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7774",
+    "name": "Baffeur en Bois de Bambouto Sacré",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7774.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7672",
+        "name": "Planche en Bois de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7756",
+    "name": "Baffeur en Orme",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7756.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7656",
+        "name": "Planche en Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7744",
+    "name": "Caresseur en Plume Pointue de Kwak",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7744.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1670",
+        "name": "Plume Pointue de Kwak du Vent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8307",
+    "name": "Clef de la salle du Minotot",
+    "profession": "handyman",
+    "level": 80,
+    "image": "resources/keys/8307.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7924",
+        "name": "Clef du Labyrinthe du Minotoror",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8308",
+        "name": "Carapace de Scaratos",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8311",
+        "name": "Poil de Gamino",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8309",
+        "name": "Plume du Serpiplume",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8315",
+        "name": "Peau de Mandrine",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8312",
+        "name": "Peau de Minoskito",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8314",
+        "name": "Peau de Kraméléhon",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7698",
+    "name": "Dragofesse en Cuir Noir",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7698.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2287",
+        "name": "Cuir Noir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7788",
+    "name": "Foudroyeur en Bambou Sombre",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7788.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7664",
+        "name": "Planche en Bambou Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7779",
+    "name": "Foudroyeur en Orme",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7779.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7656",
+        "name": "Planche en Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7620",
+    "name": "Mangeoire en Bambou Sombre",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7620.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7664",
+        "name": "Planche en Bambou Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7684",
+    "name": "Mangeoire en Bois Envoûté",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7684.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7667",
+        "name": "Planche en Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7688",
+    "name": "Mangeoire en Bois de Bambouto Sacré",
+    "profession": "handyman",
+    "level": 80,
+    "image": "items/breeding_item/7688.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7672",
+        "name": "Planche en Bois de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7676",
+    "name": "Abreuvoir en Bambou Doré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7676.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7669",
+        "name": "Planche en Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1406",
+        "name": "Sang de Likrone",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7604",
+    "name": "Abreuvoir en Bambou Sacré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7604.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1406",
+        "name": "Sang de Likrone",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7665",
+        "name": "Planche en Bambou Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7673",
+    "name": "Abreuvoir en Bois Ancestral",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7673.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1406",
+        "name": "Sang de Likrone",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7666",
+        "name": "Planche en Bois Ancestral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7674",
+    "name": "Abreuvoir en Bois Envoûté",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7674.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "283",
+        "name": "Fiole de Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7667",
+        "name": "Planche en Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1406",
+        "name": "Sang de Likrone",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1182",
+        "name": "Potion de Mini Soin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7770",
+    "name": "Baffeur en Bambou Doré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7770.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7669",
+        "name": "Planche en Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6735",
+        "name": "Racine de Fourbasse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7766",
+    "name": "Baffeur en Bambou Sacré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7766.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7665",
+        "name": "Planche en Bambou Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6735",
+        "name": "Racine de Fourbasse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7767",
+    "name": "Baffeur en Bois Ancestral",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7767.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6735",
+        "name": "Racine de Fourbasse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7666",
+        "name": "Planche en Bois Ancestral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7768",
+    "name": "Baffeur en Bois Envoûté",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7768.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7667",
+        "name": "Planche en Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6735",
+        "name": "Racine de Fourbasse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1018",
+        "name": "Kole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7746",
+    "name": "Caresseur en Plume de Tofu Royal",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7746.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2247",
+        "name": "Plume de Tofu Royal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7745",
+    "name": "Caresseur en Plume du Maître Corbac",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7745.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1892",
+        "name": "Plume du Maître Corbac",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11474",
+    "name": "Clef du Belvédère d'Ilyzaelle",
+    "profession": "handyman",
+    "level": 100,
+    "image": "resources/keys/11474.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8681",
+        "name": "Peau de Raul Mops",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2512",
+        "name": "Queue de Sanglier des Plaines",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8439",
+        "name": "Clef du Donjon des Rats de Bonta",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1694",
+        "name": "Laine du Trool Furieux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "479",
+        "name": "Ivoire",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1889",
+        "name": "Plume de Corbac",
+        "quantity": 8
+      },
+      {
+        "resourceId": "424",
+        "name": "Fibre de Lin",
+        "quantity": 9
+      },
+      {
+        "resourceId": "2481",
+        "name": "Groin de Porkass",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9247",
+    "name": "Clef du Donjon Fungus",
+    "profession": "handyman",
+    "level": 100,
+    "image": "resources/keys/9247.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9269",
+        "name": "Langue du Champodonte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9267",
+        "name": "Trompe de la Tromperelle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1674",
+        "name": "Champignon Luidegît",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8143",
+        "name": "Clef des Champs",
+        "quantity": 2
+      },
+      {
+        "resourceId": "378",
+        "name": "Sporme du Champ Champ",
+        "quantity": 3
+      },
+      {
+        "resourceId": "290",
+        "name": "Champignon",
+        "quantity": 10
+      },
+      {
+        "resourceId": "424",
+        "name": "Fibre de Lin",
+        "quantity": 10
+      },
+      {
+        "resourceId": "426",
+        "name": "Fibre de Chanvre",
+        "quantity": 11
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6884",
+    "name": "Clef du Donjon du Bworker",
+    "profession": "handyman",
+    "level": 100,
+    "image": "resources/keys/6884.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8135",
+        "name": "Clef du Donjon des Bworks",
+        "quantity": 1
+      },
+      {
+        "resourceId": "3002",
+        "name": "Botte trouée de Bwork",
+        "quantity": 5
+      },
+      {
+        "resourceId": "3001",
+        "name": "Epaulette de Bwork",
+        "quantity": 5
+      },
+      {
+        "resourceId": "3208",
+        "name": "Slip de Bwork Archer",
+        "quantity": 7
+      },
+      {
+        "resourceId": "429",
+        "name": "Pointe de Flèche du Bwork Archer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2330",
+        "name": "Capsule Explosive",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8145",
+        "name": "Bière de Bwork",
+        "quantity": 10
+      },
+      {
+        "resourceId": "409",
+        "name": "Poils de Barbe du Bwork Mage",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8436",
+    "name": "Clef du Donjon du Chêne Mou",
+    "profession": "handyman",
+    "level": 100,
+    "image": "resources/keys/8436.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7557",
+        "name": "Clef du Donjon Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1682",
+        "name": "Ecorce de Liroye Merline",
+        "quantity": 1
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "437",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 10
+  },
+  {
+    "id": "11475",
+    "name": "Clef du Sanctuaire de Qu'Tan",
+    "profession": "handyman",
+    "level": 100,
+    "image": "resources/keys/11475.svg",
+    "category": "Clefs",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2492",
+        "name": "Chaîne de l'Ouginak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8438",
+        "name": "Clef du Donjon des Rats de Brâkmar",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2277",
+        "name": "Linceul",
+        "quantity": 2
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2056",
+        "name": "Oeil de Corbac",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2150",
+        "name": "Graine de scorbute",
+        "quantity": 8
+      },
+      {
+        "resourceId": "2273",
+        "name": "Tissu Pourpre",
+        "quantity": 9
+      },
+      {
+        "resourceId": "2502",
+        "name": "Papatte de Croc Gland",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7692",
+    "name": "Dragofesse en Cuir de Bouftou Royal",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7692.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "886",
+        "name": "Cuir de Bouftou Royal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7662",
+        "name": "Planche en Oliviolet",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7694",
+    "name": "Dragofesse en Cuir de Dragon Cochon",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7694.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "487",
+        "name": "Cuir du Dragon Cochon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7662",
+        "name": "Planche en Oliviolet",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7700",
+    "name": "Dragofesse en Cuir de Minotoror",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7700.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2999",
+        "name": "Cuir de Minotoror",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7653",
+        "name": "Planche en Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7659",
+        "name": "Planche en Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7662",
+        "name": "Planche en Oliviolet",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7661",
+        "name": "Planche en Bombu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6868",
+        "name": "Planche en Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7793",
+    "name": "Foudroyeur en Bambou Doré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7793.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7669",
+        "name": "Planche en Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7789",
+    "name": "Foudroyeur en Bambou Sacré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7789.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7665",
+        "name": "Planche en Bambou Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7790",
+    "name": "Foudroyeur en Bois Ancestral",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7790.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7666",
+        "name": "Planche en Bois Ancestral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7791",
+    "name": "Foudroyeur en Bois Envoûté",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7791.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7667",
+        "name": "Planche en Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7796",
+    "name": "Foudroyeur en Bois de Bambouto Sacré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7796.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7672",
+        "name": "Planche en Bois de Bambouto Sacré",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7685",
+    "name": "Mangeoire en Bambou Doré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7685.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7669",
+        "name": "Planche en Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "532",
+        "name": "Seigle",
+        "quantity": 100
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7621",
+    "name": "Mangeoire en Bambou Sacré",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7621.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7665",
+        "name": "Planche en Bambou Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "532",
+        "name": "Seigle",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7683",
+    "name": "Mangeoire en Bois Ancestral",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7683.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7666",
+        "name": "Planche en Bois Ancestral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "532",
+        "name": "Seigle",
+        "quantity": 100
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7611",
+    "name": "Mangeoire en Orme",
+    "profession": "handyman",
+    "level": 100,
+    "image": "items/breeding_item/7611.svg",
+    "category": "Objet d'élevage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7656",
+        "name": "Planche en Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "533",
+        "name": "Avoine",
+        "quantity": 100
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 100
+      },
+      {
+        "resourceId": "532",
+        "name": "Seigle",
+        "quantity": 100
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 100
+      },
+      {
+        "resourceId": "400",
+        "name": "Orge",
+        "quantity": 100
+      },
+      {
+        "resourceId": "401",
+        "name": "Houblon",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

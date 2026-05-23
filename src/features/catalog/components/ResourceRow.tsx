@@ -29,13 +29,12 @@ export const ResourceRow = React.memo(({ resource, price, onPriceChange }: Resou
     return (
         <div
             onClick={handleRowClick}
-            className={`grid grid-cols-[28px_1fr_96px] sm:grid-cols-[28px_1fr_96px_120px_36px] items-center px-3 py-[5px] border-b border-dofus-border/15 transition-colors text-xs border-l-2 cursor-text ${
-                isActive
+            className={`grid grid-cols-[28px_1fr_96px] sm:grid-cols-[28px_1fr_96px_120px_36px] items-center px-3 py-[5px] border-b border-dofus-border/15 transition-colors text-xs border-l-2 cursor-text ${isActive
                     ? 'bg-dofus-orange/10 border-l-dofus-orange'
                     : 'hover:bg-dofus-panel-dk/20 border-l-transparent'
-            }`}>
+                }`}>
             <img
-                src={`${import.meta.env.BASE_URL}assets/resources/${resource.image}`}
+                src={`${import.meta.env.BASE_URL}assets/${resource.image}`}
                 alt=""
                 width={24}
                 height={24}

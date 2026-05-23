@@ -1,83 +1,198 @@
 [
   {
-    "id": "ble",
+    "id": "289",
     "name": "Blé",
     "category": "cereal",
-    "pods": 1,
+    "pods": 2,
     "level": 1,
-    "description": "Un épi de blé tout ce qu'il y a de plus ordinaire.",
-    "xpPerHarvest": 10
+    "description": "Le Blé est depuis la nuit des temps un ingrédient indispensable dans l'alimentation des habitants d'Amakna et des Tofus.",
+    "xpPerHarvest": 10,
+    "rareVariants": [
+      "2018"
+    ]
   },
   {
-    "id": "orge",
+    "id": "2018",
+    "name": "Blé d'Or",
+    "category": "cereal",
+    "pods": 2,
+    "level": 1,
+    "description": "Ce blé recèle des pouvoirs magiques puissants.",
+    "xpPerHarvest": 10,
+    "rare": true
+  },
+  {
+    "id": "400",
     "name": "Orge",
     "category": "cereal",
-    "pods": 1,
+    "pods": 2,
     "level": 10,
-    "description": "Une céréale rustique très présente dans les champs de Bonta.",
-    "xpPerHarvest": 15
+    "description": "L'orge est une céréale utilisée pour la bière mais aussi pour le bétail et parfois pour les bétails buveurs de bière.",
+    "xpPerHarvest": 15,
+    "rareVariants": [
+      "2032"
+    ]
   },
   {
-    "id": "avoine",
+    "id": "2032",
+    "name": "Orge en Sucre",
+    "category": "cereal",
+    "pods": 2,
+    "level": 10,
+    "description": "Cette Orge très rare, a absorbé de l'eau de pluie sucrée lors de sa germination, ce qui lui a conféré des propriétés magiques inestimables.",
+    "xpPerHarvest": 15,
+    "rare": true
+  },
+  {
+    "id": "533",
     "name": "Avoine",
     "category": "cereal",
-    "pods": 1,
+    "pods": 2,
     "level": 20,
-    "description": "Céréale à tiges creuses, prisée par les éleveurs de Dragodindes.",
-    "xpPerHarvest": 20
+    "description": "Cette céréale est utilisée pour nourrir les jeunes Tabis, lorsqu'ils n'ont pas encore les dents assez solides pour ruminer. Les paysans font tout de même attention dans la mesure où l'avoine cause parfois des crises d'aérophagie chez le bétail sensible.",
+    "xpPerHarvest": 20,
+    "rareVariants": [
+      "1671",
+      "2036"
+    ]
   },
   {
-    "id": "houblon",
+    "id": "2036",
+    "name": "Avoine Aurifère",
+    "category": "cereal",
+    "pods": 2,
+    "level": 20,
+    "description": "Quand on regarde cette avoine, on a l'impression qu'elle pleure de l'Or, signe de la grande puissance magique qu'elle a emmagasinée pendant sa pousse.",
+    "xpPerHarvest": 20,
+    "rare": true
+  },
+  {
+    "id": "1671",
+    "name": "Avoine Magique",
+    "category": "cereal",
+    "pods": 10,
+    "level": 20,
+    "description": "Ce fétu de paille d'Avoine Magique est issu d'un modeste paysan ensorcelé par un apprenti Bwork Mage, qui tenait son livre à l'envers.",
+    "xpPerHarvest": 20,
+    "rare": true
+  },
+  {
+    "id": "7018",
+    "name": "Riz",
+    "category": "cereal",
+    "pods": 2,
+    "level": 20,
+    "description": "Collant, ou même gluant, le riz a toujours du succès auprès des jeunes Pandawas affamés.",
+    "xpPerHarvest": 20,
+    "rareVariants": [
+      "13177"
+    ]
+  },
+  {
+    "id": "13177",
+    "name": "Riz Kar",
+    "category": "cereal",
+    "pods": 2,
+    "level": 20,
+    "description": "Le Riz Kar est un riz légendaire de Pandala qui dégage des vapeurs enivrantes semblables à de l'alcool. Ces émanations ont provoqué des hallucinations chez 51 paysans, les plongeant dans un délire collectif lors d'une soirée. L'incident faillit même causer un incendie qui aurait dévasté toute l'île de Pandala.",
+    "xpPerHarvest": 20,
+    "rare": true
+  },
+  {
+    "id": "401",
     "name": "Houblon",
     "category": "cereal",
-    "pods": 1,
+    "pods": 2,
     "level": 30,
-    "description": "Plante grimpante indispensable à la fabrication des meilleures bières de la région.",
-    "xpPerHarvest": 25
+    "description": "La fleur du plant femelle de Houblon renferme les principes actifs utiles au brasseur, notamment les résines amères et les huiles essentielles. ",
+    "xpPerHarvest": 25,
+    "rareVariants": [
+      "2021"
+    ]
   },
   {
-    "id": "lin",
+    "id": "2021",
+    "name": "Houblon Brillant",
+    "category": "cereal",
+    "pods": 2,
+    "level": 30,
+    "description": "Ce houblon possède une aura brillante très discrète, révélant la magie que la terre mère lui a prêtée.",
+    "xpPerHarvest": 25,
+    "rare": true
+  },
+  {
+    "id": "423",
     "name": "Lin",
+    "category": "cereal",
+    "pods": 2,
+    "level": 40,
+    "description": "La tige de Lin n'a rien de spécial, si ce n'est qu'elle est capable de se redresser 7 fois après avoir été pliée par les tempêtes. C'est sûrement pour cela que sa fibre est si souple.",
+    "xpPerHarvest": 30,
+    "rareVariants": [
+      "2026"
+    ]
+  },
+  {
+    "id": "2026",
+    "name": "Lin Tempête",
     "category": "cereal",
     "pods": 1,
     "level": 40,
-    "description": "Plante fibreuse dont on extrait aussi des fleurs aux propriétés alchimiques.",
-    "xpPerHarvest": 30
+    "description": "Ce Lin a subi les pires tempêtes, et s'est relevé plus de sept fois, ce qui en soi est assez extraordinaire pour du lin, il faut le rappeler. Après avoir rouï à la rosée magique des champs du Grand Pahti pendant plus de 148 années, sa fibre finira avec un peu de chance par être enfin utilisable.",
+    "xpPerHarvest": 30,
+    "rare": true
   },
   {
-    "id": "seigle",
+    "id": "532",
     "name": "Seigle",
     "category": "cereal",
-    "pods": 1,
+    "pods": 2,
     "level": 50,
-    "description": "Céréale robuste qui pousse dans les terrains les plus ingrats.",
-    "xpPerHarvest": 35
+    "description": "Cette céréale sombre a la faculté de pousser dans des conditions difficiles, c'est une des rares céréales à subsister après de fortes sécheresses.",
+    "xpPerHarvest": 35,
+    "rareVariants": [
+      "2029"
+    ]
   },
   {
-    "id": "riz",
-    "name": "Riz",
+    "id": "2029",
+    "name": "Seigle Résistant",
     "category": "cereal",
-    "pods": 1,
+    "pods": 2,
     "level": 50,
-    "description": "Céréale cultivée dans les zones humides d'Akwadala et de Pandala.",
-    "xpPerHarvest": 35
+    "description": "Cette céréale sombre a réussi à pousser dans des conditions impossibles.",
+    "xpPerHarvest": 35,
+    "rare": true
   },
   {
-    "id": "malt",
+    "id": "405",
     "name": "Malt",
     "category": "cereal",
-    "pods": 1,
+    "pods": 2,
     "level": 60,
-    "description": "Orge germée et séchée, base indispensable des brasseries de Bonta.",
+    "description": "C'est le nom donné à l'Orge germée. C'est un ingrédient de choix pour les bières de qualité. Attention cependant, le malt est vicieux et a tendance à absorber la bière lors de sa germination, un peu comme le Tot après une dure journée de chasse aux Tofus.",
     "xpPerHarvest": 40
   },
   {
-    "id": "chanvre",
+    "id": "425",
     "name": "Chanvre",
+    "category": "cereal",
+    "pods": 2,
+    "level": 70,
+    "description": "La Tige de Chanvre peut être utilisée lors de la recherche d'effets hallucinogènes, mais également par les tisserands qui exploitent leurs fibres pour des raisons toutes autres.",
+    "xpPerHarvest": 45,
+    "rareVariants": [
+      "2035"
+    ]
+  },
+  {
+    "id": "2035",
+    "name": "Chanvre Euphorique",
     "category": "cereal",
     "pods": 1,
     "level": 70,
-    "description": "Plante aux multiples usages, ses fibres sont récoltées par les paysans les plus expérimentés.",
-    "xpPerHarvest": 45
+    "description": "Cette tige de chanvre semble avoir des effets inhibant extrêmement puissants. Manipulée par un spécialiste, elle pourrait révéler un certain intérêt.",
+    "xpPerHarvest": 45,
+    "rare": true
   }
 ]

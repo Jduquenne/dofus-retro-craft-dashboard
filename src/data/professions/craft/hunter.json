@@ -1,0 +1,3007 @@
+[
+  {
+    "id": "1993",
+    "name": "Chair d'Insecte Conservée",
+    "profession": "hunter",
+    "level": 10,
+    "image": "resources/preserved_meat/1993.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1915",
+        "name": "Chair d'Insecte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1990",
+    "name": "Chair de Larve Conservée",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/preserved_meat/1990.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1898",
+        "name": "Chair de Larve",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9595",
+    "name": "Fantôme Bouloute du Parrain",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/9595.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9594",
+        "name": "Bouloute du Parrain",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8565",
+    "name": "Fantôme Bébé Pandawa",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8565.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8561",
+        "name": "Bébé Pandawa",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9661",
+    "name": "Fantôme Chacha Angora",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/9661.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9617",
+        "name": "Chacha Angora",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8885",
+    "name": "Fantôme Chacha Tigré",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8885.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7524",
+        "name": "Chacha Tigré",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9671",
+    "name": "Fantôme Crocodaille",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/9671.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9623",
+        "name": "Crocodaille",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9666",
+    "name": "Fantôme Dragoune Noire",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/9666.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9624",
+        "name": "Dragoune Noire",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8706",
+    "name": "Fantôme Fëanor",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8706.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8693",
+        "name": "Fëanor",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9616",
+    "name": "Fantôme Marcassin",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/9616.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7707",
+        "name": "Marcassin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9665",
+    "name": "Fantôme Miniminotot",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/9665.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9620",
+        "name": "Miniminotot",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8679",
+    "name": "Fantôme Ross",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8679.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8677",
+        "name": "Ross",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8524",
+    "name": "Fantôme Walk",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8524.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8211",
+        "name": "Walk",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8171",
+    "name": "Fantôme d'Abra Kadabra",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8171.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8153",
+        "name": "Abra Kadabra",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8020",
+    "name": "Fantôme d'Atouin",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8020.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7714",
+        "name": "Atouin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7722",
+    "name": "Fantôme d'Ecureuil Chenapan",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7722.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7704",
+        "name": "Ecureuil Chenapan",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11783",
+    "name": "Fantôme d'El Palador",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11783.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11781",
+        "name": "El Palador",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8173",
+    "name": "Fantôme d'El Scarador",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8173.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8154",
+        "name": "El Scarador",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11805",
+    "name": "Fantôme d'Estok",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11805.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11809",
+        "name": "Estok",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7724",
+    "name": "Fantôme de Bilby",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7724.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7706",
+        "name": "Bilby",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8172",
+    "name": "Fantôme de Bouloute",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8172.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8151",
+        "name": "Bouloute",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7541",
+    "name": "Fantôme de Bwak d'Air",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7541.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2076",
+        "name": "Bwak d'Air",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7540",
+    "name": "Fantôme de Bwak d'Eau",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7540.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2075",
+        "name": "Bwak d'Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7539",
+    "name": "Fantôme de Bwak de Feu",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7539.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2074",
+        "name": "Bwak de Feu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7542",
+    "name": "Fantôme de Bwak de Terre",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7542.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2077",
+        "name": "Bwak de Terre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8017",
+    "name": "Fantôme de Bworky",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8017.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8000",
+        "name": "Bworky",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7537",
+    "name": "Fantôme de Chacha",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7537.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1728",
+        "name": "Chacha",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10986",
+    "name": "Fantôme de Chacha des Glaces",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10986.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10985",
+        "name": "Chacha des Glaces",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10109",
+    "name": "Fantôme de Chauffe-souris",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10109.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10107",
+        "name": "Chauffe-souris",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11763",
+    "name": "Fantôme de Chenapandi",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11763.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11755",
+        "name": "Chenapandi",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10658",
+    "name": "Fantôme de Chercheur d'Ogrines",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10658.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10657",
+        "name": "Chercheur d'Ogrines",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7536",
+    "name": "Fantôme de Chienchien",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7536.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1711",
+        "name": "Chienchien",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7550",
+    "name": "Fantôme de Croum",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7550.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7520",
+        "name": "Croum",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13080",
+    "name": "Fantôme de Croum Aqueux",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/13080.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13052",
+        "name": "Croum Aqueux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13070",
+    "name": "Fantôme de Croum Igné",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/13070.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13057",
+        "name": "Croum Igné",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13069",
+    "name": "Fantôme de Croum Volatile",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/13069.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13047",
+        "name": "Croum Volatile",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13071",
+    "name": "Fantôme de Croum Végétal",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/13071.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13062",
+        "name": "Croum Végétal",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7549",
+    "name": "Fantôme de Dragoune Rose",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7549.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7519",
+        "name": "Dragoune Rose",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11704",
+    "name": "Fantôme de Dragoune Rouge",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11704.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11702",
+        "name": "Dragoune Rouge",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11558",
+    "name": "Fantôme de Dragoune en Armure",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11558.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11554",
+        "name": "Dragoune en Armure",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11737",
+    "name": "Fantôme de Flibalak",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11737.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11715",
+        "name": "Flibalak",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7548",
+    "name": "Fantôme de Fotome",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7548.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7518",
+        "name": "Fotome",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10597",
+    "name": "Fantôme de Gelutin",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10597.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10544",
+        "name": "Gelutin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11800",
+    "name": "Fantôme de Glouton",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11800.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11804",
+        "name": "Glouton",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "12824",
+    "name": "Fantôme de Karne",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/12824.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "12817",
+        "name": "Karne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8016",
+    "name": "Fantôme de Koalak Sanguin",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8016.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7911",
+        "name": "Koalak Sanguin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11466",
+    "name": "Fantôme de Kometh",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11466.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11465",
+        "name": "Kometh",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7543",
+    "name": "Fantôme de Kouin-Kouin",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7543.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6604",
+        "name": "Kouin-Kouin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7723",
+    "name": "Fantôme de Léopardo",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7723.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7705",
+        "name": "Léopardo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "12821",
+    "name": "Fantôme de Main de Cire",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/12821.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "12818",
+        "name": "Main de Cire",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10868",
+    "name": "Fantôme de Meuch",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10868.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10864",
+        "name": "Meuch",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7893",
+    "name": "Fantôme de Mini Wa",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7893.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7891",
+        "name": "Mini Wa",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11722",
+    "name": "Fantôme de Miniduk",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11722.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11711",
+        "name": "Miniduk",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7551",
+    "name": "Fantôme de Minimino",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7551.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7522",
+        "name": "Minimino",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11777",
+    "name": "Fantôme de Minipoth",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11777.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11775",
+        "name": "Minipoth",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7544",
+    "name": "Fantôme de Nomoon",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7544.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6716",
+        "name": "Nomoon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11744",
+    "name": "Fantôme de Oursolaire",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11744.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11727",
+        "name": "Oursolaire",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "12765",
+    "name": "Fantôme de Patrick le pâté de sable",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/12765.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "12761",
+        "name": "Patrick le pâté de sable",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7546",
+    "name": "Fantôme de Petit Chacha Blanc",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7546.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7414",
+        "name": "Petit Chacha Blanc",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7547",
+    "name": "Fantôme de Petit Chienchien Noir",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7547.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7415",
+        "name": "Petit Chienchien Noir",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7726",
+    "name": "Fantôme de Pioute Bleu",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7726.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7708",
+        "name": "Pioute bleu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7727",
+    "name": "Fantôme de Pioute Jaune",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7727.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7709",
+        "name": "Pioute jaune",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7728",
+    "name": "Fantôme de Pioute Rose",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7728.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7710",
+        "name": "Pioute rose",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7729",
+    "name": "Fantôme de Pioute Rouge",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7729.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7711",
+        "name": "Pioute rouge",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7730",
+    "name": "Fantôme de Pioute Vert",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7730.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7712",
+        "name": "Pioute vert",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7731",
+    "name": "Fantôme de Pioute Violet",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7731.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7713",
+        "name": "Pioute violet",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10870",
+    "name": "Fantôme de Pykur",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10870.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10866",
+        "name": "Pykur",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7545",
+    "name": "Fantôme de Péki",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7545.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6978",
+        "name": "Péki",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10867",
+    "name": "Fantôme de Raknaille",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10867.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10863",
+        "name": "Raknaille",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11739",
+    "name": "Fantôme de Rennowel",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11739.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11719",
+        "name": "Rennowel",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9786",
+    "name": "Fantôme de Shushu de Rushu",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/9786.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9785",
+        "name": "Shushu de Rushu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11768",
+    "name": "Fantôme de Tibilax",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11768.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11729",
+        "name": "Tibilax",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "12749",
+    "name": "Fantôme de Tibilax Saphir",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/12749.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "12747",
+        "name": "Tibilax Saphir",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8174",
+    "name": "Fantôme de Tifoux",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/8174.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8155",
+        "name": "Tifoux",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11016",
+    "name": "Fantôme de Tifoux Tigré",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/11016.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11011",
+        "name": "Tifoux Tigré",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10869",
+    "name": "Fantôme de Tofoudre",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10869.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10865",
+        "name": "Tofoudre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10108",
+    "name": "Fantôme de Vampyrette",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/10108.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10106",
+        "name": "Vampyrette",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7538",
+    "name": "Fantôme de Wabbit",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7538.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1748",
+        "name": "Wabbit",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7894",
+    "name": "Fantôme de Willy le Relou",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7894.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7892",
+        "name": "Willy le Relou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7721",
+    "name": "Fantôme du Vilain Petit Corbac",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/pet_ghost/7721.svg",
+    "category": "Fantôme de Familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7703",
+        "name": "Vilain Petit Corbac",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1987",
+    "name": "Viande d'Oiseau Conservée",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/preserved_meat/1987.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1896",
+        "name": "Viande d'Oiseau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1991",
+    "name": "Chair de Larve Conservée **",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/preserved_meat/1991.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1899",
+        "name": "Chair de Larve **",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1995",
+    "name": "Cuisse de Bouftou Conservée",
+    "profession": "hunter",
+    "level": 10,
+    "image": "resources/preserved_meat/1995.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1911",
+        "name": "Cuisse de Boufton",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1992",
+    "name": "Chair de Larve Conservée ***",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/preserved_meat/1992.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1900",
+        "name": "Chair de Larve ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1997",
+    "name": "Cuisse de Bouftou Conservée **",
+    "profession": "hunter",
+    "level": 10,
+    "image": "resources/preserved_meat/1997.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1912",
+        "name": "Cuisse de Bouftou **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2000",
+    "name": "Cuisse de Wabbit Conservée",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2000.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1902",
+        "name": "Cuisse de Wabbit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2004",
+    "name": "Carré de Porc Conservé",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2004.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1917",
+        "name": "Carré de Porc",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2008",
+    "name": "Museau Conservé",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2008.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1927",
+        "name": "Museau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1998",
+    "name": "Cuisse de Bouftou Conservée ***",
+    "profession": "hunter",
+    "level": 10,
+    "image": "resources/preserved_meat/1998.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1913",
+        "name": "Cuisse de Bouftou ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2001",
+    "name": "Cuisse de Wabbit Conservée **",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2001.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1903",
+        "name": "Cuisse de Wabbit **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2014",
+    "name": "Dragoviande Conservée",
+    "profession": "hunter",
+    "level": 40,
+    "image": "resources/preserved_meat/2014.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1922",
+        "name": "DragoViande",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1988",
+    "name": "Viande d'Oiseau Conservée **",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/preserved_meat/1988.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1897",
+        "name": "Viande d'Oiseau **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2005",
+    "name": "Carré de Porc Conservé **",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2005.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1918",
+        "name": "Carré de Porc **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1994",
+    "name": "Chair d'Insecte Conservée **",
+    "profession": "hunter",
+    "level": 10,
+    "image": "resources/preserved_meat/1994.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1916",
+        "name": "Chair d'Insecte **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1999",
+    "name": "Cuisse de Bouftou Conservée ****",
+    "profession": "hunter",
+    "level": 10,
+    "image": "resources/preserved_meat/1999.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1914",
+        "name": "Cuisse de Bouftou ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2009",
+    "name": "Museau Conservé **",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2009.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1929",
+        "name": "Museau **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2006",
+    "name": "Carré de Porc Conservé ***",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2006.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1921",
+        "name": "Carré de Porc ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2002",
+    "name": "Cuisse de Wabbit Conservée ***",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2002.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1905",
+        "name": "Cuisse de Wabbit ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2015",
+    "name": "Dragoviande Conservée **",
+    "profession": "hunter",
+    "level": 40,
+    "image": "resources/preserved_meat/2015.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1923",
+        "name": "DragoViande **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1989",
+    "name": "Viande d'Oiseau Conservée ****",
+    "profession": "hunter",
+    "level": 1,
+    "image": "resources/preserved_meat/1989.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1933",
+        "name": "Viande d'Oiseau ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2007",
+    "name": "Carré de Porc Conservé ****",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2007.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1919",
+        "name": "Carré de Porc ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2016",
+    "name": "Dragoviande Conservée ***",
+    "profession": "hunter",
+    "level": 40,
+    "image": "resources/preserved_meat/2016.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1924",
+        "name": "DragoViande ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2010",
+    "name": "Museau Conservé ***",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2010.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1930",
+        "name": "Museau ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8503",
+    "name": "Viande de Crocodaille Conservée",
+    "profession": "hunter",
+    "level": 80,
+    "image": "resources/preserved_meat/8503.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8500",
+        "name": "Viande de Crocodaille",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2003",
+    "name": "Cuisse de Wabbit Conservée ****",
+    "profession": "hunter",
+    "level": 20,
+    "image": "resources/preserved_meat/2003.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1901",
+        "name": "Cuisse de Wabbit ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8501",
+    "name": "Viande de Kanigrou Conservée",
+    "profession": "hunter",
+    "level": 60,
+    "image": "resources/preserved_meat/8501.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8498",
+        "name": "Viande de Kanigrou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2017",
+    "name": "Dragoviande Conservée ****",
+    "profession": "hunter",
+    "level": 40,
+    "image": "resources/preserved_meat/2017.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1926",
+        "name": "DragoViande ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11571",
+    "name": "Viande d'Ange Conservée",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/11571.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "389",
+        "name": "Huile de Tournesol Sauvage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11569",
+        "name": "Viande d'Ange",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "11572",
+    "name": "Viande d'Ange Conservée **",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/11572.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11570",
+        "name": "Viande d'Ange **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "389",
+        "name": "Huile de Tournesol Sauvage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9776",
+    "name": "Viande d'Ange Conservée ***",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/9776.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9769",
+        "name": "Viande d'Ange ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "389",
+        "name": "Huile de Tournesol Sauvage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 3
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9777",
+    "name": "Viande d'Ange Conservée ****",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/9777.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "389",
+        "name": "Huile de Tournesol Sauvage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9770",
+        "name": "Viande d'Ange ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9771",
+    "name": "Viande de Démon Conservée",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/9771.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "397",
+        "name": "Huile de Koode",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9764",
+        "name": "Viande de Démon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9773",
+    "name": "Viande de Démon Conservée **",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/9773.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9766",
+        "name": "Viande de Démon **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "397",
+        "name": "Huile de Koode",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9774",
+    "name": "Viande de Démon Conservée ***",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/9774.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "397",
+        "name": "Huile de Koode",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9767",
+        "name": "Viande de Démon ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 3
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9775",
+    "name": "Viande de Démon Conservée ****",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/9775.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9768",
+        "name": "Viande de Démon ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "397",
+        "name": "Huile de Koode",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13183",
+    "name": "Viande de Fantôme Conservée",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/13183.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "13179",
+        "name": "Viande Fantôme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7046",
+        "name": "Une fiole de Pandapiler",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13184",
+    "name": "Viande de Fantôme Conservée **",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/13184.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13180",
+        "name": "Viande Fantôme **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7046",
+        "name": "Une fiole de Pandapiler",
+        "quantity": 3
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13185",
+    "name": "Viande de Fantôme Conservée ***",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/13185.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13181",
+        "name": "Viande Fantôme ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7046",
+        "name": "Une fiole de Pandapiler",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13186",
+    "name": "Viande de Fantôme Conservée ****",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/13186.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13182",
+        "name": "Viande Fantôme ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7046",
+        "name": "Une fiole de Pandapiler",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8502",
+    "name": "Viande de Koalak Conservée",
+    "profession": "hunter",
+    "level": 100,
+    "image": "resources/preserved_meat/8502.svg",
+    "category": "Viande conservée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1984",
+        "name": "Graisse de Biblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "396",
+        "name": "Huile de Palme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1985",
+        "name": "Résine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8499",
+        "name": "Viande de Koalak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2012",
+        "name": "Sang de Scorbute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1986",
+        "name": "Poudre Temporelle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1983",
+        "name": "Graisse de Gelée",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

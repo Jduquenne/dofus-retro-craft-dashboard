@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="shape" height="165.0px" width="165.0px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 0.5, 0.5)">
+    <path d="M164.0 82.0 Q164.0 115.95 139.95 139.95 115.95 164.0 82.0 164.0 48.05 164.0 24.0 139.95 0.0 115.95 0.0 82.0 0.0 48.05 24.0 24.0 48.05 0.0 82.0 0.0 115.95 0.0 139.95 24.0 164.0 48.05 164.0 82.0" fill="url(#gradient0)" fill-rule="evenodd" stroke="none"/>
+    <path d="M164.0 82.0 Q164.0 115.95 139.95 139.95 115.95 164.0 82.0 164.0 48.05 164.0 24.0 139.95 0.0 115.95 0.0 82.0 0.0 48.05 24.0 24.0 48.05 0.0 82.0 0.0 115.95 0.0 139.95 24.0 164.0 48.05 164.0 82.0 Z" fill="none" stroke="#b6a529" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0"/>
+  </g>
+  <defs>
+    <radialGradient cx="0" cy="0" gradientTransform="matrix(0.1376, 0.0, 0.0, 0.1376, 102.4, 60.3)" gradientUnits="userSpaceOnUse" id="gradient0" r="819.2" spreadMethod="pad">
+      <stop offset="0.0" stop-color="#ffffff"/>
+      <stop offset="0.0" stop-color="#f3f372"/>
+      <stop offset="0.11372549019607843" stop-color="#eff477"/>
+      <stop offset="0.3607843137254902" stop-color="#edec61"/>
+      <stop offset="0.8470588235294118" stop-color="#cbb32e"/>
+      <stop offset="0.9882352941176471" stop-color="#7b651c"/>
+    </radialGradient>
+  </defs>
+</svg>

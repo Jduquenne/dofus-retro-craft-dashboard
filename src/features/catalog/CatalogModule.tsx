@@ -36,7 +36,7 @@ export const CatalogModule: React.FC = () => {
         return () => observer.disconnect();
     }, [hasMore, loadMore]);
 
-    const pricesSetCount = Object.keys(prices).filter(id => prices[id] > 0).length;
+    const pricesSetCount = Object.keys(prices).filter(id => (prices as Record<string, number>)[id] > 0).length;
 
     return (
         <div className="flex flex-col gap-3 h-[calc(100vh-160px)] sm:h-[calc(100vh-270px)]">
@@ -69,7 +69,7 @@ export const CatalogModule: React.FC = () => {
                 />
 
                 <div className="panel rounded flex-1 min-h-0 flex flex-col overflow-hidden">
-                    <div className="grid grid-cols-[28px_1fr_96px] sm:grid-cols-[28px_1fr_96px_120px_36px] px-3 py-2 border-b-2 border-dofus-border/40 bg-dofus-border/30 text-[10px] font-semibold text-dofus-cream uppercase tracking-wider shrink-0">
+                    <div className="grid grid-cols-[28px_1fr_96px] sm:grid-cols-[28px_1fr_96px_120px_36px] px-3 py-2 border-b-2 border-dofus-border/40 bg-dofus-border/30 text-xs font-semibold text-dofus-cream uppercase tracking-wider shrink-0">
                         <span />
                         <span>Ressource</span>
                         <span className="text-right">Prix/u (k)</span>
@@ -110,7 +110,7 @@ export const CatalogModule: React.FC = () => {
                                     </div>
                                 )}
                                 {!hasMore && visibleResources.length > 0 && (
-                                    <div className="py-2 text-center text-[10px] text-dofus-text-lt">
+                                    <div className="py-2 text-center text-xs text-dofus-text-lt">
                                         {visibleResources.length} ressource{visibleResources.length > 1 ? 's' : ''}
                                     </div>
                                 )}

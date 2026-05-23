@@ -1,0 +1,2647 @@
+[
+  {
+    "id": "150",
+    "name": "Petite Pelle de Boisaille",
+    "profession": "shovel-smith",
+    "level": 1,
+    "image": "items/shovel/150.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "151",
+    "name": "Pelle de Boisaille",
+    "profession": "shovel-smith",
+    "level": 1,
+    "image": "items/shovel/151.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 20
+  },
+  {
+    "id": "152",
+    "name": "Grande Pelle de Boisaille",
+    "profession": "shovel-smith",
+    "level": 1,
+    "image": "items/shovel/152.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "153",
+    "name": "Puissante Pelle de Boisaille",
+    "profession": "shovel-smith",
+    "level": 1,
+    "image": "items/shovel/153.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30
+  },
+  {
+    "id": "238",
+    "name": "Petite Pelle de Crapouille",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/238.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "244",
+    "name": "Petite Pelle de Rapage",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/244.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "239",
+    "name": "Pelle de Crapouille",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/239.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 80
+  },
+  {
+    "id": "245",
+    "name": "Pelle de Rapage",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/245.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 85
+  },
+  {
+    "id": "1059",
+    "name": "Pelle des Champs",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/1059.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 75
+  },
+  {
+    "id": "240",
+    "name": "Grande Pelle de Crapouille",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/240.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 90
+  },
+  {
+    "id": "246",
+    "name": "Grande Pelle de Rapage",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/246.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 100
+  },
+  {
+    "id": "241",
+    "name": "Puissante Pelle de Crapouille",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/241.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 100
+  },
+  {
+    "id": "247",
+    "name": "Puissante Pelle de Rapage",
+    "profession": "shovel-smith",
+    "level": 10,
+    "image": "items/shovel/247.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 115
+  },
+  {
+    "id": "251",
+    "name": "Barbe Grise",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/251.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 125
+  },
+  {
+    "id": "293",
+    "name": "Petite Pelle du Craqueleur",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/293.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 120
+  },
+  {
+    "id": "1432",
+    "name": "Pelle Houze",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1432.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 8
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 210
+  },
+  {
+    "id": "294",
+    "name": "Pelle du Craqueleur",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/294.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 160
+  },
+  {
+    "id": "1426",
+    "name": "Pelle à Thart'",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1426.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "483",
+        "name": "Grande Pelle Teuze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1335",
+        "name": "Potion de Crachin",
+        "quantity": 5
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "111",
+        "name": "Grand Anneau de Chance",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 180
+  },
+  {
+    "id": "345",
+    "name": "Petite Pelle Teuze",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/345.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 190
+  },
+  {
+    "id": "1055",
+    "name": "Petite Pelle de Koutoulou",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1055.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 3
+      },
+      {
+        "resourceId": "375",
+        "name": "Dent du Tofu Maléfique",
+        "quantity": 4
+      },
+      {
+        "resourceId": "764",
+        "name": "Amulette du Petit Hibou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 150
+  },
+  {
+    "id": "295",
+    "name": "Grande Pelle du Craqueleur",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/295.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 6
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 6
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "482",
+    "name": "Pelle Teuze",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/482.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 220
+  },
+  {
+    "id": "1056",
+    "name": "Pelle de Koutoulou",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1056.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 3
+      },
+      {
+        "resourceId": "375",
+        "name": "Dent du Tofu Maléfique",
+        "quantity": 4
+      },
+      {
+        "resourceId": "68",
+        "name": "Amulette du Hibou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 180
+  },
+  {
+    "id": "483",
+    "name": "Grande Pelle Teuze",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/483.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 250
+  },
+  {
+    "id": "296",
+    "name": "Puissante Pelle du craqueleur",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/296.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 7
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 240
+  },
+  {
+    "id": "1429",
+    "name": "Petite Pelle Mechba",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1429.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 150
+  },
+  {
+    "id": "1057",
+    "name": "Grande Pelle de Koutoulou",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1057.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 3
+      },
+      {
+        "resourceId": "375",
+        "name": "Dent du Tofu Maléfique",
+        "quantity": 4
+      },
+      {
+        "resourceId": "69",
+        "name": "Belle Amulette du Hibou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 210
+  },
+  {
+    "id": "484",
+    "name": "Puissante Pelle Teuze",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/484.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 280
+  },
+  {
+    "id": "1058",
+    "name": "Effrayante Pelle de Koutoulou",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1058.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 3
+      },
+      {
+        "resourceId": "375",
+        "name": "Dent du Tofu Maléfique",
+        "quantity": 4
+      },
+      {
+        "resourceId": "70",
+        "name": "Puissante Amulette du Hibou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 240
+  },
+  {
+    "id": "1042",
+    "name": "Petite Pelle de Bois Dormant",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1042.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "298",
+        "name": "Sandales Tofuesques",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 6
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 320
+  },
+  {
+    "id": "1043",
+    "name": "Pelle de Bois Dormant",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1043.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "298",
+        "name": "Sandales Tofuesques",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 7
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 340
+  },
+  {
+    "id": "1046",
+    "name": "Petite Pelle Melle",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1046.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "309",
+        "name": "Pétale de Rose Démoniaque",
+        "quantity": 5
+      },
+      {
+        "resourceId": "374",
+        "name": "Langue du Pissenlit Diabolique",
+        "quantity": 5
+      },
+      {
+        "resourceId": "288",
+        "name": "Graine de Tournesol sauvage",
+        "quantity": 5
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 400
+  },
+  {
+    "id": "1044",
+    "name": "Grande Pelle de Bois Dormant",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1044.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "298",
+        "name": "Sandales Tofuesques",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 8
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 360
+  },
+  {
+    "id": "347",
+    "name": "Rhizome Doré",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/347.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 440
+  },
+  {
+    "id": "1047",
+    "name": "Pelle Melle",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1047.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "288",
+        "name": "Graine de Tournesol sauvage",
+        "quantity": 5
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 6
+      },
+      {
+        "resourceId": "309",
+        "name": "Pétale de Rose Démoniaque",
+        "quantity": 7
+      },
+      {
+        "resourceId": "374",
+        "name": "Langue du Pissenlit Diabolique",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 420
+  },
+  {
+    "id": "1045",
+    "name": "Magnifique Pelle de Bois Dormant",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1045.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "298",
+        "name": "Sandales Tofuesques",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 9
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 380
+  },
+  {
+    "id": "1430",
+    "name": "Pelle Mechba",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1430.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 230
+  },
+  {
+    "id": "1048",
+    "name": "Grande Pelle Melle",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1048.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "288",
+        "name": "Graine de Tournesol sauvage",
+        "quantity": 6
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 7
+      },
+      {
+        "resourceId": "374",
+        "name": "Langue du Pissenlit Diabolique",
+        "quantity": 9
+      },
+      {
+        "resourceId": "309",
+        "name": "Pétale de Rose Démoniaque",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 440
+  },
+  {
+    "id": "1050",
+    "name": "Petite Pelle Woukuis",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1050.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "396",
+        "name": "Huile de Palme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "284",
+        "name": "Sel",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 500
+  },
+  {
+    "id": "1436",
+    "name": "Pelle Ikan",
+    "profession": "shovel-smith",
+    "level": 20,
+    "image": "items/shovel/1436.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "379",
+        "name": "Pince du Crabe",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 780
+  },
+  {
+    "id": "1049",
+    "name": "Puissante Pelle Melle",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1049.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 6
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 7
+      },
+      {
+        "resourceId": "288",
+        "name": "Graine de Tournesol sauvage",
+        "quantity": 7
+      },
+      {
+        "resourceId": "374",
+        "name": "Langue du Pissenlit Diabolique",
+        "quantity": 11
+      },
+      {
+        "resourceId": "309",
+        "name": "Pétale de Rose Démoniaque",
+        "quantity": 11
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 460
+  },
+  {
+    "id": "3356",
+    "name": "Pelle Doudesque",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/3356.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 750
+  },
+  {
+    "id": "6527",
+    "name": "Pelle Musicale",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/6527.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 3
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 710
+  },
+  {
+    "id": "1054",
+    "name": "Cruelle Pelle-Truelle",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/1054.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 500
+  },
+  {
+    "id": "1051",
+    "name": "Pelle Woukuis",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1051.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "396",
+        "name": "Huile de Palme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 7
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 13
+      },
+      {
+        "resourceId": "284",
+        "name": "Sel",
+        "quantity": 14
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 530
+  },
+  {
+    "id": "1427",
+    "name": "Pelle Zébuth",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/1427.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 8
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 800
+  },
+  {
+    "id": "1052",
+    "name": "Grande Pelle Woukuis",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1052.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "396",
+        "name": "Huile de Palme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 6
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 8
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 16
+      },
+      {
+        "resourceId": "284",
+        "name": "Sel",
+        "quantity": 18
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 560
+  },
+  {
+    "id": "1431",
+    "name": "Grande Pelle Mechba",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1431.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1429",
+        "name": "Petite Pelle Mechba",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 300
+  },
+  {
+    "id": "1433",
+    "name": "Pelle Sécutrice",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/1433.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 6
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 6
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 650
+  },
+  {
+    "id": "1053",
+    "name": "Imposante Pelle Woukuis",
+    "profession": "shovel-smith",
+    "level": 40,
+    "image": "items/shovel/1053.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "396",
+        "name": "Huile de Palme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 7
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 9
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 18
+      },
+      {
+        "resourceId": "284",
+        "name": "Sel",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 600
+  },
+  {
+    "id": "8614",
+    "name": "Pelle Ripe",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/8614.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8731",
+        "name": "Corail Magistral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8729",
+        "name": "Corail usé",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8748",
+        "name": "Pétale Morito",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1992",
+        "name": "Chair de Larve Conservée ***",
+        "quantity": 8
+      },
+      {
+        "resourceId": "1994",
+        "name": "Chair d'Insecte Conservée **",
+        "quantity": 16
+      },
+      {
+        "resourceId": "8752",
+        "name": "Bulbe Morito",
+        "quantity": 24
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "8613",
+    "name": "Pelle Minstère",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/8613.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8994",
+        "name": "Etoffe Corailleuse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8754",
+        "name": "Barbe inexistante du Barbroussa",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8745",
+        "name": "Pétale Kouraçao",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 14
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 16
+      },
+      {
+        "resourceId": "8767",
+        "name": "Aile du Bitouf des plaines",
+        "quantity": 21
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1354
+  },
+  {
+    "id": "6539",
+    "name": "Pelle Gicque",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/6539.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1660",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 2
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 4
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2565",
+        "name": "Tranche de Tronknyde",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1300
+  },
+  {
+    "id": "250",
+    "name": "Ares",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/250.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1400
+  },
+  {
+    "id": "1435",
+    "name": "La Pelle du Large",
+    "profession": "shovel-smith",
+    "level": 80,
+    "image": "items/shovel/1435.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1526",
+        "name": "Metaria rouge",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1535",
+        "name": "Metaria Mage rouge",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1533",
+        "name": "Metaria Triame rouge",
+        "quantity": 3
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 4000
+  },
+  {
+    "id": "6538",
+    "name": "Pelle Vaidaire",
+    "profession": "shovel-smith",
+    "level": 80,
+    "image": "items/shovel/6538.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 15
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 15
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 30
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1820
+  },
+  {
+    "id": "6540",
+    "name": "La Pelle Hélabète",
+    "profession": "shovel-smith",
+    "level": 60,
+    "image": "items/shovel/6540.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2282",
+        "name": "Touffe de Cheveux Blancs",
+        "quantity": 3
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2565",
+        "name": "Tranche de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 2000
+  },
+  {
+    "id": "6537",
+    "name": "Pelle Mairhe",
+    "profession": "shovel-smith",
+    "level": 80,
+    "image": "items/shovel/6537.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 2
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 4
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 9
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2000
+  },
+  {
+    "id": "6528",
+    "name": "Pelle Rinage",
+    "profession": "shovel-smith",
+    "level": 80,
+    "image": "items/shovel/6528.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2271",
+        "name": "Cuir Violet de Bwork",
+        "quantity": 3
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2000
+  },
+  {
+    "id": "6526",
+    "name": "Pelle Hébuse",
+    "profession": "shovel-smith",
+    "level": 80,
+    "image": "items/shovel/6526.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2300
+  },
+  {
+    "id": "8419",
+    "name": "Pelle Moh",
+    "profession": "shovel-smith",
+    "level": 80,
+    "image": "items/shovel/8419.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8058",
+        "name": "Cubitus de Momie Koalak",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8102",
+        "name": "Pierre du Craqueleur Légendaire",
+        "quantity": 3
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 5
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 19
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3365
+  },
+  {
+    "id": "6536",
+    "name": "Pelle du Mineur Sombre",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/6536.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "480",
+        "name": "Minerai Etrange",
+        "quantity": 1
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 2
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1660",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3400
+  },
+  {
+    "id": "6535",
+    "name": "Pelle Hikule",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/6535.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 2
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 3
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 3
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 9
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 10
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 15
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 16
+      },
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3700
+  },
+  {
+    "id": "8420",
+    "name": "Pelle Dragoeuf",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/8420.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8347",
+        "name": "Corne de Dragoss Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7411",
+        "name": "Os de Fantôme Yokai Firefoux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8351",
+        "name": "Coquille de Dragoss Doré",
+        "quantity": 4
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8083",
+        "name": "Os de Pékeualak",
+        "quantity": 40
+      },
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4215
+  },
+  {
+    "id": "8417",
+    "name": "Pelle à Gâteau",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/8417.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7407",
+        "name": "Os de Fantôme Pandule",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8159",
+        "name": "Carapace du Scarabosse Doré",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 6
+      },
+      {
+        "resourceId": "2564",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8057",
+        "name": "Tibia de Koalak Fossoyeur",
+        "quantity": 11
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 16
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 17
+      },
+      {
+        "resourceId": "7369",
+        "name": "Ambre de Bambouto",
+        "quantity": 22
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4251
+  },
+  {
+    "id": "8936",
+    "name": "Pelle Shattkitou",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/8936.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8996",
+        "name": "Peau du Rasboul Majeur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8811",
+        "name": "Faux menton du Bourbassingue",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8776",
+        "name": "Coco du Bitouf sombre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 19
+      },
+      {
+        "resourceId": "8757",
+        "name": "Maillot de corps de Barbroussa",
+        "quantity": 27
+      },
+      {
+        "resourceId": "8763",
+        "name": "Moustache du Mufafah",
+        "quantity": 29
+      },
+      {
+        "resourceId": "8762",
+        "name": "Fragment de cerveau poli",
+        "quantity": 48
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4394
+  },
+  {
+    "id": "7213",
+    "name": "Pelle Rhon",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/7213.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7406",
+        "name": "Os de Fantôme Pandore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 7
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4605
+  },
+  {
+    "id": "8937",
+    "name": "Pelle Aigante",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/8937.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "699",
+        "name": "Le Troma",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2623",
+        "name": "Bwak Squelettique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8998",
+        "name": "Pierre précieuse du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1989",
+        "name": "Viande d'Oiseau Conservée ****",
+        "quantity": 2
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 14
+      },
+      {
+        "resourceId": "7032",
+        "name": "Silicate",
+        "quantity": 28
+      },
+      {
+        "resourceId": "8760",
+        "name": "Foulard du Sparo",
+        "quantity": 35
+      },
+      {
+        "resourceId": "8740",
+        "name": "Chicot du Flib",
+        "quantity": 68
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4945
+  },
+  {
+    "id": "8935",
+    "name": "la Bêche à Mel",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/8935.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8916",
+        "name": "Ambre du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8809",
+        "name": "Culotte à l'envers du Roissingue",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2003",
+        "name": "Cuisse de Wabbit Conservée ****",
+        "quantity": 3
+      },
+      {
+        "resourceId": "929",
+        "name": "Kristalite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8737",
+        "name": "Boule polie",
+        "quantity": 8
+      },
+      {
+        "resourceId": "8804",
+        "name": "Braguette du Maître Zoth",
+        "quantity": 8
+      },
+      {
+        "resourceId": "8736",
+        "name": "Coeur de pierre poli",
+        "quantity": 10
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 22
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4998
+  },
+  {
+    "id": "9468",
+    "name": "Pelle Emélaka",
+    "profession": "shovel-smith",
+    "level": 100,
+    "image": "items/shovel/9468.svg",
+    "category": "Pelle",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2640",
+        "name": "Bâton Carnivore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8753",
+        "name": "Crinière fleurie",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8405",
+        "name": "Poil de Skeunk",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8802",
+        "name": "Tibia du Guerrier Zoth",
+        "quantity": 8
+      },
+      {
+        "resourceId": "8803",
+        "name": "Rotule du Disciple Zoth",
+        "quantity": 9
+      },
+      {
+        "resourceId": "1674",
+        "name": "Champignon Luidegît",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8784",
+        "name": "Talon d'achille de l'Abrakleur sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 26
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5840
+  }
+]

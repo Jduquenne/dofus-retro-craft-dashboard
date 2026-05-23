@@ -19,15 +19,14 @@ export const MethodPanel: React.FC<MethodPanelProps> = ({
 }) => (
     <div className="space-y-2">
         <div className="panel rounded p-3 space-y-1">
-            <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold mb-2">Méthode</p>
+            <p className="text-xs text-dofus-text-lt uppercase tracking-wider font-semibold mb-2">Méthode</p>
             {SCROLL_METHODS.map(m => (
                 <label
                     key={m.id}
-                    className={`flex items-start gap-2.5 p-2 rounded cursor-pointer transition-all border ${
-                        methodId === m.id
+                    className={`flex items-start gap-2.5 p-2 rounded cursor-pointer transition-all border ${methodId === m.id
                             ? 'bg-dofus-orange/15 border-dofus-orange/40'
                             : 'border-transparent hover:bg-dofus-panel-dk/30'
-                    }`}
+                        }`}
                 >
                     <input
                         type="radio" name="method" value={m.id} checked={methodId === m.id}
@@ -38,7 +37,7 @@ export const MethodPanel: React.FC<MethodPanelProps> = ({
                         <p className={`text-xs font-semibold ${methodId === m.id ? 'text-dofus-orange' : 'text-dofus-text'}`}>
                             {m.label}
                         </p>
-                        <p className="text-[10px] text-dofus-text-lt leading-tight mt-0.5">{m.description}</p>
+                        <p className="text-xs text-dofus-text-lt leading-tight mt-0.5">{m.description}</p>
                     </div>
                 </label>
             ))}
@@ -46,23 +45,22 @@ export const MethodPanel: React.FC<MethodPanelProps> = ({
 
         {phasesWithMultiPnj.length > 0 && (
             <div className="panel rounded p-3 space-y-2">
-                <p className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold">PNJ</p>
+                <p className="text-xs text-dofus-text-lt uppercase tracking-wider font-semibold">PNJ</p>
                 {phasesWithMultiPnj.map(phase => {
                     const tier = stat.tiers.find(t => t.type === phase.tierType)!;
                     const selectedId = npcSelections[phase.tierType] ?? tier.options[0].id;
                     return (
                         <div key={phase.tierType}>
-                            <p className="text-[10px] text-dofus-text-md mb-1">{TIER_LABELS[phase.tierType]}</p>
+                            <p className="text-xs text-dofus-text-md mb-1">{TIER_LABELS[phase.tierType]}</p>
                             <div className="flex flex-wrap gap-1">
                                 {tier.options.map(opt => (
                                     <button
                                         key={opt.id}
                                         onClick={() => onNpcSelect(phase.tierType, opt.id)}
-                                        className={`flex items-center gap-1 px-2 py-1 rounded text-[10px] border transition-all ${
-                                            selectedId === opt.id
+                                        className={`flex items-center gap-1 px-2 py-1 rounded text-xs border transition-all ${selectedId === opt.id
                                                 ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
                                                 : 'panel-sm text-dofus-text-md border-dofus-border-md hover:bg-dofus-panel-lt'
-                                        }`}
+                                            }`}
                                     >
                                         <MapPin size={9} />
                                         <span>{opt.npc}</span>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:ffdec="https://www.free-decompiler.com/flash" xmlns:xlink="http://www.w3.org/1999/xlink" ffdec:objectType="shape" height="48.1px" width="38.75px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, -133.8, -213.5)">
+    <path d="M135.6 214.0 L171.2 239.45 Q173.15 245.15 170.7 253.45 168.65 257.0 163.05 259.95 160.2 261.25 155.05 261.05 147.95 260.8 142.6 258.55 L134.3 227.6 137.45 224.4 135.6 214.0 M137.45 224.4 L142.85 247.75 134.3 227.6" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.29803923" stroke-width="1.0"/>
+    <path d="M134.25 227.6 L137.4 224.4 142.8 247.75 134.25 227.6" fill="#745014" fill-rule="evenodd" stroke="none"/>
+    <path d="M170.65 253.45 Q168.6 257.0 163.0 259.95 L144.05 241.35 155.0 261.05 Q147.9 260.8 142.55 258.55 L134.25 227.6 142.8 247.75 137.4 224.4 136.1 217.3 151.0 237.25 144.95 234.2 149.95 242.15 170.65 253.45" fill="#c08521" fill-rule="evenodd" stroke="none"/>
+    <path d="M136.1 217.3 L135.7 214.9 136.8 214.9 171.15 239.45 Q173.1 245.15 170.65 253.45 L149.95 242.15 144.95 234.2 151.0 237.25 136.1 217.3 M163.0 259.95 Q160.15 261.25 155.0 261.05 L144.05 241.35 163.0 259.95" fill="#e4b364" fill-rule="evenodd" stroke="none"/>
+    <path d="M136.1 217.3 L135.7 214.9 M136.8 214.9 L171.15 239.45 Q173.1 245.15 170.65 253.45 168.6 257.0 163.0 259.95 M155.0 261.05 Q147.9 260.8 142.55 258.55 L134.25 227.6 137.4 224.4 136.1 217.3 M137.4 224.4 L142.8 247.75 134.25 227.6" ffdec:has-small-stroke="true" ffdec:original-stroke-width="0.05" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.4" stroke-width="1.0"/>
+  </g>
+</svg>

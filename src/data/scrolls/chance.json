@@ -1,7 +1,7 @@
 {
   "id": "chance",
   "label": "Chance",
-  "icon": "🍀",
+  "icon": "items/stat_scroll/811.svg",
   "tiers": [
     {
       "type": "petit",
@@ -11,17 +11,30 @@
         {
           "id": "cha-petit-aliakelle",
           "npc": "Ali Akelle",
-          "position": [2, -2],
+          "position": [
+            2,
+            -2
+          ],
           "resources": [
-            { "name": "Pattes d'Arakne", "quantity": 80 }
+            {
+              "name": "Pattes d'Arakne",
+              "quantity": 80
+            }
           ]
         },
         {
           "id": "cha-petit-azralazarus",
           "npc": "Azra Lazarus",
-          "position": [0, 2],
+          "position": [
+            0,
+            2
+          ],
           "resources": [
-            { "name": "Amulette du Bucheron", "quantity": 1, "kind": "equipment" }
+            {
+              "name": "Amulette du Bucheron",
+              "quantity": 1,
+              "kind": "equipment"
+            }
           ]
         }
       ]
@@ -34,10 +47,19 @@
         {
           "id": "cha-normal-koussein",
           "npc": "Koussein Trengon",
-          "position": [4, 8],
+          "position": [
+            4,
+            8
+          ],
           "resources": [
-            { "name": "Pattes d'Arakne", "quantity": 90 },
-            { "name": "Trèfles à 5 feuilles", "quantity": 65 }
+            {
+              "name": "Pattes d'Arakne",
+              "quantity": 90
+            },
+            {
+              "name": "Trèfles à 5 feuilles",
+              "quantity": 65
+            }
           ]
         }
       ]
@@ -50,11 +72,23 @@
         {
           "id": "cha-grand-assistant",
           "npc": "Assistant d'Otomaï",
-          "position": [-2, -4],
+          "position": [
+            -2,
+            -4
+          ],
           "resources": [
-            { "name": "Ongles Chevaucheurs de Karne", "quantity": 40 },
-            { "name": "Pattes d'Arakne", "quantity": 75 },
-            { "name": "Trèfles à 5 feuilles", "quantity": 60 }
+            {
+              "name": "Ongles Chevaucheurs de Karne",
+              "quantity": 40
+            },
+            {
+              "name": "Pattes d'Arakne",
+              "quantity": 75
+            },
+            {
+              "name": "Trèfles à 5 feuilles",
+              "quantity": 60
+            }
           ]
         }
       ]
@@ -67,12 +101,27 @@
         {
           "id": "cha-puissant-bolzano",
           "npc": "Bolzano Vieilletrasse",
-          "position": [2, 5],
+          "position": [
+            2,
+            5
+          ],
           "resources": [
-            { "name": "Ongles Chevaucheurs de Karne", "quantity": 40 },
-            { "name": "Pattes d'Arakne", "quantity": 60 },
-            { "name": "Trèfles à 5 feuilles", "quantity": 55 },
-            { "name": "Queues du Mulou", "quantity": 15 }
+            {
+              "name": "Ongles Chevaucheurs de Karne",
+              "quantity": 40
+            },
+            {
+              "name": "Pattes d'Arakne",
+              "quantity": 60
+            },
+            {
+              "name": "Trèfles à 5 feuilles",
+              "quantity": 55
+            },
+            {
+              "name": "Queues du Mulou",
+              "quantity": 15
+            }
           ]
         }
       ]

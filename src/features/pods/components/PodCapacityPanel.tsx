@@ -23,7 +23,7 @@ export const PodCapacityPanel: React.FC<PodCapacityPanelProps> = ({
 
       <div className="grid grid-cols-2 sm:flex sm:flex-wrap gap-3 sm:items-end">
         <div className="flex flex-col gap-1">
-          <label className="text-[10px] uppercase tracking-wider text-dofus-text-lt">Pods max</label>
+          <label className="text-xs uppercase tracking-wider text-dofus-text-lt">Pods max</label>
           <input
             type="number"
             min={0}
@@ -34,7 +34,7 @@ export const PodCapacityPanel: React.FC<PodCapacityPanelProps> = ({
         </div>
 
         <div className="flex flex-col gap-1">
-          <label className="text-[10px] uppercase tracking-wider text-dofus-text-lt">Pods utilisés</label>
+          <label className="text-xs uppercase tracking-wider text-dofus-text-lt">Pods utilisés</label>
           <input
             type="number"
             min={0}
@@ -45,14 +45,14 @@ export const PodCapacityPanel: React.FC<PodCapacityPanelProps> = ({
         </div>
 
         <div className="flex flex-col gap-1 col-span-2 sm:col-span-1">
-          <label className="text-[10px] uppercase tracking-wider text-dofus-text-lt">Pods libres</label>
-          <div className="w-full sm:w-32 px-2 py-1.5 rounded panel-sm border border-dofus-border-md/60 text-right font-mono text-sm text-dofus-orange font-bold">
-            {freePods.toLocaleString('fr-FR')}
+          <label className="text-xs uppercase tracking-wider text-dofus-text-lt">Pods libres</label>
+          <div className="w-full sm:w-32 px-2 py-1.5 rounded panel-sm border border-dofus-border-md/60 text-right font-mono text-sm text-dofus-orange font-bit">
+            {freePods}
           </div>
         </div>
 
         <div className="col-span-2 sm:flex-1 sm:min-w-48 flex flex-col gap-1">
-          <div className="flex justify-between text-[10px] text-dofus-text-lt uppercase tracking-wider">
+          <div className="flex justify-between text-xs text-dofus-text-lt uppercase tracking-wider">
             <span>Utilisé</span>
             <span>Disponible</span>
           </div>
@@ -62,9 +62,9 @@ export const PodCapacityPanel: React.FC<PodCapacityPanelProps> = ({
               style={{ transform: `scaleX(${usedPercent})` }}
             />
           </div>
-          <div className="flex justify-between text-[10px] text-dofus-text-md font-mono">
-            <span>{usedPods.toLocaleString('fr-FR')} pods</span>
-            <span>{freePods.toLocaleString('fr-FR')} pods</span>
+          <div className="flex justify-between text-xs text-dofus-text-md font-mono">
+            <span>{usedPods} pods</span>
+            <span>{freePods} pods</span>
           </div>
         </div>
       </div>

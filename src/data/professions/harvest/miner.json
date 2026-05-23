@@ -1,92 +1,101 @@
 [
   {
-    "id": "fer",
+    "id": "312",
     "name": "Fer",
     "category": "ore",
     "pods": 5,
     "level": 1,
-    "description": "Le minerai de base, omniprésent dans les mines d'Astrub et de Bonta.",
+    "description": "Le fer est très utile pour les forgerons et pour ceux qui utilisent du métal, certains s'en servent même pour repasser.",
     "xpPerHarvest": 10
   },
   {
-    "id": "cuivre",
+    "id": "441",
     "name": "Cuivre",
     "category": "ore",
     "pods": 5,
     "level": 10,
-    "description": "Un métal rougeâtre souple, base de nombreux alliages utilisés en bijouterie.",
+    "description": "Le Cuivre est un métal très utile pour confectionner les armes bon marché, c'est presque un ersatz de l'or si on fait abstraction de toutes les qualités de l'or.",
     "xpPerHarvest": 15
   },
   {
-    "id": "manganese",
-    "name": "Manganèse",
+    "id": "442",
+    "name": "Bronze",
     "category": "ore",
     "pods": 5,
-    "level": 25,
-    "description": "Un minerai grisâtre nécessaire à la fabrication d'aciers spéciaux.",
+    "level": 20,
+    "description": "Ce métal entre souvent dans la fabrication d'articles ornementaux, pour embellir vos armes à moindre frais, c'est le métal idéal.",
+    "xpPerHarvest": 20
+  },
+  {
+    "id": "443",
+    "name": "Kobalte",
+    "category": "ore",
+    "pods": 5,
+    "level": 30,
+    "description": "Le nom « Kobalte » signifie « cuivre du diable » en Sadida ancien, c'est un métal adapté à la forge d'armes légères et élégantes, mais avant tout mortelles.",
     "xpPerHarvest": 25
   },
   {
-    "id": "cobalt",
-    "name": "Cobalt",
+    "id": "445",
+    "name": "Manganèse",
     "category": "ore",
-    "pods": 6,
+    "pods": 5,
     "level": 40,
-    "description": "Un minerai bleuté aux reflets métalliques, extrait des mines profondes.",
+    "description": "Contrairement à ce que tout le monde pense, ce métal ne sert pas à faire des gouttières, mais plutôt à faire des armes terrifiantes, comme le redoutable ",
+    "xpPerHarvest": 30
+  },
+  {
+    "id": "444",
+    "name": "Etain",
+    "category": "ore",
+    "pods": 5,
+    "level": 50,
+    "description": "L'Etain est un métal mou et lourd, un peu comme le Wo Wabbit, mais en pire.",
     "xpPerHarvest": 35
   },
   {
-    "id": "argent",
+    "id": "350",
     "name": "Argent",
     "category": "ore",
-    "pods": 6,
-    "level": 55,
-    "description": "Un métal précieux à l'éclat lunaire, très recherché des bijoutiers.",
+    "pods": 5,
+    "level": 60,
+    "description": "L'argent est un métal brillant très apprécié des bijoutiers, contrairement à ce que certaines personnes essaient de vous faire croire, il n'a aucun effet particulier sur les vampires.",
+    "xpPerHarvest": 40
+  },
+  {
+    "id": "446",
+    "name": "Bauxite",
+    "category": "ore",
+    "pods": 5,
+    "level": 70,
+    "description": "Ce métal est très apprécié pour sa couleur argentée et pour son tranchant lorsqu'il est correctement aiguisé.",
     "xpPerHarvest": 45
   },
   {
-    "id": "or",
-    "name": "Or",
-    "category": "ore",
-    "pods": 6,
-    "level": 60,
-    "description": "Le métal le plus précieux du Monde des Douze, symbole de richesse et de pouvoir.",
-    "xpPerHarvest": 50
-  },
-  {
-    "id": "bauxite",
-    "name": "Bauxite",
-    "category": "ore",
-    "pods": 6,
-    "level": 60,
-    "description": "Un minerai rougeâtre dont on extrait l'aluminium, présent dans les falaises arides.",
-    "xpPerHarvest": 50
-  },
-  {
-    "id": "silicate",
+    "id": "7032",
     "name": "Silicate",
     "category": "ore",
-    "pods": 7,
+    "pods": 5,
     "level": 70,
-    "description": "Un minerai cristallin translucide, extrait des cavernes à haute altitude.",
-    "xpPerHarvest": 60
+    "description": "Ce minerai provient sûrement des profondes mines sombres de l'île de Pandala dans lesquelles Gardan Framine est tombé éperdument amoureux d'un spectre de femelle Pandawa. Comme quoi, l'amour ne connaît aucune limite.",
+    "xpPerHarvest": 45
   },
   {
-    "id": "obsidienne",
-    "name": "Obsidienne",
-    "category": "ore",
-    "pods": 7,
-    "level": 80,
-    "description": "Une roche volcanique noire comme la nuit, d'une dureté exceptionnelle.",
-    "xpPerHarvest": 70
-  },
-  {
-    "id": "dolomite",
+    "id": "7033",
     "name": "Dolomite",
     "category": "ore",
-    "pods": 8,
-    "level": 90,
-    "description": "Un minerai rare présent uniquement dans les couches les plus profondes du sol.",
-    "xpPerHarvest": 80
+    "pods": 5,
+    "level": 80,
+    "description": "",
+    "xpPerHarvest": 50
+  },
+  {
+    "id": "313",
+    "name": "Or",
+    "category": "ore",
+    "pods": 5,
+    "level": 80,
+    "description": "L'or est un métal rare et précieux, ses qualités intrinsèques en font un métal de choix pour la conception d'armes ou d'objets particulièrement puissants et d'esthétique raffinée.",
+    "xpPerHarvest": 50
   }
 ]

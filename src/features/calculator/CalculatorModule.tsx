@@ -108,6 +108,7 @@ export const CalculatorModule: React.FC = () => {
 
             {profRecipes.length > 0 && (harvestResources.length === 0 || xpMode === 'recipe') && (
                 <RecipeTable
+                    key={selectedProfId}
                     recipes={profRecipes}
                     currentLevel={currentLevel}
                     currentXP={currentXP}

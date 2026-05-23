@@ -48,11 +48,10 @@ export const CatalogSidebar: React.FC<CatalogSidebarProps> = ({
         <div className="flex gap-1">
             <button
                 onClick={onClearFilters}
-                className={`flex-1 text-xs px-2 py-1 rounded border font-medium transition-all ${
-                    selectedCategories.size === 0 && !searchText
+                className={`flex-1 text-xs px-2 py-1 rounded border font-medium transition-all ${selectedCategories.size === 0 && !searchText
                         ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
                         : 'panel-sm text-dofus-text-md border-dofus-border-md hover:bg-dofus-panel-lt'
-                }`}
+                    }`}
             >
                 Toutes ({totalCount})
             </button>
@@ -75,14 +74,13 @@ export const CatalogSidebar: React.FC<CatalogSidebarProps> = ({
                     <button
                         key={cat}
                         onClick={() => onToggleCategory(cat)}
-                        className={`w-full flex items-center justify-between px-2 py-1 rounded text-[11px] transition-all text-left ${
-                            active
+                        className={`w-full flex items-center justify-between px-2 py-1 rounded text-xs transition-all text-left ${active
                                 ? 'bg-dofus-orange/20 text-dofus-text font-semibold border border-dofus-orange/30'
                                 : 'text-dofus-text-md hover:bg-dofus-panel-dk/30 border border-transparent'
-                        }`}
+                            }`}
                     >
                         <span className="truncate">{CATEGORY_LABELS[cat] ?? cat}</span>
-                        <span className={`shrink-0 ml-1 tabular-nums text-[10px] ${active ? 'text-dofus-orange' : 'text-dofus-text-lt'}`}>
+                        <span className={`shrink-0 ml-1 tabular-nums text-xs ${active ? 'text-dofus-orange' : 'text-dofus-text-lt'}`}>
                             {count}
                         </span>
                     </button>

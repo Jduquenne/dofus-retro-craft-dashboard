@@ -1,137 +1,146 @@
 [
   {
-    "id": "frene",
-    "name": "Frêne",
+    "id": "303",
+    "name": "Bois de Frêne",
     "category": "wood",
     "pods": 5,
     "level": 1,
-    "description": "Un bois clair et résistant, très répandu dans les plaines autour d'Astrub.",
+    "description": "Le Bois de Frêne n'est pas un bois de qualité, mais il est abondant et pousse relativement vite. Attention tout de même à ne pas le stocker près d'une forte source de chaleur, il est inflammable.",
     "xpPerHarvest": 10
   },
   {
-    "id": "chataignier",
-    "name": "Châtaignier",
+    "id": "473",
+    "name": "Bois de Châtaignier",
     "category": "wood",
     "pods": 5,
     "level": 10,
-    "description": "Un bois à la teinte chaude, recherché par les artisans de Bonta.",
+    "description": "L'odeur du Bois de Châtaignier repousse les mouches, sauf celles qui aiment les châtaignes et celles qui ont perdu l'odorat, ce qui explique pourquoi l'odeur du bois de Châtaignier ne repousse en fait aucune mouche.",
     "xpPerHarvest": 15
   },
   {
-    "id": "noyer",
-    "name": "Noyer",
+    "id": "476",
+    "name": "Bois de Noyer",
     "category": "wood",
     "pods": 5,
     "level": 20,
-    "description": "Un bois sombre et dense, idéal pour la fabrication d'armes solides.",
+    "description": "Le Bois de Noyer est très utilisé pour confectionner des meubles. Pour des raisons obscures, certains charpentiers se refusent à l'utiliser pour leurs bateaux.",
     "xpPerHarvest": 20
   },
   {
-    "id": "chene",
-    "name": "Chêne",
+    "id": "460",
+    "name": "Bois de Chêne",
     "category": "wood",
     "pods": 5,
     "level": 30,
-    "description": "Le roi des arbres, dont le bois est prisé des forgerons les plus expérimentés.",
+    "description": "Ce bois d'excellente qualité est particulièrement résistant, il permet de faire presque tout, des gourdins, des maisons ou encore des bateaux, mais la meilleure façon d'utiliser ce bois reste d'en faire des fûts à bière (Hips !).",
     "xpPerHarvest": 25
   },
   {
-    "id": "bombu",
-    "name": "Bombu",
-    "category": "wood",
-    "pods": 5,
-    "level": 35,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
-    "xpPerHarvest": 27
-  },
-  {
-    "id": "oliviolet",
-    "name": "Oliviolet",
-    "category": "wood",
-    "pods": 5,
-    "level": 35,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
-    "xpPerHarvest": 27
-  },
-  {
-    "id": "erable",
-    "name": "Érable",
+    "id": "471",
+    "name": "Bois d'Erable",
     "category": "wood",
     "pods": 5,
     "level": 40,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "description": "Les feuilles d'Erable ont permis à des gens peu inspirés de se faire un drapeau original, le sirop d'Erable a permis de donner du goût aux crêpes. Quant à son bois, on cherche encore à quoi il peut bien servir.",
     "xpPerHarvest": 30
   },
   {
-    "id": "if",
-    "name": "If",
+    "id": "461",
+    "name": "Bois d'If",
     "category": "wood",
     "pods": 5,
     "level": 50,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "description": "Ce bois particulièrement souple ne casse jamais, ce qui en fait un bois de choix pour la réalisation d'arcs. Il est en revanche difficile à trouver, les paysans d'Amakna ayant tendance à tuer les jeunes pousses d'If qui rendent malades leurs Bouftous.",
     "xpPerHarvest": 35
   },
   {
-    "id": "bambou",
-    "name": "Bambou",
+    "id": "2357",
+    "name": "Bois d'Oliviolet",
     "category": "wood",
     "pods": 5,
     "level": 50,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "description": "Ce Bois a l'air de résister à toutes les températures. En effet, n'essayez pas de faire un feu pour vous réchauffer, vous risqueriez de mourir de froid avant que le Bois ne prenne.",
     "xpPerHarvest": 35
   },
   {
-    "id": "merisier",
-    "name": "Mérisier",
+    "id": "7013",
+    "name": "Bois de Bambou",
+    "category": "wood",
+    "pods": 5,
+    "level": 50,
+    "description": "Contrairement aux roseaux, le bambou plie et casse. Heureusement, ce sont souvent les dents des aventuriers imprudents qui cassent sous les coups de bambous. Parfois, même la nature se met au service des dentistes sans scrupules.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "2358",
+    "name": "Bois de Bombu",
+    "category": "wood",
+    "pods": 5,
+    "level": 50,
+    "description": "Ce Bois est le plus tendre de tous. Il est maléable à souhait et procure de réels plaisirs à travailler.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "7925",
+    "name": "Bois de Kaliptus",
+    "category": "wood",
+    "pods": 2,
+    "level": 50,
+    "description": "Ce bois parfumé permet de construire des maisons qui sentent bon, même si leurs propriétaires sentent mauvais. Malheureusement, ce bois n'est pas assez souple pour la confection des sous-vêtements.",
+    "xpPerHarvest": 35
+  },
+  {
+    "id": "7016",
+    "name": "Bois de Bambou Sombre",
     "category": "wood",
     "pods": 5,
     "level": 60,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "description": "Galthouze le jeune Pandawa avait un jour demandé à son père ",
     "xpPerHarvest": 40
   },
   {
-    "id": "ebene",
-    "name": "Ebène",
+    "id": "474",
+    "name": "Bois de Merisier",
+    "category": "wood",
+    "pods": 5,
+    "level": 60,
+    "description": "Ce bois est recherché en ébénisterie du fait de sa texture compacte et de sa couleur brun rougeâtre qu'il acquiert avec le temps.",
+    "xpPerHarvest": 40
+  },
+  {
+    "id": "449",
+    "name": "Bois d'Ebène",
     "category": "wood",
     "pods": 5,
     "level": 70,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "description": "Ce bois tient son nom d'un malentendu, il y a bien longtemps, la seule famille de Bûcherons qui savait où se trouvaient ces arbres, s'appelait Baine, et partout, on parlait du ",
     "xpPerHarvest": 45
   },
   {
-    "id": "kalyptus",
-    "name": "Kalyptus",
-    "category": "wood",
-    "pods": 5,
-    "level": 75,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
-    "xpPerHarvest": 47
-  },
-  {
-    "id": "charme",
-    "name": "Charme",
+    "id": "472",
+    "name": "Bois de Charme",
     "category": "wood",
     "pods": 5,
     "level": 80,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "description": "Le Bois de Charme doit son nom aux Sadidas, qui s'accouplent toujours sous les Charmes, pour des raisons qui ne sont révélées que dans le livre du Bwork Mage.",
     "xpPerHarvest": 50
   },
   {
-    "id": "bambou sombre",
-    "name": "Bambou sombre",
-    "category": "wood",
-    "pods": 5,
-    "level": 80,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
-    "xpPerHarvest": 50
-  },
-  {
-    "id": "orme",
-    "name": "Orme",
+    "id": "470",
+    "name": "Bois d'Orme",
     "category": "wood",
     "pods": 5,
     "level": 90,
-    "description": "Un arbre exotique aux propriétés magiques, rarissime dans le Monde des Douze.",
+    "description": "Le Bois d'Orme est un des bois les plus recherchés, courant autrefois, il a été décimé il y a des lustres par la Grafioze, une sorte d'envoûtement terrible lancé par un Puissant Bwork Mage des Cavernes de la pire espèce.",
     "xpPerHarvest": 55
+  },
+  {
+    "id": "7014",
+    "name": "Bois de Bambou Sacré",
+    "category": "wood",
+    "pods": 5,
+    "level": 100,
+    "description": "Contrairement aux apparences, ce bois est sacré. Seuls les meilleurs Pandawas, ont normalement accès à la coupe de ce bois, mais il arrive parfois que des touristes bûcherons, ne se gênent pas pour repartir avec un souvenir local, de leur voyage sur l'île de Pandala. On parle alors de ",
+    "xpPerHarvest": 60
   }
 ]

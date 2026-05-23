@@ -1,0 +1,2237 @@
+[
+  {
+    "id": "454",
+    "name": "Hache de Bûcheron",
+    "profession": "axe-smith",
+    "level": 1,
+    "image": "items/axe/454.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "2587",
+    "name": "Hachette de Bûcheron",
+    "profession": "axe-smith",
+    "level": 1,
+    "image": "items/axe/2587.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 2
+  },
+  {
+    "id": "2589",
+    "name": "Hachette Hévlalav",
+    "profession": "axe-smith",
+    "level": 1,
+    "image": "items/axe/2589.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 6
+  },
+  {
+    "id": "6914",
+    "name": "La Trancheuse d'Arakne",
+    "profession": "axe-smith",
+    "level": 1,
+    "image": "items/axe/6914.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "365",
+        "name": "Patte d'Arakne",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 60
+  },
+  {
+    "id": "673",
+    "name": "Mangeuse de Châtaignier",
+    "profession": "axe-smith",
+    "level": 1,
+    "image": "items/axe/673.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 40
+  },
+  {
+    "id": "771",
+    "name": "Mangeuse de Frêne",
+    "profession": "axe-smith",
+    "level": 1,
+    "image": "items/axe/771.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 40
+  },
+  {
+    "id": "2590",
+    "name": "Hache Vôr'Om",
+    "profession": "axe-smith",
+    "level": 10,
+    "image": "items/axe/2590.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 12
+  },
+  {
+    "id": "1375",
+    "name": "Hache Térophyle",
+    "profession": "axe-smith",
+    "level": 20,
+    "image": "items/axe/1375.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 80
+  },
+  {
+    "id": "502",
+    "name": "Trancheuse d'If",
+    "profession": "axe-smith",
+    "level": 10,
+    "image": "items/axe/502.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 95
+  },
+  {
+    "id": "675",
+    "name": "Trancheuse de Noyer",
+    "profession": "axe-smith",
+    "level": 20,
+    "image": "items/axe/675.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 135
+  },
+  {
+    "id": "1377",
+    "name": "Hache Huré",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/1377.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 3
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 220
+  },
+  {
+    "id": "676",
+    "name": "Mangeuse d'Erable",
+    "profession": "axe-smith",
+    "level": 20,
+    "image": "items/axe/676.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 185
+  },
+  {
+    "id": "7212",
+    "name": "La Trancheuse de Bambou",
+    "profession": "axe-smith",
+    "level": 10,
+    "image": "items/axe/7212.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 4
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 200
+  },
+  {
+    "id": "782",
+    "name": "Agride",
+    "profession": "axe-smith",
+    "level": 20,
+    "image": "items/axe/782.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 13
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 220
+  },
+  {
+    "id": "1378",
+    "name": "Francisque à Brêles",
+    "profession": "axe-smith",
+    "level": 20,
+    "image": "items/axe/1378.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 230
+  },
+  {
+    "id": "674",
+    "name": "Fendeuse de Merisier",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/674.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 4
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 4
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 290
+  },
+  {
+    "id": "456",
+    "name": "Tueuse de Chênes",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/456.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 315
+  },
+  {
+    "id": "1376",
+    "name": "Hache Heuvante",
+    "profession": "axe-smith",
+    "level": 20,
+    "image": "items/axe/1376.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 300
+  },
+  {
+    "id": "7208",
+    "name": "Hache du Shodanwa",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/7208.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7286",
+        "name": "Bois de Bambouto",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 355
+  },
+  {
+    "id": "2592",
+    "name": "Coupeuse de Bombu",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/2592.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 39
+  },
+  {
+    "id": "2593",
+    "name": "Elagueuse d'Oliviolet",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/2593.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 42
+  },
+  {
+    "id": "478",
+    "name": "Elagueuse de Charme",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/478.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 590
+  },
+  {
+    "id": "2595",
+    "name": "Hache de Pierre",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2595.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 4
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 7
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 51
+  },
+  {
+    "id": "2597",
+    "name": "Hache de Brèche",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2597.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2634",
+        "name": "Lance Cassée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 3
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 3
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 54
+  },
+  {
+    "id": "8130",
+    "name": "Hache du Mulou",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/8130.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8396",
+        "name": "Mojo du Mulou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2578",
+        "name": "Oeil de Mulou",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2579",
+        "name": "Oeil du Milimulou",
+        "quantity": 4
+      },
+      {
+        "resourceId": "440",
+        "name": "Griffe du Mulou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "291",
+        "name": "Poils du Mulou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "439",
+        "name": "Canine du Mulou",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 812
+  },
+  {
+    "id": "2601",
+    "name": "Hache Darsson",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2601.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 5
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 57
+  },
+  {
+    "id": "7209",
+    "name": "Hache du Nidanwa",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/7209.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7286",
+        "name": "Bois de Bambouto",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 900
+  },
+  {
+    "id": "515",
+    "name": "Boulgourde des Clairières",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/515.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1010
+  },
+  {
+    "id": "8617",
+    "name": "Hache Ebbah",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/8617.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2637",
+        "name": "La Griffe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8731",
+        "name": "Corail Magistral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8752",
+        "name": "Bulbe Morito",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8749",
+        "name": "Bulbe Kouraçao",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8751",
+        "name": "Bulbe Passaoh",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8750",
+        "name": "Bulbe Malibout",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1020
+  },
+  {
+    "id": "2600",
+    "name": "Coupeuse de Sifflet",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2600.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "578",
+        "name": "Pierre à Aiguiser",
+        "quantity": 1
+      },
+      {
+        "resourceId": "545",
+        "name": "Pierre de Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 4
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 66
+  },
+  {
+    "id": "2603",
+    "name": "Trancheuse de Partie",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2603.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "479",
+        "name": "Ivoire",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 66
+  },
+  {
+    "id": "923",
+    "name": "Fendeuse d'Abraknyde",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/923.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1440
+  },
+  {
+    "id": "2604",
+    "name": "Bardiche du Milicien",
+    "profession": "axe-smith",
+    "level": 40,
+    "image": "items/axe/2604.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2484",
+        "name": "Trident Cassé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 8
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 10
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 78
+  },
+  {
+    "id": "8618",
+    "name": "Hache Eulouh",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/8618.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8737",
+        "name": "Boule polie",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8761",
+        "name": "Poudre explosive de Gourlo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 3
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 6
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 15
+      },
+      {
+        "resourceId": "3001",
+        "name": "Epaulette de Bwork",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1670
+  },
+  {
+    "id": "2606",
+    "name": "Hachette Savante",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2606.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "544",
+        "name": "Pierre d'Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1535",
+        "name": "Metaria Mage rouge",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 10
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 10
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 81
+  },
+  {
+    "id": "7255",
+    "name": "Hache Terrdala",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/7255.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7281",
+        "name": "Peau de Kitsou Nere",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7224",
+        "name": "Artefact Pandawushu Terre",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 15
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1763
+  },
+  {
+    "id": "7210",
+    "name": "Hache du Sandanwa",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/7210.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1780
+  },
+  {
+    "id": "2608",
+    "name": "Francique Basquaise",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2608.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2634",
+        "name": "Lance Cassée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 5
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 5
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 84
+  },
+  {
+    "id": "2612",
+    "name": "Vouge à Poisson",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/2612.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2484",
+        "name": "Trident Cassé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "602",
+        "name": "Requin Marteau-Faucille",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 87
+  },
+  {
+    "id": "2614",
+    "name": "Hache de Dame Oise",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2614.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 90
+  },
+  {
+    "id": "927",
+    "name": "Fendeuse d'Abraknyde Ancestral",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/927.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 5
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 6
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 2240
+  },
+  {
+    "id": "2615",
+    "name": "Hache de Lookabeer",
+    "profession": "axe-smith",
+    "level": 60,
+    "image": "items/axe/2615.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 5
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 96
+  },
+  {
+    "id": "7211",
+    "name": "Hache du Yondanwa",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/7211.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 7
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 17
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2450
+  },
+  {
+    "id": "2616",
+    "name": "Halle de Barde",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/2616.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 99
+  },
+  {
+    "id": "8274",
+    "name": "Hache du Minotoror",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/8274.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8327",
+        "name": "Corne de Déminoboule",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 11
+      },
+      {
+        "resourceId": "8057",
+        "name": "Tibia de Koalak Fossoyeur",
+        "quantity": 12
+      },
+      {
+        "resourceId": "8083",
+        "name": "Os de Pékeualak",
+        "quantity": 13
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 16
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 24
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3011
+  },
+  {
+    "id": "8100",
+    "name": "La Hache Ticot",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/8100.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7410",
+        "name": "Os de Fantôme Tanukouï San",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8056",
+        "name": "Fémur de Koalak Farouche",
+        "quantity": 3
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 10
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 11
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 11
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3030
+  },
+  {
+    "id": "8099",
+    "name": "La Hache Menbien",
+    "profession": "axe-smith",
+    "level": 80,
+    "image": "items/axe/8099.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7411",
+        "name": "Os de Fantôme Yokai Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 8
+      },
+      {
+        "resourceId": "8055",
+        "name": "Os de Mama Koalak",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 11
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2563",
+        "name": "Cale en bois du Tronknyde",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3456
+  },
+  {
+    "id": "8293",
+    "name": "Hache du Dragoeuf",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/8293.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8386",
+        "name": "Dent de Shin Larve",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8346",
+        "name": "Corne de Dragoss Blanc",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2564",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8138",
+        "name": "Carapace de Scarafeuille Noir",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8361",
+        "name": "Corne de Dragoeuf Volant",
+        "quantity": 6
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2487",
+        "name": "Carapace de Scorbute",
+        "quantity": 21
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4085
+  },
+  {
+    "id": "8101",
+    "name": "Le Fendoir Tichaud",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/8101.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7270",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8058",
+        "name": "Cubitus de Momie Koalak",
+        "quantity": 3
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 5
+      },
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 11
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 12
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 13
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 44
+  },
+  {
+    "id": "8868",
+    "name": "Poolache",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/8868.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8997",
+        "name": "Peau lacérée du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8764",
+        "name": "Sourcil du Rasboul majeur",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8776",
+        "name": "Coco du Bitouf sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8786",
+        "name": "Tresse du Poolay",
+        "quantity": 9
+      },
+      {
+        "resourceId": "2416",
+        "name": "Marteau du Bouftou",
+        "quantity": 17
+      },
+      {
+        "resourceId": "8783",
+        "name": "Amygdales du Bitouf Sombre",
+        "quantity": 18
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 32
+      },
+      {
+        "resourceId": "8787",
+        "name": "Cloaque du Poolay",
+        "quantity": 56
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1540
+  },
+  {
+    "id": "8827",
+    "name": "Hache du Guerrier Zoth",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/8827.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1557",
+        "name": "Rune Ga Pa",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8806",
+        "name": "Ecusson du Sergent Zoth",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8770",
+        "name": "Ecorce du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8773",
+        "name": "Ecorce de Nerbe",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8802",
+        "name": "Tibia du Guerrier Zoth",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8832",
+        "name": "Bave du Kaskargo",
+        "quantity": 18
+      },
+      {
+        "resourceId": "8800",
+        "name": "Etoffe Zoth",
+        "quantity": 28
+      },
+      {
+        "resourceId": "8780",
+        "name": "Sépale de Nerbe",
+        "quantity": 37
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4435
+  },
+  {
+    "id": "8934",
+    "name": "Hache Harnée",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/8934.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8798",
+        "name": "Queue emplumée du Rasboul Majeur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2527",
+        "name": "Clakoss",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8777",
+        "name": "Pistil du Tynril",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7032",
+        "name": "Silicate",
+        "quantity": 15
+      },
+      {
+        "resourceId": "394",
+        "name": "Noisette",
+        "quantity": 35
+      },
+      {
+        "resourceId": "8788",
+        "name": "Croupion du Bitouf aérien",
+        "quantity": 49
+      },
+      {
+        "resourceId": "8797",
+        "name": "Souche de l'Abrakleur clair",
+        "quantity": 65
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4754
+  },
+  {
+    "id": "8933",
+    "name": "Hache Sueur Rance",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/8933.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2614",
+        "name": "Hache de Dame Oise",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2007",
+        "name": "Carré de Porc Conservé ****",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8764",
+        "name": "Sourcil du Rasboul majeur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8769",
+        "name": "Coco du Bitouf des plaines",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8784",
+        "name": "Talon d'achille de l'Abrakleur sombre",
+        "quantity": 8
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 18
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 26
+      },
+      {
+        "resourceId": "8782",
+        "name": "Bractée de Chiendent",
+        "quantity": 39
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4790
+  },
+  {
+    "id": "9138",
+    "name": "Hache à Lamelles",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/9138.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2623",
+        "name": "Bwak Squelettique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8868",
+        "name": "Poolache",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8797",
+        "name": "Souche de l'Abrakleur clair",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1674",
+        "name": "Champignon Luidegît",
+        "quantity": 13
+      },
+      {
+        "resourceId": "9267",
+        "name": "Trompe de la Tromperelle",
+        "quantity": 15
+      },
+      {
+        "resourceId": "8739",
+        "name": "Humérus du Sparo",
+        "quantity": 33
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 36
+      },
+      {
+        "resourceId": "8762",
+        "name": "Fragment de cerveau poli",
+        "quantity": 160
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5485
+  },
+  {
+    "id": "13166",
+    "name": "Pandalache",
+    "profession": "axe-smith",
+    "level": 100,
+    "image": "items/axe/13166.svg",
+    "category": "Hache",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8934",
+        "name": "Hache Harnée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "13178",
+        "name": "Etoffe Fantôme du Péki Garou",
+        "quantity": 6
+      },
+      {
+        "resourceId": "11526",
+        "name": "Plume nacrée d'Ilyzaelle",
+        "quantity": 6
+      },
+      {
+        "resourceId": "11532",
+        "name": "Défense Maléfique",
+        "quantity": 18
+      },
+      {
+        "resourceId": "7411",
+        "name": "Os de Fantôme Yokai Firefoux",
+        "quantity": 23
+      },
+      {
+        "resourceId": "8796",
+        "name": "Noeud de l'Abrakleur clair",
+        "quantity": 29
+      },
+      {
+        "resourceId": "9278",
+        "name": "Lamelle de Champbis",
+        "quantity": 38
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 40
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5485
+  }
+]

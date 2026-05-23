@@ -3,7 +3,7 @@ import type {
   ScrollMethod,
   ScrollTierType,
   ScrollNpcOption,
-} from '../types/scrolls';
+} from "../types/scrolls";
 
 export interface ScrollPhaseResult {
   tierType: ScrollTierType;
@@ -14,7 +14,7 @@ export interface ScrollPhaseResult {
 export interface ResourceTotal {
   name: string;
   quantity: number;
-  kind: 'resource' | 'equipment';
+  kind: "resource" | "equipment";
 }
 
 export interface ScrollCalculationResult {
@@ -43,13 +43,13 @@ export function calculateScrollsNeeded(
 
     const scrollsNeeded = Math.ceil(pointsNeeded / phase.pointsPerScroll);
 
-    const tier = stat.tiers.find(t => t.type === phase.tierType);
+    const tier = stat.tiers.find((t) => t.type === phase.tierType);
     if (!tier) continue;
 
     // Trouver l'option sélectionnée par le joueur, sinon la première par défaut
     const selectedId = npcSelections[phase.tierType];
     const option =
-      tier.options.find(o => o.id === selectedId) ?? tier.options[0];
+      tier.options.find((o) => o.id === selectedId) ?? tier.options[0];
 
     if (!option) continue;
 
@@ -57,13 +57,17 @@ export function calculateScrollsNeeded(
   }
 
   // Agréger toutes les ressources
-  const resourceMap = new Map<string, { quantity: number; kind: 'resource' | 'equipment' }>();
+  const resourceMap = new Map<
+    string,
+    { quantity: number; kind: "resource" | "equipment" }
+  >();
   for (const phase of phases) {
     for (const resource of phase.option.resources) {
       const current = resourceMap.get(resource.name);
       resourceMap.set(resource.name, {
-        quantity: (current?.quantity ?? 0) + resource.quantity * phase.scrollsNeeded,
-        kind: resource.kind === 'equipment' ? 'equipment' : 'resource',
+        quantity:
+          (current?.quantity ?? 0) + resource.quantity * phase.scrollsNeeded,
+        kind: resource.kind === "equipment" ? "equipment" : "resource",
       });
     }
   }
@@ -76,15 +80,15 @@ export function calculateScrollsNeeded(
 }
 
 export const TIER_LABELS: Record<ScrollTierType, string> = {
-  petit: 'Petit',
-  normal: 'Normal',
-  grand: 'Grand',
-  puissant: 'Puissant',
+  petit: "Petit",
+  normal: "Normal",
+  grand: "Grand",
+  puissant: "Puissant",
 };
 
 export const TIER_COLORS: Record<ScrollTierType, string> = {
-  petit:    'bg-dofus-success/20 text-dofus-success border-dofus-success/40',
-  normal:   'bg-dofus-border-md/20 text-dofus-text-md border-dofus-border-md/40',
-  grand:    'bg-dofus-gold/20 text-dofus-text border-dofus-gold/40',
-  puissant: 'bg-dofus-orange/20 text-dofus-orange border-dofus-orange/40',
+  petit: "bg-dofus-success/20 text-dofus-success border-dofus-success/40",
+  normal: "bg-dofus-border-md/20 text-dofus-text-md border-dofus-border-md/40",
+  grand: "bg-dofus-gold/20 text-dofus-text border-dofus-gold/40",
+  puissant: "bg-dofus-orange/20 text-dofus-orange border-dofus-orange/40",
 };

@@ -1,7 +1,7 @@
 {
   "id": "intelligence",
   "label": "Intelligence",
-  "icon": "🧠",
+  "icon": "items/stat_scroll/815.svg",
   "tiers": [
     {
       "type": "petit",
@@ -11,9 +11,16 @@
         {
           "id": "int-petit-elya",
           "npc": "Elya Wood",
-          "position": [7, 1],
+          "position": [
+            7,
+            1
+          ],
           "resources": [
-            { "name": "Ceinture de Chance", "quantity": 100, "kind": "equipment" }
+            {
+              "name": "Ceinture de Chance",
+              "quantity": 100,
+              "kind": "equipment"
+            }
           ]
         }
       ]
@@ -26,11 +33,23 @@
         {
           "id": "int-normal-eowine",
           "npc": "Eowïne Fiole",
-          "position": [0, 5],
+          "position": [
+            0,
+            5
+          ],
           "resources": [
-            { "name": "Peau de Larve Bleue", "quantity": 50 },
-            { "name": "Peau de Larve Orange", "quantity": 40 },
-            { "name": "Peau de Larve Verte", "quantity": 40 }
+            {
+              "name": "Peau de Larve Bleue",
+              "quantity": 50
+            },
+            {
+              "name": "Peau de Larve Orange",
+              "quantity": 40
+            },
+            {
+              "name": "Peau de Larve Verte",
+              "quantity": 40
+            }
           ]
         }
       ]
@@ -43,12 +62,27 @@
         {
           "id": "int-grand-drogho",
           "npc": "Drogho Cralasar",
-          "position": [5, 4],
+          "position": [
+            5,
+            4
+          ],
           "resources": [
-            { "name": "Aile de Tofu Maléfique", "quantity": 30 },
-            { "name": "Peau de Larve Bleue", "quantity": 45 },
-            { "name": "Peau de Larve Orange", "quantity": 45 },
-            { "name": "Peau de Larve Verte", "quantity": 45 }
+            {
+              "name": "Aile de Tofu Maléfique",
+              "quantity": 30
+            },
+            {
+              "name": "Peau de Larve Bleue",
+              "quantity": 45
+            },
+            {
+              "name": "Peau de Larve Orange",
+              "quantity": 45
+            },
+            {
+              "name": "Peau de Larve Verte",
+              "quantity": 45
+            }
           ]
         }
       ]
@@ -61,13 +95,31 @@
         {
           "id": "int-puissant-ozen",
           "npc": "Ozen Le Sage",
-          "position": [2, 2],
+          "position": [
+            2,
+            2
+          ],
           "resources": [
-            { "name": "Aile de Tofu Maléfique", "quantity": 40 },
-            { "name": "Peau de Larve Bleue", "quantity": 60 },
-            { "name": "Peau de Larve Orange", "quantity": 50 },
-            { "name": "Peau de Larve Verte", "quantity": 50 },
-            { "name": "Sang du Vampire", "quantity": 30 }
+            {
+              "name": "Aile de Tofu Maléfique",
+              "quantity": 40
+            },
+            {
+              "name": "Peau de Larve Bleue",
+              "quantity": 60
+            },
+            {
+              "name": "Peau de Larve Orange",
+              "quantity": 50
+            },
+            {
+              "name": "Peau de Larve Verte",
+              "quantity": 50
+            },
+            {
+              "name": "Sang du Vampire",
+              "quantity": 30
+            }
           ]
         }
       ]

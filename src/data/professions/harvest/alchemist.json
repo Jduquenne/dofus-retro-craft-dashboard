@@ -1,83 +1,65 @@
 [
   {
-    "id": "ortie",
-    "name": "Ortie",
-    "category": "plant",
-    "pods": 1,
-    "level": 1,
-    "description": "Une plante urticante qui pousse partout. Malgré son caractère irritant, elle est indispensable à de nombreuses potions.",
-    "xpPerHarvest": 10
-  },
-  {
-    "id": "trefle",
-    "name": "Trèfle",
+    "id": "421",
+    "name": "Fleur de Lin",
     "category": "flower",
     "pods": 1,
     "level": 1,
-    "description": "Une petite fleur porte-bonheur. En trouver un à quatre feuilles porte chance... et de l'XP.",
+    "description": "La Fleur de Lin peut être bleue ou blanche, suivant la période de l'année à laquelle la graine a été semée. En décoction ou en infusion, elle procure une sensation de bien-être peu commune.",
     "xpPerHarvest": 10
   },
   {
-    "id": "sauge",
-    "name": "Sauge",
-    "category": "plant",
+    "id": "428",
+    "name": "Fleur de Chanvre",
+    "category": "flower",
     "pods": 1,
     "level": 10,
-    "description": "Une plante aromatique aux propriétés médicinales reconnues de tous les alchimistes.",
+    "description": "Cette fleur permet de faire des potions aux effets aléatoires, qui peuvent aller de la paralysie totale à l'invulnérabilité aux gaz de Wabbits.",
     "xpPerHarvest": 15
   },
   {
-    "id": "menthe_sauvage",
-    "name": "Menthe Sauvage",
-    "category": "plant",
-    "pods": 1,
-    "level": 10,
-    "description": "Une plante fraîche et vivace que l'on trouve au bord des ruisseaux.",
-    "xpPerHarvest": 15
-  },
-  {
-    "id": "belladone",
-    "name": "Belladone",
+    "id": "395",
+    "name": "Trèfle à 5 feuilles",
     "category": "plant",
     "pods": 1,
     "level": 20,
-    "description": "Une plante aux baies toxiques, à manipuler avec précaution. Très utilisée en alchimie.",
+    "description": "Ce trèfle constitue un élément essentiel de la nourriture des Tabis. Les éleveurs font tout de même attention dans la mesure où le Trèfle à 5 feuilles provoque des ballonnements chez les tabis.",
     "xpPerHarvest": 20
   },
   {
-    "id": "ginseng",
-    "name": "Ginseng",
-    "category": "root",
+    "id": "380",
+    "name": "Feuille de Menthe Sauvage",
+    "category": "plant",
     "pods": 1,
     "level": 30,
-    "description": "Une racine tonique dont les vertus énergisantes sont appréciées des aventuriers.",
+    "description": "C'est l'aliment de base de la Gelée Verte, si vous sentez une odeur de menthe, n'en déduisez donc pas obligatoirement qu'il y a de la menthe près de vous.",
     "xpPerHarvest": 25
   },
   {
-    "id": "mandragore",
-    "name": "Mandragore",
-    "category": "root",
+    "id": "593",
+    "name": "Orchidée Freyesque",
+    "category": "flower",
     "pods": 1,
     "level": 40,
-    "description": "Une racine en forme humanoïde dont le cri légendaire peut assommer n'importe qui.",
+    "description": "Cette fleur est d'une rareté et d'une beauté inimaginable, mais elle est presque introuvable. En effet, les Crapauds ont tendance à les ramener dans leur campement pour nourrir leur progéniture.",
     "xpPerHarvest": 30
   },
   {
-    "id": "edelweiss",
-    "name": "Édelweiss",
+    "id": "594",
+    "name": "Edelweiss",
     "category": "flower",
     "pods": 1,
     "level": 50,
-    "description": "Une fleur rare poussant en altitude, symbole de pureté et de courage.",
-    "xpPerHarvest": 40
+    "description": "Cette fleur est d'une rareté et d'une beauté inimaginable, mais elle est presque introuvable. Pour cause, sa magie est si puissante qu'elle serait capable de faire revivre certains morts.",
+    "xpPerHarvest": 35
   },
   {
-    "id": "kaliptus",
-    "name": "Kaliptus",
-    "category": "plant",
-    "pods": 1,
-    "level": 60,
-    "description": "Une plante exotique aux huiles essentielles puissantes, venue des contrées lointaines.",
-    "xpPerHarvest": 50
+    "id": "7059",
+    "name": "Graine de Pandouille",
+    "category": "seed",
+    "pods": 10,
+    "level": 100,
+    "description": "Cette énorme graine est gorgée d'une huile indigeste, mais magique. Sa coquille est réputée incassable, de nombreux artisans s'en servent pour enchanter des armes, et d'autres l'utilisent comme cochonnet magique pour jouer aux boules.",
+    "xpPerHarvest": 60
   }
 ]

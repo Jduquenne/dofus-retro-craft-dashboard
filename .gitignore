@@ -13,6 +13,10 @@ dist-ssr
 *.local
 public/inspi_dofus_retro
 
+# CDN scrap data — never commit
+src/data/scrap_cdn/
+scripts/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

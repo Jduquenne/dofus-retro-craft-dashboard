@@ -1,92 +1,380 @@
 [
   {
-    "id": "cuisse_bouftou",
-    "name": "Cuisse de Bouftou",
-    "category": "meat",
-    "pods": 3,
-    "level": 1,
-    "description": "La cuisse d'un Bouftou, découpée avec le couteau du chasseur. Tendresse garantie.",
-    "xpPerHarvest": 10
-  },
-  {
-    "id": "viande_larve",
-    "name": "Viande de Larve",
+    "id": "1915",
+    "name": "Chair d'Insecte",
     "category": "meat",
     "pods": 2,
     "level": 1,
-    "description": "Un morceau de chair gélatineuse prélevé sur une Larve. Peu appétissant mais nutritif.",
-    "xpPerHarvest": 10
+    "description": "Il ne faut pas sous-estimer la valeur nutritionnelle de cette chair gluante et asphyxiante.",
+    "xpPerHarvest": 0
   },
   {
-    "id": "filet_tofu",
-    "name": "Filet de Tofu",
+    "id": "1898",
+    "name": "Chair de Larve",
+    "category": "meat",
+    "pods": 2,
+    "level": 1,
+    "description": "Cet amas jaune nauséabond représente la vraie nature de la Larve. On comprend maintenant pourquoi leur peau est si résistante.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1896",
+    "name": "Viande d'Oiseau",
+    "category": "meat",
+    "pods": 2,
+    "level": 1,
+    "description": "Cette cuisse de tofu prouve que les chasseurs savent faire dans la finesse de temps en temps.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1899",
+    "name": "Chair de Larve **",
+    "category": "meat",
+    "pods": 2,
+    "level": 10,
+    "description": "Cet amas jaune nauséabond représente la vraie nature de la Larve. On comprend maintenant pourquoi leur peau est si résistante.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1911",
+    "name": "Cuisse de Boufton",
+    "category": "meat",
+    "pods": 2,
+    "level": 10,
+    "description": "L'odeur de cette petite cuisse disparaît à la cuisson.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1900",
+    "name": "Chair de Larve ***",
+    "category": "meat",
+    "pods": 2,
+    "level": 20,
+    "description": "Cet amas jaune nauséabond représente la vraie nature de la Larve. On comprend maintenant pourquoi leur peau est si résistante.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1912",
+    "name": "Cuisse de Bouftou **",
+    "category": "meat",
+    "pods": 2,
+    "level": 20,
+    "description": "Cette cuisse pue la mort bien que cela ne soit pas lié avec le décès prématuré de son propriétaire.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1902",
+    "name": "Cuisse de Wabbit",
+    "category": "meat",
+    "pods": 2,
+    "level": 20,
+    "description": "Cette cuisse de Wabbit semble être parfumée à la cawotte. Idéal pour les pot-au-feu.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1917",
+    "name": "Carré de Porc",
+    "category": "meat",
+    "pods": 3,
+    "level": 30,
+    "description": "Ce morceau de choix de sanglier est un peu sanguinolent pour le moment, mais promet de bons moments.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1927",
+    "name": "Museau",
     "category": "meat",
     "pods": 1,
-    "level": 10,
-    "description": "Un minuscule filet prélevé sur un Tofu. Il faut en attraper beaucoup pour faire un repas.",
-    "xpPerHarvest": 15
-  },
-  {
-    "id": "cuisse_chafer",
-    "name": "Cuisse de Chafer",
-    "category": "meat",
-    "pods": 3,
-    "level": 20,
-    "description": "La patte d'un Chafer, croustillante à souhait une fois grillée.",
-    "xpPerHarvest": 20
-  },
-  {
-    "id": "cote_crobak",
-    "name": "Côte de Crobak",
-    "category": "meat",
-    "pods": 4,
     "level": 30,
-    "description": "Une côte prélevée sur un Crobak. Sa viande dense est très prisée des bouchers.",
-    "xpPerHarvest": 25
+    "description": "Ce museau de milimulou, avec ses petites babines fermes, accompagnera avec plaisir toutes vos chalades.",
+    "xpPerHarvest": 0
   },
   {
-    "id": "filet_bwork",
-    "name": "Filet de Bwork",
+    "id": "1913",
+    "name": "Cuisse de Bouftou ***",
     "category": "meat",
-    "pods": 4,
+    "pods": 2,
     "level": 40,
-    "description": "Un morceau de viande prélevé sur un Bwork, difficile à chasser mais délicieux.",
-    "xpPerHarvest": 30
+    "description": "Cette cuisse provient d'un chef de guerre bouftou, dure comme un craqueleur elle pourrait être une massue très puissante s'il n'y avait pas l'odeur.",
+    "xpPerHarvest": 0
   },
   {
-    "id": "rumsteck_sanglier",
-    "name": "Rumsteck de Sanglier",
+    "id": "1903",
+    "name": "Cuisse de Wabbit **",
     "category": "meat",
-    "pods": 5,
-    "level": 50,
-    "description": "Un beau morceau de sanglier sauvage, parfait pour un festin de chasseur.",
-    "xpPerHarvest": 35
+    "pods": 2,
+    "level": 40,
+    "description": "De la bonne cuisse bien musclée qui promet d'être un régal.",
+    "xpPerHarvest": 0
   },
   {
-    "id": "gigot_blop",
-    "name": "Gigot de Blop",
+    "id": "1922",
+    "name": "DragoViande",
     "category": "meat",
-    "pods": 4,
-    "level": 60,
-    "description": "Le gigot gélatineux d'un Blop. Sa texture étrange cache une saveur surprenante.",
-    "xpPerHarvest": 40
+    "pods": 2,
+    "level": 40,
+    "description": "Viande rare de qualité supérieure, elle garde la chaleur de nombreuses heures après sa cuisson, faisant d'elle une viande particulièrement pratique pour les voyages.",
+    "xpPerHarvest": 0
   },
   {
-    "id": "patte_scarafeuille",
-    "name": "Patte de Scarafeuille",
+    "id": "1897",
+    "name": "Viande d'Oiseau **",
+    "category": "meat",
+    "pods": 2,
+    "level": 40,
+    "description": "Des mini cuisses de kwak pour un maxi goût.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1918",
+    "name": "Carré de Porc **",
     "category": "meat",
     "pods": 3,
-    "level": 70,
-    "description": "La patte d'un Scarafeuille, croquante et parfumée aux herbes sauvages.",
-    "xpPerHarvest": 45
+    "level": 50,
+    "description": "Un peu plus gros pour un peu plus de bonheur, ce découpage improvisé de Sanglier des plaines ravira tous les carnivores.",
+    "xpPerHarvest": 0
   },
   {
-    "id": "longe_dragon",
-    "name": "Longe de Dragon",
+    "id": "1916",
+    "name": "Chair d'Insecte **",
     "category": "meat",
-    "pods": 8,
+    "pods": 4,
+    "level": 50,
+    "description": "Une chair identique à celle des mosquitos, mais en quantité 10 fois supérieure. Heureusement que certains aiment.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1914",
+    "name": "Cuisse de Bouftou ****",
+    "category": "meat",
+    "pods": 2,
+    "level": 50,
+    "description": "Tendre, mais ferme, pas trop grasse ni trop sèche, cette cuisse est comme un bon vin qui s'est enrichi et affiné au court de toutes ces années.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1929",
+    "name": "Museau **",
+    "category": "meat",
+    "pods": 2,
+    "level": 50,
+    "description": "Ce museau au goût délicat vous rendra placide. A consommer sans modération.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1921",
+    "name": "Carré de Porc ***",
+    "category": "meat",
+    "pods": 3,
+    "level": 60,
+    "description": "Ferme à souhait, le cochon, à qui appartenait ce morceau, devait faire beaucoup d'exercice.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1905",
+    "name": "Cuisse de Wabbit ***",
+    "category": "meat",
+    "pods": 2,
+    "level": 60,
+    "description": "Une cuisse bien grosse qui devrait remplir la plupart des estomacs.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1923",
+    "name": "DragoViande **",
+    "category": "meat",
+    "pods": 2,
+    "level": 60,
+    "description": "Cette dragoviande, en plus de ses qualités thermiques, possède un petit goût naturel de fumé.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1933",
+    "name": "Viande d'Oiseau ****",
+    "category": "meat",
+    "pods": 2,
+    "level": 60,
+    "description": "Ce petit morceau de corbac est imprégné d'une magie puissante, probablement celle appliquée par le maître corbac lui-même.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "8499",
+    "name": "Viande de Koalak",
+    "category": "meat",
+    "pods": 1,
+    "level": 60,
+    "description": "La viande de Koalak est en règle générale assez ferme. Il suffit simplement de l'attendrir en la frappant avec un tronc de Kaliptus. Comme pour les enfants indisciplinés.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1924",
+    "name": "DragoViande ***",
+    "category": "meat",
+    "pods": 2,
+    "level": 70,
+    "description": "La dragoviande de dragoeuf est un peu dure à macher, mais bien plus nourrissante que la Dragoviande traditionnelle. Certains pensent même qu'elle aurait des vertus magiques.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1930",
+    "name": "Museau ***",
+    "category": "meat",
+    "pods": 2,
+    "level": 70,
+    "description": "Cette viande est délicieuse, mais attention à ne pas en abuser. Ce n'est pas pour rien que le Meulou pue de la gueule.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "8500",
+    "name": "Viande de Crocodaille",
+    "category": "meat",
+    "pods": 1,
+    "level": 70,
+    "description": "Cette viande insipide peut être conservée dans la vase pendant plusieurs années, avant de pourrir et de commencer à avoir du goût.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1919",
+    "name": "Carré de Porc ****",
+    "category": "meat",
+    "pods": 4,
     "level": 80,
-    "description": "Un morceau noble prélevé sur un Dragon. Seuls les chasseurs les plus aguerris peuvent l'obtenir.",
-    "xpPerHarvest": 55
+    "description": "Ce morceau de DragonCochon est si doux et si moelleux qu'on pourrait en faire un coussin royal. Mais on préfère le manger.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1901",
+    "name": "Cuisse de Wabbit ****",
+    "category": "meat",
+    "pods": 2,
+    "level": 80,
+    "description": "Cette cuisse est simplement parfaite, on ne peut s'empêcher de la dévorer des yeux, puis de la bouche.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "8498",
+    "name": "Viande de Kanigrou",
+    "category": "meat",
+    "pods": 1,
+    "level": 80,
+    "description": "Cette viande est aussi tendre qu'un cerveau de Boue.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "1926",
+    "name": "DragoViande ****",
+    "category": "meat",
+    "pods": 2,
+    "level": 90,
+    "description": "Cette viande issue des parties dragoniques du dragoncochon (que personne n'a envie de localiser précisément) \nest un cadeau du ciel. Ce qui est plutôt logique puisque le dragoncochon vole.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "13179",
+    "name": "Viande Fantôme",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "La viande de fantôme est une substance vaporeuse et lumineuse, difficile à obtenir. Sa date de péremption reste inconnue, ajoutant à son mystère.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "13180",
+    "name": "Viande Fantôme **",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "La viande de fantôme est une substance vaporeuse et lumineuse, difficile à obtenir. Sa date de péremption reste inconnue, ajoutant à son mystère.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "13181",
+    "name": "Viande Fantôme ***",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "La viande de fantôme est une substance vaporeuse et lumineuse, difficile à obtenir. Sa date de péremption reste inconnue, ajoutant à son mystère.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "13182",
+    "name": "Viande Fantôme ****",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "La viande de fantôme est une substance vaporeuse et lumineuse, difficile à obtenir. Sa date de péremption reste inconnue, ajoutant à son mystère.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "11569",
+    "name": "Viande d'Ange",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Un bon morceau de viande coupé dans la partie la plus tendre d'un Ange. On ne veut pas savoir qu'elle est cette fameuse partie.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "11570",
+    "name": "Viande d'Ange **",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Un bon morceau de viande coupé dans la partie la plus tendre d'un Ange. On ne veut pas savoir qu'elle est cette fameuse partie.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "9769",
+    "name": "Viande d'Ange ***",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Un bon morceau de viande coupé dans la partie la plus tendre d'un Ange. On ne veut pas savoir qu'elle est cette fameuse partie.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "9770",
+    "name": "Viande d'Ange ****",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Un bon morceau de viande coupé dans la partie la plus tendre d'un Ange. On ne veut pas savoir qu'elle est cette fameuse partie.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "9764",
+    "name": "Viande de Démon",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Aussi incroyable que cela puisse paraître, ce morceau est une authentique viande de Démon. Vous feriez mieux de vous en débarrasser rapidement, car l'odeur qu'elle dégage risque d'attirer les congénères de son défunt propriétaire.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "9766",
+    "name": "Viande de Démon **",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Aussi incroyable que cela puisse paraître, ce morceau est une authentique viande de Démon. Vous feriez mieux de vous en débarrasser rapidement, car l'odeur qu'elle dégage risque d'attirer les congénères de son défunt propriétaire.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "9767",
+    "name": "Viande de Démon ***",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Aussi incroyable que cela puisse paraître, ce morceau est une authentique viande de Démon. Vous feriez mieux de vous en débarrasser rapidement, car l'odeur qu'elle dégage risque d'attirer les congénères de son défunt propriétaire.",
+    "xpPerHarvest": 0
+  },
+  {
+    "id": "9768",
+    "name": "Viande de Démon ****",
+    "category": "meat",
+    "pods": 1,
+    "level": 90,
+    "description": "Aussi incroyable que cela puisse paraître, ce morceau est une authentique viande de Démon. Vous feriez mieux de vous en débarrasser rapidement, car l'odeur qu'elle dégage risque d'attirer les congénères de son défunt propriétaire.",
+    "xpPerHarvest": 0
   }
 ]

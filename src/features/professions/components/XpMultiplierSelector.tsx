@@ -43,11 +43,10 @@ export const XpMultiplierSelector: React.FC<XpMultiplierSelectorProps> = ({ valu
                     <button
                         key={preset}
                         onClick={() => handlePreset(preset)}
-                        className={`px-2.5 py-1 rounded text-xs font-bold border transition-all ${
-                            isPresetActive(preset)
-                                ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
-                                : 'bg-dofus-panel-dk text-dofus-text border-dofus-border-md hover:bg-dofus-panel'
-                        }`}
+                        className={`px-2.5 py-1 rounded text-xs font-bit border transition-all ${isPresetActive(preset)
+                            ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
+                            : 'bg-dofus-panel-dk text-dofus-text border-dofus-border-md hover:bg-dofus-panel'
+                            }`}
                     >
                         x{preset}
                     </button>
@@ -61,7 +60,7 @@ export const XpMultiplierSelector: React.FC<XpMultiplierSelectorProps> = ({ valu
                         value={customInput}
                         onChange={e => handleCustomChange(e.target.value)}
                         placeholder="x?"
-                        className="input-dofus w-16 text-center font-bold"
+                        className="input-dofus w-16 text-center font-bit"
                         autoFocus
                     />
                 ) : (

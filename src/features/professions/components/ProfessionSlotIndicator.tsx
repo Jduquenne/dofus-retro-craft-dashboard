@@ -21,32 +21,31 @@ export const ProfessionSlotIndicator: React.FC<ProfessionSlotIndicatorProps> = (
             <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
                     <Unlock size={14} className="text-dofus-orange" />
-                    <span className="text-sm font-semibold text-dofus-text">Slots de métiers</span>
+                    <span className="text-sm font-bit font-semibold ">Slots de métiers</span>
                 </div>
-                <span className="font-dofus text-dofus-gold font-bold text-base">
+                <span className=" text-dofus-gold font-bit text-sm">
                     {activeProfessions.length}/{unlockedSlots}
                 </span>
             </div>
 
             <div className="flex gap-1">
                 {Array.from({ length: Math.min(professions.length, 24) }, (_, i) => {
-                    const isActive    = i < activeProfessions.length;
+                    const isActive = i < activeProfessions.length;
                     const isAvailable = i < unlockedSlots;
                     return (
                         <div
                             key={i}
                             title={isActive ? `Slot ${i + 1} : actif` : isAvailable ? `Slot ${i + 1} : libre` : `Slot ${i + 1} : verrouillé`}
-                            className={`flex-1 h-2 rounded-full transition-all ${
-                                isActive    ? 'bg-dofus-success' :
+                            className={`flex-1 h-2 rounded-full transition-all ${isActive ? 'bg-dofus-success' :
                                 isAvailable ? 'bg-dofus-gold/70 animate-pulse' :
-                                              'bg-dofus-border-md/30'
-                            }`}
+                                    'bg-dofus-border-md/30'
+                                }`}
                         />
                     );
                 })}
             </div>
 
-            <div className="flex items-center gap-4 text-[10px] text-dofus-text-lt">
+            <div className="flex items-center gap-4 text-xs text-dofus-text-lt">
                 <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-dofus-success inline-block" />Actif</span>
                 <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-dofus-gold/70 inline-block" />Libre</span>
                 <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-dofus-border-md/30 inline-block" />Verrouillé</span>

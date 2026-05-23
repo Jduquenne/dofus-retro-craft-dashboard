@@ -21,8 +21,8 @@ export const ProfessionStats: React.FC<ProfessionStatsProps> = ({ professions })
             <div className="flex items-center gap-2.5">
                 <Award size={18} className="text-dofus-gold shrink-0" />
                 <div>
-                    <div className="text-[10px] text-dofus-text-lt uppercase tracking-wide">Actifs</div>
-                    <div className="text-xl font-bold text-dofus-gold" style={{ fontFamily: "'Cinzel', Georgia, serif" }}>
+                    <div className="text-xs text-dofus-text-lt uppercase tracking-wide">Actifs</div>
+                    <div className="text-sm font-bit text-dofus-gold" style={{ fontFamily: "'Cinzel', Georgia, serif" }}>
                         {activeProfessions.length}
                     </div>
                 </div>
@@ -31,8 +31,8 @@ export const ProfessionStats: React.FC<ProfessionStatsProps> = ({ professions })
             <div className="flex items-center gap-2.5">
                 <TrendingUp size={18} className="text-dofus-orange shrink-0" />
                 <div>
-                    <div className="text-[10px] text-dofus-text-lt uppercase tracking-wide">Niv. moyen</div>
-                    <div className="text-xl font-bold text-dofus-orange" style={{ fontFamily: "'Cinzel', Georgia, serif" }}>
+                    <div className="text-xs text-dofus-text-lt uppercase tracking-wide">Niv. moyen</div>
+                    <div className="text-sm font-bit text-dofus-orange" style={{ fontFamily: "'Cinzel', Georgia, serif" }}>
                         {avgLevel}
                     </div>
                 </div>
@@ -41,8 +41,8 @@ export const ProfessionStats: React.FC<ProfessionStatsProps> = ({ professions })
             <div className="flex items-center gap-2.5">
                 <Target size={18} className="text-dofus-success shrink-0" />
                 <div>
-                    <div className="text-[10px] text-dofus-text-lt uppercase tracking-wide">Objectifs</div>
-                    <div className="text-xl font-bold text-dofus-success" style={{ fontFamily: "'Cinzel', Georgia, serif" }}>
+                    <div className="text-xs text-dofus-text-lt uppercase tracking-wide">Objectifs</div>
+                    <div className="text-sm font-bit text-dofus-success" style={{ fontFamily: "'Cinzel', Georgia, serif" }}>
                         {goalsReached}
                     </div>
                 </div>

@@ -1,0 +1,506 @@
+[
+  {
+    "id": "1793",
+    "name": "Bar Iton vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1793.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1792",
+        "name": "Bar Iton",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 30
+  },
+  {
+    "id": "1780",
+    "name": "Bar Rikain vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1780.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1779",
+        "name": "Bar Rikain",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1851",
+    "name": "Brochet Tupe-Halett vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1851.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1849",
+        "name": "Brochet Tupe-Halett",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1848",
+    "name": "Brochet vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1848.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1847",
+        "name": "Brochet",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1795",
+    "name": "Carpe d'Iem vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1795.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1794",
+        "name": "Carpe d'Iem",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1797",
+    "name": "Carpette des sables vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1797.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1796",
+        "name": "Carpette des sables",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1804",
+    "name": "Chaton-perche vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1804.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1803",
+        "name": "Chaton-Perche",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 50
+  },
+  {
+    "id": "1760",
+    "name": "Crabe Sourimi exotique vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1760.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1759",
+        "name": "Crabe Sourimi Exotique",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 20
+  },
+  {
+    "id": "1758",
+    "name": "Crabe Sourimi vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1758.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1757",
+        "name": "Crabe Sourimi",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1791",
+    "name": "Goujon Kiye vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1791.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1790",
+        "name": "Goujon Kiye",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1783",
+    "name": "Goujon vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1783.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1782",
+        "name": "Goujon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1787",
+    "name": "Greu-vette Horreur vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1787.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1786",
+        "name": "Greu-vette Horreur",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1781",
+    "name": "Greu-vette vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1781.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "598",
+        "name": "Greu-Vette",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1800",
+    "name": "Kralamoure Unique vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1800.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1799",
+        "name": "Kralamoure Unique",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 30
+  },
+  {
+    "id": "1798",
+    "name": "Kralamoure vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1798.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "600",
+        "name": "Kralamoure",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1802",
+    "name": "Perche vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1802.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1801",
+        "name": "Perche",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1761",
+    "name": "Poisson Chaton vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1761.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "603",
+        "name": "Poisson Chaton",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1755",
+    "name": "Poisson Igloo vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1755.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1754",
+        "name": "Poisson Igloo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1763",
+    "name": "Poisson Tigre vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1763.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1762",
+        "name": "Poisson Tigre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 30
+  },
+  {
+    "id": "1751",
+    "name": "Poisson pané vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1751.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1750",
+        "name": "Poisson Pané",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1785",
+    "name": "Raie bleue vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1785.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1784",
+        "name": "Raie Bleue",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1789",
+    "name": "Raie de Farle vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1789.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1788",
+        "name": "Raie de Farle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 20
+  },
+  {
+    "id": "1854",
+    "name": "Requin marché-libre vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1854.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1853",
+        "name": "Requin Marché-Libre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1852",
+    "name": "Requin marteau-faucille vidé",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1852.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "602",
+        "name": "Requin Marteau-Faucille",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1806",
+    "name": "Sardine Brillante vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1806.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1805",
+        "name": "Sardine Brillante",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1808",
+    "name": "Sardine Sombre vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1808.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1807",
+        "name": "Sardine Sombre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1976",
+    "name": "Truite Ancestrale vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1976.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1846",
+        "name": "Truite Ancestrale",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1845",
+    "name": "Truite vidée",
+    "profession": "fisher",
+    "level": 1,
+    "image": "resources/gutted_fish/1845.svg",
+    "category": "Poisson vidé",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1844",
+        "name": "Truite",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  }
+]

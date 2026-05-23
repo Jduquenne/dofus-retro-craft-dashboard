@@ -28,11 +28,11 @@ const App: React.FC = () => {
         <Header activeTab={activeTab} setActiveTab={setActiveTab} />
         <main className="container mx-auto px-4 py-6 flex-1">
           <Suspense fallback={null}>
-            {activeTab === 'calculator'  && <CalculatorModule />}
+            {activeTab === 'calculator' && <CalculatorModule />}
             {activeTab === 'professions' && <ProfessionsModule />}
-            {activeTab === 'scrolls'     && <ScrollsModule />}
-            {activeTab === 'catalog'     && <CatalogModule />}
-            {activeTab === 'pods'        && <PodModule />}
+            {activeTab === 'scrolls' && <ScrollsModule />}
+            {activeTab === 'catalog' && <CatalogModule />}
+            {activeTab === 'pods' && <PodModule />}
           </Suspense>
         </main>
         <footer className="text-center py-3 text-xs text-dofus-cream/25 border-t border-dofus-border/40">

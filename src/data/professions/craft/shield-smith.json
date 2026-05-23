@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "9023",
+    "name": "Bouclier Volant",
+    "profession": "shield-smith",
+    "level": 10,
+    "image": "items/shield/9023.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7301",
+        "name": "Peau de Léopardo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7260",
+        "name": "Peau de Pandikaze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 120
+  },
+  {
+    "id": "9025",
+    "name": "Bouclier du Bouftou",
+    "profession": "shield-smith",
+    "level": 1,
+    "image": "items/shield/9025.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "885",
+        "name": "Laine de Boufton Noir",
+        "quantity": 5
+      },
+      {
+        "resourceId": "384",
+        "name": "Laine de Bouftou",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 40
+  },
+  {
+    "id": "9014",
+    "name": "Cadran d'Eau",
+    "profession": "shield-smith",
+    "level": 20,
+    "image": "items/shield/9014.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1129",
+        "name": "Coquille de Dragoeuf Saphir",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "9013",
+    "name": "Cadran de Terre",
+    "profession": "shield-smith",
+    "level": 20,
+    "image": "items/shield/9013.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "308",
+        "name": "Coquille de Dragoeuf Blanc",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "9015",
+    "name": "Bouclier du Bûcheron",
+    "profession": "shield-smith",
+    "level": 10,
+    "image": "items/shield/9015.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 120
+  },
+  {
+    "id": "9012",
+    "name": "Cadran d'Air",
+    "profession": "shield-smith",
+    "level": 20,
+    "image": "items/shield/9012.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "842",
+        "name": "Coquille de Dragoeuf Doré",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "9011",
+    "name": "Cadran de Feu",
+    "profession": "shield-smith",
+    "level": 20,
+    "image": "items/shield/9011.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 1
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "843",
+        "name": "Coquille de Dragoeuf Noir",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "9009",
+    "name": "Bouclier Abraknyde",
+    "profession": "shield-smith",
+    "level": 40,
+    "image": "items/shield/9009.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 595
+  },
+  {
+    "id": "9004",
+    "name": "Bouclier Akwadala",
+    "profession": "shield-smith",
+    "level": 40,
+    "image": "items/shield/9004.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2291",
+        "name": "Carapace de Scarafeuille Bleu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 4
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7222",
+        "name": "Artefact Pandawushu Eau",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 535
+  },
+  {
+    "id": "9010",
+    "name": "Bouclier Pandawa",
+    "profession": "shield-smith",
+    "level": 40,
+    "image": "items/shield/9010.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7059",
+        "name": "Graine de Pandouille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7302",
+        "name": "Peau de Pandore",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7258",
+        "name": "Poils de Pandikaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7018",
+        "name": "Riz",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 560
+  },
+  {
+    "id": "9027",
+    "name": "Bouclier du Craqueleur",
+    "profession": "shield-smith",
+    "level": 40,
+    "image": "items/shield/9027.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2306",
+        "name": "Coeur de Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 630
+  },
+  {
+    "id": "9016",
+    "name": "Bouclier du Mont Kipou",
+    "profession": "shield-smith",
+    "level": 40,
+    "image": "items/shield/9016.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7270",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 2
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 540
+  },
+  {
+    "id": "9020",
+    "name": "Derma Tho",
+    "profession": "shield-smith",
+    "level": 20,
+    "image": "items/shield/9020.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7279",
+        "name": "Peau de Kitsou Nae",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7280",
+        "name": "Peau de Kitsou Nufeu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "459",
+        "name": "Planche en Frêne",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 220
+  },
+  {
+    "id": "9003",
+    "name": "Bouclier Taverne",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/9003.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7277",
+        "name": "Poils de Kitsou Nere",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7278",
+        "name": "Poils de Kitsou Nakwa",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7276",
+        "name": "Poils de Kitsou Nufeu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7275",
+        "name": "Poils de Kitsou Nae",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1620
+  },
+  {
+    "id": "9028",
+    "name": "Bouclier Terrdala",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/9028.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7305",
+        "name": "Etoffe de Soryo Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2293",
+        "name": "Carapace de Scarafeuille Vert",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 6
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7224",
+        "name": "Artefact Pandawushu Terre",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1410
+  },
+  {
+    "id": "9026",
+    "name": "Bouclier de Bowisse",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/9026.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7265",
+        "name": "Racine de Bulbig",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1015
+  },
+  {
+    "id": "9019",
+    "name": "Bouclier du Bawbawe",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/9019.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "406",
+        "name": "Estomac de Wo Wabbit",
+        "quantity": 6
+      },
+      {
+        "resourceId": "885",
+        "name": "Laine de Boufton Noir",
+        "quantity": 8
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1050
+  },
+  {
+    "id": "9018",
+    "name": "Le Karde Coeur",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/9018.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2605",
+        "name": "Peau de Trukikol",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2306",
+        "name": "Coeur de Craqueleur",
+        "quantity": 2
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 3
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7285",
+        "name": "Patte d'Araknawa",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2594",
+        "name": "Queue de Dragodinde",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1300
+  },
+  {
+    "id": "9030",
+    "name": "Bouclier Aerdala",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/9030.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2290",
+        "name": "Carapace de Scarafeuille Blanc",
+        "quantity": 2
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7223",
+        "name": "Artefact Pandawushu Air",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1160
+  },
+  {
+    "id": "9001",
+    "name": "Bouclier de Sidimote",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/9001.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 2
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1565
+  },
+  {
+    "id": "9002",
+    "name": "Ftalmo",
+    "profession": "shield-smith",
+    "level": 80,
+    "image": "items/shield/9002.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2579",
+        "name": "Oeil du Milimulou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2453",
+        "name": "Oeil de Bouftou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2552",
+        "name": "Oeil de Kanigrou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3300
+  },
+  {
+    "id": "9022",
+    "name": "Kloume",
+    "profession": "shield-smith",
+    "level": 80,
+    "image": "items/shield/9022.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7304",
+        "name": "Etoffe de Maho Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2805",
+        "name": "Testicules Magiques du Mulou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2252",
+        "name": "Dent en Or du Craqueleur",
+        "quantity": 50
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 80
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2210
+  },
+  {
+    "id": "9029",
+    "name": "Bouclier Feudala",
+    "profession": "shield-smith",
+    "level": 80,
+    "image": "items/shield/9029.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7298",
+        "name": "Peau de Maho Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2292",
+        "name": "Carapace de Scarafeuille Rouge",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "745",
+        "name": "Lingot d'Or",
+        "quantity": 13
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 15
+      },
+      {
+        "resourceId": "7225",
+        "name": "Artefact Pandawushu Feu",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2710
+  },
+  {
+    "id": "9007",
+    "name": "Bouclier en Slip",
+    "profession": "shield-smith",
+    "level": 80,
+    "image": "items/shield/9007.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 2
+      },
+      {
+        "resourceId": "3208",
+        "name": "Slip de Bwork Archer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 8
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2480",
+        "name": "Slip en cuir de Porkass",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2670
+  },
+  {
+    "id": "9017",
+    "name": "Bouclier des Brigandins",
+    "profession": "shield-smith",
+    "level": 80,
+    "image": "items/shield/9017.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 2
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3070
+  },
+  {
+    "id": "9024",
+    "name": "Bouclier du Chouque",
+    "profession": "shield-smith",
+    "level": 100,
+    "image": "items/shield/9024.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6441",
+        "name": "Poils de Moon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 7
+      },
+      {
+        "resourceId": "301",
+        "name": "Plumes de Tofu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      },
+      {
+        "resourceId": "997",
+        "name": "Noix de Kokoko",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3685
+  },
+  {
+    "id": "9006",
+    "name": "Bouclier du Sadida",
+    "profession": "shield-smith",
+    "level": 80,
+    "image": "items/shield/9006.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7270",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7272",
+        "name": "Ecorce magique de Bulbambou",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7305",
+        "name": "Etoffe de Soryo Firefoux",
+        "quantity": 10
+      },
+      {
+        "resourceId": "582",
+        "name": "Farine Blanche",
+        "quantity": 10
+      },
+      {
+        "resourceId": "885",
+        "name": "Laine de Boufton Noir",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1870
+  },
+  {
+    "id": "9008",
+    "name": "Bouclier d'Asse",
+    "profession": "shield-smith",
+    "level": 80,
+    "image": "items/shield/9008.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7305",
+        "name": "Etoffe de Soryo Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "600",
+        "name": "Kralamoure",
+        "quantity": 4
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2275",
+        "name": "Cuir de Porkass",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3245
+  },
+  {
+    "id": "9005",
+    "name": "Bouclier Ventaille",
+    "profession": "shield-smith",
+    "level": 100,
+    "image": "items/shield/9005.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1694",
+        "name": "Laine du Trool Furieux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "361",
+        "name": "Cawotte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7304",
+        "name": "Etoffe de Maho Firefoux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7259",
+        "name": "Etoffe de Pandikaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7285",
+        "name": "Patte d'Araknawa",
+        "quantity": 10
+      },
+      {
+        "resourceId": "745",
+        "name": "Lingot d'Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 30
+      },
+      {
+        "resourceId": "7301",
+        "name": "Peau de Léopardo",
+        "quantity": 51
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5445
+  },
+  {
+    "id": "9021",
+    "name": "Bouclier du Captain Amakna",
+    "profession": "shield-smith",
+    "level": 100,
+    "image": "items/shield/9021.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "487",
+        "name": "Cuir du Dragon Cochon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1686",
+        "name": "Teinture Magique de Rougeur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7032",
+        "name": "Silicate",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7294",
+        "name": "Poils de Yokai Firefoux",
+        "quantity": 15
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 6320
+  },
+  {
+    "id": "8855",
+    "name": "Bouclier Fi'Squale",
+    "profession": "shield-smith",
+    "level": 60,
+    "image": "items/shield/8855.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8681",
+        "name": "Peau de Raul Mops",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1852",
+        "name": "Requin marteau-faucille vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7032",
+        "name": "Silicate",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1780",
+        "name": "Bar Rikain vidé",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1806",
+        "name": "Sardine Brillante vidée",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13171",
+    "name": "Le Grobouclier",
+    "profession": "shield-smith",
+    "level": 100,
+    "image": "items/shield/13171.svg",
+    "category": "Bouclier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13176",
+        "name": "Sublime Artefact Pandawushu Fantomatique",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7284",
+        "name": "Poils de Tanukouï San",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7312",
+        "name": "Clef du Donjon des Firefoux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7032",
+        "name": "Silicate",
+        "quantity": 7
+      },
+      {
+        "resourceId": "7059",
+        "name": "Graine de Pandouille",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7287",
+        "name": "Feuille de Bambouto",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7260",
+        "name": "Peau de Pandikaze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7297",
+        "name": "Poils de Pandule",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

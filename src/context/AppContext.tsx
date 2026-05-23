@@ -2,14 +2,13 @@ import React, { createContext, useContext, useState, useEffect, type ReactNode }
 import { useIndexedDB } from '../hooks/useIndexedDB';
 import type { Resource, Recipe, Profession, KamasGoal } from '../types';
 import { initialResources } from '../data/resources';
-import { initialRecipes } from '../data/recipes';
 import { initialProfessions } from '../data/professions';
+import { allRecipes } from '../data/recipesCatalog';
 
 interface AppContextType {
     resources: Resource[];
     setResources: (resources: Resource[]) => void;
     recipes: Recipe[];
-    setRecipes: (recipes: Recipe[]) => void;
     professions: Profession[];
     setProfessions: (professions: Profession[]) => void;
     kamasGoal: KamasGoal;
@@ -32,7 +31,6 @@ export const useAppContext = () => {
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
     const { db, loadData, saveData } = useIndexedDB();
     const [resources, setResources] = useState<Resource[]>([]);
-    const [recipes, setRecipes] = useState<Recipe[]>([]);
     const [professions, setProfessions] = useState<Profession[]>([]);
     const [kamasGoal, setKamasGoal] = useState<KamasGoal>({ target: 1000000, current: 0, expenses: 0 });
     const [xpMultiplier, setXpMultiplierState] = useState<number>(() => {
@@ -50,11 +48,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         const initDB = async () => {
             try {
                 const loadedResources = await loadData(db.resources, initialResources);
-                const loadedRecipes = await loadData(db.recipes, initialRecipes);
                 const loadedProfessions = await loadData(db.professions, initialProfessions);
 
                 setResources(loadedResources);
-                setRecipes(loadedRecipes);
                 setProfessions(loadedProfessions);
 
                 const goals = await db.goals.toArray();
@@ -76,12 +72,6 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
             saveData(db.resources, resources);
         }
     }, [resources, isLoading]);
-
-    useEffect(() => {
-        if (!isLoading && recipes.length > 0) {
-            saveData(db.recipes, recipes);
-        }
-    }, [recipes, isLoading]);
 
     useEffect(() => {
         if (!isLoading && professions.length > 0) {
@@ -111,8 +101,7 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
         <AppContext.Provider value={{
             resources,
             setResources,
-            recipes,
-            setRecipes,
+            recipes: allRecipes,
             professions,
             setProfessions,
             kamasGoal,

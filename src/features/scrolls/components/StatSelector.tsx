@@ -15,13 +15,18 @@ export const StatSelector: React.FC<StatSelectorProps> = ({ selectedStat, onSele
                 <button
                     key={s.id}
                     onClick={() => onSelect(s.id)}
-                    className={`flex items-center justify-center gap-1.5 lg:flex-1 lg:min-w-[5rem] px-3 py-2 rounded text-sm font-medium border transition-all ${
-                        selectedStat === s.id
+                    className={`flex items-center justify-center gap-1.5 lg:flex-1 lg:min-w-[5rem] px-3 py-2 rounded text-sm font-medium border transition-all ${selectedStat === s.id
                             ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00] shadow-inner'
                             : 'panel-sm text-dofus-text hover:bg-dofus-panel-lt border-dofus-border-md'
-                    }`}
+                        }`}
                 >
-                    <span>{s.icon}</span>
+                    <img
+                        src={`${import.meta.env.BASE_URL}assets/${s.icon}`}
+                        alt=""
+                        width={20}
+                        height={20}
+                        className="w-5 h-5 object-contain shrink-0"
+                    />
                     <span>{s.label}</span>
                 </button>
             ))}

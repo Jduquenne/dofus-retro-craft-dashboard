@@ -23,7 +23,7 @@ export const CraftOptionsDisplay: React.FC<CraftOptionsDisplayProps> = ({
         <div className="mt-2 pt-2 border-t border-dofus-border/30">
             <div className="flex items-center gap-1 mb-1.5">
                 <Hammer size={11} className="text-dofus-orange" />
-                <span className="text-[10px] font-semibold text-dofus-text-lt uppercase tracking-wider">
+                <span className="text-xs font-semibold text-dofus-text-lt uppercase tracking-wider">
                     Options de craft
                 </span>
             </div>
@@ -59,18 +59,17 @@ const CraftOption: React.FC<CraftOptionProps> = ({ slots, baseXpPerCraft, xpMult
 
     return (
         <div
-            className={`flex justify-between items-center rounded px-2 py-1 ${
-                result.valid ? 'bg-dofus-panel-dk/40' : 'bg-dofus-bg/20 opacity-50'
-            }`}
+            className={`flex justify-between items-center rounded px-2 py-1 ${result.valid ? 'bg-dofus-panel-dk/40' : 'bg-dofus-bg/20 opacity-50'
+                }`}
             title={result.reason}
         >
-            <span className={`text-[10px] font-medium ${result.valid ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
+            <span className={`text-xs font-medium ${result.valid ? 'text-dofus-text-md' : 'text-dofus-text-lt'}`}>
                 {slots} case{slots > 1 ? 's' : ''}{' '}·{' '}
                 {hasMultiplier ? (
                     <span>
                         <span className="line-through opacity-40">{baseXpPerCraft}</span>
                         {' '}
-                        <span className="text-dofus-success font-semibold">
+                        <span className="font-bit text-dofus-success font-semibold">
                             {effectiveXp % 1 === 0 ? effectiveXp : effectiveXp.toFixed(1)}
                         </span>
                     </span>
@@ -79,11 +78,11 @@ const CraftOption: React.FC<CraftOptionProps> = ({ slots, baseXpPerCraft, xpMult
                 )}{' '}XP
             </span>
             {result.valid ? (
-                <span className="text-[10px] font-bold text-dofus-orange">
-                    ~{result.crafts.toLocaleString()}
+                <span className="text-xs font-bit text-dofus-orange">
+                    ~{result.crafts}
                 </span>
             ) : (
-                <span className="text-[9px] text-dofus-text-lt italic">{result.reason}</span>
+                <span className="text-xs text-dofus-text-lt italic">{result.reason}</span>
             )}
         </div>
     );

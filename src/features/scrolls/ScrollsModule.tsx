@@ -4,6 +4,7 @@ import type { ScrollStatId, ScrollTierType } from '../../types/scrolls';
 import { calculateScrollsNeeded } from '../../utils/scrollHelpers';
 import { useScrollsStorage } from '../../hooks/useScrollsStorage';
 import { useScrollResourcePrices } from '../../hooks/useScrollResourcePrices';
+import { useCatalogPrices } from '../../hooks/useCatalogPrices';
 import { StatSelector } from './components/StatSelector';
 import { StatRangePanel } from './components/StatRangePanel';
 import { ScrollsConfigAside } from './components/ScrollsConfigAside';
@@ -13,7 +14,8 @@ import { ResourcesPriceTable } from './components/ResourcesPriceTable';
 const MAX_STAT = 101;
 
 export const ScrollsModule: React.FC = () => {
-    const { getEntry, updateEntry, resourcePrices, setResourcePrice } = useScrollsStorage();
+    const { getEntry, updateEntry } = useScrollsStorage();
+    const { prices: catalogPrices, setPrice: setCatalogPrice } = useCatalogPrices();
     const [selectedStat, setSelectedStat] = React.useState<ScrollStatId>('force');
 
     const entry = getEntry(selectedStat);
@@ -44,7 +46,7 @@ export const ScrollsModule: React.FC = () => {
         [stat, method, currentStat, targetStat, npcSelections],
     );
 
-    const resolvedPrices = useScrollResourcePrices(result.totalResources, resourcePrices);
+    const resolvedPrices = useScrollResourcePrices(result.totalResources, catalogPrices);
 
     const totalScrolls = result.phases.reduce((acc, p) => acc + p.scrollsNeeded, 0);
     const totalCost = result.totalResources.reduce(
@@ -80,8 +82,7 @@ export const ScrollsModule: React.FC = () => {
         resources: result.totalResources,
         resolvedPrices,
         totalCost,
-        onPriceChange: setResourcePrice,
-        onResetToManual: (name: string) => setResourcePrice(name, 0),
+        onCatalogPriceChange: setCatalogPrice,
     } : null;
 
     return (

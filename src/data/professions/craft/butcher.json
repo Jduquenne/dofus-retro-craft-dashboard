@@ -1,0 +1,1578 @@
+[
+  {
+    "id": "1958",
+    "name": "Bifstèque de Dragoviande",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1958.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2014",
+        "name": "Dragoviande Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1959",
+    "name": "Bifstèque de Dragoviande **",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1959.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2015",
+        "name": "Dragoviande Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1960",
+    "name": "Bifstèque de Dragoviande ***",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1960.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2016",
+        "name": "Dragoviande Conservée ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1961",
+    "name": "Bifstèque de Dragoviande ****",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1961.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2017",
+        "name": "Dragoviande Conservée ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9778",
+    "name": "Bifstèque de Démon",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/9778.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9771",
+        "name": "Viande de Démon Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 4
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9780",
+    "name": "Bifstèque de Démon**",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/9780.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9773",
+        "name": "Viande de Démon Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 5
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9781",
+    "name": "Bifstèque de Démon***",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/9781.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9774",
+        "name": "Viande de Démon Conservée ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 6
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9782",
+    "name": "Bifstèque de Démon****",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/9782.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9775",
+        "name": "Viande de Démon Conservée ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 7
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1952",
+    "name": "Boulettes d'Insecte",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1952.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1993",
+        "name": "Chair d'Insecte Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1953",
+    "name": "Boulettes d'Insecte **",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1953.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1994",
+        "name": "Chair d'Insecte Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "385",
+        "name": "Bave de Bouftou",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1954",
+    "name": "Cuisse de bouftou rôti",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1954.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1995",
+        "name": "Cuisse de Bouftou Conservée",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1955",
+    "name": "Cuisse de bouftou rôti **",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1955.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1997",
+        "name": "Cuisse de Bouftou Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1956",
+    "name": "Cuisse de bouftou rôti ***",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1956.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1998",
+        "name": "Cuisse de Bouftou Conservée ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1957",
+    "name": "Cuisse de bouftou rôti ****",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1957.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1999",
+        "name": "Cuisse de Bouftou Conservée ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11573",
+    "name": "Entrecôte d'Ange",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/11573.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11571",
+        "name": "Viande d'Ange Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11574",
+    "name": "Entrecôte d'Ange**",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/11574.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11572",
+        "name": "Viande d'Ange Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9783",
+    "name": "Entrecôte d'Ange***",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/9783.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9776",
+        "name": "Viande d'Ange Conservée ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9784",
+    "name": "Entrecôte d'Ange****",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/9784.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9777",
+        "name": "Viande d'Ange Conservée ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 7
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1966",
+    "name": "Jambon cuit",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1966.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2004",
+        "name": "Carré de Porc Conservé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1967",
+    "name": "Jambon cuit **",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1967.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2005",
+        "name": "Carré de Porc Conservé **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1968",
+    "name": "Jambon cuit ***",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1968.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2006",
+        "name": "Carré de Porc Conservé ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1969",
+    "name": "Jambon cuit ****",
+    "profession": "butcher",
+    "level": 10,
+    "image": "items/edible_meat/1969.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2007",
+        "name": "Carré de Porc Conservé ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1949",
+    "name": "Larve croque-sel",
+    "profession": "butcher",
+    "level": 1,
+    "image": "items/edible_meat/1949.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1990",
+        "name": "Chair de Larve Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1950",
+    "name": "Larve croque-sel **",
+    "profession": "butcher",
+    "level": 1,
+    "image": "items/edible_meat/1950.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1991",
+        "name": "Chair de Larve Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1951",
+    "name": "Larve croque-sel ***",
+    "profession": "butcher",
+    "level": 1,
+    "image": "items/edible_meat/1951.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1992",
+        "name": "Chair de Larve Conservée ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1947",
+    "name": "Nuggets",
+    "profession": "butcher",
+    "level": 1,
+    "image": "items/edible_meat/1947.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1987",
+        "name": "Viande d'Oiseau Conservée",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1948",
+    "name": "Nuggets **",
+    "profession": "butcher",
+    "level": 1,
+    "image": "items/edible_meat/1948.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1988",
+        "name": "Viande d'Oiseau Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2013",
+    "name": "Nuggets ****",
+    "profession": "butcher",
+    "level": 1,
+    "image": "items/edible_meat/2013.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1989",
+        "name": "Viande d'Oiseau Conservée ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1970",
+    "name": "Salade de Museau",
+    "profession": "butcher",
+    "level": 40,
+    "image": "items/edible_meat/1970.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2008",
+        "name": "Museau Conservé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "394",
+        "name": "Noisette",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1971",
+    "name": "Salade de Museau **",
+    "profession": "butcher",
+    "level": 40,
+    "image": "items/edible_meat/1971.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2009",
+        "name": "Museau Conservé **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 2
+      },
+      {
+        "resourceId": "394",
+        "name": "Noisette",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1972",
+    "name": "Salade de Museau ***",
+    "profession": "butcher",
+    "level": 40,
+    "image": "items/edible_meat/1972.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2010",
+        "name": "Museau Conservé ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 2
+      },
+      {
+        "resourceId": "394",
+        "name": "Noisette",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13187",
+    "name": "Viande de Fantôme Cuisinée",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/13187.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13183",
+        "name": "Viande de Fantôme Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7047",
+        "name": "Une fiole de Pandapils",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7045",
+        "name": "Une fiole de Pandaburg",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13188",
+    "name": "Viande de Fantôme Cuisinée **",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/13188.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13184",
+        "name": "Viande de Fantôme Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7047",
+        "name": "Une fiole de Pandapils",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7045",
+        "name": "Une fiole de Pandaburg",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13189",
+    "name": "Viande de Fantôme Cuisinée ***",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/13189.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13185",
+        "name": "Viande de Fantôme Conservée ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7047",
+        "name": "Une fiole de Pandapils",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7045",
+        "name": "Une fiole de Pandaburg",
+        "quantity": 5
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13190",
+    "name": "Viande de Fantôme Cuisinée ****",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/13190.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13186",
+        "name": "Viande de Fantôme Conservée ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7047",
+        "name": "Une fiole de Pandapils",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7045",
+        "name": "Une fiole de Pandaburg",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1962",
+    "name": "Wabbit gwillé",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1962.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2000",
+        "name": "Cuisse de Wabbit Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1963",
+    "name": "Wabbit gwillé **",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1963.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2001",
+        "name": "Cuisse de Wabbit Conservée **",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1964",
+    "name": "Wabbit gwillé ***",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1964.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2002",
+        "name": "Cuisse de Wabbit Conservée ***",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1965",
+    "name": "Wabbit gwillé ****",
+    "profession": "butcher",
+    "level": 20,
+    "image": "items/edible_meat/1965.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2003",
+        "name": "Cuisse de Wabbit Conservée ****",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 1
+  },
+  {
+    "id": "8506",
+    "name": "Entrecôte de Crocodaille",
+    "profession": "butcher",
+    "level": 80,
+    "image": "items/edible_meat/8506.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8503",
+        "name": "Viande de Crocodaille Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 400,
+    "merchantPrice": 1
+  },
+  {
+    "id": "8504",
+    "name": "Entrecôte de Kanigrou",
+    "profession": "butcher",
+    "level": 60,
+    "image": "items/edible_meat/8504.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8501",
+        "name": "Viande de Kanigrou Conservée",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 1
+  },
+  {
+    "id": "8505",
+    "name": "Filet de Koalak",
+    "profession": "butcher",
+    "level": 100,
+    "image": "items/edible_meat/8505.svg",
+    "category": "Viande comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8502",
+        "name": "Viande de Koalak Conservée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  }
+]

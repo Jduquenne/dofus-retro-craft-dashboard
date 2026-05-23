@@ -1,0 +1,1363 @@
+[
+  {
+    "id": "1811",
+    "name": "Beignet de Greu-vette **",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1811.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1781",
+        "name": "Greu-vette vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 20
+  },
+  {
+    "id": "1812",
+    "name": "Beignet de Greu-vette ***",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1812.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1781",
+        "name": "Greu-vette vidée",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30
+  },
+  {
+    "id": "1829",
+    "name": "Beignet de Greu-vette ****",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1829.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1787",
+        "name": "Greu-vette Horreur vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 10000
+  },
+  {
+    "id": "1764",
+    "name": "Bâton de crabe **",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1764.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1758",
+        "name": "Crabe Sourimi vidé",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30
+  },
+  {
+    "id": "1765",
+    "name": "Bâton de crabe ***",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1765.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1758",
+        "name": "Crabe Sourimi vidé",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 60
+  },
+  {
+    "id": "1766",
+    "name": "Bâton de crabe ****",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1766.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1760",
+        "name": "Crabe Sourimi exotique vidé",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30000
+  },
+  {
+    "id": "1813",
+    "name": "Goujon en tranche **",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1813.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1783",
+        "name": "Goujon vidé",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 20
+  },
+  {
+    "id": "1814",
+    "name": "Goujon en tranche ***",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1814.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1783",
+        "name": "Goujon vidé",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30
+  },
+  {
+    "id": "1830",
+    "name": "Goujon en tranche ****",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1830.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1791",
+        "name": "Goujon Kiye vidé",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 10000
+  },
+  {
+    "id": "1769",
+    "name": "Poisson-Tigre fumé ****",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1769.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1763",
+        "name": "Poisson Tigre vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 40000
+  },
+  {
+    "id": "1832",
+    "name": "Truite flambée **",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1832.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1845",
+        "name": "Truite vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30
+  },
+  {
+    "id": "1833",
+    "name": "Truite flambée ***",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1833.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1845",
+        "name": "Truite vidée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 60
+  },
+  {
+    "id": "1834",
+    "name": "Truite flambée ****",
+    "profession": "fishmonger",
+    "level": 1,
+    "image": "items/gutted_fish/1834.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1976",
+        "name": "Truite Ancestrale vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 20000
+  },
+  {
+    "id": "1752",
+    "name": "Poisson pané frit **",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1752.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1751",
+        "name": "Poisson pané vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 60
+  },
+  {
+    "id": "1753",
+    "name": "Poisson pané frit ***",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1753.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1751",
+        "name": "Poisson pané vidé",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1756",
+    "name": "Poisson pané frit ****",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1756.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1755",
+        "name": "Poisson Igloo vidé",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10000
+  },
+  {
+    "id": "1767",
+    "name": "Poisson-Chaton fumé **",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1767.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1761",
+        "name": "Poisson Chaton vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 60
+  },
+  {
+    "id": "1768",
+    "name": "Poisson-Chaton fumé ***",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1768.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1761",
+        "name": "Poisson Chaton vidé",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 90
+  },
+  {
+    "id": "1825",
+    "name": "Sardine à l'huile **",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1825.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1806",
+        "name": "Sardine Brillante vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 80
+  },
+  {
+    "id": "1826",
+    "name": "Sardine à l'huile ***",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1826.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1806",
+        "name": "Sardine Brillante vidée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 140
+  },
+  {
+    "id": "1827",
+    "name": "Sardine à l'huile ****",
+    "profession": "fishmonger",
+    "level": 10,
+    "image": "items/gutted_fish/1827.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1808",
+        "name": "Sardine Sombre vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 40000
+  },
+  {
+    "id": "1818",
+    "name": "Carpe vapeur **",
+    "profession": "fishmonger",
+    "level": 20,
+    "image": "items/gutted_fish/1818.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1795",
+        "name": "Carpe d'Iem vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 130
+  },
+  {
+    "id": "1819",
+    "name": "Carpe vapeur ***",
+    "profession": "fishmonger",
+    "level": 20,
+    "image": "items/gutted_fish/1819.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1795",
+        "name": "Carpe d'Iem vidée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 200
+  },
+  {
+    "id": "1817",
+    "name": "Carpe vapeur ****",
+    "profession": "fishmonger",
+    "level": 20,
+    "image": "items/gutted_fish/1817.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1797",
+        "name": "Carpette des sables vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 60000
+  },
+  {
+    "id": "1820",
+    "name": "Kralamoure grillé **",
+    "profession": "fishmonger",
+    "level": 20,
+    "image": "items/gutted_fish/1820.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1798",
+        "name": "Kralamoure vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 130
+  },
+  {
+    "id": "1821",
+    "name": "Kralamoure grillé ***",
+    "profession": "fishmonger",
+    "level": 20,
+    "image": "items/gutted_fish/1821.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1798",
+        "name": "Kralamoure vidé",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 200
+  },
+  {
+    "id": "1859",
+    "name": "Kralamoure grillé ****",
+    "profession": "fishmonger",
+    "level": 20,
+    "image": "items/gutted_fish/1859.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1800",
+        "name": "Kralamoure Unique vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 40,
+    "merchantPrice": 50000
+  },
+  {
+    "id": "1835",
+    "name": "Brochet farci **",
+    "profession": "fishmonger",
+    "level": 40,
+    "image": "items/gutted_fish/1835.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1848",
+        "name": "Brochet vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      },
+      {
+        "resourceId": "598",
+        "name": "Greu-Vette",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 80
+  },
+  {
+    "id": "1836",
+    "name": "Brochet farci ***",
+    "profession": "fishmonger",
+    "level": 40,
+    "image": "items/gutted_fish/1836.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1848",
+        "name": "Brochet vidé",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "598",
+        "name": "Greu-Vette",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 140
+  },
+  {
+    "id": "1837",
+    "name": "Brochet farci ****",
+    "profession": "fishmonger",
+    "level": 40,
+    "image": "items/gutted_fish/1837.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1851",
+        "name": "Brochet Tupe-Halett vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "598",
+        "name": "Greu-Vette",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 40000
+  },
+  {
+    "id": "1815",
+    "name": "Aile de Raie **",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1815.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1785",
+        "name": "Raie bleue vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 4
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 180
+  },
+  {
+    "id": "1816",
+    "name": "Aile de Raie ***",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1816.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1785",
+        "name": "Raie bleue vidée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 5
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 7
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 340
+  },
+  {
+    "id": "1831",
+    "name": "Aile de Raie ****",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1831.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1789",
+        "name": "Raie de Farle vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 4
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 70000
+  },
+  {
+    "id": "1809",
+    "name": "Bar grillé **",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1809.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1780",
+        "name": "Bar Rikain vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1758",
+        "name": "Crabe Sourimi vidé",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 180
+  },
+  {
+    "id": "1810",
+    "name": "Bar grillé ***",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1810.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1758",
+        "name": "Crabe Sourimi vidé",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1780",
+        "name": "Bar Rikain vidé",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 320
+  },
+  {
+    "id": "1828",
+    "name": "Bar grillé ****",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1828.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1793",
+        "name": "Bar Iton vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1757",
+        "name": "Crabe Sourimi",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 50000
+  },
+  {
+    "id": "1822",
+    "name": "Perche sautée",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1822.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1802",
+        "name": "Perche vidée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 4
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 300
+  },
+  {
+    "id": "1823",
+    "name": "Perche sautée ***",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1823.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1802",
+        "name": "Perche vidée",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 6
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 400
+  },
+  {
+    "id": "1824",
+    "name": "Perche sautée ****",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1824.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1804",
+        "name": "Chaton-perche vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 100000
+  },
+  {
+    "id": "1840",
+    "name": "Requin aux épices ****",
+    "profession": "fishmonger",
+    "level": 60,
+    "image": "items/gutted_fish/1840.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1854",
+        "name": "Requin marché-libre vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1974",
+        "name": "Feuille de Salace",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 200,
+    "merchantPrice": 100000
+  },
+  {
+    "id": "1838",
+    "name": "Requin aux épices **",
+    "profession": "fishmonger",
+    "level": 80,
+    "image": "items/gutted_fish/1838.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1852",
+        "name": "Requin marteau-faucille vidé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 400,
+    "merchantPrice": 300
+  },
+  {
+    "id": "1839",
+    "name": "Requin aux épices ***",
+    "profession": "fishmonger",
+    "level": 80,
+    "image": "items/gutted_fish/1839.svg",
+    "category": "Poisson comestible",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1977",
+        "name": "Epices",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1852",
+        "name": "Requin marteau-faucille vidé",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1736",
+        "name": "Citron",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1731",
+        "name": "Dose de jus goûtu",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1973",
+        "name": "Huile à frire",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1975",
+        "name": "Oignon",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 400,
+    "merchantPrice": 400
+  }
+]

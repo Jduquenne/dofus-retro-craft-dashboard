@@ -1,7 +1,7 @@
 {
   "id": "vitalite",
   "label": "Vitalité",
-  "icon": "❤️",
+  "icon": "items/stat_scroll/807.svg",
   "tiers": [
     {
       "type": "petit",
@@ -11,17 +11,29 @@
         {
           "id": "vit-petit-hugo",
           "npc": "Hugo Bélo",
-          "position": [12, 5],
+          "position": [
+            12,
+            5
+          ],
           "resources": [
-            { "name": "Défense de Sanglier", "quantity": 100 }
+            {
+              "name": "Défense de Sanglier",
+              "quantity": 100
+            }
           ]
         },
         {
           "id": "vit-petit-ariz",
           "npc": "Ariz",
-          "position": [4, 5],
+          "position": [
+            4,
+            5
+          ],
           "resources": [
-            { "name": "Gelée Bleutée", "quantity": 100 }
+            {
+              "name": "Gelée Bleutée",
+              "quantity": 100
+            }
           ]
         }
       ]
@@ -34,10 +46,19 @@
         {
           "id": "vit-normal-quincy",
           "npc": "Quincy Praïze",
-          "position": [3, -1],
+          "position": [
+            3,
+            -1
+          ],
           "resources": [
-            { "name": "Gelée Bleutée", "quantity": 80 },
-            { "name": "Gelée Menthe", "quantity": 30 }
+            {
+              "name": "Gelée Bleutée",
+              "quantity": 80
+            },
+            {
+              "name": "Gelée Menthe",
+              "quantity": 30
+            }
           ]
         }
       ]
@@ -50,11 +71,23 @@
         {
           "id": "vit-grand-nesslaye",
           "npc": "Ness Laye",
-          "position": [3, 1],
+          "position": [
+            3,
+            1
+          ],
           "resources": [
-            { "name": "Gelée Bleutée", "quantity": 60 },
-            { "name": "Gelée Menthe", "quantity": 20 },
-            { "name": "Gelée Fraise", "quantity": 25 }
+            {
+              "name": "Gelée Bleutée",
+              "quantity": 60
+            },
+            {
+              "name": "Gelée Menthe",
+              "quantity": 20
+            },
+            {
+              "name": "Gelée Fraise",
+              "quantity": 25
+            }
           ]
         }
       ]
@@ -67,13 +100,31 @@
         {
           "id": "vit-puissant-lou",
           "npc": "Lou Pachoups",
-          "position": [0, -2],
+          "position": [
+            0,
+            -2
+          ],
           "resources": [
-            { "name": "Gelée Bleutée", "quantity": 60 },
-            { "name": "Gelée Menthe", "quantity": 25 },
-            { "name": "Gelée Fraise", "quantity": 30 },
-            { "name": "Gelée Bleutée Royale", "quantity": 1 },
-            { "name": "Gelée Fraise Royale", "quantity": 1 }
+            {
+              "name": "Gelée Bleutée",
+              "quantity": 60
+            },
+            {
+              "name": "Gelée Menthe",
+              "quantity": 25
+            },
+            {
+              "name": "Gelée Fraise",
+              "quantity": 30
+            },
+            {
+              "name": "Gelée Bleutée Royale",
+              "quantity": 1
+            },
+            {
+              "name": "Gelée Fraise Royale",
+              "quantity": 1
+            }
           ]
         }
       ]

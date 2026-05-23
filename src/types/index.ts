@@ -49,7 +49,7 @@ export interface Profession {
   currentLevel: number;
   currentXP: number;
   targetLevel: number;
-  icon: string;
+  iconPath: string;
   unlocked: boolean;
 }
 
@@ -75,6 +75,8 @@ export interface HarvestResource {
   level: number;
   description: string;
   xpPerHarvest: number;
+  rare?: boolean;
+  rareVariants?: string[];
 }
 
 // Ressource du catalogue général (données statiques dans data/resources/resources-catalog.json)

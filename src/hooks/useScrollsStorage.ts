@@ -12,12 +12,8 @@ export interface ScrollStatEntry {
   npcSelections: NpcSelections;
 }
 
-// Prix par ressource (commun à toutes les stats, c'est le marché)
-export type ResourcePrices = Record<string, number>;
-
 interface ScrollsStorage {
   stats: Partial<Record<ScrollStatId, ScrollStatEntry>>;
-  resourcePrices: ResourcePrices;
 }
 
 const DEFAULT_ENTRY: ScrollStatEntry = {
@@ -27,21 +23,17 @@ const DEFAULT_ENTRY: ScrollStatEntry = {
   npcSelections: {},
 };
 
-const DEFAULT_STORAGE: ScrollsStorage = {
-  stats: {},
-  resourcePrices: {},
-};
+const DEFAULT_STORAGE: ScrollsStorage = { stats: {} };
 
 function readFromStorage(): ScrollsStorage {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return DEFAULT_STORAGE;
     const parsed = JSON.parse(raw);
-    // Migration depuis l'ancien format (clés = ScrollStatId directement)
     if (!('stats' in parsed)) {
-      return { stats: parsed as Partial<Record<ScrollStatId, ScrollStatEntry>>, resourcePrices: {} };
+      return { stats: parsed as Partial<Record<ScrollStatId, ScrollStatEntry>> };
     }
-    return parsed as ScrollsStorage;
+    return { stats: parsed.stats ?? {} };
   } catch {
     return DEFAULT_STORAGE;
   }
@@ -65,7 +57,6 @@ export function useScrollsStorage() {
       setStorage(prev => {
         const current = prev.stats[statId] ?? { ...DEFAULT_ENTRY };
         const updated: ScrollsStorage = {
-          ...prev,
           stats: { ...prev.stats, [statId]: { ...current, ...patch } },
         };
         writeToStorage(updated);
@@ -75,21 +66,5 @@ export function useScrollsStorage() {
     [],
   );
 
-  const setResourcePrice = useCallback((resourceName: string, price: number) => {
-    setStorage(prev => {
-      const updated: ScrollsStorage = {
-        ...prev,
-        resourcePrices: { ...prev.resourcePrices, [resourceName]: price },
-      };
-      writeToStorage(updated);
-      return updated;
-    });
-  }, []);
-
-  return {
-    getEntry,
-    updateEntry,
-    resourcePrices: storage.resourcePrices,
-    setResourcePrice,
-  };
+  return { getEntry, updateEntry };
 }

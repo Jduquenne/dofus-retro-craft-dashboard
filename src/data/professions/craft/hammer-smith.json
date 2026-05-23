@@ -1,0 +1,3677 @@
+[
+  {
+    "id": "9961",
+    "name": "Marteau Martel",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/9961.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "494",
+    "name": "Marteau de Forgeur d'Epées",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/494.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "495",
+    "name": "Marteau de Forgeur de Dagues",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/495.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "9972",
+    "name": "Marteau de Forgeur de Grattoir",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/9972.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "493",
+    "name": "Marteau de Forgeur de Marteaux",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/493.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "496",
+    "name": "Marteau de Forgeur de Pelles",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/496.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "7650",
+    "name": "Marteau du Bricoleur",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/7650.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1539",
+    "name": "Marteau du Forgemage d'Epées",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/1539.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1520",
+    "name": "Marteau du Forgemage de Dagues",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/1520.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1562",
+    "name": "Marteau du Forgemage de Haches",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/1562.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1561",
+    "name": "Marteau du Forgemage de Marteaux",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/1561.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1560",
+    "name": "Marteau du Forgemage de Pelles",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/1560.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 18
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 100
+  },
+  {
+    "id": "7098",
+    "name": "Marteau du Forgeur de Boucliers",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/7098.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "922",
+    "name": "Marteau du Forgeur de Haches",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/922.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "144",
+    "name": "Petit Marteau de Boisaille",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/144.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 15
+  },
+  {
+    "id": "145",
+    "name": "Marteau de Boisaille",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/145.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 20
+  },
+  {
+    "id": "146",
+    "name": "Grand Marteau de Boisaille",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/146.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "147",
+    "name": "Puissant Marteau de Boisaille",
+    "profession": "hammer-smith",
+    "level": 1,
+    "image": "items/hammer/147.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30
+  },
+  {
+    "id": "2416",
+    "name": "Marteau du Bouftou",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/2416.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "383",
+        "name": "Corne de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2451",
+        "name": "Sabot de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "304",
+        "name": "Cuir de Bouftou",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 84
+  },
+  {
+    "id": "222",
+    "name": "Marteau de Raclage",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/222.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "227",
+    "name": "Petit Marteau d'Ivoire",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/227.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 3
+      },
+      {
+        "resourceId": "479",
+        "name": "Ivoire",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "221",
+    "name": "Petit Marteau de Raclage",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/221.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 65
+  },
+  {
+    "id": "223",
+    "name": "Grand Marteau de Raclage",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/223.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 75
+  },
+  {
+    "id": "1399",
+    "name": "Maillet Aclou",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1399.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 3
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 4
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 150
+  },
+  {
+    "id": "228",
+    "name": "Marteau d'Ivoire",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/228.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 3
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      },
+      {
+        "resourceId": "479",
+        "name": "Ivoire",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 85
+  },
+  {
+    "id": "224",
+    "name": "Puissant Marteau de Raclage",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/224.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 80
+  },
+  {
+    "id": "235",
+    "name": "Cerberus",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/235.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 90
+  },
+  {
+    "id": "229",
+    "name": "Grand Marteau d'Ivoire",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/229.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "479",
+        "name": "Ivoire",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 100
+  },
+  {
+    "id": "342",
+    "name": "Marteau Pickeur",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/342.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "411",
+        "name": "Bec du Kwak de Glace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "412",
+        "name": "Bec du Kwak de Flamme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 110
+  },
+  {
+    "id": "1060",
+    "name": "Petite Masse d'Ha",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1060.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "60",
+        "name": "Epée d'Ha",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 300
+  },
+  {
+    "id": "230",
+    "name": "Puissant Marteau d'Ivoire",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/230.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "479",
+        "name": "Ivoire",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 115
+  },
+  {
+    "id": "1061",
+    "name": "Masse d'Ha",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1061.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "60",
+        "name": "Epée d'Ha",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 400
+  },
+  {
+    "id": "271",
+    "name": "Le Marteau du Chafer",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/271.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "310",
+        "name": "Os de Chafer",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 135
+  },
+  {
+    "id": "1064",
+    "name": "Petit Marteau R'unique",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1064.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 3
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "852",
+        "name": "Petit Anneau Magique",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 700
+  },
+  {
+    "id": "1062",
+    "name": "Solide Masse d'Ha",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1062.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "60",
+        "name": "Epée d'Ha",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 500
+  },
+  {
+    "id": "236",
+    "name": "Barabas",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/236.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 160
+  },
+  {
+    "id": "1403",
+    "name": "Marteau Tau",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1403.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 170
+  },
+  {
+    "id": "1063",
+    "name": "Incassable Masse d'Ha",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1063.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "60",
+        "name": "Epée d'Ha",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 7
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 600
+  },
+  {
+    "id": "1065",
+    "name": "Marteau R'unique",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1065.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "852",
+        "name": "Petit Anneau Magique",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 500
+  },
+  {
+    "id": "455",
+    "name": "Marteau de l'Aurore",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/455.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "1066",
+    "name": "Grand Marteau R'unique",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1066.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 6
+      },
+      {
+        "resourceId": "852",
+        "name": "Petit Anneau Magique",
+        "quantity": 13
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 550
+  },
+  {
+    "id": "237",
+    "name": "Sargasse",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/237.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 210
+  },
+  {
+    "id": "1067",
+    "name": "Imposant Marteau R'unique",
+    "profession": "hammer-smith",
+    "level": 10,
+    "image": "items/hammer/1067.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 7
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 7
+      },
+      {
+        "resourceId": "852",
+        "name": "Petit Anneau Magique",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 600
+  },
+  {
+    "id": "13282",
+    "name": "Gwosse Massue Wabbit",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/13282.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "336",
+        "name": "Bâton du Grand Pa Wabbit",
+        "quantity": 3
+      },
+      {
+        "resourceId": "360",
+        "name": "Oreilles du Tiwabbit",
+        "quantity": 8
+      },
+      {
+        "resourceId": "2288",
+        "name": "Patte de Wabbit",
+        "quantity": 10
+      },
+      {
+        "resourceId": "649",
+        "name": "Poils de Wo Wabbit",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 84
+  },
+  {
+    "id": "1068",
+    "name": "Petite Masse Tmosfer",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1068.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "940",
+        "name": "Louffeur",
+        "quantity": 2
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 3
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1400
+  },
+  {
+    "id": "1379",
+    "name": "Le Scrounnchhh",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1379.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "271",
+        "name": "Le Marteau du Chafer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1338",
+        "name": "Potion de Secousse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1348",
+        "name": "Potion de Séisme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 3500
+  },
+  {
+    "id": "1404",
+    "name": "Marteau Toh'Lo",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1404.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2251",
+        "name": "Méga Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 340
+  },
+  {
+    "id": "1072",
+    "name": "Petit marteau Outar",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1072.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "256",
+        "name": "Petite Ceinture Forcesque",
+        "quantity": 2
+      },
+      {
+        "resourceId": "138",
+        "name": "Bâton de Boisaille",
+        "quantity": 3
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 3
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 360
+  },
+  {
+    "id": "1069",
+    "name": "Masse Tmosfer",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1069.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 2
+      },
+      {
+        "resourceId": "940",
+        "name": "Louffeur",
+        "quantity": 2
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1600
+  },
+  {
+    "id": "1076",
+    "name": "Petite Masse Aj Taye",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1076.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "752",
+        "name": "Sang du Vampire",
+        "quantity": 2
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "325",
+        "name": "Amulette du Sram",
+        "quantity": 6
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 400
+  },
+  {
+    "id": "1070",
+    "name": "Longue Masse Tmosfer",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1070.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 2
+      },
+      {
+        "resourceId": "940",
+        "name": "Louffeur",
+        "quantity": 3
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 2000
+  },
+  {
+    "id": "1073",
+    "name": "Marteau Outar",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1073.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "257",
+        "name": "Ceinture Forcesque",
+        "quantity": 2
+      },
+      {
+        "resourceId": "140",
+        "name": "Puissant Bâton de Boisaille",
+        "quantity": 3
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1400
+  },
+  {
+    "id": "7882",
+    "name": "Marteau du Boufcoul",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/7882.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2416",
+        "name": "Marteau du Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2509",
+        "name": "Dent de Serpentin",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7906",
+        "name": "Corne du Boufcoul",
+        "quantity": 2
+      },
+      {
+        "resourceId": "383",
+        "name": "Corne de Bouftou",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 452
+  },
+  {
+    "id": "1077",
+    "name": "Masse Aj Taye",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1077.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "752",
+        "name": "Sang du Vampire",
+        "quantity": 3
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 6
+      },
+      {
+        "resourceId": "325",
+        "name": "Amulette du Sram",
+        "quantity": 6
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 500
+  },
+  {
+    "id": "1071",
+    "name": "Redoutable Masse Tmosfer",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1071.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "940",
+        "name": "Louffeur",
+        "quantity": 3
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 5
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 2500
+  },
+  {
+    "id": "1074",
+    "name": "Grand Marteau Outar",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1074.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "258",
+        "name": "Grande Ceinture Forcesque",
+        "quantity": 2
+      },
+      {
+        "resourceId": "183",
+        "name": "Bâton Feuillu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1700
+  },
+  {
+    "id": "1479",
+    "name": "Le Twote en Carton",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1479.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 560
+  },
+  {
+    "id": "1078",
+    "name": "Grande Masse Aj Taye",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1078.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "752",
+        "name": "Sang du Vampire",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 7
+      },
+      {
+        "resourceId": "325",
+        "name": "Amulette du Sram",
+        "quantity": 7
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 600
+  },
+  {
+    "id": "1075",
+    "name": "Imposant Marteau Outar",
+    "profession": "hammer-smith",
+    "level": 20,
+    "image": "items/hammer/1075.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "259",
+        "name": "Imposante Ceinture Forcesque",
+        "quantity": 2
+      },
+      {
+        "resourceId": "185",
+        "name": "Puissant Bâton Feuillu",
+        "quantity": 3
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 6
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 2200
+  },
+  {
+    "id": "3357",
+    "name": "Marteau Tape Doigts",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/3357.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 630
+  },
+  {
+    "id": "6508",
+    "name": "Marteau Pinambour",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/6508.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 600
+  },
+  {
+    "id": "1079",
+    "name": "Puissante Masse Aj Taye",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/1079.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "752",
+        "name": "Sang du Vampire",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 7
+      },
+      {
+        "resourceId": "325",
+        "name": "Amulette du Sram",
+        "quantity": 7
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 7
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 700
+  },
+  {
+    "id": "1393",
+    "name": "Le Matronome",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/1393.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 970
+  },
+  {
+    "id": "1383",
+    "name": "Marteau Re'Thu",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/1383.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 800
+  },
+  {
+    "id": "6513",
+    "name": "Marteau Réfacteur",
+    "profession": "hammer-smith",
+    "level": 40,
+    "image": "items/hammer/6513.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 900
+  },
+  {
+    "id": "1080",
+    "name": "Petit Marteau Pospodrol",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/1080.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1087",
+        "name": "Anneau du Mental",
+        "quantity": 1
+      },
+      {
+        "resourceId": "734",
+        "name": "Ceinture de Sécurité",
+        "quantity": 2
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 2
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 700
+  },
+  {
+    "id": "6503",
+    "name": "Marteau Polpoulette",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/6503.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 800
+  },
+  {
+    "id": "1081",
+    "name": "Marteau Pospodrol",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/1081.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1087",
+        "name": "Anneau du Mental",
+        "quantity": 1
+      },
+      {
+        "resourceId": "734",
+        "name": "Ceinture de Sécurité",
+        "quantity": 2
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 3
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 900
+  },
+  {
+    "id": "1082",
+    "name": "Grand Marteau Pospodrol",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/1082.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1087",
+        "name": "Anneau du Mental",
+        "quantity": 1
+      },
+      {
+        "resourceId": "734",
+        "name": "Ceinture de Sécurité",
+        "quantity": 2
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 13
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1000
+  },
+  {
+    "id": "234",
+    "name": "Ragnarok",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/234.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 3
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 7
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1140
+  },
+  {
+    "id": "1083",
+    "name": "Puissant marteau Pospodrol",
+    "profession": "hammer-smith",
+    "level": 60,
+    "image": "items/hammer/1083.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1087",
+        "name": "Anneau du Mental",
+        "quantity": 1
+      },
+      {
+        "resourceId": "734",
+        "name": "Ceinture de Sécurité",
+        "quantity": 2
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 5
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 7
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 15
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1200
+  },
+  {
+    "id": "8878",
+    "name": "Kidorteau",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/8878.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8758",
+        "name": "Morceau de caleçon de Gourlo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8741",
+        "name": "Bec du Kido",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1988",
+        "name": "Viande d'Oiseau Conservée **",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 7
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 9
+      },
+      {
+        "resourceId": "8766",
+        "name": "Plume de fesse du Kido",
+        "quantity": 18
+      },
+      {
+        "resourceId": "8767",
+        "name": "Aile du Bitouf des plaines",
+        "quantity": 24
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1610
+  },
+  {
+    "id": "1085",
+    "name": "Marteau des Falistos",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/1085.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2251",
+        "name": "Méga Pierre du Craqueleur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2306",
+        "name": "Coeur de Craqueleur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "745",
+        "name": "Lingot d'Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7032",
+        "name": "Silicate",
+        "quantity": 8
+      },
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1000
+  },
+  {
+    "id": "6504",
+    "name": "Marteau Fantal",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/6504.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 3
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2252",
+        "name": "Dent en Or du Craqueleur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1700
+  },
+  {
+    "id": "8148",
+    "name": "Marteau du Craqueleur Légendaire",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/8148.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2251",
+        "name": "Méga Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6957",
+        "name": "Lame du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8102",
+        "name": "Pierre du Craqueleur Légendaire",
+        "quantity": 3
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2252",
+        "name": "Dent en Or du Craqueleur",
+        "quantity": 10
+      },
+      {
+        "resourceId": "448",
+        "name": "Silex",
+        "quantity": 15
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1685
+  },
+  {
+    "id": "1084",
+    "name": "Marteau à Torts",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/1084.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2566",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 4
+      },
+      {
+        "resourceId": "745",
+        "name": "Lingot d'Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2249",
+        "name": "Feuille de Tronknyde",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7033",
+        "name": "Dolomite",
+        "quantity": 8
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1500
+  },
+  {
+    "id": "233",
+    "name": "Kaiser",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/233.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "481",
+        "name": "Crâne du Dragon Cochon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 4
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 8
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1000
+  },
+  {
+    "id": "6512",
+    "name": "Marteau Nitruhant",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/6512.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 2
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 3
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "578",
+        "name": "Pierre à Aiguiser",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 12
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 12
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1700
+  },
+  {
+    "id": "8615",
+    "name": "Marteau Mato",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/8615.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1404",
+        "name": "Marteau Toh'Lo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8731",
+        "name": "Corail Magistral",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8741",
+        "name": "Bec du Kido",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8729",
+        "name": "Corail usé",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2455",
+        "name": "Sang de Bouftou",
+        "quantity": 6
+      },
+      {
+        "resourceId": "752",
+        "name": "Sang du Vampire",
+        "quantity": 20
+      },
+      {
+        "resourceId": "8762",
+        "name": "Fragment de cerveau poli",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1756
+  },
+  {
+    "id": "8833",
+    "name": "Masse du Corailleur",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/8833.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8755",
+        "name": "Touffe rousse du Flib",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8769",
+        "name": "Coco du Bitouf des plaines",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8738",
+        "name": "Sacrum magistral",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8729",
+        "name": "Corail usé",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 13
+      },
+      {
+        "resourceId": "8730",
+        "name": "Coccyx du Corailleur",
+        "quantity": 23
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1865
+  },
+  {
+    "id": "6507",
+    "name": "Marteau de la Terps",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/6507.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1660",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 4
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2566",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 8
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1900
+  },
+  {
+    "id": "6505",
+    "name": "Marteau Réhadaure",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/6505.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 2
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 3
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2600
+  },
+  {
+    "id": "7154",
+    "name": "Marteau M'Pouce",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/7154.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 7
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 16
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2947
+  },
+  {
+    "id": "7156",
+    "name": "Marteau Ronto",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/7156.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 4
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 10000
+  },
+  {
+    "id": "7155",
+    "name": "Marteau Nairedeubrest",
+    "profession": "hammer-smith",
+    "level": 80,
+    "image": "items/hammer/7155.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3265
+  },
+  {
+    "id": "6510",
+    "name": "Marteau Kahr",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/6510.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1660",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 8
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 12
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 20
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 20
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 200
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3600
+  },
+  {
+    "id": "6509",
+    "name": "Marteau R'Ticolis",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/6509.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2566",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 8
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 8
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2251",
+        "name": "Méga Pierre du Craqueleur",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2306",
+        "name": "Coeur de Craqueleur",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3600
+  },
+  {
+    "id": "6511",
+    "name": "Marteau Ridhe",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/6511.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2643",
+        "name": "Défense de Dragon Cochon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 2
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 5
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 20
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 20
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3600
+  },
+  {
+    "id": "8294",
+    "name": "Marteau du Dragoeuf",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/8294.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8058",
+        "name": "Cubitus de Momie Koalak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8347",
+        "name": "Corne de Dragoss Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8402",
+        "name": "Pierre du Koulosse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7403",
+        "name": "Os de Fantôme Léopardo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8056",
+        "name": "Fémur de Koalak Farouche",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8055",
+        "name": "Os de Mama Koalak",
+        "quantity": 5
+      },
+      {
+        "resourceId": "387",
+        "name": "Défense du Sanglier",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3854
+  },
+  {
+    "id": "7157",
+    "name": "Marteau Ksain",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/7157.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7403",
+        "name": "Os de Fantôme Léopardo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "6735",
+        "name": "Racine de Fourbasse",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 7
+      },
+      {
+        "resourceId": "2563",
+        "name": "Cale en bois du Tronknyde",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 19
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 2940
+  },
+  {
+    "id": "8825",
+    "name": "Masse du Corailleur Magistral",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/8825.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8775",
+        "name": "Ecorce de Chiendent",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8786",
+        "name": "Tresse du Poolay",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8731",
+        "name": "Corail Magistral",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8738",
+        "name": "Sacrum magistral",
+        "quantity": 10
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8779",
+        "name": "Carpelle de Brouture",
+        "quantity": 25
+      },
+      {
+        "resourceId": "8785",
+        "name": "Graine de l'Abrakleur sombre",
+        "quantity": 35
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4015
+  },
+  {
+    "id": "7153",
+    "name": "Marteau Hubohu",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/7153.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7407",
+        "name": "Os de Fantôme Pandule",
+        "quantity": 1
+      },
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4020
+  },
+  {
+    "id": "8097",
+    "name": "Marteau Xiko",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/8097.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7272",
+        "name": "Ecorce magique de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7410",
+        "name": "Os de Fantôme Tanukouï San",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 9
+      },
+      {
+        "resourceId": "8102",
+        "name": "Pierre du Craqueleur Légendaire",
+        "quantity": 10
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 21
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4265
+  },
+  {
+    "id": "8826",
+    "name": "Marteau de la Gamine Zoth",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/8826.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8770",
+        "name": "Ecorce du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1999",
+        "name": "Cuisse de Bouftou Conservée ****",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1555",
+        "name": "Rune Ra Age",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8805",
+        "name": "Mouchoir de la Gamine Zoth",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 3
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8800",
+        "name": "Etoffe Zoth",
+        "quantity": 25
+      },
+      {
+        "resourceId": "8781",
+        "name": "Calice de Fécorce",
+        "quantity": 35
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4314
+  },
+  {
+    "id": "7159",
+    "name": "Marteau Pinière",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/7159.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7405",
+        "name": "Os de Fantôme Pandikaze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2251",
+        "name": "Méga Pierre du Craqueleur",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7265",
+        "name": "Racine de Bulbig",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4120
+  },
+  {
+    "id": "8096",
+    "name": "Marteau Mawoque",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/8096.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8394",
+        "name": "Méga Pierre du Craqueleur Légendaire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7404",
+        "name": "Os de Fantôme Maho Firefoux",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8055",
+        "name": "Os de Mama Koalak",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8363",
+        "name": "Corne de Dragoeuf Guerrier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 15
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 21
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4454
+  },
+  {
+    "id": "7158",
+    "name": "Marteau Lahre",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/7158.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7406",
+        "name": "Os de Fantôme Pandore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7269",
+        "name": "Ecorce magique de Bulbig",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7290",
+        "name": "Racine Magique de Bambouto",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 7
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 18
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4655
+  },
+  {
+    "id": "7197",
+    "name": "Marteau Bleuronne",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/7197.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7410",
+        "name": "Os de Fantôme Tanukouï San",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7269",
+        "name": "Ecorce magique de Bulbig",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7291",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 10
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 10000
+  },
+  {
+    "id": "8616",
+    "name": "Marteau Minokers",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/8616.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "233",
+        "name": "Kaiser",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8789",
+        "name": "Chaussette du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8777",
+        "name": "Pistil du Tynril",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8786",
+        "name": "Tresse du Poolay",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8326",
+        "name": "Bandelette du Mominotor",
+        "quantity": 18
+      },
+      {
+        "resourceId": "8756",
+        "name": "Duvet du Kilibriss",
+        "quantity": 75
+      },
+      {
+        "resourceId": "8767",
+        "name": "Aile du Bitouf des plaines",
+        "quantity": 90
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1000
+  },
+  {
+    "id": "9117",
+    "name": "Ougarteau",
+    "profession": "hammer-smith",
+    "level": 100,
+    "image": "items/hammer/9117.svg",
+    "category": "Marteau",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8826",
+        "name": "Marteau de la Gamine Zoth",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9281",
+        "name": "Fragment d'Ougalurette",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9280",
+        "name": "Epine d'Ougah",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2640",
+        "name": "Bâton Carnivore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8770",
+        "name": "Ecorce du Tynril",
+        "quantity": 2
+      },
+      {
+        "resourceId": "9278",
+        "name": "Lamelle de Champbis",
+        "quantity": 8
+      },
+      {
+        "resourceId": "9267",
+        "name": "Trompe de la Tromperelle",
+        "quantity": 11
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 28
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5000
+  }
+]

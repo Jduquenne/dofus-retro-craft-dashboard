@@ -1,0 +1,980 @@
+[
+  {
+    "id": "995",
+    "name": "Blugely",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/treat/995.svg",
+    "category": "Friandise",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "757",
+        "name": "Gelée Bleutée",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10833",
+    "name": "Chapain",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/bread/10833.svg",
+    "category": "Pain",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "1728",
+        "name": "Chacha",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2024",
+        "name": "Briochette",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10839",
+    "name": "Monstre Pain",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/bread/10839.svg",
+    "category": "Pain",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2466",
+        "name": "Langue de Chef de Guerre Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2448",
+        "name": "Cervelle de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "692",
+    "name": "Pain Consistant",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/bread/692.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "690",
+        "name": "Farine de Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9983",
+    "name": "Pain Phecte",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/bread/9983.svg",
+    "category": "Pain",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 5
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 2
+      },
+      {
+        "resourceId": "9981",
+        "name": "Farine Humée",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2028",
+    "name": "Pain consistant magique",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/bread/2028.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2027",
+        "name": "Farine de Lin magique",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "468",
+    "name": "Pain d'Amakna",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/bread/468.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "994",
+    "name": "Rougely",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/treat/994.svg",
+    "category": "Friandise",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "368",
+        "name": "Gelée à la Fraise",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2034",
+    "name": "Sucre d'Orge",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/treat/2034.svg",
+    "category": "Friandise",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2033",
+        "name": "Farine d'Orge en Sucre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 5000
+  },
+  {
+    "id": "993",
+    "name": "Vertgely",
+    "profession": "baker",
+    "level": 1,
+    "image": "items/treat/993.svg",
+    "category": "Friandise",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "369",
+        "name": "Gelée à la Menthe",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2020",
+    "name": "Pain Doré",
+    "profession": "baker",
+    "level": 10,
+    "image": "items/bread/2020.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2019",
+        "name": "Farine de Blé Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "536",
+    "name": "Pain aux Flocons d'Avoine",
+    "profession": "baker",
+    "level": 10,
+    "image": "items/bread/536.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "531",
+        "name": "Farine d'Avoine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2038",
+    "name": "Pain aux Flocons d'Avoine Aurifère",
+    "profession": "baker",
+    "level": 10,
+    "image": "items/bread/2038.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2037",
+        "name": "Farine d'Avoine Aurifère",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2031",
+    "name": "Pain de Seigle Résistant",
+    "profession": "baker",
+    "level": 10,
+    "image": "items/bread/2031.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2030",
+        "name": "Farine de Seigle Magique",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1738",
+    "name": "Pain des Villes",
+    "profession": "baker",
+    "level": 10,
+    "image": "items/bread/1738.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "405",
+        "name": "Malt",
+        "quantity": 1
+      },
+      {
+        "resourceId": "534",
+        "name": "Farine de Malt",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10663",
+    "name": "Brioche à la viande de bouftou",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/10663.svg",
+    "category": "Pain",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "2024",
+        "name": "Briochette",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1978",
+        "name": "Mesure de Poivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1730",
+        "name": "Mesure de sel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1912",
+        "name": "Cuisse de Bouftou **",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2024",
+    "name": "Briochette",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/2024.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "535",
+        "name": "Farine de Houblon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2025",
+    "name": "Briochette magique",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/2025.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2022",
+        "name": "Farine de Houblon Magique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "528",
+    "name": "Pain au Blé Complet",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/528.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "289",
+        "name": "Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "522",
+    "name": "Pain aux Graines de Lin",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/522.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "422",
+        "name": "Graine de Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "520",
+    "name": "Pain aux Graines de Pavot",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/520.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "300",
+        "name": "Graine de Pavot",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "521",
+    "name": "Pain aux Graines de Sésame",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/521.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "582",
+        "name": "Farine Blanche",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "287",
+        "name": "Graine de Sésame",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "524",
+    "name": "Pain aux Noisettes",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/524.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "394",
+        "name": "Noisette",
+        "quantity": 1
+      },
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "539",
+    "name": "Pain de Seigle",
+    "profession": "baker",
+    "level": 20,
+    "image": "items/bread/539.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "530",
+        "name": "Farine de Seigle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "532",
+        "name": "Seigle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2151",
+    "name": "Blopisier empoisonné",
+    "profession": "baker",
+    "level": 30,
+    "image": "items/bread/2151.svg",
+    "category": "Pain",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "1732",
+        "name": "Bol",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1734",
+        "name": "Cerise",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2150",
+        "name": "Graine de scorbute",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "527",
+    "name": "Pain aux Noix",
+    "profession": "baker",
+    "level": 40,
+    "image": "items/bread/527.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "392",
+        "name": "Noix de Pécan",
+        "quantity": 1
+      },
+      {
+        "resourceId": "391",
+        "name": "Noix de Cajou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1737",
+    "name": "Pain des Champs",
+    "profession": "baker",
+    "level": 40,
+    "image": "items/bread/1737.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "534",
+        "name": "Farine de Malt",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "690",
+        "name": "Farine de Lin",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "526",
+    "name": "Pain aux Céréales",
+    "profession": "baker",
+    "level": 60,
+    "image": "items/bread/526.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "531",
+        "name": "Farine d'Avoine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "530",
+        "name": "Farine de Seigle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "529",
+        "name": "Farine d'Orge",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2635",
+    "name": "Pain Gre",
+    "profession": "baker",
+    "level": 80,
+    "image": "items/bread/2635.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "531",
+        "name": "Farine d'Avoine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "583",
+        "name": "Farine Bise",
+        "quantity": 1
+      },
+      {
+        "resourceId": "582",
+        "name": "Farine Blanche",
+        "quantity": 1
+      },
+      {
+        "resourceId": "529",
+        "name": "Farine d'Orge",
+        "quantity": 1
+      },
+      {
+        "resourceId": "586",
+        "name": "Farine Paysanne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10079",
+    "name": "Pain Trépide",
+    "profession": "baker",
+    "level": 80,
+    "image": "items/bread/10079.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8500",
+        "name": "Viande de Crocodaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "534",
+        "name": "Farine de Malt",
+        "quantity": 1
+      },
+      {
+        "resourceId": "535",
+        "name": "Farine de Houblon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6672",
+        "name": "Farine de Xavier le Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "399",
+        "name": "Huile de Sésame",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7046",
+        "name": "Une fiole de Pandapiler",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2636",
+    "name": "Pain Tahde",
+    "profession": "baker",
+    "level": 100,
+    "image": "items/bread/2636.svg",
+    "category": "Pain",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1896",
+        "name": "Viande d'Oiseau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "285",
+        "name": "Farine de Blé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "582",
+        "name": "Farine Blanche",
+        "quantity": 1
+      },
+      {
+        "resourceId": "286",
+        "name": "Levure de Boulanger",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "587",
+        "name": "Farine Complète",
+        "quantity": 1
+      },
+      {
+        "resourceId": "531",
+        "name": "Farine d'Avoine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "583",
+        "name": "Farine Bise",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

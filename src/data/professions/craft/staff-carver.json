@@ -1,0 +1,3594 @@
+[
+  {
+    "id": "138",
+    "name": "Bâton de Boisaille",
+    "profession": "staff-carver",
+    "level": 1,
+    "image": "items/staff/138.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "139",
+    "name": "Grand Bâton de Boisaille",
+    "profession": "staff-carver",
+    "level": 1,
+    "image": "items/staff/139.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 35
+  },
+  {
+    "id": "140",
+    "name": "Puissant Bâton de Boisaille",
+    "profession": "staff-carver",
+    "level": 1,
+    "image": "items/staff/140.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 45
+  },
+  {
+    "id": "183",
+    "name": "Bâton Feuillu",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/183.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 75
+  },
+  {
+    "id": "188",
+    "name": "Bâton Kouyu",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/188.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 75
+  },
+  {
+    "id": "194",
+    "name": "Bâton Spirituel",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/194.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 90
+  },
+  {
+    "id": "1366",
+    "name": "Bâton de Bouftier",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/1366.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "138",
+        "name": "Bâton de Boisaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 120
+  },
+  {
+    "id": "184",
+    "name": "Grand Bâton Feuillu",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/184.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 80
+  },
+  {
+    "id": "6792",
+    "name": "La Plantouze des Champs",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/6792.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "373",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "309",
+        "name": "Pétale de Rose Démoniaque",
+        "quantity": 3
+      },
+      {
+        "resourceId": "306",
+        "name": "Fleur de Pissenlit Diabolique",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 50
+  },
+  {
+    "id": "182",
+    "name": "Petit Bâton Feuillu",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/182.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "185",
+    "name": "Puissant Bâton Feuillu",
+    "profession": "staff-carver",
+    "level": 10,
+    "image": "items/staff/185.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 3
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 85
+  },
+  {
+    "id": "742",
+    "name": "Bâton Cornu",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/742.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 235
+  },
+  {
+    "id": "1149",
+    "name": "Bâton Dakn",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1149.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "368",
+        "name": "Gelée à la Fraise",
+        "quantity": 2
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 8
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 8
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 600
+  },
+  {
+    "id": "1110",
+    "name": "Bâton de fausse magie",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1110.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "101",
+        "name": "Anneau de Sagesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 4
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 6
+      },
+      {
+        "resourceId": "583",
+        "name": "Farine Bise",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 500
+  },
+  {
+    "id": "6725",
+    "name": "Bâton de l'Homme Ours",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/6725.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6843",
+        "name": "Os d'Ours",
+        "quantity": 1
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 130
+  },
+  {
+    "id": "1153",
+    "name": "Bâton-Boule de Voyante",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1153.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 4
+      },
+      {
+        "resourceId": "757",
+        "name": "Gelée Bleutée",
+        "quantity": 5
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 6
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1000
+  },
+  {
+    "id": "1151",
+    "name": "Enorme bâton Dakn",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1151.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "368",
+        "name": "Gelée à la Fraise",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 10
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 14
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 850
+  },
+  {
+    "id": "1154",
+    "name": "Grand Bâton-Boule de Voyante",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1154.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "757",
+        "name": "Gelée Bleutée",
+        "quantity": 6
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 7
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 7
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1300
+  },
+  {
+    "id": "1111",
+    "name": "Grand bâton de fausse magie",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1111.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "101",
+        "name": "Anneau de Sagesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 5
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 7
+      },
+      {
+        "resourceId": "583",
+        "name": "Farine Bise",
+        "quantity": 14
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 600
+  },
+  {
+    "id": "1150",
+    "name": "Gros Bâton Dakn",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1150.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "368",
+        "name": "Gelée à la Fraise",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 9
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 9
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 750
+  },
+  {
+    "id": "1365",
+    "name": "La Canne Hête",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1365.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "1368",
+    "name": "La Lance à un ",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1368.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "310",
+        "name": "Os de Chafer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 250
+  },
+  {
+    "id": "1157",
+    "name": "Omnicient bâton-boule de voyante",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1157.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 6
+      },
+      {
+        "resourceId": "757",
+        "name": "Gelée Bleutée",
+        "quantity": 7
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 8
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 11
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1600
+  },
+  {
+    "id": "1148",
+    "name": "Petit Bâton Dakn",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1148.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "368",
+        "name": "Gelée à la Fraise",
+        "quantity": 2
+      },
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 7
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 500
+  },
+  {
+    "id": "1152",
+    "name": "Petit Bâton-Boule de Voyante",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1152.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 3
+      },
+      {
+        "resourceId": "757",
+        "name": "Gelée Bleutée",
+        "quantity": 4
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 800
+  },
+  {
+    "id": "1109",
+    "name": "Petit bâton de fausse magie",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1109.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "101",
+        "name": "Anneau de Sagesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 3
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "583",
+        "name": "Farine Bise",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 400
+  },
+  {
+    "id": "1147",
+    "name": "Véritable bâton de fausse magie",
+    "profession": "staff-carver",
+    "level": 20,
+    "image": "items/staff/1147.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "101",
+        "name": "Anneau de Sagesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 6
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 8
+      },
+      {
+        "resourceId": "583",
+        "name": "Farine Bise",
+        "quantity": 16
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 700
+  },
+  {
+    "id": "791",
+    "name": "Abraknydi Vivitus",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/791.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "436",
+        "name": "Bâton en Racine d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "501",
+        "name": "Sève d'Abraknyde Retravaillée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 340
+  },
+  {
+    "id": "2417",
+    "name": "Abraton",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/2417.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 20
+      },
+      {
+        "resourceId": "2249",
+        "name": "Feuille de Tronknyde",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 550
+  },
+  {
+    "id": "7254",
+    "name": "Bâton Akwadala",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/7254.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7265",
+        "name": "Racine de Bulbig",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7222",
+        "name": "Artefact Pandawushu Eau",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 504
+  },
+  {
+    "id": "2640",
+    "name": "Bâton Carnivore",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/2640.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6919",
+        "name": "Anneau du Champ Champ",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1674",
+        "name": "Champignon Luidegît",
+        "quantity": 2
+      },
+      {
+        "resourceId": "426",
+        "name": "Fibre de Chanvre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "377",
+        "name": "Epine du Champ Champ",
+        "quantity": 20
+      },
+      {
+        "resourceId": "290",
+        "name": "Champignon",
+        "quantity": 22
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 100
+  },
+  {
+    "id": "1363",
+    "name": "Bâton Tont'Ata",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/1363.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 4
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "437",
+        "name": "Bourgeon d'Abraknyde",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 500
+  },
+  {
+    "id": "1364",
+    "name": "Bâton d'Oubli",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/1364.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 300
+  },
+  {
+    "id": "1367",
+    "name": "Bâton de Dina, dit 'le Mythe'",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/1367.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 4
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 6
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 400
+  },
+  {
+    "id": "1163",
+    "name": "Bâton des Rois",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/1163.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "372",
+        "name": "Bandeau du Black Tiwabbit",
+        "quantity": 6
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 7
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "361",
+        "name": "Cawotte",
+        "quantity": 12
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 14
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 560
+  },
+  {
+    "id": "335",
+    "name": "Bâton du Bwork Mage",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/335.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "410",
+        "name": "Livre du Bwork Mage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "2273",
+        "name": "Tissu Pourpre",
+        "quantity": 7
+      },
+      {
+        "resourceId": "409",
+        "name": "Poils de Barbe du Bwork Mage",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2330",
+        "name": "Capsule Explosive",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 890
+  },
+  {
+    "id": "336",
+    "name": "Bâton du Grand Pa Wabbit",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/336.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "418",
+        "name": "Poils de Barbe du Grand Pa Wabbit",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 5
+      },
+      {
+        "resourceId": "593",
+        "name": "Orchidée Freyesque",
+        "quantity": 5
+      },
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 290
+  },
+  {
+    "id": "319",
+    "name": "Bâton du Grand Tabi",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/319.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 23
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 375
+  },
+  {
+    "id": "658",
+    "name": "Bâton du Maître des Tabis",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/658.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 6
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 340
+  },
+  {
+    "id": "317",
+    "name": "Bâton du Petit Tabi",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/317.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 265
+  },
+  {
+    "id": "320",
+    "name": "Bâton du Puissant Tabi",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/320.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 7
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 430
+  },
+  {
+    "id": "7204",
+    "name": "Bâton du Shodanwa",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/7204.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 4
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 577
+  },
+  {
+    "id": "318",
+    "name": "Bâton du Tabi",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/318.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 3
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 320
+  },
+  {
+    "id": "436",
+    "name": "Bâton en Racine d'Abraknyde",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/436.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 2
+      },
+      {
+        "resourceId": "434",
+        "name": "Ecorce d'Abraknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "435",
+        "name": "Racine d'Abraknyde",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 265
+  },
+  {
+    "id": "1162",
+    "name": "Excellent Bâton des Rois",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/1162.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "372",
+        "name": "Bandeau du Black Tiwabbit",
+        "quantity": 8
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 9
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 12
+      },
+      {
+        "resourceId": "361",
+        "name": "Cawotte",
+        "quantity": 16
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 940
+  },
+  {
+    "id": "6762",
+    "name": "Fourbasse-Ton",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/6762.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "997",
+        "name": "Noix de Kokoko",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2634",
+        "name": "Lance Cassée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6735",
+        "name": "Racine de Fourbasse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6737",
+        "name": "Ecorce de Fourbasse",
+        "quantity": 8
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 290
+  },
+  {
+    "id": "1164",
+    "name": "Grand Bâton des Rois",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/1164.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "372",
+        "name": "Bandeau du Black Tiwabbit",
+        "quantity": 7
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 8
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 12
+      },
+      {
+        "resourceId": "361",
+        "name": "Cawotte",
+        "quantity": 14
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 18
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 700
+  },
+  {
+    "id": "201",
+    "name": "Hook",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/201.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 5
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 7
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 805
+  },
+  {
+    "id": "10829",
+    "name": "Kamapêche",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/tool/10829.svg",
+    "category": "Outil",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "643",
+        "name": "Fil de Soie",
+        "quantity": 1
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 20
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 15
+      },
+      {
+        "resourceId": "1689",
+        "name": "Teinture Magique Orange",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 420
+  },
+  {
+    "id": "1161",
+    "name": "Simple Bâton des Rois",
+    "profession": "staff-carver",
+    "level": 40,
+    "image": "items/staff/1161.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "372",
+        "name": "Bandeau du Black Tiwabbit",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 6
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 8
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "361",
+        "name": "Cawotte",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 450
+  },
+  {
+    "id": "2066",
+    "name": "Bâton du Kanigrou",
+    "profession": "staff-carver",
+    "level": 60,
+    "image": "items/staff/2066.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7030",
+        "name": "Peau de Kanigrou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2551",
+        "name": "Oreille de Kanigrou",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1890",
+        "name": "Poil de Kanigrou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 7
+      },
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 540
+  },
+  {
+    "id": "657",
+    "name": "Bâton du Maître des Tofus",
+    "profession": "staff-carver",
+    "level": 60,
+    "image": "items/staff/657.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 5
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 6
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 9
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 560
+  },
+  {
+    "id": "7205",
+    "name": "Bâton du Nidanwa",
+    "profession": "staff-carver",
+    "level": 60,
+    "image": "items/staff/7205.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "185",
+        "name": "Puissant Bâton Feuillu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1012
+  },
+  {
+    "id": "6492",
+    "name": "Bâton du Wobot",
+    "profession": "staff-carver",
+    "level": 60,
+    "image": "items/staff/6492.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "336",
+        "name": "Bâton du Grand Pa Wabbit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "646",
+        "name": "Poils de Black Tiwabbit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2288",
+        "name": "Patte de Wabbit",
+        "quantity": 2
+      },
+      {
+        "resourceId": "648",
+        "name": "Poils de Wabbit",
+        "quantity": 3
+      },
+      {
+        "resourceId": "372",
+        "name": "Bandeau du Black Tiwabbit",
+        "quantity": 10
+      },
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 940
+  },
+  {
+    "id": "200",
+    "name": "God Rod",
+    "profession": "staff-carver",
+    "level": 60,
+    "image": "items/staff/200.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 1
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1165
+  },
+  {
+    "id": "204",
+    "name": "Kryst O'Boul",
+    "profession": "staff-carver",
+    "level": 60,
+    "image": "items/staff/204.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 905
+  },
+  {
+    "id": "6524",
+    "name": "Racine Sauvageonne",
+    "profession": "staff-carver",
+    "level": 60,
+    "image": "items/staff/6524.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 900
+  },
+  {
+    "id": "6454",
+    "name": "Abraton Sombre",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/6454.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1660",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1611",
+        "name": "Bourgeon d'Abraknyde Sombre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2000
+  },
+  {
+    "id": "6442",
+    "name": "Bâton d'Aga Dou",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/6442.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 1
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 10
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1700
+  },
+  {
+    "id": "6769",
+    "name": "Bâton de Farle",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/6769.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1660",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "6735",
+        "name": "Racine de Fourbasse",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 8
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 12
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1650
+  },
+  {
+    "id": "3652",
+    "name": "Bâton de Marie Aigue",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/3652.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 2
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2563",
+        "name": "Cale en bois du Tronknyde",
+        "quantity": 20
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3200
+  },
+  {
+    "id": "8300",
+    "name": "Bâton de Shika",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/8300.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8057",
+        "name": "Tibia de Koalak Fossoyeur",
+        "quantity": 6
+      },
+      {
+        "resourceId": "6737",
+        "name": "Ecorce de Fourbasse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2516",
+        "name": "Défense de Sanglier des Plaines",
+        "quantity": 10
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 20
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1650
+  },
+  {
+    "id": "8090",
+    "name": "Bâton des Caraïbes",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/8090.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8157",
+        "name": "Pétale Magique du Tournesol Affamé",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2653",
+        "name": "Arakne Majeure Morte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 20
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 30
+      },
+      {
+        "resourceId": "2249",
+        "name": "Feuille de Tronknyde",
+        "quantity": 150
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3352
+  },
+  {
+    "id": "6525",
+    "name": "Bâton du Féca",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/6525.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2563",
+        "name": "Cale en bois du Tronknyde",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8309",
+        "name": "Plume du Serpiplume",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2560
+  },
+  {
+    "id": "619",
+    "name": "Bâton du Maître des Bouftous",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/619.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 2
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 10
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 20
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1000
+  },
+  {
+    "id": "7206",
+    "name": "Bâton du Sandanwa",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7206.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7272",
+        "name": "Ecorce magique de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2239",
+        "name": "Poudre d'Eniripsa",
+        "quantity": 1
+      },
+      {
+        "resourceId": "544",
+        "name": "Pierre d'Emeraude",
+        "quantity": 4
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 6
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 7
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1670
+  },
+  {
+    "id": "7207",
+    "name": "Bâton du Yondanwa",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7207.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2417",
+        "name": "Abraton",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7369",
+        "name": "Ambre de Bambouto",
+        "quantity": 4
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2250
+  },
+  {
+    "id": "8608",
+    "name": "La Bastonneuze",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/8608.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8761",
+        "name": "Poudre explosive de Gourlo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8796",
+        "name": "Noeud de l'Abrakleur clair",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8751",
+        "name": "Bulbe Passaoh",
+        "quantity": 16
+      },
+      {
+        "resourceId": "8750",
+        "name": "Bulbe Malibout",
+        "quantity": 16
+      },
+      {
+        "resourceId": "8766",
+        "name": "Plume de fesse du Kido",
+        "quantity": 17
+      },
+      {
+        "resourceId": "8756",
+        "name": "Duvet du Kilibriss",
+        "quantity": 21
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2000
+  },
+  {
+    "id": "8607",
+    "name": "Le Bâton Cloutay",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/8607.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8995",
+        "name": "Etoffe de Gourlo le Terrible",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 6
+      },
+      {
+        "resourceId": "766",
+        "name": "Koliet Aclou",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8790",
+        "name": "Rembourrage de Meupette",
+        "quantity": 15
+      },
+      {
+        "resourceId": "8783",
+        "name": "Amygdales du Bitouf Sombre",
+        "quantity": 15
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 15
+      },
+      {
+        "resourceId": "8766",
+        "name": "Plume de fesse du Kido",
+        "quantity": 35
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2985
+  },
+  {
+    "id": "7184",
+    "name": "Racine Histre",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7184.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7369",
+        "name": "Ambre de Bambouto",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 12
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1894
+  },
+  {
+    "id": "7178",
+    "name": "Racine Horodon",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7178.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7369",
+        "name": "Ambre de Bambouto",
+        "quantity": 4
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1910
+  },
+  {
+    "id": "7183",
+    "name": "Racine Huzohide",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7183.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7270",
+        "name": "Ecorce magique de Bulbiflore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7286",
+        "name": "Bois de Bambouto",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 8
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2000
+  },
+  {
+    "id": "7182",
+    "name": "Racine Hécouanone",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7182.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7271",
+        "name": "Ecorce magique de Bulbuisson",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "464",
+        "name": "Ambre d'Abraknyde",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7262",
+        "name": "Racine de Bulbiflore",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7263",
+        "name": "Racine de Bulbuisson",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7264",
+        "name": "Racine de Bulbambou",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2728
+  },
+  {
+    "id": "7185",
+    "name": "Racine Hécure",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7185.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7290",
+        "name": "Racine Magique de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2564",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 12
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 12
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 18
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2742
+  },
+  {
+    "id": "7181",
+    "name": "Racine Sémilla",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/7181.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 2
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2857
+  },
+  {
+    "id": "8836",
+    "name": "Tige du Brouture",
+    "profession": "staff-carver",
+    "level": 80,
+    "image": "items/staff/8836.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8798",
+        "name": "Queue emplumée du Rasboul Majeur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8770",
+        "name": "Ecorce du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8786",
+        "name": "Tresse du Poolay",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8772",
+        "name": "Ecorce de Brouture",
+        "quantity": 11
+      },
+      {
+        "resourceId": "8790",
+        "name": "Rembourrage de Meupette",
+        "quantity": 13
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 18
+      },
+      {
+        "resourceId": "8779",
+        "name": "Carpelle de Brouture",
+        "quantity": 56
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3602
+  },
+  {
+    "id": "9136",
+    "name": "Bâton Champmanique",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/9136.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9280",
+        "name": "Epine d'Ougah",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8365",
+        "name": "Corne brisée de Crocabulia",
+        "quantity": 2
+      },
+      {
+        "resourceId": "9277",
+        "name": "Oeil de Champmane",
+        "quantity": 6
+      },
+      {
+        "resourceId": "9278",
+        "name": "Lamelle de Champbis",
+        "quantity": 10
+      },
+      {
+        "resourceId": "9263",
+        "name": "Ecorce de Champaknyde",
+        "quantity": 11
+      },
+      {
+        "resourceId": "8781",
+        "name": "Calice de Fécorce",
+        "quantity": 21
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 31
+      },
+      {
+        "resourceId": "8785",
+        "name": "Graine de l'Abrakleur sombre",
+        "quantity": 35
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5500
+  },
+  {
+    "id": "8297",
+    "name": "Bâton du Dragoeuf",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/8297.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8363",
+        "name": "Corne de Dragoeuf Guerrier",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 18
+      },
+      {
+        "resourceId": "8355",
+        "name": "Ecaille de Dragoss Doré",
+        "quantity": 21
+      },
+      {
+        "resourceId": "8353",
+        "name": "Ecaille de Dragoss de Saphire",
+        "quantity": 21
+      },
+      {
+        "resourceId": "8354",
+        "name": "Ecaille de Dragoss Blanc",
+        "quantity": 21
+      },
+      {
+        "resourceId": "8352",
+        "name": "Ecaille de Dragoss Noir",
+        "quantity": 21
+      },
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3980
+  },
+  {
+    "id": "8837",
+    "name": "Bâton du Maître Zoth",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/8837.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8789",
+        "name": "Chaussette du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8764",
+        "name": "Sourcil du Rasboul majeur",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8792",
+        "name": "Coco du Bitouf aérien",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8765",
+        "name": "Bâton du Kilibriss",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8804",
+        "name": "Braguette du Maître Zoth",
+        "quantity": 18
+      },
+      {
+        "resourceId": "8788",
+        "name": "Croupion du Bitouf aérien",
+        "quantity": 23
+      },
+      {
+        "resourceId": "8800",
+        "name": "Etoffe Zoth",
+        "quantity": 112
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4730
+  },
+  {
+    "id": "6521",
+    "name": "Kelinobranche",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/6521.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 1
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 4
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2566",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 20
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 25
+      },
+      {
+        "resourceId": "2565",
+        "name": "Tranche de Tronknyde",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4300
+  },
+  {
+    "id": "8091",
+    "name": "La Canne Bière",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/8091.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7290",
+        "name": "Racine Magique de Bambouto",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 6
+      },
+      {
+        "resourceId": "8361",
+        "name": "Corne de Dragoeuf Volant",
+        "quantity": 12
+      },
+      {
+        "resourceId": "8357",
+        "name": "Corne de Dragueuse",
+        "quantity": 16
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 20
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 21
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 21
+      },
+      {
+        "resourceId": "6737",
+        "name": "Ecorce de Fourbasse",
+        "quantity": 50
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4355
+  },
+  {
+    "id": "6522",
+    "name": "La Racine Cinati",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/6522.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 2
+      },
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 4
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1660",
+        "name": "Ambre d'Abraknyde Sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 25
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 25
+      },
+      {
+        "resourceId": "2564",
+        "name": "Sourcils de Tronknyde",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3700
+  },
+  {
+    "id": "6523",
+    "name": "La Racine Hagogue",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/6523.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2566",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 2
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 3
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 3
+      },
+      {
+        "resourceId": "1611",
+        "name": "Bourgeon d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "1612",
+        "name": "Racine d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "1610",
+        "name": "Ecorce d'Abraknyde Sombre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 25
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 3600
+  },
+  {
+    "id": "7176",
+    "name": "Racine Cithi",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/7176.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7291",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7411",
+        "name": "Os de Fantôme Yokai Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7269",
+        "name": "Ecorce magique de Bulbig",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 3
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 15
+      },
+      {
+        "resourceId": "7265",
+        "name": "Racine de Bulbig",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4660
+  },
+  {
+    "id": "8850",
+    "name": "Racine de Floribonde",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/8850.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8770",
+        "name": "Ecorce du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8810",
+        "name": "Tourbe séchée de Tourbassingue",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8777",
+        "name": "Pistil du Tynril",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8792",
+        "name": "Coco du Bitouf aérien",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8807",
+        "name": "Jus de Ouassingue",
+        "quantity": 6
+      },
+      {
+        "resourceId": "8771",
+        "name": "Ecorce de Floribonde",
+        "quantity": 13
+      },
+      {
+        "resourceId": "8832",
+        "name": "Bave du Kaskargo",
+        "quantity": 26
+      },
+      {
+        "resourceId": "8778",
+        "name": "Etamine de Floribonde",
+        "quantity": 66
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4512
+  },
+  {
+    "id": "8849",
+    "name": "Racine de Fécorce",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/8849.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8791",
+        "name": "Etoffe de Meupette",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8764",
+        "name": "Sourcil du Rasboul majeur",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8807",
+        "name": "Jus de Ouassingue",
+        "quantity": 8
+      },
+      {
+        "resourceId": "8774",
+        "name": "Ecorce de Fécorce",
+        "quantity": 11
+      },
+      {
+        "resourceId": "8756",
+        "name": "Duvet du Kilibriss",
+        "quantity": 29
+      },
+      {
+        "resourceId": "8788",
+        "name": "Croupion du Bitouf aérien",
+        "quantity": 36
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 38
+      },
+      {
+        "resourceId": "8781",
+        "name": "Calice de Fécorce",
+        "quantity": 43
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4420
+  },
+  {
+    "id": "8838",
+    "name": "Rhizome du Tynril",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/8838.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8795",
+        "name": "Perruque du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8770",
+        "name": "Ecorce du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8916",
+        "name": "Ambre du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8384",
+        "name": "Etoffe Magique de Moon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8777",
+        "name": "Pistil du Tynril",
+        "quantity": 4
+      },
+      {
+        "resourceId": "929",
+        "name": "Kristalite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8796",
+        "name": "Noeud de l'Abrakleur clair",
+        "quantity": 11
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5124
+  },
+  {
+    "id": "7189",
+    "name": "Rod Gerse",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/7189.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7406",
+        "name": "Os de Fantôme Pandore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "200",
+        "name": "God Rod",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7291",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 8
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 8
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 16
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 20
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5700
+  },
+  {
+    "id": "8275",
+    "name": "Sceptre du Minotot",
+    "profession": "staff-carver",
+    "level": 100,
+    "image": "items/staff/8275.svg",
+    "category": "Bâton",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8386",
+        "name": "Dent de Shin Larve",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8274",
+        "name": "Hache du Minotoror",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8409",
+        "name": "Corne du Minotot",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7404",
+        "name": "Os de Fantôme Maho Firefoux",
+        "quantity": 10
+      },
+      {
+        "resourceId": "8057",
+        "name": "Tibia de Koalak Fossoyeur",
+        "quantity": 15
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 30
+      },
+      {
+        "resourceId": "8308",
+        "name": "Carapace de Scaratos",
+        "quantity": 60
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4620
+  }
+]

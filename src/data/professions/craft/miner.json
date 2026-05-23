@@ -1,0 +1,968 @@
+[
+  {
+    "id": "7028",
+    "name": "Agathe",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/7028.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7025",
+        "name": "Pierre d'Agathe",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 80
+  },
+  {
+    "id": "7026",
+    "name": "Aigue-Marine",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/7026.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7023",
+        "name": "Pierre d'Aigue-Marine",
+        "quantity": 10
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 60
+  },
+  {
+    "id": "13173",
+    "name": "Artefact Pandawushu Air Fantomatique",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/13173.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7223",
+        "name": "Artefact Pandawushu Air",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13174",
+    "name": "Artefact Pandawushu Eau Fantomatique",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/13174.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7222",
+        "name": "Artefact Pandawushu Eau",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13175",
+    "name": "Artefact Pandawushu Feu Fantomatique",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/13175.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7225",
+        "name": "Artefact Pandawushu Feu",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "13172",
+    "name": "Artefact Pandawushu Terre Fantomatique",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/13172.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7224",
+        "name": "Artefact Pandawushu Terre",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "465",
+    "name": "Cristal",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/465.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "545",
+        "name": "Pierre de Cristal",
+        "quantity": 10
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 500
+  },
+  {
+    "id": "315",
+    "name": "Diamant",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/315.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "543",
+        "name": "Pierre de Diamant",
+        "quantity": 10
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 500
+  },
+  {
+    "id": "316",
+    "name": "Emeraude",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/316.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      },
+      {
+        "resourceId": "544",
+        "name": "Pierre d'Emeraude",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 500
+  },
+  {
+    "id": "745",
+    "name": "Lingot d'Or",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/alloy/745.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9941",
+    "name": "Nacre",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/9941.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      },
+      {
+        "resourceId": "9940",
+        "name": "Nacre brute",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 500
+  },
+  {
+    "id": "7007",
+    "name": "Petite Pierre d'âme",
+    "profession": "miner",
+    "level": 1,
+    "image": "items/soul_stone/7007.svg",
+    "category": "Pierre d'âme",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "6987",
+        "name": "Petite Pierre d'âme hasardeuse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "447",
+        "name": "Charbon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 1
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 250
+  },
+  {
+    "id": "6987",
+    "name": "Petite Pierre d'âme hasardeuse",
+    "profession": "miner",
+    "level": 1,
+    "image": "items/soul_stone/6987.svg",
+    "category": "Pierre d'âme",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2304",
+        "name": "Fragment de Pierre Polie",
+        "quantity": 1
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "448",
+        "name": "Silex",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 125
+  },
+  {
+    "id": "7332",
+    "name": "Petite Pierre d'âme heureuse",
+    "profession": "miner",
+    "level": 1,
+    "image": "items/soul_stone/7332.svg",
+    "category": "Pierre d'âme",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "547",
+        "name": "Pierre de Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "545",
+        "name": "Pierre de Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "546",
+        "name": "Pierre de Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8762",
+        "name": "Fragment de cerveau poli",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 375
+  },
+  {
+    "id": "467",
+    "name": "Rubis",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/467.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      },
+      {
+        "resourceId": "547",
+        "name": "Pierre de Rubis",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 500
+  },
+  {
+    "id": "7508",
+    "name": "Rune de Signature",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/7508.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7652",
+        "name": "Potion de Souvenir",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "466",
+    "name": "Saphir",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/466.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "546",
+        "name": "Pierre de Saphir",
+        "quantity": 10
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 500
+  },
+  {
+    "id": "7027",
+    "name": "Topaze",
+    "profession": "miner",
+    "level": 1,
+    "image": "resources/precious_stone/7027.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7024",
+        "name": "Pierre de Topaze",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 70
+  },
+  {
+    "id": "747",
+    "name": "Aluminite",
+    "profession": "miner",
+    "level": 10,
+    "image": "resources/alloy/747.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "746",
+    "name": "Ebonite",
+    "profession": "miner",
+    "level": 10,
+    "image": "resources/alloy/746.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2529",
+    "name": "Potion de métal liquide",
+    "profession": "miner",
+    "level": 10,
+    "image": "resources/smithmagic_potion/2529.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1468",
+        "name": "Bocal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2538",
+    "name": "Potion de métal lourd liquide",
+    "profession": "miner",
+    "level": 20,
+    "image": "resources/smithmagic_potion/2538.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1468",
+        "name": "Bocal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 2
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13176",
+    "name": "Sublime Artefact Pandawushu Fantomatique",
+    "profession": "miner",
+    "level": 20,
+    "image": "resources/precious_stone/13176.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13172",
+        "name": "Artefact Pandawushu Terre Fantomatique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "13173",
+        "name": "Artefact Pandawushu Air Fantomatique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "13175",
+        "name": "Artefact Pandawushu Feu Fantomatique",
+        "quantity": 3
+      },
+      {
+        "resourceId": "13174",
+        "name": "Artefact Pandawushu Eau Fantomatique",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "748",
+    "name": "Magnésite",
+    "profession": "miner",
+    "level": 30,
+    "image": "resources/alloy/748.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "749",
+    "name": "Bakélélite",
+    "profession": "miner",
+    "level": 40,
+    "image": "resources/alloy/749.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2541",
+    "name": "Potion de métal précieux liquide",
+    "profession": "miner",
+    "level": 40,
+    "image": "resources/smithmagic_potion/2541.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1468",
+        "name": "Bocal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "431",
+        "name": "Pierre du Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 1
+  },
+  {
+    "id": "750",
+    "name": "Kouartz",
+    "profession": "miner",
+    "level": 60,
+    "image": "resources/alloy/750.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "2364",
+    "name": "Pierre du Savoir",
+    "profession": "miner",
+    "level": 60,
+    "image": "resources/precious_stone/2364.svg",
+    "category": "Pierre précieuse",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1336",
+        "name": "Orties",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1325",
+        "name": "Coque de Noix",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1329",
+        "name": "Bois élastique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1339",
+        "name": "Clochettes",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1324",
+        "name": "Herbe à chat",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1326",
+        "name": "Silex Sanglant",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6457",
+    "name": "Kriptonite",
+    "profession": "miner",
+    "level": 80,
+    "image": "resources/alloy/6457.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6458",
+    "name": "Kobalite",
+    "profession": "miner",
+    "level": 100,
+    "image": "resources/alloy/6458.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7035",
+    "name": "Pyrute",
+    "profession": "miner",
+    "level": 100,
+    "image": "resources/alloy/7035.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7033",
+        "name": "Dolomite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7036",
+    "name": "Rutile",
+    "profession": "miner",
+    "level": 100,
+    "image": "resources/alloy/7036.svg",
+    "category": "Alliage",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7032",
+        "name": "Silicate",
+        "quantity": 10
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 10
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 10
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 0
+  }
+]

@@ -16,7 +16,7 @@ export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) =
                 <div className="flex items-center gap-3 mb-3 sm:mb-4">
                     <img className="size-8 sm:size-9" src={`${import.meta.env.BASE_URL}dora.svg`} alt="Dora" />
                     <div>
-                        <span className="font-dofus text-dofus-gold text-xl sm:text-2xl font-semibold tracking-widest leading-none">DORA</span>
+                        <span className="font-dofus text-dofus-gold text-sm sm:text-sm font-semibold tracking-widest leading-none">DORA</span>
                         <p className="text-dofus-cream/40 text-xs tracking-wide leading-none mt-0.5 hidden sm:block">Dofus Rétro · Craft Dashboard</p>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) =
                                     }`}
                             >
                                 <span className={isActive ? 'text-dofus-orange' : ''}>{tab.icon}</span>
-                                <span className="hidden sm:inline">{tab.label}</span>
+                                <span className="font-bit hidden sm:inline">{tab.label}</span>
                                 <span className="sm:hidden">{tab.id === 'calculator' ? 'XP' : tab.id === 'pods' ? 'POD' : tab.label}</span>
                             </button>
                         );

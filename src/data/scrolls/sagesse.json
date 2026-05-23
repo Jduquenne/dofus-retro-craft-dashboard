@@ -1,7 +1,7 @@
 {
   "id": "sagesse",
   "label": "Sagesse",
-  "icon": "📖",
+  "icon": "items/stat_scroll/803.svg",
   "tiers": [
     {
       "type": "petit",
@@ -11,17 +11,29 @@
         {
           "id": "sag-petit-zeurg",
           "npc": "Zeurg",
-          "position": [8, 2],
+          "position": [
+            8,
+            2
+          ],
           "resources": [
-            { "name": "Corne de Bouftou", "quantity": 100 }
+            {
+              "name": "Corne de Bouftou",
+              "quantity": 100
+            }
           ]
         },
         {
           "id": "sag-petit-tehachiks",
           "npc": "Téha Chiks",
-          "position": [10, 3],
+          "position": [
+            10,
+            3
+          ],
           "resources": [
-            { "name": "Champignon", "quantity": 100 }
+            {
+              "name": "Champignon",
+              "quantity": 100
+            }
           ]
         }
       ]
@@ -34,10 +46,19 @@
         {
           "id": "sag-normal-jimmy",
           "npc": "Jimmy Rasta",
-          "position": [10, 6],
+          "position": [
+            10,
+            6
+          ],
           "resources": [
-            { "name": "Champignon", "quantity": 80 },
-            { "name": "Graine de Tournesol", "quantity": 60 }
+            {
+              "name": "Champignon",
+              "quantity": 80
+            },
+            {
+              "name": "Graine de Tournesol",
+              "quantity": 60
+            }
           ]
         }
       ]
@@ -50,11 +71,23 @@
         {
           "id": "sag-grand-agadou",
           "npc": "Aga Dou",
-          "position": [1, 1],
+          "position": [
+            1,
+            1
+          ],
           "resources": [
-            { "name": "Champignon", "quantity": 90 },
-            { "name": "Graine de Tournesol", "quantity": 70 },
-            { "name": "Graine de Chanvre", "quantity": 40 }
+            {
+              "name": "Champignon",
+              "quantity": 90
+            },
+            {
+              "name": "Graine de Tournesol",
+              "quantity": 70
+            },
+            {
+              "name": "Graine de Chanvre",
+              "quantity": 40
+            }
           ]
         }
       ]
@@ -67,12 +100,27 @@
         {
           "id": "sag-puissant-lanfeust",
           "npc": "Lanfeust de Troille",
-          "position": [-2, 14],
+          "position": [
+            -2,
+            14
+          ],
           "resources": [
-            { "name": "Ailes de Moskitos", "quantity": 200 },
-            { "name": "Champignon", "quantity": 90 },
-            { "name": "Graine de Tournesol", "quantity": 75 },
-            { "name": "Graine de Chanvre", "quantity": 60 }
+            {
+              "name": "Ailes de Moskitos",
+              "quantity": 200
+            },
+            {
+              "name": "Champignon",
+              "quantity": 90
+            },
+            {
+              "name": "Graine de Tournesol",
+              "quantity": 75
+            },
+            {
+              "name": "Graine de Chanvre",
+              "quantity": 60
+            }
           ]
         }
       ]

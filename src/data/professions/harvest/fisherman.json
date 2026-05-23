@@ -1,92 +1,301 @@
 [
   {
-    "id": "breme",
-    "name": "Brème",
+    "id": "1757",
+    "name": "Crabe Sourimi",
     "category": "fish",
-    "pods": 2,
+    "pods": 3,
     "level": 1,
-    "description": "Un poisson plat et argenté, très commun dans les rivières du Monde des Douze.",
+    "description": "Ce crabe, à la forme si particulière, est très apprécié pour la grande quantité de chair qu'il contient. Il est aussi le seul crabe pêchable à la canne, car il possède l'instinct de couper les fils avec ses pinces... qui elles, ne coupent pas.",
+    "xpPerHarvest": 10,
+    "rareVariants": ["1759"]
+  },
+  {
+    "id": "1759",
+    "name": "Crabe Sourimi Exotique",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "Cousin du crabe sourimi, celui-ci est bien plus intelligent. Cela explique sa rareté. Il arrive cependant que parfois, après des soirées arrosées, il laisse à nouveau parler son instinct.",
+    "xpPerHarvest": 10,
+    "rare": true
+  },
+  {
+    "id": "1782",
+    "name": "Goujon",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "Petit poisson rapide d'eau douce, le goujon est le plus souvent pêché par les enfants et par les pêcheurs débutants. Mais il ne nourrira pas votre famille.",
+    "xpPerHarvest": 10,
+    "rareVariants": ["1790"]
+  },
+  {
+    "id": "1790",
+    "name": "Goujon Kiye",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "Ce goujon rare vient tout droit de l'île de Kiye, située au large de l'île de Moon. Habitué au courant très chaud, il effectue cependant une migration une fois par an.",
+    "xpPerHarvest": 10,
+    "rare": true
+  },
+  {
+    "id": "598",
+    "name": "Greu-Vette",
+    "category": "fish",
+    "pods": 1,
+    "level": 1,
+    "description": "Les Greu-Vettes sont appréciées pour leur couleur rose et leur goût raffiné. Elles sont cependant détestées pour leur mauvais caractère légendaire et leurs antennes gominées.",
+    "xpPerHarvest": 10,
+    "rareVariants": ["1786"]
+  },
+  {
+    "id": "1786",
+    "name": "Greu-vette Horreur",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "Mutation de la greu-vette, cette espèce très rare a la particularité d'émettre d'horribles sons lorsqu'elle ondule son corps.",
+    "xpPerHarvest": 10,
+    "rare": true
+  },
+  {
+    "id": "2187",
+    "name": "Pichon Eud'Compet",
+    "category": "fish",
+    "pods": 20,
+    "level": 1,
+    "description": "Ce poisson, pêchable uniquement dans la pichine de Sufokia, est un croisement entre tout plein d'autres poissons.",
     "xpPerHarvest": 10
   },
   {
-    "id": "truite",
-    "name": "Truite",
+    "id": "603",
+    "name": "Poisson Chaton",
     "category": "fish",
-    "pods": 2,
-    "level": 10,
-    "description": "Un poisson vif aux reflets irisés, prisé des pêcheurs débutants.",
-    "xpPerHarvest": 15
+    "pods": 1,
+    "level": 1,
+    "description": "Ce poisson a la particularité d'avoir des moustaches et de ronronner sous l'eau, ce qui ne manque pas de faire peur aux Poissons Volants.",
+    "xpPerHarvest": 10,
+    "rareVariants": ["1762"]
   },
   {
-    "id": "carpe_koi",
-    "name": "Carpe Koi",
+    "id": "1754",
+    "name": "Poisson Igloo",
     "category": "fish",
     "pods": 3,
-    "level": 20,
-    "description": "Un poisson ornemental aux couleurs vives, originaire de Pandala.",
-    "xpPerHarvest": 20
+    "level": 1,
+    "description": "Cette espèce rare de poisson pané vit habituellement dans les eaux glacées du Grand Nord d'où son nom. Du fait de son alimentation polaire, sa chair est riche en fibre.",
+    "xpPerHarvest": 10,
+    "rare": true
   },
   {
-    "id": "brochet",
+    "id": "1750",
+    "name": "Poisson Pané",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "Ce poisson cubique est connu pour avoir l'esprit particulièrement carré. Il est même carrément stupide ce qui en fait un poisson facile à pêcher.",
+    "xpPerHarvest": 10,
+    "rareVariants": ["1754"]
+  },
+  {
+    "id": "1762",
+    "name": "Poisson Tigre",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "Ce poisson est comme un poisson chaton, mais en beaucoup, beaucoup plus dangereux.",
+    "xpPerHarvest": 10,
+    "rare": true
+  },
+  {
+    "id": "1844",
+    "name": "Truite",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "La truite est un poisson assez facile à pêcher et les pêcheurs chevronnés les pêchent trois par trois. Ils décident souvent au même moment s'il faut les manger crues ou cuites. D'où leur parfaite prononciation.",
+    "xpPerHarvest": 10,
+    "rareVariants": ["607", "1846"]
+  },
+  {
+    "id": "1846",
+    "name": "Truite Ancestrale",
+    "category": "fish",
+    "pods": 3,
+    "level": 1,
+    "description": "Une des plus vieilles truites du monde. Si le temps qui passe rend plus sage, alors cette truite devrait être une sage parmi les sages... Mais un doute subsiste.",
+    "xpPerHarvest": 10,
+    "rare": true
+  },
+  {
+    "id": "607",
+    "name": "Truite Vaseuse",
+    "category": "fish",
+    "pods": 1,
+    "level": 1,
+    "description": "La Truite Vaseuse est une cousine éloignée du Saumoon agressif de l'île de Moon. Cette truite est aussi bonne cuite que crue, qui l'eut cru ?",
+    "xpPerHarvest": 10,
+    "rare": true
+  },
+  {
+    "id": "1847",
     "name": "Brochet",
     "category": "fish",
     "pods": 3,
-    "level": 30,
-    "description": "Un prédateur des eaux douces, réputé pour sa combativité au bout de la ligne.",
-    "xpPerHarvest": 25
+    "level": 10,
+    "description": "Ce poisson d'eau douce de taille moyenne est l'ami du barbecue du pêcheur.",
+    "xpPerHarvest": 15,
+    "rareVariants": ["1849"]
   },
   {
-    "id": "sardine",
-    "name": "Sardine",
+    "id": "1849",
+    "name": "Brochet Tupe-Halett",
     "category": "fish",
-    "pods": 2,
-    "level": 40,
-    "description": "Un petit poisson de mer abondant dans les eaux côtières de Sufokia.",
-    "xpPerHarvest": 30
+    "pods": 3,
+    "level": 10,
+    "description": "Issue du croisement entre divers brochets par les scientifiques Halett et Tupe, cette espèce est censée disposer d'attributs magiques. Destiné à l'expérimentation, deux spécimens s'échappèrent lors d'une violente dispute entre les deux savants.",
+    "xpPerHarvest": 15,
+    "rare": true
   },
   {
-    "id": "sandre",
-    "name": "Sandre",
+    "id": "600",
+    "name": "Kralamoure",
+    "category": "fish",
+    "pods": 1,
+    "level": 20,
+    "description": "Le Kralamoure est un grand romantique, ses yeux de petit Tofu lui donnent un air un peu niais, mais ne vous y méprenez pas, le Kralamoure est très agressif envers les étrangers.",
+    "xpPerHarvest": 20,
+    "rareVariants": ["1799"]
+  },
+  {
+    "id": "1799",
+    "name": "Kralamoure Unique",
+    "category": "fish",
+    "pods": 3,
+    "level": 20,
+    "description": "Ce kralamoure-là ne choisit qu'une compagne pour toute sa vie. Excessivement rare quand on connaît les moeurs du kralamoure.",
+    "xpPerHarvest": 20,
+    "rare": true
+  },
+  {
+    "id": "1805",
+    "name": "Sardine Brillante",
+    "category": "fish",
+    "pods": 3,
+    "level": 20,
+    "description": "Voilà un poisson que l'on peut voir de loin. Ce qui en fait une cible parfaite pour les jeunes pêcheurs.",
+    "xpPerHarvest": 20,
+    "rareVariants": ["1807"]
+  },
+  {
+    "id": "1807",
+    "name": "Sardine Sombre",
+    "category": "fish",
+    "pods": 3,
+    "level": 20,
+    "description": "Contrairement à la Sardine Brillante, cette Sardine est presque indécelable dans les eaux troubles, ce qui rend sa pêche assez délicate.",
+    "xpPerHarvest": 20,
+    "rare": true
+  },
+  {
+    "id": "1779",
+    "name": "Bar Rikain",
+    "category": "fish",
+    "pods": 3,
+    "level": 40,
+    "description": "On rencontre ce poisson le plus souvent dans les lacs et cours d'eau qui descendent des glaciers. Sa grosseur et sa chaire fraîche en font un animal très apprécié des pêcheurs.",
+    "xpPerHarvest": 30,
+    "rareVariants": ["1792"]
+  },
+  {
+    "id": "1794",
+    "name": "Carpe d'Iem",
+    "category": "fish",
+    "pods": 3,
+    "level": 40,
+    "description": "Ce poisson est considéré comme le plus sage parmi tous les poissons d'eau douce. Il ne mordra jamais votre hameçon sauf s'il n'a plus envie de vivre.",
+    "xpPerHarvest": 30,
+    "rareVariants": ["1796"]
+  },
+  {
+    "id": "1796",
+    "name": "Carpette des sables",
+    "category": "fish",
+    "pods": 3,
+    "level": 40,
+    "description": "Cette petite carpe a une coloration semblable au sable. Une évolution de la nature qui lui permet d'être théoriquement invisible aux yeux des prédateurs. Dommage qu'il n'y ait pas de sable dans les fonds des lacs...",
+    "xpPerHarvest": 30,
+    "rare": true
+  },
+  {
+    "id": "1784",
+    "name": "Raie Bleue",
     "category": "fish",
     "pods": 3,
     "level": 50,
-    "description": "Un poisson de fond aux reflets dorés, difficile à attraper.",
-    "xpPerHarvest": 35
+    "description": "La Raie Bleue domine les sols marins où elle passe son temps à creuser de minuscules trous. Nul ne sait encore pourquoi. Elle remonte à la surface une fois de temps en temps. Juste assez souvent pour la prendre dans vos filets.",
+    "xpPerHarvest": 35,
+    "rareVariants": ["1788"]
   },
   {
-    "id": "silure",
-    "name": "Silure",
-    "category": "fish",
-    "pods": 5,
-    "level": 60,
-    "description": "Un poisson géant des grandes profondeurs, qui peut dépasser la taille d'un Iop.",
-    "xpPerHarvest": 40
-  },
-  {
-    "id": "dorade_royale",
-    "name": "Dorade Royale",
-    "category": "fish",
-    "pods": 4,
-    "level": 70,
-    "description": "Un poisson noble aux écailles dorées, que seuls les pêcheurs chevronnés parviennent à capturer.",
-    "xpPerHarvest": 45
-  },
-  {
-    "id": "anguille",
-    "name": "Anguille",
+    "id": "1788",
+    "name": "Raie de Farle",
     "category": "fish",
     "pods": 3,
-    "level": 80,
-    "description": "Un poisson serpentiforme insaisissable, vivant dans les fonds vaseux.",
-    "xpPerHarvest": 50
+    "level": 50,
+    "description": "Cette espèce de raie a été découverte la première fois par Farle Ingalsse en personne lors d'une de ses grandes aventures. Cette raie aurait la capacité d'envoûter tous les poissons des profondeurs par son cri grave unique.",
+    "xpPerHarvest": 35,
+    "rare": true
   },
   {
-    "id": "piranha",
-    "name": "Piranha",
+    "id": "1792",
+    "name": "Bar Iton",
+    "category": "fish",
+    "pods": 3,
+    "level": 70,
+    "description": "Cousin du Bar Rikain, le Bar Iton a tendance à disparaître de nos jours. Il fut en grande partie décimé à cause d'une rumeur stupide stipulant qu'en manger donnait une belle voix.",
+    "xpPerHarvest": 45,
+    "rare": true
+  },
+  {
+    "id": "1803",
+    "name": "Chaton-Perche",
+    "category": "fish",
+    "pods": 3,
+    "level": 70,
+    "description": "Le physique de son père, la sauvagerie de sa mère. Ce poisson est presque le plus difficile à attraper au monde. Il est aussi le plus rare... L'accouplement d'un Poisson-Chaton et d'un Poisson-Perche étant exceptionnel.",
+    "xpPerHarvest": 45,
+    "rare": true
+  },
+  {
+    "id": "1801",
+    "name": "Perche",
+    "category": "fish",
+    "pods": 3,
+    "level": 70,
+    "description": "Sous un air idiot se cache le plus rusé et le plus rapide des poissons. Mais le jeu en vaut la chandelle : son goût incomparable et sa saveur unique valent bien tous ces efforts.",
+    "xpPerHarvest": 45,
+    "rareVariants": ["1803"]
+  },
+  {
+    "id": "1853",
+    "name": "Requin Marché-Libre",
+    "category": "fish",
+    "pods": 4,
+    "level": 80,
+    "description": "Cousin du requin Marteau-Faucille, mais en plus féroce et beaucoup moins organisé. En attraper un est le rêve de tous les pêcheurs ou plutôt, en attraper un et être toujours en vie.",
+    "xpPerHarvest": 50,
+    "rare": true
+  },
+  {
+    "id": "602",
+    "name": "Requin Marteau-Faucille",
     "category": "fish",
     "pods": 2,
-    "level": 100,
-    "description": "Un poisson carnivore redoutable des eaux tropicales. Pêcher en le regardant dans les yeux est déconseillé.",
-    "xpPerHarvest": 60
+    "level": 80,
+    "description": "Ce Requin rouge est un requin militant, d'instinct grégaire, l'individu n'existe pas au sein du groupe, même si leur chef, le Requin Stakanoviou est porté au rang d'idole.",
+    "xpPerHarvest": 50,
+    "rareVariants": ["1853"]
   }
 ]

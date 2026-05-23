@@ -27,6 +27,7 @@ export default {
       },
       fontFamily: {
         dofus: ['Cinzel', 'Georgia', 'serif'],
+        bit: ['bitMini6', 'monospace'],
       },
     },
   },

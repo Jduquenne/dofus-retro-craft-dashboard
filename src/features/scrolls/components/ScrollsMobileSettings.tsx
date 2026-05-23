@@ -28,16 +28,15 @@ export const ScrollsMobileSettings: React.FC<ScrollsMobileSettingsProps> = ({
 }) => (
     <div className="panel rounded p-3 space-y-2.5">
         <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold shrink-0">Méthode</span>
+            <span className="text-xs text-dofus-text-lt uppercase tracking-wider font-semibold shrink-0">Méthode</span>
             {SCROLL_METHODS.map(m => (
                 <button
                     key={m.id}
                     onClick={() => onMethodChange(m.id)}
-                    className={`flex-1 min-w-[7rem] px-2.5 py-1 rounded text-[11px] font-medium border transition-all text-center ${
-                        methodId === m.id
-                            ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
-                            : 'panel-sm text-dofus-text-md border-dofus-border-md hover:bg-dofus-panel-lt'
-                    }`}
+                    className={`flex-1 min-w-[7rem] px-2.5 py-1 rounded text-xs font-medium border transition-all text-center ${methodId === m.id
+                        ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
+                        : 'panel-sm text-dofus-text-md border-dofus-border-md hover:bg-dofus-panel-lt'
+                        }`}
                 >
                     {m.label}
                 </button>
@@ -51,7 +50,7 @@ export const ScrollsMobileSettings: React.FC<ScrollsMobileSettingsProps> = ({
                     const selectedId = npcSelections[phase.tierType] ?? tier.options[0].id;
                     return (
                         <div key={phase.tierType} className="flex items-center gap-2 flex-wrap">
-                            <span className="text-[10px] text-dofus-text-lt font-semibold shrink-0 w-10">
+                            <span className="text-xs text-dofus-text-lt font-semibold shrink-0 w-10">
                                 {TIER_LABELS[phase.tierType]}
                             </span>
                             <div className="flex flex-wrap gap-1">
@@ -59,11 +58,10 @@ export const ScrollsMobileSettings: React.FC<ScrollsMobileSettingsProps> = ({
                                     <button
                                         key={opt.id}
                                         onClick={() => onNpcSelect(phase.tierType, opt.id)}
-                                        className={`flex items-center gap-1 px-2 py-0.5 rounded text-[10px] border transition-all ${
-                                            selectedId === opt.id
-                                                ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
-                                                : 'panel-sm text-dofus-text-md border-dofus-border-md hover:bg-dofus-panel-lt'
-                                        }`}
+                                        className={`flex items-center gap-1 px-2 py-0.5 rounded text-xs border transition-all ${selectedId === opt.id
+                                            ? 'bg-dofus-orange text-dofus-cream border-[#8A3E00]'
+                                            : 'panel-sm text-dofus-text-md border-dofus-border-md hover:bg-dofus-panel-lt'
+                                            }`}
                                     >
                                         <MapPin size={9} />
                                         {opt.npc}
@@ -78,19 +76,19 @@ export const ScrollsMobileSettings: React.FC<ScrollsMobileSettingsProps> = ({
 
         {phases.length > 0 && (
             <div className="pt-2 border-t border-dofus-border/20 flex items-center gap-2 flex-wrap">
-                <span className="text-[10px] text-dofus-text-lt uppercase tracking-wider font-semibold shrink-0">Parchemins</span>
+                <span className="text-xs text-dofus-text-lt uppercase tracking-wider font-semibold shrink-0">Parchemins</span>
                 <div className="flex flex-wrap gap-1.5 flex-1">
                     {phases.map(phase => (
                         <div
                             key={phase.tierType}
                             className={`flex items-center gap-1.5 px-2 py-1 rounded border ${TIER_COLORS[phase.tierType]}`}
                         >
-                            <span className="text-[10px] font-medium">{TIER_LABELS[phase.tierType]}</span>
-                            <span className="text-xs font-bold font-mono">{phase.scrollsNeeded}×</span>
+                            <span className="text-xs font-medium">{TIER_LABELS[phase.tierType]}</span>
+                            <span className="text-xs font-bit font-mono">{phase.scrollsNeeded}×</span>
                         </div>
                     ))}
                 </div>
-                <span className="font-bold font-mono text-sm text-dofus-orange shrink-0">{totalScrolls} total</span>
+                <span className="font-bit font-mono text-sm text-dofus-orange shrink-0">{totalScrolls} total</span>
             </div>
         )}
     </div>

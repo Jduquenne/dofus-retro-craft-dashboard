@@ -1,0 +1,518 @@
+[
+  {
+    "id": "459",
+    "name": "Planche en Frêne",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/459.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2539",
+    "name": "Potion de Copeaux de Bois",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/smithmagic_potion/2539.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2543",
+    "name": "Potion de Copeaux de Bois Rares",
+    "profession": "lumberjack",
+    "level": 20,
+    "image": "resources/smithmagic_potion/2543.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2540",
+    "name": "Potion de Copeaux de Bois Solides",
+    "profession": "lumberjack",
+    "level": 10,
+    "image": "resources/smithmagic_potion/2540.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 2
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "6868",
+    "name": "Planche en Châtaignier",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/6868.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 2
+  },
+  {
+    "id": "7671",
+    "name": "Planche en Bois de Bambouto",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7671.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7286",
+        "name": "Bois de Bambouto",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7659",
+    "name": "Planche en Noyer",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7659.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7653",
+    "name": "Planche en Chêne",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7653.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7668",
+    "name": "Planche en Bois de Tronknyde",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7668.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2250",
+        "name": "Bois de Tronknyde",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7661",
+    "name": "Planche en Bombu",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7661.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7662",
+    "name": "Planche en Oliviolet",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7662.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7657",
+    "name": "Planche en Erable",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7657.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1001",
+    "name": "Planche en bois de Kokoko",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/1001.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7669",
+    "name": "Planche en Bambou Doré",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7669.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7017",
+        "name": "Bois de Bambou Doré",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7667",
+    "name": "Planche en Bois Envoûté",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7667.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "926",
+        "name": "Bois Envoûté",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7663",
+    "name": "Planche en Bambou",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7663.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7654",
+    "name": "Planche en If",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7654.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7660",
+    "name": "Planche en Merisier",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7660.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "8078",
+    "name": "Planche en Bois de Kaliptus",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/8078.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7655",
+    "name": "Planche en Ebène",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7655.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7664",
+    "name": "Planche en Bambou Sombre",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7664.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7658",
+    "name": "Planche en Charme",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7658.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7672",
+    "name": "Planche en Bois de Bambouto Sacré",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7672.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7656",
+    "name": "Planche en Orme",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7656.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7665",
+    "name": "Planche en Bambou Sacré",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7665.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7666",
+    "name": "Planche en Bois Ancestral",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7666.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "920",
+        "name": "Bois Ancestral",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7670",
+    "name": "Planche en Bambou Magique",
+    "profession": "lumberjack",
+    "level": 1,
+    "image": "resources/plank/7670.svg",
+    "category": "Planche",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 1,
+    "merchantPrice": 1
+  }
+]

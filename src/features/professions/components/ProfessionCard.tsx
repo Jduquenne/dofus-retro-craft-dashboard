@@ -32,7 +32,6 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
     isMaxLevel,
     canModify,
     professions,
-    xpMultiplier = 1,
     onLevelChange,
     onXPChange,
     onTargetLevelChange
@@ -41,19 +40,18 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
 
     return (
         <div
-            className={`panel rounded p-3 relative transition-all flex flex-col gap-3 ${
-                isMaxLevel && isActive ? 'ring-2 ring-dofus-success/60 ring-offset-1 ring-offset-dofus-bg' : ''
-            } ${!canModify ? 'opacity-50' : ''}`}
+            className={`panel rounded p-3 relative transition-all flex flex-col gap-3 ${isMaxLevel && isActive ? 'ring-2 ring-dofus-success/60 ring-offset-1 ring-offset-dofus-bg' : ''
+                } ${!canModify ? 'opacity-50' : ''}`}
         >
             {!canModify && (
                 <div className="absolute inset-0 bg-dofus-bg/50 rounded flex items-center justify-center backdrop-blur-[1px] z-10">
                     <div className="bg-dofus-error text-dofus-cream px-3 py-2 rounded shadow-lg flex items-center gap-2">
-                        <span className="text-xl">🔒</span>
+                        <span className="text-sm">🔒</span>
                         <div className="text-left">
                             {profession.type === ProfessionTypes.SMITHMAGUS && profession.currentLevel === 1 ? (
                                 <>
-                                    <div className="font-bold text-xs">Métier de craft requis</div>
-                                    <div className="text-[10px] opacity-80">
+                                    <div className="font-bit text-xs">Métier de craft requis</div>
+                                    <div className="text-xs opacity-80">
                                         {(() => {
                                             const required = getRequiredCraftProfession(profession.id, professions);
                                             return required ? `${required.name} niveau 65` : 'Niveau 65';
@@ -62,8 +60,8 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                                 </>
                             ) : (
                                 <>
-                                    <div className="font-bold text-xs">Slot verrouillé</div>
-                                    <div className="text-[10px] opacity-80">Niveau 30 requis</div>
+                                    <div className="font-bit text-xs">Slot verrouillé</div>
+                                    <div className="text-xs opacity-80">Niveau 30 requis</div>
                                 </>
                             )}
                         </div>
@@ -73,31 +71,30 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
 
             {/* Header */}
             <div className="flex items-start gap-2.5">
-                <span className="text-2xl leading-none mt-0.5 shrink-0">{profession.icon}</span>
                 <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-1.5 flex-wrap">
-                        <h3 className="text-sm font-bold text-dofus-text truncate leading-tight">{profession.name}</h3>
+                        <h3 className="text-sm font-bit text-dofus-text truncate leading-tight">{profession.name}</h3>
                         {isActive ? (
-                            <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-success/20 text-dofus-success border border-dofus-success/30">
+                            <span className="shrink-0 text-xs font-bit px-1.5 py-0.5 rounded-full bg-dofus-success/20 text-dofus-success border border-dofus-success/30">
                                 ✓ Actif
                             </span>
                         ) : canModify ? (
-                            <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-gold/20 text-dofus-gold border border-dofus-gold/30 animate-pulse">
+                            <span className="shrink-0 text-xs font-bit px-1.5 py-0.5 rounded-full bg-dofus-gold/20 text-dofus-gold border border-dofus-gold/30 animate-pulse">
                                 ⭐ Libre
                             </span>
                         ) : (
-                            <span className="shrink-0 text-[10px] font-bold px-1.5 py-0.5 rounded-full bg-dofus-error/20 text-dofus-error border border-dofus-error/30">
+                            <span className="shrink-0 text-xs font-bit px-1.5 py-0.5 rounded-full bg-dofus-error/20 text-dofus-error border border-dofus-error/30">
                                 🔒
                             </span>
                         )}
                     </div>
                     <div className="flex items-baseline gap-1 mt-0.5">
-                        <span className="text-base font-bold font-mono text-dofus-orange leading-none">
+                        <span className="text-sm font-bit text-dofus-orange leading-none">
                             {profession.currentLevel}
                         </span>
-                        <span className="text-[10px] text-dofus-text-lt">/ 100</span>
+                        <span className="text-xs font-bit text-dofus-text-lt">/ 100</span>
                         {isMaxLevel && isActive && (
-                            <span className="text-[10px] bg-dofus-success/15 text-dofus-success px-1.5 py-0.5 rounded-full ml-0.5">
+                            <span className="text-xs bg-dofus-success/15 text-dofus-success px-1.5 py-0.5 rounded-full ml-0.5">
                                 Objectif ✓
                             </span>
                         )}
@@ -116,10 +113,10 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                         }}
                     />
                 </div>
-                <div className="flex justify-between items-center text-[10px]">
-                    <span className="text-dofus-text-lt font-mono">{stats.currentTotalXP.toLocaleString()}</span>
-                    <span className="text-dofus-orange font-semibold">{Math.round(stats.progress)}%</span>
-                    <span className="text-dofus-text-lt font-mono">{stats.nextLevelBaseXP.toLocaleString()}</span>
+                <div className="flex justify-between items-center text-xs">
+                    <span className="text-dofus-text-lt font-bit">{stats.currentTotalXP}</span>
+                    <span className="font-bit text-dofus-orange font-semibold">{Math.round(stats.progress)}%</span>
+                    <span className="text-dofus-text-lt font-bit">{stats.nextLevelBaseXP}</span>
                 </div>
             </div>
 
@@ -136,15 +133,15 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
             {/* Objective strip — always visible, no tooltip */}
             {shouldShowObjectiveInfo && (
                 <div className="pt-2.5 border-t border-dofus-border/20 space-y-1">
-                    <div className="flex items-center gap-1 text-[10px] text-dofus-text-lt">
+                    <div className="flex items-center gap-1 text-xs text-dofus-text-lt">
                         <Target size={11} className="text-dofus-orange shrink-0" />
                         <span>Objectif niv. <span className="font-semibold text-dofus-text-md">{profession.targetLevel}</span></span>
                     </div>
                     <div className="flex items-center gap-2 flex-wrap">
-                        <span className="text-[10px] font-mono text-dofus-text-md font-semibold bg-dofus-panel-dk/40 px-1.5 py-0.5 rounded">
+                        <span className="text-xs font-bit text-dofus-text-md font-semibold bg-dofus-panel-dk/40 px-1.5 py-0.5 rounded">
                             {stats.levelsRemaining} niv.
                         </span>
-                        <span className="text-[10px] font-mono font-bold text-dofus-orange bg-dofus-orange/10 px-1.5 py-0.5 rounded border border-dofus-orange/20">
+                        <span className="text-xs font-bit text-dofus-orange bg-dofus-orange/10 px-1.5 py-0.5 rounded border border-dofus-orange/20">
                             {formatXP(stats.xpNeeded)} XP
                         </span>
                     </div>

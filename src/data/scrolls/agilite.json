@@ -1,7 +1,7 @@
 {
   "id": "agilite",
   "label": "Agilité",
-  "icon": "🌬️",
+  "icon": "items/stat_scroll/799.svg",
   "tiers": [
     {
       "type": "petit",
@@ -11,9 +11,16 @@
         {
           "id": "agi-petit-edrige",
           "npc": "Edrige Valling",
-          "position": [0, 3],
+          "position": [
+            0,
+            3
+          ],
           "resources": [
-            { "name": "Anneaux Agilesques", "quantity": 100, "kind": "equipment" }
+            {
+              "name": "Anneaux Agilesques",
+              "quantity": 100,
+              "kind": "equipment"
+            }
           ]
         }
       ]
@@ -26,18 +33,33 @@
         {
           "id": "agi-normal-loopine",
           "npc": "Loopine",
-          "position": [2, 17],
+          "position": [
+            2,
+            17
+          ],
           "resources": [
-            { "name": "Gland", "quantity": 70 }
+            {
+              "name": "Gland",
+              "quantity": 70
+            }
           ]
         },
         {
           "id": "agi-normal-max",
           "npc": "Max",
-          "position": [8, -2],
+          "position": [
+            8,
+            -2
+          ],
           "resources": [
-            { "name": "Gland", "quantity": 70 },
-            { "name": "Langue de Pissenlit Diabolique", "quantity": 70 }
+            {
+              "name": "Gland",
+              "quantity": 70
+            },
+            {
+              "name": "Langue de Pissenlit Diabolique",
+              "quantity": 70
+            }
           ]
         }
       ]
@@ -50,11 +72,23 @@
         {
           "id": "agi-grand-leeaibig",
           "npc": "Lee Aibig",
-          "position": [3, 4],
+          "position": [
+            3,
+            4
+          ],
           "resources": [
-            { "name": "Gland", "quantity": 75 },
-            { "name": "Langue de Pissenlit Diabolique", "quantity": 75 },
-            { "name": "Pétale de Rose Démoniaque", "quantity": 70 }
+            {
+              "name": "Gland",
+              "quantity": 75
+            },
+            {
+              "name": "Langue de Pissenlit Diabolique",
+              "quantity": 75
+            },
+            {
+              "name": "Pétale de Rose Démoniaque",
+              "quantity": 70
+            }
           ]
         }
       ]
@@ -67,12 +101,27 @@
         {
           "id": "agi-puissant-leeaibig",
           "npc": "Lee Aibig",
-          "position": [3, 4],
+          "position": [
+            3,
+            4
+          ],
           "resources": [
-            { "name": "Gland", "quantity": 80 },
-            { "name": "Langue de Pissenlit Diabolique", "quantity": 80 },
-            { "name": "Pétale de Rose Démoniaque", "quantity": 80 },
-            { "name": "Sporme de Champ Champ", "quantity": 20 }
+            {
+              "name": "Gland",
+              "quantity": 80
+            },
+            {
+              "name": "Langue de Pissenlit Diabolique",
+              "quantity": 80
+            },
+            {
+              "name": "Pétale de Rose Démoniaque",
+              "quantity": 80
+            },
+            {
+              "name": "Sporme de Champ Champ",
+              "quantity": 20
+            }
           ]
         }
       ]

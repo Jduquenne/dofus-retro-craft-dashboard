@@ -1,0 +1,6714 @@
+[
+  {
+    "id": "9968",
+    "name": "Bouteille de Gloutoburg",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/type_79/9968.svg",
+    "category": "Boisson",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "salade",
+        "name": "Salade",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7045",
+        "name": "Une fiole de Pandaburg",
+        "quantity": 5
+      },
+      {
+        "resourceId": "rhum_greedo",
+        "name": "Rhum Greedo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9041",
+    "name": "Grande potion d'agression",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9041.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2557",
+        "name": "Pétale de Blop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "426",
+        "name": "Fibre de Chanvre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9383",
+        "name": "Racine de Tronkoblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9040",
+        "name": "Potion d'agression Moyenne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9899",
+    "name": "Grande potion de soin de masse",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9899.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9898",
+        "name": "Potion de soin de masse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2466",
+        "name": "Langue de Chef de Guerre Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2455",
+        "name": "Sang de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2322",
+        "name": "Crocs de Rats",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8362",
+        "name": "Peau de Dragoeuf Guerrier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "375",
+        "name": "Dent du Tofu Maléfique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9382",
+        "name": "Fleur de Blopignon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9900",
+    "name": "Incroyable potion de soin de masse",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9900.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2499",
+        "name": "Museau de Kolérat",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2490",
+        "name": "Patte de Scorbute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7293",
+        "name": "Poils de Soryo Firefoux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9899",
+        "name": "Grande potion de soin de masse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2497",
+        "name": "Oreille de Kolérat",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2301",
+        "name": "Moustache de Kolérat",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2248",
+        "name": "Poil d'Ouginak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "286",
+    "name": "Levure de Boulanger",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/powder/286.svg",
+    "category": "Poudre",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "519",
+        "name": "Poudre de Perlinpainpain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9038",
+    "name": "Petite potion d'agression",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9038.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "439",
+        "name": "Canine du Mulou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9382",
+        "name": "Fleur de Blopignon",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7498",
+    "name": "Petite potion de soin de masse",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/7498.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2504",
+        "name": "Langue de Croc Gland",
+        "quantity": 1
+      },
+      {
+        "resourceId": "426",
+        "name": "Fibre de Chanvre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2315",
+        "name": "Poils de Crocs Glands",
+        "quantity": 1
+      },
+      {
+        "resourceId": "417",
+        "name": "Boue du Boo",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1341",
+    "name": "Potion d'Averse",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1341.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1531",
+        "name": "Metaria Triame bleue",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "1340",
+    "name": "Potion d'Eboulement",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1340.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1534",
+        "name": "Metaria Triame jaune",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "1333",
+    "name": "Potion d'Etincelle",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1333.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1526",
+        "name": "Metaria rouge",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "1345",
+    "name": "Potion d'Incendie",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1345.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1535",
+        "name": "Metaria Mage rouge",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 80
+  },
+  {
+    "id": "1347",
+    "name": "Potion d'Ouragan",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1347.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1537",
+        "name": "Metaria Mage verte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 80
+  },
+  {
+    "id": "9040",
+    "name": "Potion d'agression Moyenne",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9040.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2302",
+        "name": "Langue de Crabe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9038",
+        "name": "Petite potion d'agression",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2336",
+        "name": "Crâne de chafer",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1598",
+    "name": "Potion d'oubli de métier : Alchimiste",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1598.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1473",
+        "name": "Mains Vertes",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1592",
+    "name": "Potion d'oubli de métier : Bijoutier",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1592.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "491",
+        "name": "Sertisseur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2186",
+    "name": "Potion d'oubli de métier : Boucher",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/2186.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1945",
+        "name": "Hachoir de Boucher",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1597",
+    "name": "Potion d'oubli de métier : Boulanger",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1597.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "492",
+        "name": "Le Pétrisseur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "8106",
+    "name": "Potion d'oubli de métier : Bricoleur",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/8106.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7650",
+        "name": "Marteau du Bricoleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1587",
+    "name": "Potion d'oubli de métier : Bûcheron",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1587.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "454",
+        "name": "Hache de Bûcheron",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2185",
+    "name": "Potion d'oubli de métier : Chasseur",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/2185.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1934",
+        "name": "Couteau de Chasse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7507",
+    "name": "Potion d'oubli de métier : Cordomage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/7507.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7495",
+        "name": "Coupe Cuir du Cordomage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1591",
+    "name": "Potion d'oubli de métier : Cordonnier",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1591.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "579",
+        "name": "Coupe Cuir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7505",
+    "name": "Potion d'oubli de métier : Costumage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/7505.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7494",
+        "name": "Aiguille du Costumage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1645",
+    "name": "Potion d'oubli de métier : Forgemage d'Epées",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1645.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1539",
+        "name": "Marteau du Forgemage d'Epées",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1642",
+    "name": "Potion d'oubli de métier : Forgemage de Dagues",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1642.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1520",
+        "name": "Marteau du Forgemage de Dagues",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1643",
+    "name": "Potion d'oubli de métier : Forgemage de Haches",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1643.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1562",
+        "name": "Marteau du Forgemage de Haches",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1644",
+    "name": "Potion d'oubli de métier : Forgemage de Marteaux",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1644.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1561",
+        "name": "Marteau du Forgemage de Marteaux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1646",
+    "name": "Potion d'oubli de métier : Forgemage de Pelles",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1646.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1560",
+        "name": "Marteau du Forgemage de Pelles",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1588",
+    "name": "Potion d'oubli de métier : Forgeur d'Epées",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1588.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "494",
+        "name": "Marteau de Forgeur d'Epées",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7421",
+    "name": "Potion d'oubli de métier : Forgeur de Bouclier",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/7421.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7098",
+        "name": "Marteau du Forgeur de Boucliers",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1542",
+    "name": "Potion d'oubli de métier : Forgeur de Dagues",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1542.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "495",
+        "name": "Marteau de Forgeur de Dagues",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1601",
+    "name": "Potion d'oubli de métier : Forgeur de Haches",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1601.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "922",
+        "name": "Marteau du Forgeur de Haches",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1590",
+    "name": "Potion d'oubli de métier : Forgeur de Marteaux",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1590.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "493",
+        "name": "Marteau de Forgeur de Marteaux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1595",
+    "name": "Potion d'oubli de métier : Forgeur de Pelles",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1595.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "496",
+        "name": "Marteau de Forgeur de Pelles",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7506",
+    "name": "Potion d'oubli de métier : Joaillomage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/7506.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7493",
+        "name": "Sertisseur du Joaillomage",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1596",
+    "name": "Potion d'oubli de métier : Mineur",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1596.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "497",
+        "name": "Pioche du Mineur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1600",
+    "name": "Potion d'oubli de métier : Paysan",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1600.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "577",
+        "name": "Faux du Paysan",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2184",
+    "name": "Potion d'oubli de métier : Poissonnier",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/2184.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1946",
+        "name": "Hachoir de poissonnier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "2183",
+    "name": "Potion d'oubli de métier : Pêcheur",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/2183.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "596",
+        "name": "Canne à Pêche Courte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1647",
+    "name": "Potion d'oubli de métier : Sculptemage d'Arcs",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1647.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1563",
+        "name": "Tailladeuse d'Arcs Magiques",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1648",
+    "name": "Potion d'oubli de métier : Sculptemage de Baguettes",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1648.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1564",
+        "name": "Tailladeuse de Baguettes Magiques",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1649",
+    "name": "Potion d'oubli de métier : Sculptemage de Bâtons",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1649.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1565",
+        "name": "Tailladeuse de Bâtons Magiques",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1589",
+    "name": "Potion d'oubli de métier : Sculpteur d'Arcs",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1589.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "500",
+        "name": "Tailladeuse d'Arc",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1594",
+    "name": "Potion d'oubli de métier : Sculpteur de Baguettes",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1594.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "499",
+        "name": "Tailladeuse de Baguette",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1593",
+    "name": "Potion d'oubli de métier : Sculpteur de Bâton",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1593.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "498",
+        "name": "Tailladeuse de Bâton",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1599",
+    "name": "Potion d'oubli de métier : Tailleur",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/job_forget_potion/1599.svg",
+    "category": "Potion d'oubli de métier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "951",
+        "name": "Aiguilles et Fil",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1337",
+    "name": "Potion de Courant d'Air",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1337.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1529",
+        "name": "Metaria verte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "1335",
+    "name": "Potion de Crachin",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1335.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1527",
+        "name": "Metaria bleue",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "1343",
+    "name": "Potion de Flambée",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1343.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1533",
+        "name": "Metaria Triame rouge",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "10673",
+    "name": "Potion de HmmMmmMmmm",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/10673.svg",
+    "category": "Potion",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "2455",
+        "name": "Sang de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "385",
+        "name": "Bave de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "363",
+        "name": "Peau de Larve Orange",
+        "quantity": 1
+      },
+      {
+        "resourceId": "365",
+        "name": "Patte d'Arakne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1182",
+    "name": "Potion de Mini Soin",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/1182.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "421",
+        "name": "Fleur de Lin",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 2
+  },
+  {
+    "id": "9870",
+    "name": "Potion de Pouflage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9870.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7030",
+        "name": "Peau de Kanigrou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1893",
+        "name": "Queue de scorbute",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1342",
+    "name": "Potion de Rafale",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1342.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1532",
+        "name": "Metaria Triame verte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "548",
+    "name": "Potion de Rappel",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/548.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9884",
+    "name": "Potion de Rocheflage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9884.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2150",
+        "name": "Graine de scorbute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2466",
+        "name": "Langue de Chef de Guerre Bouftou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1338",
+    "name": "Potion de Secousse",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1338.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1528",
+        "name": "Metaria jaune",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "9886",
+    "name": "Potion de Souflage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9886.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "440",
+        "name": "Griffe du Mulou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2665",
+        "name": "Herbe Folle",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "7652",
+    "name": "Potion de Souvenir",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/7652.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "385",
+        "name": "Bave de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7059",
+        "name": "Graine de Pandouille",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1348",
+    "name": "Potion de Séisme",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1348.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1538",
+        "name": "Metaria Mage jaune",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 80
+  },
+  {
+    "id": "9885",
+    "name": "Potion de Tabouflage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9885.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "375",
+        "name": "Dent du Tofu Maléfique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9383",
+        "name": "Racine de Tronkoblop",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9882",
+    "name": "Potion de Toflage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9882.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9381",
+        "name": "Fleur de Gloutoblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "373",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9883",
+    "name": "Potion de Tombeflage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9883.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2509",
+        "name": "Dent de Serpentin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "371",
+        "name": "Sourcil de Moskito",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9887",
+    "name": "Potion de Touflage",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9887.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "417",
+        "name": "Boue du Boo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6736",
+        "name": "Bourgeon de Fourbasse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1346",
+    "name": "Potion de Tsunami",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "resources/smithmagic_potion/1346.svg",
+    "category": "Potion de forgemagie",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1463",
+        "name": "Fiole à élément",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1536",
+        "name": "Metaria Mage bleue",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 80
+  },
+  {
+    "id": "793",
+    "name": "Potion de Vieillesse",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/793.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "425",
+        "name": "Chanvre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "385",
+        "name": "Bave de Bouftou",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 10
+  },
+  {
+    "id": "9888",
+    "name": "Potion de camouflage immobile",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9888.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7285",
+        "name": "Patte d'Araknawa",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9383",
+        "name": "Racine de Tronkoblop",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9869",
+    "name": "Potion de camouflage total",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9869.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8362",
+        "name": "Peau de Dragoeuf Guerrier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "430",
+        "name": "Os Invisible du Chafer Invisible",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9888",
+        "name": "Potion de camouflage immobile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1652",
+        "name": "Patte d'Arakne Majeure",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1
+  },
+  {
+    "id": "6965",
+    "name": "Potion de cité : Bonta",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/6965.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7045",
+        "name": "Une fiole de Pandaburg",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7018",
+        "name": "Riz",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "6964",
+    "name": "Potion de cité : Brâkmar",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/6964.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7047",
+        "name": "Une fiole de Pandapils",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7018",
+        "name": "Riz",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10669",
+    "name": "Potion de crapaud-mufle",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/10669.svg",
+    "category": "Potion",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "2455",
+        "name": "Sang de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "367",
+        "name": "Oeuf de Tofu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "362",
+        "name": "Peau de Larve Bleue",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "9897",
+    "name": "Potion de libération",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9897.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2492",
+        "name": "Chaîne de l'Ouginak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6736",
+        "name": "Bourgeon de Fourbasse",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1890",
+        "name": "Poil de Kanigrou",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "9898",
+    "name": "Potion de soin de masse",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/9898.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2302",
+        "name": "Langue de Crabe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2501",
+        "name": "Queue de Croc Gland",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7498",
+        "name": "Petite potion de soin de masse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9381",
+        "name": "Fleur de Gloutoblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9383",
+        "name": "Racine de Tronkoblop",
+        "quantity": 1
+      },
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10827",
+    "name": "Potion de soin larvesque",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/potion/10827.svg",
+    "category": "Potion",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "363",
+        "name": "Peau de Larve Orange",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2455",
+        "name": "Sang de Bouftou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1688",
+    "name": "Teinture Magique Bleutée",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/dye/1688.svg",
+    "category": "Teinture",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "757",
+        "name": "Gelée Bleutée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "362",
+        "name": "Peau de Larve Bleue",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "1689",
+    "name": "Teinture Magique Orange",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/dye/1689.svg",
+    "category": "Teinture",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 10
+      },
+      {
+        "resourceId": "363",
+        "name": "Peau de Larve Orange",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "1692",
+    "name": "Teinture Magique Sombre",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/dye/1692.svg",
+    "category": "Teinture",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "365",
+        "name": "Patte d'Arakne",
+        "quantity": 10
+      },
+      {
+        "resourceId": "307",
+        "name": "Ailes de Moskito",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "1687",
+    "name": "Teinture Magique Verdâtre",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/dye/1687.svg",
+    "category": "Teinture",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "364",
+        "name": "Peau de Larve Verte",
+        "quantity": 20
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "1686",
+    "name": "Teinture Magique de Rougeur",
+    "profession": "alchemist",
+    "level": 1,
+    "image": "items/dye/1686.svg",
+    "category": "Teinture",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "368",
+        "name": "Gelée à la Fraise",
+        "quantity": 1
+      },
+      {
+        "resourceId": "381",
+        "name": "Fraise",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 50
+  },
+  {
+    "id": "580",
+    "name": "Potion Ghetto Raide",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/potion/580.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 3
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 2
+  },
+  {
+    "id": "7319",
+    "name": "Potion d'oubli Percepteur 'Cyclone'",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7319.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2321",
+        "name": "Babines d'Ouginak",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7329",
+    "name": "Potion d'oubli Percepteur 'Expérience'",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7329.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "678",
+        "name": "Parchemin d'Ivoire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7315",
+    "name": "Potion d'oubli Percepteur : Armure Incandescente",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7315.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7285",
+        "name": "Patte d'Araknawa",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2448",
+        "name": "Cervelle de Bouftou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7316",
+    "name": "Potion d'oubli Percepteur : Armure Terrestre",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7316.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2491",
+        "name": "Oeil d'Ouginak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1890",
+        "name": "Poil de Kanigrou",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7317",
+    "name": "Potion d'oubli Percepteur : Armure Venteuse",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7317.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "448",
+        "name": "Silex",
+        "quantity": 1
+      },
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7314",
+    "name": "Potion d'oubli Percepteur : Armure aqueuse",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7314.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2492",
+        "name": "Chaîne de l'Ouginak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2549",
+        "name": "Boîte de Kanigrou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7324",
+    "name": "Potion d'oubli Percepteur : Compulsion de masse",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7324.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2322",
+        "name": "Crocs de Rats",
+        "quantity": 1
+      },
+      {
+        "resourceId": "310",
+        "name": "Os de Chafer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7323",
+    "name": "Potion d'oubli Percepteur : Désenvoutement",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7323.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2584",
+        "name": "Main de Boo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "373",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7325",
+    "name": "Potion d'oubli Percepteur : Déstabilisation",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7325.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2336",
+        "name": "Crâne de chafer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2662",
+        "name": "Bave de Rose Démoniaque",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7318",
+    "name": "Potion d'oubli Percepteur : Flamme",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7318.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "371",
+        "name": "Sourcil de Moskito",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2150",
+        "name": "Graine de scorbute",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7322",
+    "name": "Potion d'oubli Percepteur : Mot Soignant",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7322.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2248",
+        "name": "Poil d'Ouginak",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7327",
+    "name": "Potion d'oubli Percepteur : Nombre de percepteur",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7327.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "547",
+        "name": "Pierre de Rubis",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7328",
+    "name": "Potion d'oubli Percepteur : Prospection",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7328.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "809",
+        "name": "Petit Parchemin de Chance",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7321",
+    "name": "Potion d'oubli Percepteur : Rocher",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7321.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "3208",
+        "name": "Slip de Bwork Archer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "440",
+        "name": "Griffe du Mulou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7320",
+    "name": "Potion d'oubli Percepteur : Vague",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/collector_forget_potion/7320.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "375",
+        "name": "Dent du Tofu Maléfique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7260",
+        "name": "Peau de Pandikaze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1183",
+    "name": "Potion de Mini Soin Supérieure",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/potion/1183.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "428",
+        "name": "Fleur de Chanvre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "421",
+        "name": "Fleur de Lin",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 4
+  },
+  {
+    "id": "1741",
+    "name": "Sang de Phénix",
+    "profession": "alchemist",
+    "level": 10,
+    "image": "items/potion/1741.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7059",
+        "name": "Graine de Pandouille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7018",
+        "name": "Riz",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 100
+  },
+  {
+    "id": "283",
+    "name": "Fiole de Soin",
+    "profession": "alchemist",
+    "level": 20,
+    "image": "items/potion/283.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1459",
+        "name": "Tube longiforme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 2
+      },
+      {
+        "resourceId": "593",
+        "name": "Orchidée Freyesque",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1
+  },
+  {
+    "id": "282",
+    "name": "Fiole de Soin supérieure",
+    "profession": "alchemist",
+    "level": 20,
+    "image": "items/potion/282.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1459",
+        "name": "Tube longiforme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "594",
+        "name": "Edelweiss",
+        "quantity": 2
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1461",
+    "name": "Poison cinglant",
+    "profession": "alchemist",
+    "level": 20,
+    "image": "items/ressource/1461.svg",
+    "category": "Ressource",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1468",
+        "name": "Bocal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "365",
+        "name": "Patte d'Arakne",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1712",
+    "name": "Potion Pahoa Raide",
+    "profession": "alchemist",
+    "level": 20,
+    "image": "items/potion/1712.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "593",
+        "name": "Orchidée Freyesque",
+        "quantity": 3
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 5
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 5
+  },
+  {
+    "id": "10969",
+    "name": "Potion de Fwaîchew",
+    "profession": "alchemist",
+    "level": 20,
+    "image": "items/potion/10969.svg",
+    "category": "Potion",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "361",
+        "name": "Cawotte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10970",
+        "name": "Sueur de dragodinde",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10973",
+    "name": "Potion de destination inconnue",
+    "profession": "alchemist",
+    "level": 20,
+    "image": "items/potion/10973.svg",
+    "category": "Potion",
+    "isSecret": true,
+    "resources": [
+      {
+        "resourceId": "379",
+        "name": "Pince du Crabe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "393",
+        "name": "Gland",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 1
+  },
+  {
+    "id": "1462",
+    "name": "Liquide vampiresque",
+    "profession": "alchemist",
+    "level": 30,
+    "image": "resources/resource/1462.svg",
+    "category": "Ressource",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1468",
+        "name": "Bocal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "752",
+        "name": "Sang du Vampire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "310",
+        "name": "Os de Chafer",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 10
+  },
+  {
+    "id": "10212",
+    "name": "Elixir Crâ",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10212.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2516",
+        "name": "Défense de Sanglier des Plaines",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10214",
+    "name": "Elixir Ecaflip",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10214.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10210",
+    "name": "Elixir Eniripsa",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10210.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2491",
+        "name": "Oeil d'Ouginak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10217",
+    "name": "Elixir Enutrof",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10217.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "417",
+        "name": "Boue du Boo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10216",
+    "name": "Elixir Féca",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10216.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "373",
+        "name": "Tige de Pissenlit Diabolique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10213",
+    "name": "Elixir Iop",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10213.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2448",
+        "name": "Cervelle de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10218",
+    "name": "Elixir Osamodas",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10218.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "310",
+        "name": "Os de Chafer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10208",
+    "name": "Elixir Pandawa",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10208.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "6736",
+        "name": "Bourgeon de Fourbasse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10209",
+    "name": "Elixir Sacrieur",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10209.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2455",
+        "name": "Sang de Bouftou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10211",
+    "name": "Elixir Sadida",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10211.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10219",
+    "name": "Elixir Sram",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10219.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2322",
+        "name": "Crocs de Rats",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "10215",
+    "name": "Elixir Xélor",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/10215.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "388",
+        "name": "Poils du Sanglier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 0
+  },
+  {
+    "id": "1713",
+    "name": "Potion Raide Boule",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/1713.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "594",
+        "name": "Edelweiss",
+        "quantity": 3
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 3
+      },
+      {
+        "resourceId": "593",
+        "name": "Orchidée Freyesque",
+        "quantity": 5
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 10
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 10
+  },
+  {
+    "id": "9035",
+    "name": "Potion d'enclos de Guilde",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/9035.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1778",
+        "name": "Fleur de Blop Indigo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2542",
+        "name": "Potion de Foyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1776",
+        "name": "Fleur de Blop Griotte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1772",
+        "name": "Fleur de Blop Coco",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1774",
+        "name": "Fleur de Blop Reinette",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8883",
+    "name": "Potion de Foyer de Guilde",
+    "profession": "alchemist",
+    "level": 40,
+    "image": "items/potion/8883.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1777",
+        "name": "Bout de Blop Indigo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1775",
+        "name": "Bout de Blop Griotte",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1770",
+        "name": "Bout de Blop Coco",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2542",
+        "name": "Potion de Foyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1773",
+        "name": "Bout de Blop Reinette",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1742",
+    "name": "Sang de Phénix de Grand Cru",
+    "profession": "alchemist",
+    "level": 50,
+    "image": "items/potion/1742.svg",
+    "category": "Objet de dons",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1183",
+        "name": "Potion de Mini Soin Supérieure",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1405",
+        "name": "Potion Eau de fée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "580",
+        "name": "Potion Ghetto Raide",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1713",
+        "name": "Potion Raide Boule",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7018",
+        "name": "Riz",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7059",
+        "name": "Graine de Pandouille",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 250
+  },
+  {
+    "id": "1405",
+    "name": "Potion Eau de fée",
+    "profession": "alchemist",
+    "level": 60,
+    "image": "items/potion/1405.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1460",
+        "name": "Grande fiole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "594",
+        "name": "Edelweiss",
+        "quantity": 2
+      },
+      {
+        "resourceId": "593",
+        "name": "Orchidée Freyesque",
+        "quantity": 4
+      },
+      {
+        "resourceId": "428",
+        "name": "Fleur de Chanvre",
+        "quantity": 8
+      },
+      {
+        "resourceId": "421",
+        "name": "Fleur de Lin",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 10
+  },
+  {
+    "id": "7326",
+    "name": "Potion d'oubli Percepteur : Pods",
+    "profession": "alchemist",
+    "level": 60,
+    "image": "items/collector_forget_potion/7326.svg",
+    "category": "Potion d'oubli percepteur",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1575",
+        "name": "Guildalogemme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "594",
+        "name": "Edelweiss",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "423",
+        "name": "Lin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "793",
+        "name": "Potion de Vieillesse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 10
+  },
+  {
+    "id": "1406",
+    "name": "Sang de Likrone",
+    "profession": "alchemist",
+    "level": 60,
+    "image": "items/potion/1406.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "311",
+        "name": "Eau",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1460",
+        "name": "Grande fiole",
+        "quantity": 1
+      },
+      {
+        "resourceId": "594",
+        "name": "Edelweiss",
+        "quantity": 4
+      },
+      {
+        "resourceId": "593",
+        "name": "Orchidée Freyesque",
+        "quantity": 6
+      },
+      {
+        "resourceId": "395",
+        "name": "Trèfle à 5 feuilles",
+        "quantity": 8
+      },
+      {
+        "resourceId": "380",
+        "name": "Feuille de Menthe Sauvage",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 10
+  },
+  {
+    "id": "8913",
+    "name": "Potion Bulbique",
+    "profession": "alchemist",
+    "level": 80,
+    "image": "items/potion/8913.svg",
+    "category": "Potion",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7904",
+        "name": "Fleur de Kaliptus",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8749",
+        "name": "Bulbe Kouraçao",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7903",
+        "name": "Feuille de Kaliptus",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8750",
+        "name": "Bulbe Malibout",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7068",
+        "name": "Farine de Riz",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8752",
+        "name": "Bulbe Morito",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8751",
+        "name": "Bulbe Passaoh",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10750",
+    "name": "Potion d'Amélioration d'Atouin",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10750.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10716",
+        "name": "Hormone d'Atouin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10759",
+    "name": "Potion d'Amélioration d'Ecureuil Chenapan",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10759.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10725",
+        "name": "Hormone d'Ecureuil Chenapan",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11784",
+    "name": "Potion d'Amélioration d'El Palador",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11784.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11782",
+        "name": "Hormone de El Palador",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11807",
+    "name": "Potion d'Amélioration d'Estok",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11807.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11806",
+        "name": "Hormone d'Estok",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10752",
+    "name": "Potion d'Amélioration de Bilby",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10752.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10718",
+        "name": "Hormone de Bilby",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10780",
+    "name": "Potion d'Amélioration de Bouloute du Parrain",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10780.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10746",
+        "name": "Hormone de Bouloute du Parrain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10753",
+    "name": "Potion d'Amélioration de Bwak",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10753.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10719",
+        "name": "Hormone de Bwak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10754",
+    "name": "Potion d'Amélioration de Bworky",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10754.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10720",
+        "name": "Hormone de Bworky",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10751",
+    "name": "Potion d'Amélioration de Bébé Pandawa",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10751.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10717",
+        "name": "Hormone de Bébé Pandawa",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10755",
+    "name": "Potion d'Amélioration de Chacha",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10755.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10721",
+        "name": "Hormone de Chacha",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10756",
+    "name": "Potion d'Amélioration de Chacha Angora",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10756.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10722",
+        "name": "Hormone de Chacha Angora",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10757",
+    "name": "Potion d'Amélioration de Chacha Tigré",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10757.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10723",
+        "name": "Hormone de Chacha Tigré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10778",
+    "name": "Potion d'Amélioration de Chauffe-Souris",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10778.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10744",
+        "name": "Hormone de Chauffe-Souris",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11765",
+    "name": "Potion d'Amélioration de Chenapandi",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11765.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11762",
+        "name": "Hormone de Chenapandi",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10811",
+    "name": "Potion d'Amélioration de Chercheur d'Ogrines",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10811.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10810",
+        "name": "Hormone de Chercheur d'Ogrines",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10758",
+    "name": "Potion d'Amélioration de Crocodaille",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10758.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10724",
+        "name": "Hormone de Crocodaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13072",
+    "name": "Potion d'Amélioration de Croum Aqueux",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/13072.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "13053",
+        "name": "Hormone de Croum Aqueux",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13074",
+    "name": "Potion d'Amélioration de Croum Igné",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/13074.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "13058",
+        "name": "Hormone de Croum Igné",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13073",
+    "name": "Potion d'Amélioration de Croum Volatile",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/13073.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "13048",
+        "name": "Hormone de Croum Volatile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "13075",
+    "name": "Potion d'Amélioration de Croum Végétal",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/13075.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "13063",
+        "name": "Hormone de Croum Végétal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10809",
+    "name": "Potion d'Amélioration de Dragoune Dorée",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10809.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10808",
+        "name": "Hormone de Dragoune Dorée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10779",
+    "name": "Potion d'Amélioration de Dragoune Noire",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10779.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10745",
+        "name": "Hormone de Dragoune Noire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11738",
+    "name": "Potion d'Amélioration de Flibalak",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11738.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11716",
+        "name": "Hormone de Flibalak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10760",
+    "name": "Potion d'Amélioration de Fëanor",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10760.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10726",
+        "name": "Hormone de Fëanor",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10781",
+    "name": "Potion d'Amélioration de Gelutin",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10781.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10747",
+        "name": "Hormone de Gelutin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11802",
+    "name": "Potion d'Amélioration de Glouton",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11802.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11801",
+        "name": "Hormone de Glouton",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "12825",
+    "name": "Potion d'Amélioration de Karne",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/12825.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "12819",
+        "name": "Hormone de Karne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10761",
+    "name": "Potion d'Amélioration de Koalak Sanguin",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10761.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10727",
+        "name": "Hormone de Koalak Sanguin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11467",
+    "name": "Potion d'Amélioration de Kometh",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11467.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11470",
+        "name": "Hormone de Kometh",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10762",
+    "name": "Potion d'Amélioration de Kouin-Kouin",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10762.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10728",
+        "name": "Hormone de Kouin-Kouin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10763",
+    "name": "Potion d'Amélioration de Léopardo",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10763.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10729",
+        "name": "Hormone de Léopardo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "12822",
+    "name": "Potion d'Amélioration de Main de Cire",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/12822.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "12820",
+        "name": "Hormone de Main de Cire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10775",
+    "name": "Potion d'Amélioration de Marcassin",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10775.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10741",
+        "name": "Hormone de Marcassin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10884",
+    "name": "Potion d'Amélioration de Meuch",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10884.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10880",
+        "name": "Hormone de Meuch",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10764",
+    "name": "Potion d'Amélioration de Mini Wa",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10764.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10730",
+        "name": "Hormone de Mini Wa",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11723",
+    "name": "Potion d'Amélioration de Miniduk",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11723.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11718",
+        "name": "Hormone de Miniduk",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10776",
+    "name": "Potion d'Amélioration de Miniminotot",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10776.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10742",
+        "name": "Hormone de Miniminotot",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11778",
+    "name": "Potion d'Amélioration de Minipoth",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11778.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11776",
+        "name": "Hormone de Minipoth",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10765",
+    "name": "Potion d'Amélioration de Nomoon",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10765.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10731",
+        "name": "Hormone de Nomoon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11742",
+    "name": "Potion d'Amélioration de Oursolaire",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11742.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11728",
+        "name": "Hormone de Oursolaire",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "12763",
+    "name": "Potion d'Amélioration de Patrick le pâté de sable",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/12763.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "12762",
+        "name": "Hormone de Patrick le pâté de sable",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10767",
+    "name": "Potion d'Amélioration de Petit Chacha Blanc",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10767.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10733",
+        "name": "Hormone de Petit Chacha Blanc",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10768",
+    "name": "Potion d'Amélioration de Petit Chienchien Noir",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10768.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10734",
+        "name": "Hormone de Petit Chienchien Noir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10769",
+    "name": "Potion d'Amélioration de Pioute",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10769.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10735",
+        "name": "Hormone de Pioute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10886",
+    "name": "Potion d'Amélioration de Pykur",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10886.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10882",
+        "name": "Hormone de Pykur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10766",
+    "name": "Potion d'Amélioration de Péki",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10766.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10732",
+        "name": "Hormone de Péki",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10883",
+    "name": "Potion d'Amélioration de Raknaille",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10883.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10879",
+        "name": "Hormone de Raknaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11741",
+    "name": "Potion d'Amélioration de Rennowel",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11741.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11720",
+        "name": "Hormone de Rennowel",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10770",
+    "name": "Potion d'Amélioration de Ross",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10770.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10736",
+        "name": "Hormone de Ross",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10782",
+    "name": "Potion d'Amélioration de Shushu de Rushu",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10782.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10748",
+        "name": "Hormone de Shushu de Rushu",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11769",
+    "name": "Potion d'Amélioration de Tibilax",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11769.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "11767",
+        "name": "Hormone de Tibilax",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "12751",
+    "name": "Potion d'Amélioration de Tibilax Saphir",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/12751.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "12748",
+        "name": "Hormone de Tibilax Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11036",
+    "name": "Potion d'Amélioration de Tifoux Tigré",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11036.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11031",
+        "name": "Hormone de Tifoux Tigré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10777",
+    "name": "Potion d'Amélioration de Tiwabbit Kiafin",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10777.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10743",
+        "name": "Hormone de Tiwabbit Kiafin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10885",
+    "name": "Potion d'Amélioration de Tofoudre",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10885.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10881",
+        "name": "Hormone de Tofoudre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10783",
+    "name": "Potion d'Amélioration de Vampyrette",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10783.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10749",
+        "name": "Hormone de Vampyrette",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10771",
+    "name": "Potion d'Amélioration de Vilain Petit Corbac",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10771.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10737",
+        "name": "Hormone de Vilain Petit Corbac",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10772",
+    "name": "Potion d'Amélioration de Wabbit",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10772.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10738",
+        "name": "Hormone de Wabbit",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10773",
+    "name": "Potion d'Amélioration de Walk",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10773.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10739",
+        "name": "Hormone de Walk",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "10774",
+    "name": "Potion d'Amélioration de Willy le Relou",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/10774.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10740",
+        "name": "Hormone de Willy le Relou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  },
+  {
+    "id": "11010",
+    "name": "Potion d'amélioration de Chacha des Glaces",
+    "profession": "alchemist",
+    "level": 100,
+    "image": "items/pet_potion/11010.svg",
+    "category": "Potion de familier",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "10715",
+        "name": "Poudre de Créatoune",
+        "quantity": 1
+      },
+      {
+        "resourceId": "9941",
+        "name": "Nacre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "11009",
+        "name": "Hormone de Chacha des Glaces",
+        "quantity": 1
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7663",
+        "name": "Planche en Bambou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2636",
+        "name": "Pain Tahde",
+        "quantity": 25
+      },
+      {
+        "resourceId": "1953",
+        "name": "Boulettes d'Insecte **",
+        "quantity": 100
+      },
+      {
+        "resourceId": "1826",
+        "name": "Sardine à l'huile ***",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 1
+  }
+]

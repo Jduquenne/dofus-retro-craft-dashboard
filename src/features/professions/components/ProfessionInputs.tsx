@@ -47,7 +47,7 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
         <div className="space-y-2">
             <div className="grid grid-cols-2 gap-2">
                 <div>
-                    <label className="block text-[10px] text-dofus-text-lt mb-1 uppercase tracking-wide">Niveau</label>
+                    <label className="block text-xs text-dofus-text-lt mb-1 uppercase tracking-wide">Niveau</label>
                     <input
                         type="text"
                         inputMode="numeric"
@@ -58,14 +58,14 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
                             if (e.target.value === '' || parseInt(e.target.value) < 1)
                                 onLevelChange('1', profession.targetLevel);
                         }}
-                        className="input-dofus w-full text-center font-mono font-bold"
+                        className="input-dofus w-full text-center font-bit"
                         placeholder="1–100"
                         disabled={disabled}
                     />
                 </div>
 
                 <div>
-                    <label className="block text-[10px] text-dofus-text-lt mb-1 uppercase tracking-wide">Objectif</label>
+                    <label className="block text-xs text-dofus-text-lt mb-1 uppercase tracking-wide">Objectif</label>
                     <input
                         type="text"
                         inputMode="numeric"
@@ -77,7 +77,7 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
                         }}
                         onKeyDown={handleTargetLevelKeyDown}
                         onBlur={handleTargetLevelBlur}
-                        className="input-dofus w-full text-center font-mono font-bold"
+                        className="input-dofus w-full text-center font-bit"
                         placeholder="1–100"
                         disabled={disabled}
                     />
@@ -85,7 +85,7 @@ export const ProfessionInputs: React.FC<ProfessionInputsProps> = ({
             </div>
 
             <div>
-                <label className="block text-[10px] text-dofus-text-lt mb-1 uppercase tracking-wide">XP totale</label>
+                <label className="block text-xs text-dofus-text-lt mb-1 uppercase tracking-wide">XP totale</label>
                 <input
                     type="text"
                     inputMode="numeric"

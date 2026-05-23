@@ -1,0 +1,3358 @@
+[
+  {
+    "id": "40",
+    "name": "Petite Epée de Boisaille",
+    "profession": "sword-smith",
+    "level": 1,
+    "image": "items/sword/40.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 20
+  },
+  {
+    "id": "42",
+    "name": "Epée de Boisaille",
+    "profession": "sword-smith",
+    "level": 1,
+    "image": "items/sword/42.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 25
+  },
+  {
+    "id": "43",
+    "name": "Grande Epée de Boisaille",
+    "profession": "sword-smith",
+    "level": 1,
+    "image": "items/sword/43.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 30
+  },
+  {
+    "id": "44",
+    "name": "Puissante Epée de Boisaille",
+    "profession": "sword-smith",
+    "level": 1,
+    "image": "items/sword/44.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 2
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 10,
+    "merchantPrice": 35
+  },
+  {
+    "id": "7102",
+    "name": "Epée du Chevalier de Glace",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/7102.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 1
+      },
+      {
+        "resourceId": "303",
+        "name": "Bois de Frêne",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 57
+  },
+  {
+    "id": "47",
+    "name": "Epée de Fouraille",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/47.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "357",
+    "name": "La Queue",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/357.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 3
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 65
+  },
+  {
+    "id": "352",
+    "name": "Petite Epée Sacrée",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/352.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "59",
+    "name": "Petite Epée d'Ha",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/59.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 4
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 70
+  },
+  {
+    "id": "46",
+    "name": "Petite Epée de Fouraille",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/46.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 65
+  },
+  {
+    "id": "48",
+    "name": "Grande Epée de Fouraille",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/48.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 75
+  },
+  {
+    "id": "819",
+    "name": "Epée Sacrée",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/819.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 80
+  },
+  {
+    "id": "60",
+    "name": "Epée d'Ha",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/60.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 80
+  },
+  {
+    "id": "49",
+    "name": "Puissante Epée de Fouraille",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/49.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 5
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 80
+  },
+  {
+    "id": "820",
+    "name": "Grande Epée Sacrée",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/820.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 7
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 90
+  },
+  {
+    "id": "61",
+    "name": "Grande Epée d'Ha",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/61.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 90
+  },
+  {
+    "id": "327",
+    "name": "Lame du Chevaucheur de Karne",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/327.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "471",
+        "name": "Bois d'Erable",
+        "quantity": 4
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 5
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 90
+  },
+  {
+    "id": "821",
+    "name": "Puissante Epée Sacrée",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/821.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "473",
+        "name": "Bois de Châtaignier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 100
+  },
+  {
+    "id": "62",
+    "name": "Puissante Epée d'Ha",
+    "profession": "sword-smith",
+    "level": 10,
+    "image": "items/sword/62.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "443",
+        "name": "Kobalte",
+        "quantity": 5
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 25,
+    "merchantPrice": 100
+  },
+  {
+    "id": "328",
+    "name": "Koupe-koupe",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/328.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 3
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 105
+  },
+  {
+    "id": "353",
+    "name": "Epée du Petit Chevalier",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/353.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 1
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 140
+  },
+  {
+    "id": "358",
+    "name": "La Queue Infernale",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/358.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 2
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 6
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 140
+  },
+  {
+    "id": "58",
+    "name": "La Triste Lame",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/58.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 140
+  },
+  {
+    "id": "338",
+    "name": "Lame du Petit Bwork",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/338.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 140
+  },
+  {
+    "id": "51",
+    "name": "Petite Epée d'Alle",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/51.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 135
+  },
+  {
+    "id": "53",
+    "name": "Epée d'Alle",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/53.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 155
+  },
+  {
+    "id": "67",
+    "name": "Le Tranchant Infernal",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/67.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 3
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "476",
+        "name": "Bois de Noyer",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 145
+  },
+  {
+    "id": "822",
+    "name": "Epée du Chevalier",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/822.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 2
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 160
+  },
+  {
+    "id": "825",
+    "name": "Lame du Bwork",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/825.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 160
+  },
+  {
+    "id": "823",
+    "name": "Epée du Grand Chevalier",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/823.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 3
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 180
+  },
+  {
+    "id": "54",
+    "name": "Grande Epée d'Alle",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/54.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 175
+  },
+  {
+    "id": "826",
+    "name": "Lame du Grand Bwork",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/826.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 3
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 180
+  },
+  {
+    "id": "354",
+    "name": "La Klebik",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/354.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 185
+  },
+  {
+    "id": "824",
+    "name": "Epée du Puissant Chevalier",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/824.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 2
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 4
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "449",
+        "name": "Bois d'Ebène",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "827",
+    "name": "Lame du Puissant Bwork",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/827.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 1
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 4
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 4
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 200
+  },
+  {
+    "id": "55",
+    "name": "Puissante Epée d'Alle",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/55.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 1
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 195
+  },
+  {
+    "id": "339",
+    "name": "Lame du Chafer",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/339.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 210
+  },
+  {
+    "id": "66",
+    "name": "La crinière de Badoul",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/66.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 5
+      },
+      {
+        "resourceId": "442",
+        "name": "Bronze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 6
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 310
+  },
+  {
+    "id": "2637",
+    "name": "La Griffe",
+    "profession": "sword-smith",
+    "level": 20,
+    "image": "items/sword/2637.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2323",
+        "name": "Colonne Vertébrale",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2516",
+        "name": "Défense de Sanglier des Plaines",
+        "quantity": 2
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 50,
+    "merchantPrice": 350
+  },
+  {
+    "id": "6957",
+    "name": "Lame du Craqueleur",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/6957.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2306",
+        "name": "Coeur de Craqueleur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "546",
+        "name": "Pierre de Saphir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "450",
+        "name": "Pierre de Granit",
+        "quantity": 10
+      },
+      {
+        "resourceId": "448",
+        "name": "Silex",
+        "quantity": 16
+      },
+      {
+        "resourceId": "2252",
+        "name": "Dent en Or du Craqueleur",
+        "quantity": 22
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 380
+  },
+  {
+    "id": "65",
+    "name": "Goultard",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/65.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 1
+      },
+      {
+        "resourceId": "477",
+        "name": "Sang de Dragon Cochon",
+        "quantity": 1
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 2
+      },
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "463",
+        "name": "Ambre",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 440
+  },
+  {
+    "id": "1636",
+    "name": "Petite Etoile du Soir",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1636.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "545",
+        "name": "Pierre de Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 10
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 10
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 400
+  },
+  {
+    "id": "7200",
+    "name": "Sabre Shodanwa",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/7200.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7369",
+        "name": "Ambre de Bambouto",
+        "quantity": 4
+      },
+      {
+        "resourceId": "1002",
+        "name": "Tronc de Kokoko",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7013",
+        "name": "Bois de Bambou",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 430
+  },
+  {
+    "id": "2415",
+    "name": "Kwaklame de Flammes",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/2415.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "412",
+        "name": "Bec du Kwak de Flamme",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2648",
+        "name": "Griffes de Kwak",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 460
+  },
+  {
+    "id": "6750",
+    "name": "Kwaklame de Glace",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/6750.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "411",
+        "name": "Bec du Kwak de Glace",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2648",
+        "name": "Griffes de Kwak",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 460
+  },
+  {
+    "id": "6751",
+    "name": "Kwaklame de Terre",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/6751.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2648",
+        "name": "Griffes de Kwak",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1142",
+        "name": "Bec du Kwak de Terre",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 460
+  },
+  {
+    "id": "6752",
+    "name": "Kwaklame du Vent",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/6752.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2648",
+        "name": "Griffes de Kwak",
+        "quantity": 2
+      },
+      {
+        "resourceId": "413",
+        "name": "Bec du Kwak du Vent",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 3
+      },
+      {
+        "resourceId": "460",
+        "name": "Bois de Chêne",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 460
+  },
+  {
+    "id": "1637",
+    "name": "Etoile du Soir",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1637.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "545",
+        "name": "Pierre de Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 17
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 17
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 17
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 17
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 400
+  },
+  {
+    "id": "2544",
+    "name": "Corbalame",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/2544.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2056",
+        "name": "Oeil de Corbac",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2463",
+        "name": "Dent de Chef de Guerre Bouftou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "1889",
+        "name": "Plume de Corbac",
+        "quantity": 20
+      },
+      {
+        "resourceId": "2060",
+        "name": "Patte de Corbac",
+        "quantity": 30
+      },
+      {
+        "resourceId": "2179",
+        "name": "Dent de Dragodinde",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 450
+  },
+  {
+    "id": "928",
+    "name": "Lame d'Ogralimde",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/928.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "60",
+        "name": "Epée d'Ha",
+        "quantity": 1
+      },
+      {
+        "resourceId": "474",
+        "name": "Bois de Merisier",
+        "quantity": 1
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 5
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 6
+      },
+      {
+        "resourceId": "312",
+        "name": "Fer",
+        "quantity": 8
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 450
+  },
+  {
+    "id": "1640",
+    "name": "Le petit Cutter",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1640.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "546",
+        "name": "Pierre de Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 13
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 13
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 13
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 13
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 500
+  },
+  {
+    "id": "1638",
+    "name": "Brillante Etoile du soir",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1638.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "545",
+        "name": "Pierre de Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 20
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 20
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 20
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 400
+  },
+  {
+    "id": "1639",
+    "name": "Immortelle Etoile du soir",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1639.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "545",
+        "name": "Pierre de Cristal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "461",
+        "name": "Bois d'If",
+        "quantity": 25
+      },
+      {
+        "resourceId": "472",
+        "name": "Bois de Charme",
+        "quantity": 25
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 25
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 400
+  },
+  {
+    "id": "1641",
+    "name": "Le Cutter",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1641.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "546",
+        "name": "Pierre de Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 15
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 15
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 15
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 520
+  },
+  {
+    "id": "202",
+    "name": "Razielle",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/202.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 2
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "315",
+        "name": "Diamant",
+        "quantity": 2
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "441",
+        "name": "Cuivre",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 710
+  },
+  {
+    "id": "1650",
+    "name": "Le Grand Cutter",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1650.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 20
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 20
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 20
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 520
+  },
+  {
+    "id": "620",
+    "name": "Découpeuse de Kralamoure",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/620.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2303",
+        "name": "Carapace vide de Crabe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2583",
+        "name": "Oeil de Crabe",
+        "quantity": 20
+      },
+      {
+        "resourceId": "2302",
+        "name": "Langue de Crabe",
+        "quantity": 20
+      },
+      {
+        "resourceId": "379",
+        "name": "Pince du Crabe",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 990
+  },
+  {
+    "id": "1651",
+    "name": "Le Cutter Sanglant",
+    "profession": "sword-smith",
+    "level": 40,
+    "image": "items/sword/1651.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 20
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 20
+      },
+      {
+        "resourceId": "445",
+        "name": "Manganèse",
+        "quantity": 20
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 20
+      }
+    ],
+    "xpGained": 100,
+    "merchantPrice": 520
+  },
+  {
+    "id": "7201",
+    "name": "Sabre Nidanwa",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/7201.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7369",
+        "name": "Ambre de Bambouto",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1130
+  },
+  {
+    "id": "2638",
+    "name": "La Griffe Aiguisée",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/2638.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "466",
+        "name": "Saphir",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2490",
+        "name": "Patte de Scorbute",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2316",
+        "name": "Croc Jaune",
+        "quantity": 5
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 680
+  },
+  {
+    "id": "2440",
+    "name": "Epée Royale du Bouftou",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/2440.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "383",
+        "name": "Corne de Bouftou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2465",
+        "name": "Corne de Chef de Guerre Bouftou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2463",
+        "name": "Dent de Chef de Guerre Bouftou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2416",
+        "name": "Marteau du Bouftou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2453",
+        "name": "Oeil de Bouftou",
+        "quantity": 15
+      },
+      {
+        "resourceId": "2460",
+        "name": "Oeil de Boufton",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 3000
+  },
+  {
+    "id": "6821",
+    "name": "Lame du Chef Crocodaille",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/6821.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "746",
+        "name": "Ebonite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2295",
+        "name": "Fragment d'Epée Reptilienne",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 2
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 3
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1280
+  },
+  {
+    "id": "8605",
+    "name": "Epée Zervatif",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/8605.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8748",
+        "name": "Pétale Morito",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8746",
+        "name": "Pétale Malibout",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8745",
+        "name": "Pétale Kouraçao",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8747",
+        "name": "Pétale Passaoh",
+        "quantity": 2
+      },
+      {
+        "resourceId": "397",
+        "name": "Huile de Koode",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8739",
+        "name": "Humérus du Sparo",
+        "quantity": 4
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1400
+  },
+  {
+    "id": "4242",
+    "name": "Eventail Tranchant",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/4242.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2503",
+        "name": "Etoffe de Croc Gland",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2574",
+        "name": "Crinière de Prespic",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2624",
+        "name": "Feuille de Kokoko",
+        "quantity": 5
+      },
+      {
+        "resourceId": "465",
+        "name": "Cristal",
+        "quantity": 10
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 20
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 750
+  },
+  {
+    "id": "7257",
+    "name": "Sabre Feudala",
+    "profession": "sword-smith",
+    "level": 60,
+    "image": "items/sword/7257.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7225",
+        "name": "Artefact Pandawushu Feu",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 250,
+    "merchantPrice": 1490
+  },
+  {
+    "id": "7202",
+    "name": "Sabre Sandanwa",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/7202.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 1
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7261",
+        "name": "Bois de Bambou Magique",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1780
+  },
+  {
+    "id": "4382",
+    "name": "Pic à Glace",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/4382.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2508",
+        "name": "Venin de Serpentin",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1536",
+        "name": "Metaria Mage bleue",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2318",
+        "name": "Patte d'ours",
+        "quantity": 2
+      },
+      {
+        "resourceId": "414",
+        "name": "Plume du Kwak de Glace",
+        "quantity": 5
+      },
+      {
+        "resourceId": "444",
+        "name": "Etain",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2291",
+        "name": "Carapace de Scarafeuille Bleu",
+        "quantity": 5
+      },
+      {
+        "resourceId": "446",
+        "name": "Bauxite",
+        "quantity": 5
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 0
+  },
+  {
+    "id": "7203",
+    "name": "Sabre Yondanwa",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/7203.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 3
+      },
+      {
+        "resourceId": "6458",
+        "name": "Kobalite",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7016",
+        "name": "Bois de Bambou Sombre",
+        "quantity": 10
+      },
+      {
+        "resourceId": "747",
+        "name": "Aluminite",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2217
+  },
+  {
+    "id": "2639",
+    "name": "Fausse Griffe de Ceangal",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/2639.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2664",
+        "name": "Os de Crocodaille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2494",
+        "name": "Pommeau d'Epée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2528",
+        "name": "Ongle de Kanigrou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "2598",
+        "name": "Pic de Dragodinde Rousse Sauvage",
+        "quantity": 5
+      },
+      {
+        "resourceId": "350",
+        "name": "Argent",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2358",
+        "name": "Bois de Bombu",
+        "quantity": 10
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 950
+  },
+  {
+    "id": "8604",
+    "name": "Epée Doncule",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/8604.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8761",
+        "name": "Poudre explosive de Gourlo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8786",
+        "name": "Tresse du Poolay",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8791",
+        "name": "Etoffe de Meupette",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8764",
+        "name": "Sourcil du Rasboul majeur",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8324",
+        "name": "Cuir de Mominotor",
+        "quantity": 7
+      },
+      {
+        "resourceId": "8832",
+        "name": "Bave du Kaskargo",
+        "quantity": 10
+      },
+      {
+        "resourceId": "7033",
+        "name": "Dolomite",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2565
+  },
+  {
+    "id": "4241",
+    "name": "Griffe Rose",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/4241.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2294",
+        "name": "Viscères de Scarafeuille",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2488",
+        "name": "Viscères de Scorbute",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2494",
+        "name": "Pommeau d'Epée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "467",
+        "name": "Rubis",
+        "quantity": 2
+      },
+      {
+        "resourceId": "316",
+        "name": "Emeraude",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 5
+      },
+      {
+        "resourceId": "313",
+        "name": "Or",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1000
+  },
+  {
+    "id": "7198",
+    "name": "Razoir du Soir",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/7198.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 2
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "748",
+        "name": "Magnésite",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7289",
+        "name": "Bois de Bambouto Sacré",
+        "quantity": 6
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 2892
+  },
+  {
+    "id": "8450",
+    "name": "Epée du Rat Blanc",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/8450.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "66",
+        "name": "La crinière de Badoul",
+        "quantity": 1
+      },
+      {
+        "resourceId": "749",
+        "name": "Bakélélite",
+        "quantity": 4
+      },
+      {
+        "resourceId": "8489",
+        "name": "Dent de Rat Blanc",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 6
+      },
+      {
+        "resourceId": "2463",
+        "name": "Dent de Chef de Guerre Bouftou",
+        "quantity": 40
+      },
+      {
+        "resourceId": "439",
+        "name": "Canine du Mulou",
+        "quantity": 40
+      },
+      {
+        "resourceId": "305",
+        "name": "Dent de Wabbit",
+        "quantity": 40
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 1754
+  },
+  {
+    "id": "7192",
+    "name": "Griffe de Grizmine",
+    "profession": "sword-smith",
+    "level": 80,
+    "image": "items/sword/7192.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2279",
+        "name": "Dent Pointue",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 4
+      },
+      {
+        "resourceId": "2581",
+        "name": "Dents de Meulou",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7274",
+        "name": "Dent magique de Cooleuvre",
+        "quantity": 9
+      }
+    ],
+    "xpGained": 500,
+    "merchantPrice": 3162
+  },
+  {
+    "id": "7193",
+    "name": "Epée du Dark Vlad",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/7193.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "1679",
+        "name": "Pierre de Crystaloboule",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7405",
+        "name": "Os de Fantôme Pandikaze",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7370",
+        "name": "Ambre de Bambouto Sacré",
+        "quantity": 5
+      },
+      {
+        "resourceId": "1677",
+        "name": "Potion Dantegoulesque",
+        "quantity": 6
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 10
+      },
+      {
+        "resourceId": "470",
+        "name": "Bois d'Orme",
+        "quantity": 30
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4062
+  },
+  {
+    "id": "8292",
+    "name": "Epée du Dragoeuf",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8292.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8137",
+        "name": "Viscères du Scarabosse Doré",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8344",
+        "name": "Corne de Dragoss Noir",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8361",
+        "name": "Corne de Dragoeuf Volant",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8363",
+        "name": "Corne de Dragoeuf Guerrier",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8351",
+        "name": "Coquille de Dragoss Doré",
+        "quantity": 13
+      },
+      {
+        "resourceId": "8350",
+        "name": "Coquille de Dragoss Blanc",
+        "quantity": 13
+      },
+      {
+        "resourceId": "8348",
+        "name": "Coquille de Dragoss Noir",
+        "quantity": 13
+      },
+      {
+        "resourceId": "8349",
+        "name": "Coquille de Dragoss de Saphir",
+        "quantity": 13
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4102
+  },
+  {
+    "id": "7199",
+    "name": "Glaive Icération",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/7199.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7407",
+        "name": "Os de Fantôme Pandule",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7028",
+        "name": "Agathe",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 4
+      },
+      {
+        "resourceId": "918",
+        "name": "Ambre Ancestrale",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 7
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 12
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4422
+  },
+  {
+    "id": "8095",
+    "name": "Le Sabre Ayassalama",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8095.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2488",
+        "name": "Viscères de Scorbute",
+        "quantity": 2
+      },
+      {
+        "resourceId": "7403",
+        "name": "Os de Fantôme Léopardo",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 10
+      },
+      {
+        "resourceId": "2305",
+        "name": "Fragment de Pierre Pointue",
+        "quantity": 11
+      },
+      {
+        "resourceId": "750",
+        "name": "Kouartz",
+        "quantity": 11
+      },
+      {
+        "resourceId": "8361",
+        "name": "Corne de Dragoeuf Volant",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 16
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 17
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4458
+  },
+  {
+    "id": "8596",
+    "name": "Griffe Pourpre",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8596.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8798",
+        "name": "Queue emplumée du Rasboul Majeur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1696",
+        "name": "Etoffe du Meulou",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8777",
+        "name": "Pistil du Tynril",
+        "quantity": 3
+      },
+      {
+        "resourceId": "8808",
+        "name": "Etoffe du Roissingue",
+        "quantity": 7
+      },
+      {
+        "resourceId": "7302",
+        "name": "Peau de Pandore",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7295",
+        "name": "Poils de Pandore",
+        "quantity": 15
+      },
+      {
+        "resourceId": "6898",
+        "name": "Plume de Piou Violet",
+        "quantity": 100
+      },
+      {
+        "resourceId": "2271",
+        "name": "Cuir Violet de Bwork",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5200
+  },
+  {
+    "id": "7195",
+    "name": "Karnak",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/7195.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7406",
+        "name": "Os de Fantôme Pandore",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7291",
+        "name": "Racine Magique de Bambouto Sacré",
+        "quantity": 3
+      },
+      {
+        "resourceId": "7269",
+        "name": "Ecorce magique de Bulbig",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7026",
+        "name": "Aigue-Marine",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7027",
+        "name": "Topaze",
+        "quantity": 5
+      },
+      {
+        "resourceId": "7035",
+        "name": "Pyrute",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 9
+      },
+      {
+        "resourceId": "7014",
+        "name": "Bois de Bambou Sacré",
+        "quantity": 15
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5110
+  },
+  {
+    "id": "8930",
+    "name": "Fuschia",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8930.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8387",
+        "name": "Plume Vibrante du Tofu Royal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8144",
+        "name": "Mojo du Meulou",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8770",
+        "name": "Ecorce du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6662",
+        "name": "Chapeau de la Mariée",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2294",
+        "name": "Viscères de Scarafeuille",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8805",
+        "name": "Mouchoir de la Gamine Zoth",
+        "quantity": 11
+      },
+      {
+        "resourceId": "8797",
+        "name": "Souche de l'Abrakleur clair",
+        "quantity": 47
+      },
+      {
+        "resourceId": "8779",
+        "name": "Carpelle de Brouture",
+        "quantity": 59
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4824
+  },
+  {
+    "id": "8094",
+    "name": "L'Epée Rilleuse",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8094.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8386",
+        "name": "Dent de Shin Larve",
+        "quantity": 2
+      },
+      {
+        "resourceId": "2566",
+        "name": "Tranche Magique de Tronknyde",
+        "quantity": 4
+      },
+      {
+        "resourceId": "7410",
+        "name": "Os de Fantôme Tanukouï San",
+        "quantity": 6
+      },
+      {
+        "resourceId": "7036",
+        "name": "Rutile",
+        "quantity": 12
+      },
+      {
+        "resourceId": "7925",
+        "name": "Bois de Kaliptus",
+        "quantity": 18
+      },
+      {
+        "resourceId": "2357",
+        "name": "Bois d'Oliviolet",
+        "quantity": 21
+      },
+      {
+        "resourceId": "8056",
+        "name": "Fémur de Koalak Farouche",
+        "quantity": 21
+      },
+      {
+        "resourceId": "8058",
+        "name": "Cubitus de Momie Koalak",
+        "quantity": 25
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 4901
+  },
+  {
+    "id": "8695",
+    "name": "L'Épée Nice",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8695.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8804",
+        "name": "Braguette du Maître Zoth",
+        "quantity": 1
+      },
+      {
+        "resourceId": "1558",
+        "name": "Rune Ga Pme",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8798",
+        "name": "Queue emplumée du Rasboul Majeur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8404",
+        "name": "Peau de Skeunk",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8998",
+        "name": "Pierre précieuse du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "6904",
+        "name": "Protection usagée du Bworker",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8792",
+        "name": "Coco du Bitouf aérien",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8778",
+        "name": "Etamine de Floribonde",
+        "quantity": 55
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5005
+  },
+  {
+    "id": "8932",
+    "name": "Kukri Kura",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8932.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "2623",
+        "name": "Bwak Squelettique",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8789",
+        "name": "Chaussette du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8403",
+        "name": "Tresse du Koulosse",
+        "quantity": 8
+      },
+      {
+        "resourceId": "8803",
+        "name": "Rotule du Disciple Zoth",
+        "quantity": 13
+      },
+      {
+        "resourceId": "6457",
+        "name": "Kriptonite",
+        "quantity": 16
+      },
+      {
+        "resourceId": "8788",
+        "name": "Croupion du Bitouf aérien",
+        "quantity": 68
+      },
+      {
+        "resourceId": "8763",
+        "name": "Moustache du Mufafah",
+        "quantity": 69
+      },
+      {
+        "resourceId": "8801",
+        "name": "Etoffe de Ouassingue",
+        "quantity": 98
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5033
+  },
+  {
+    "id": "9469",
+    "name": "Epée Loponèze",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/9469.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8916",
+        "name": "Ambre du Tynril",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8410",
+        "name": "Fémur du Minotot",
+        "quantity": 3
+      },
+      {
+        "resourceId": "2035",
+        "name": "Chanvre Euphorique",
+        "quantity": 5
+      },
+      {
+        "resourceId": "8761",
+        "name": "Poudre explosive de Gourlo",
+        "quantity": 5
+      },
+      {
+        "resourceId": "9269",
+        "name": "Langue du Champodonte",
+        "quantity": 14
+      },
+      {
+        "resourceId": "8769",
+        "name": "Coco du Bitouf des plaines",
+        "quantity": 20
+      },
+      {
+        "resourceId": "8774",
+        "name": "Ecorce de Fécorce",
+        "quantity": 31
+      },
+      {
+        "resourceId": "8680",
+        "name": "Ecaille poisseuse",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5845
+  },
+  {
+    "id": "8931",
+    "name": "Az'tech",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8931.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "8996",
+        "name": "Peau du Rasboul Majeur",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8998",
+        "name": "Pierre précieuse du Kimbo",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8381",
+        "name": "Queue Magique du Péki",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8795",
+        "name": "Perruque du Kimbo",
+        "quantity": 2
+      },
+      {
+        "resourceId": "8793",
+        "name": "Coquille du Kaskargo",
+        "quantity": 9
+      },
+      {
+        "resourceId": "8736",
+        "name": "Coeur de pierre poli",
+        "quantity": 21
+      },
+      {
+        "resourceId": "8790",
+        "name": "Rembourrage de Meupette",
+        "quantity": 60
+      },
+      {
+        "resourceId": "745",
+        "name": "Lingot d'Or",
+        "quantity": 100
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5127
+  },
+  {
+    "id": "8993",
+    "name": "Epée Maudite du Saigneur Guerrier",
+    "profession": "sword-smith",
+    "level": 100,
+    "image": "items/sword/8993.svg",
+    "category": "Epée",
+    "isSecret": false,
+    "resources": [
+      {
+        "resourceId": "7192",
+        "name": "Griffe de Grizmine",
+        "quantity": 1
+      },
+      {
+        "resourceId": "65",
+        "name": "Goultard",
+        "quantity": 1
+      },
+      {
+        "resourceId": "202",
+        "name": "Razielle",
+        "quantity": 1
+      },
+      {
+        "resourceId": "8094",
+        "name": "L'Epée Rilleuse",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7195",
+        "name": "Karnak",
+        "quantity": 1
+      },
+      {
+        "resourceId": "2639",
+        "name": "Fausse Griffe de Ceangal",
+        "quantity": 1
+      },
+      {
+        "resourceId": "7102",
+        "name": "Epée du Chevalier de Glace",
+        "quantity": 1
+      },
+      {
+        "resourceId": "4241",
+        "name": "Griffe Rose",
+        "quantity": 1
+      }
+    ],
+    "xpGained": 1000,
+    "merchantPrice": 5800
+  }
+]

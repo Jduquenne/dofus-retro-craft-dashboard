@@ -9,7 +9,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/alchemist.svg",
     unlocked: false,
   },
   {
@@ -19,7 +19,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/peasant.svg",
     unlocked: false,
   },
   {
@@ -29,7 +29,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/baker.svg",
     unlocked: false,
   },
   {
@@ -39,7 +39,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/lumberjack.svg",
     unlocked: false,
   },
   {
@@ -49,7 +49,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/miner.svg",
     unlocked: false,
   },
   {
@@ -59,7 +59,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/fisherman.svg",
     unlocked: false,
   },
   {
@@ -69,7 +69,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/fishmonger.svg",
     unlocked: false,
   },
   {
@@ -79,7 +79,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/hunter.svg",
     unlocked: false,
   },
   {
@@ -89,7 +89,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "⚗️",
+    iconPath: "assets/icons/professions/butcher.svg",
     unlocked: false,
   },
   {
@@ -99,7 +99,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "💎",
+    iconPath: "assets/icons/professions/jeweler.svg",
     unlocked: false,
   },
   {
@@ -109,7 +109,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/jewelmagus.svg",
     unlocked: false,
   },
   {
@@ -119,7 +119,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🧵",
+    iconPath: "assets/icons/professions/tailor.svg",
     unlocked: false,
   },
   {
@@ -129,7 +129,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/costumagus.svg",
     unlocked: false,
   },
   {
@@ -139,7 +139,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "👢",
+    iconPath: "assets/icons/professions/shoemaker.svg",
     unlocked: false,
   },
   {
@@ -149,7 +149,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/shoemagus.svg",
     unlocked: false,
   },
   {
@@ -159,7 +159,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/bow_carver.svg",
     unlocked: false,
   },
   {
@@ -169,7 +169,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/bow_carvermage.svg",
     unlocked: false,
   },
   {
@@ -179,7 +179,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/staff_carver.svg",
     unlocked: false,
   },
   {
@@ -189,7 +189,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/staff_carvermage.svg",
     unlocked: false,
   },
   {
@@ -199,7 +199,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/wand_carver.svg",
     unlocked: false,
   },
   {
@@ -209,7 +209,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/wand_carvermage.svg",
     unlocked: false,
   },
   {
@@ -219,7 +219,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/sword_smith.svg",
     unlocked: false,
   },
   {
@@ -229,7 +229,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/sword_smithmagus.svg",
     unlocked: false,
   },
   {
@@ -239,7 +239,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/hammer_smith.svg",
     unlocked: false,
   },
   {
@@ -249,7 +249,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/hammer_smithmagus.svg",
     unlocked: false,
   },
   {
@@ -259,7 +259,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/shovel_smith.svg",
     unlocked: false,
   },
   {
@@ -269,7 +269,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/shovel_smithmagus.svg",
     unlocked: false,
   },
   {
@@ -279,7 +279,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/dagger_smith.svg",
     unlocked: false,
   },
   {
@@ -289,7 +289,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/dagger_smithmagus.svg",
     unlocked: false,
   },
   {
@@ -299,7 +299,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/axe_smith.svg",
     unlocked: false,
   },
   {
@@ -309,7 +309,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/axe_smithmagus.svg",
     unlocked: false,
   },
   {
@@ -319,7 +319,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/shield_smith.svg",
     unlocked: false,
   },
   {
@@ -329,7 +329,7 @@ export const initialProfessions: Profession[] = [
     currentLevel: 1,
     currentXP: 0,
     targetLevel: 100,
-    icon: "🗿",
+    iconPath: "assets/icons/professions/handyman.svg",
     unlocked: false,
   },
 ];

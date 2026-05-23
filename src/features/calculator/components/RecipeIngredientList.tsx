@@ -2,7 +2,12 @@ import React, { useRef, useCallback, useMemo } from 'react';
 import { Coins } from 'lucide-react';
 import { findInCatalog } from '../../../utils/scrollResourceHelpers';
 import { computeCraftCost } from '../../../utils/calculatorHelpers';
+import { allRecipes } from '../../../data/recipesCatalog';
 import type { RecipeResource } from '../../../types';
+
+const recipeImageById = new Map(
+  allRecipes.filter(r => r.image).map(r => [r.id, r.image as string])
+);
 
 interface RecipeIngredientListProps {
   resources: RecipeResource[];
@@ -49,7 +54,7 @@ export const RecipeIngredientList: React.FC<RecipeIngredientListProps> = ({
 
       <div className="border-t border-dofus-border/10 px-4 py-2 flex flex-wrap items-center gap-x-6 gap-y-1">
         {!hasSomePrices ? (
-          <span className="text-[10px] text-dofus-text-lt italic">
+          <span className="text-xs text-dofus-text-lt italic">
             Renseignez les prix pour calculer le coût
           </span>
         ) : (
@@ -87,9 +92,9 @@ const CostStat: React.FC<CostStatProps> = ({ label, value, highlight, isCount = 
   <div className="flex items-center gap-1.5">
     {highlight && <Coins size={11} className="text-dofus-gold shrink-0" />}
     <div className="flex flex-col">
-      <span className="text-[9px] text-dofus-text-lt uppercase tracking-wide">{label}</span>
-      <span className={`text-xs font-mono font-bold ${highlight ? 'text-dofus-gold' : 'text-dofus-orange'}`}>
-        {value.toLocaleString('fr-FR')}{!isCount && ' k'}
+      <span className="text-xs text-dofus-text-lt uppercase tracking-wide">{label}</span>
+      <span className={`text-xs font-mono font-bit ${highlight ? 'text-dofus-gold' : 'text-dofus-orange'}`}>
+        {value}{!isCount && ' k'}
         {warn && <span className="text-dofus-text-lt font-normal ml-0.5">*</span>}
       </span>
     </div>
@@ -107,6 +112,7 @@ const IngredientItem: React.FC<IngredientItemProps> = ({ ingredient, prices, cra
   const inputRef = useRef<HTMLInputElement>(null);
   const catalogEntry = findInCatalog(ingredient.name ?? '');
   const price = catalogEntry ? (prices[catalogEntry.id] ?? 0) : 0;
+  const imagePath = catalogEntry?.image ?? recipeImageById.get(ingredient.resourceId);
 
   const handleChange = useCallback(
     (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -118,13 +124,13 @@ const IngredientItem: React.FC<IngredientItemProps> = ({ ingredient, prices, cra
   return (
     <div className="flex items-center gap-2 panel-sm rounded px-2 py-1.5 min-w-[180px] flex-1">
       <div className="w-7 h-7 shrink-0 flex items-center justify-center">
-        {catalogEntry ? (
+        {imagePath ? (
           <img
-            src={`${import.meta.env.BASE_URL}assets/resources/${catalogEntry.image}`}
+            src={`${import.meta.env.BASE_URL}assets/${imagePath}`}
             alt=""
             width={24}
             height={24}
-            className="w-6 h-6 object-contain"
+            className="w-6 h-6 object-contain shrink-0"
             onError={e => { (e.currentTarget as HTMLImageElement).style.visibility = 'hidden'; }}
           />
         ) : (
@@ -135,10 +141,10 @@ const IngredientItem: React.FC<IngredientItemProps> = ({ ingredient, prices, cra
       <div className="flex-1 min-w-0">
         <div className="flex items-center gap-1.5">
           <span className="text-xs text-dofus-text truncate font-medium">{ingredient.name ?? ingredient.resourceId}</span>
-          <span className="text-sm font-mono text-dofus-orange font-bold shrink-0">×{ingredient.quantity}</span>
+          <span className="text-sm font-mono text-dofus-orange font-bit shrink-0">×{ingredient.quantity}</span>
           {craftsNeeded > 0 && (
-            <span className="text-[10px] font-mono text-dofus-gold font-bold shrink-0">
-              = {(ingredient.quantity * craftsNeeded).toLocaleString('fr-FR')}
+            <span className="text-xs font-mono text-dofus-gold font-bit shrink-0">
+              = {(ingredient.quantity * craftsNeeded)}
             </span>
           )}
         </div>
@@ -151,9 +157,9 @@ const IngredientItem: React.FC<IngredientItemProps> = ({ ingredient, prices, cra
             placeholder="—"
             onChange={handleChange}
             disabled={!catalogEntry}
-            className="input-dofus w-full text-right font-mono text-[10px] py-0.5 px-1.5 rounded placeholder-dofus-text-lt disabled:opacity-40"
+            className="input-dofus w-full text-right font-mono text-xs py-0.5 px-1.5 rounded placeholder-dofus-text-lt disabled:opacity-40"
           />
-          <span className="text-[9px] text-dofus-text-lt shrink-0">k</span>
+          <span className="text-xs text-dofus-text-lt shrink-0">k</span>
         </div>
       </div>
     </div>
