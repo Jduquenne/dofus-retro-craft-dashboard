@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Dexie, { type Table } from "dexie";
 import type { Resource, Recipe, Profession, KamasGoal, CatalogPrice } from "../types";
+import type { DofusPrice } from "../types/dofus";
 
 interface DofusDB extends Dexie {
   resources: Table<Resource>;
@@ -8,6 +9,7 @@ interface DofusDB extends Dexie {
   professions: Table<Profession>;
   goals: Table<KamasGoal & { id: string }>;
   catalogPrices: Table<CatalogPrice>;
+  dofusPrices: Table<DofusPrice>;
 }
 
 export const db = new Dexie("DofusRetroCraftDB") as DofusDB;
@@ -51,6 +53,16 @@ db.version(4).stores({
   catalogPrices: "id",
 });
 
+// v7 : ajout du store dofusPrices
+db.version(7).stores({
+  resources: "id, name, type",
+  recipes: "id, name, profession, level",
+  professions: "id, name, currentLevel",
+  goals: "id",
+  catalogPrices: "id",
+  dofusPrices: "id",
+});
+
 // v6 : rechargement recettes depuis recipesCatalog + fix typo minor → miner
 db.version(6).stores({
   resources: "id, name, type",
@@ -86,14 +98,14 @@ export const useIndexedDB = () => {
   const loadData = async <T>(table: Table<T>, defaultData: T[]) => {
     const count = await table.count();
     if (count === 0) {
-      await table.bulkAdd(defaultData as any);
+      await table.bulkAdd(defaultData);
     }
     return await table.toArray();
   };
 
   const saveData = async <T>(table: Table<T>, data: T[]) => {
     await table.clear();
-    await table.bulkAdd(data as any);
+    await table.bulkAdd(data);
   };
 
   return {

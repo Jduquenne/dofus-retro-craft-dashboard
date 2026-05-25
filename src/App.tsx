@@ -18,6 +18,9 @@ const CatalogModule = lazy(() =>
 const PodModule = lazy(() =>
   import('./features/pods/PodModule').then(({ PodModule: m }) => ({ default: m }))
 );
+const DofusModule = lazy(() =>
+  import('./features/dofus/DofusModule').then(({ DofusModule: m }) => ({ default: m }))
+);
 
 const App: React.FC = () => {
   const { activeTab, setActiveTab } = useHashTab();
@@ -33,6 +36,7 @@ const App: React.FC = () => {
             {activeTab === 'scrolls' && <ScrollsModule />}
             {activeTab === 'catalog' && <CatalogModule />}
             {activeTab === 'pods' && <PodModule />}
+            {activeTab === 'dofus' && <DofusModule />}
           </Suspense>
         </main>
         <footer className="text-center py-3 text-xs text-dofus-cream/25 border-t border-dofus-border/40">

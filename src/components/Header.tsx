@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calculator, Database, Package, ScrollText, TrendingUp } from "lucide-react";
+import { Calculator, Database, Gem, Package, ScrollText, TrendingUp } from "lucide-react";
 
 export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) => void }> = ({ activeTab, setActiveTab }) => {
     const tabs = [
@@ -8,6 +8,7 @@ export const Header: React.FC<{ activeTab: string; setActiveTab: (tab: string) =
         { id: 'scrolls', label: 'Parchemins', icon: <ScrollText size={16} /> },
         { id: 'calculator', label: 'Calcul XP métiers', icon: <Calculator size={16} /> },
         { id: 'pods', label: 'Calcul POD', icon: <Package size={16} /> },
+        { id: 'dofus', label: 'Prix Dofus', icon: <Gem size={16} /> },
     ];
 
     return (
