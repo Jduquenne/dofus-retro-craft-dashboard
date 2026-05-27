@@ -1,7 +1,9 @@
 import React, { lazy, Suspense } from 'react';
 import { AppProvider } from './context/AppContext';
 import { Header } from './components/Header';
+import { ModuleLoader } from './components/ModuleLoader';
 import { useHashTab } from './hooks/useHashTab';
+import { useAdminAccess } from './hooks/useAdminAccess';
 
 const ProfessionsModule = lazy(() =>
   import('./features/professions/ProfessionsModule').then(({ ProfessionsModule: m }) => ({ default: m }))
@@ -21,22 +23,34 @@ const PodModule = lazy(() =>
 const DofusModule = lazy(() =>
   import('./features/dofus/DofusModule').then(({ DofusModule: m }) => ({ default: m }))
 );
+const BankModule = lazy(() =>
+  import('./features/bank/BankModule').then(({ BankModule: m }) => ({ default: m }))
+);
 
 const App: React.FC = () => {
   const { activeTab, setActiveTab } = useHashTab();
+  const { isAdmin, hasAdminCodes, unlock, lock } = useAdminAccess();
 
   return (
     <AppProvider>
       <div className="min-h-screen bg-dofus-bg flex flex-col">
-        <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+        <Header
+          activeTab={activeTab}
+          setActiveTab={setActiveTab}
+          isAdmin={isAdmin}
+          hasAdminCodes={hasAdminCodes}
+          onUnlock={unlock}
+          onLock={lock}
+        />
         <main className="container mx-auto px-4 py-6 flex-1">
-          <Suspense fallback={null}>
-            {activeTab === 'calculator' && <CalculatorModule />}
+          <Suspense fallback={<ModuleLoader />}>
             {activeTab === 'professions' && <ProfessionsModule />}
-            {activeTab === 'scrolls' && <ScrollsModule />}
             {activeTab === 'catalog' && <CatalogModule />}
+            {activeTab === 'calculator' && <CalculatorModule />}
+            {activeTab === 'scrolls' && <ScrollsModule />}
             {activeTab === 'pods' && <PodModule />}
             {activeTab === 'dofus' && <DofusModule />}
+            {activeTab === 'bank' && isAdmin && <BankModule />}
           </Suspense>
         </main>
         <footer className="text-center py-3 text-xs text-dofus-cream/25 border-t border-dofus-border/40">

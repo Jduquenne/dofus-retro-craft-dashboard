@@ -29,6 +29,25 @@ export default {
         dofus: ['Cinzel', 'Georgia', 'serif'],
         bit: ['bitMini6', 'monospace'],
       },
+      keyframes: {
+        shake: {
+          '0%, 100%': { transform: 'translateX(0)' },
+          '15%':      { transform: 'translateX(-5px)' },
+          '30%':      { transform: 'translateX(5px)' },
+          '45%':      { transform: 'translateX(-4px)' },
+          '60%':      { transform: 'translateX(4px)' },
+          '75%':      { transform: 'translateX(-2px)' },
+          '90%':      { transform: 'translateX(2px)' },
+        },
+        popoverIn: {
+          '0%':   { opacity: '0', transform: 'translateY(-6px) scale(0.97)' },
+          '100%': { opacity: '1', transform: 'translateY(0) scale(1)' },
+        },
+      },
+      animation: {
+        shake:      'shake 0.45s ease-in-out',
+        'popover-in': 'popoverIn 0.15s ease-out',
+      },
     },
   },
   plugins: [],
