@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 public/inspi_dofus_retro
+dev/
 
 # CDN scrap data — never commit
 src/data/scrap_cdn/

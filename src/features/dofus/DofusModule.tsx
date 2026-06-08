@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { dofusCatalog } from '../../data/dofus';
 import { useDofusPrices } from '../../hooks/useDofusPrices';
+import { useDofusVendors } from '../../hooks/useDofusVendors';
 import { isTwoStatDofus } from '../../utils/dofusHelpers';
 import { DofusSelector } from './components/DofusSelector';
 import { DofusPriceTable } from './components/DofusPriceTable';
@@ -9,9 +10,10 @@ import { DofusTachetGrid } from './components/DofusTachetGrid';
 export const DofusModule: React.FC = () => {
   const [selectedId, setSelectedId] = useState<number>(dofusCatalog[0].id);
   const { prices, setPrice } = useDofusPrices();
+  const { vendors, setVendor } = useDofusVendors();
 
   const selectedDofus = dofusCatalog.find(d => d.id === selectedId)!;
-  const isLoading = prices === null;
+  const isLoading = prices === null || vendors === null;
 
   return (
     <div className="flex flex-col gap-3 h-[calc(100vh-160px)] sm:h-[calc(100vh-270px)]">
@@ -31,14 +33,18 @@ export const DofusModule: React.FC = () => {
                 key={selectedDofus.id}
                 dofus={selectedDofus}
                 prices={prices}
+                vendors={vendors}
                 onSetPrice={setPrice}
+                onSetVendor={setVendor}
               />
             ) : (
               <DofusPriceTable
                 key={selectedDofus.id}
                 dofus={selectedDofus}
                 prices={prices}
+                vendors={vendors}
                 onSetPrice={setPrice}
+                onSetVendor={setVendor}
               />
             )
           )}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Dexie, { type Table } from "dexie";
 import type { Resource, Recipe, Profession, KamasGoal, CatalogPrice } from "../types";
-import type { DofusPrice } from "../types/dofus";
+import type { DofusPrice, DofusVendor } from "../types/dofus";
 import type { BankSession } from "../types/bank";
 
 interface DofusDB extends Dexie {
@@ -11,6 +11,7 @@ interface DofusDB extends Dexie {
   goals: Table<KamasGoal & { id: string }>;
   catalogPrices: Table<CatalogPrice>;
   dofusPrices: Table<DofusPrice>;
+  dofusVendors: Table<DofusVendor>;
   bankSession: Table<BankSession>;
 }
 
@@ -53,6 +54,18 @@ db.version(4).stores({
   professions: "id, name, currentLevel",
   goals: "id",
   catalogPrices: "id",
+});
+
+// v9 : ajout du store dofusVendors
+db.version(9).stores({
+  resources: "id, name, type",
+  recipes: "id, name, profession, level",
+  professions: "id, name, currentLevel",
+  goals: "id",
+  catalogPrices: "id",
+  dofusPrices: "id",
+  dofusVendors: "id",
+  bankSession: "id",
 });
 
 // v8 : ajout du store bankSession

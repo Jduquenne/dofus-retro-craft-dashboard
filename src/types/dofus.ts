@@ -14,3 +14,9 @@ export interface DofusPrice {
   id: string;
   price: number;
 }
+
+export interface DofusVendor {
+  id: string;
+  coords: string;
+  pseudo: string;
+}

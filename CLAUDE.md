@@ -163,18 +163,19 @@ Données brutes scrapées du CDN Dofus Rétro. Servent de référence pour valid
 
 **Fichiers disponibles :**
 
-| Fichier | Contenu |
-|---------|---------|
-| `jobs_fr_1254.json` | Métiers : `{ jobId: { n, s, g } }` — `s` = job parent (smithmagus), `g` = ordre d'affichage |
-| `crafts_fr_1258.json` | Recettes : `{ itemId: [qty, itemId, 2, qty, itemId, 2, ..., N] }` — groupes de 3 `[quantité, idIngrédient, 2]` + dernier élément = nombre d'ingrédients |
-| `items_fr_1260.json` | Items : sections `t` (types) et `u` (items). Chaque item a `n` (nom), `t` (type), `l` (niveau), `d` (description), `c` (conditions), `p` (prix base), `wd` (visible atelier) |
-| `skills_fr_1254.json` | Skills du jeu : `{ skillId: { d, j, io, cl, i } }` — `j`=job_id, `cl`=premier item craftable, `j=1`=générique (pas de XP métier), `j=0`=système |
-| `itemstats_fr_1259.json` | Stats des items (string de stats encodées) |
-| `monsters_fr_1248.json` | Monstres |
-| `quests_fr_1248.json` | Quêtes |
+| Fichier                  | Contenu                                                                                                                                                                      |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `jobs_fr_1254.json`      | Métiers : `{ jobId: { n, s, g } }` — `s` = job parent (smithmagus), `g` = ordre d'affichage                                                                                  |
+| `crafts_fr_1258.json`    | Recettes : `{ itemId: [qty, itemId, 2, qty, itemId, 2, ..., N] }` — groupes de 3 `[quantité, idIngrédient, 2]` + dernier élément = nombre d'ingrédients                      |
+| `items_fr_1260.json`     | Items : sections `t` (types) et `u` (items). Chaque item a `n` (nom), `t` (type), `l` (niveau), `d` (description), `c` (conditions), `p` (prix base), `wd` (visible atelier) |
+| `skills_fr_1254.json`    | Skills du jeu : `{ skillId: { d, j, io, cl, i } }` — `j`=job_id, `cl`=premier item craftable, `j=1`=générique (pas de XP métier), `j=0`=système                              |
+| `itemstats_fr_1259.json` | Stats des items (string de stats encodées)                                                                                                                                   |
+| `monsters_fr_1248.json`  | Monstres                                                                                                                                                                     |
+| `quests_fr_1248.json`    | Quêtes                                                                                                                                                                       |
 
 **Format craft :** `crafts_fr[itemId]` = `[qty1, id1, 2, qty2, id2, 2, ..., qtyN, idN, 2, N_ingrédients]`
 Groupes de 3 valeurs `[quantité, idIngrédient, 2]` répétés N fois. Le `2` est un flag fixe. Le tout dernier entier = nombre total d'ingrédients (1–8). **Il n'y a pas de jobId dans le craft** — la profession se déduit du type d'item produit.
+
 ```python
 # Décodage correct (vérifié en jeu 2026-05-23)
 for i in range(0, len(craft_array) - 1, 3):
@@ -184,55 +185,55 @@ for i in range(0, len(craft_array) - 1, 3):
 
 **Supertypes d'items (`items['t'][typeId].t`) :**
 
-| Supertype | Signification | Item types concernés |
-|-----------|--------------|----------------------|
-| 1 | Amulette | 1 |
-| 2 | Arme | 2 (Arc), 3 (Baguette), 4 (Bâton), 5 (Dague), 6 (Épée), 7 (Marteau), 8 (Pelle), 19 (Hache) |
-| 3 | Anneau | 9 |
-| 4 | Ceinture | 10 |
-| 5 | Botte | 11 |
-| 6 | Consommable | 12 (Potion), 33 (Pain), 44 (Potion d'oubli métier), 49 (Poisson comestible), 64 (Viande conservée), 69 (Viande comestible), 70 (Teinture), 86 (Potion d'oubli percepteur), 116 (Potion de familier) |
-| 7 | Bouclier | 82 |
-| 9 | Ressource | 26 (Potion forgemagie), 40 (Alliage), 50 (Pierre précieuse), 52 (Farine), 60 (Huile), 62 (Poisson vidé), 64 (Viande conservée), 84 (Clefs), 90 (Fantôme familier), 93 (Objet d'élevage), 95 (Planche) |
-| 10 | Chapeau | 16 |
-| 11 | Cape / Sac à dos | 17 (Cape), 81 (Sac à dos) |
+| Supertype | Signification    | Item types concernés                                                                                                                                                                                  |
+| --------- | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1         | Amulette         | 1                                                                                                                                                                                                     |
+| 2         | Arme             | 2 (Arc), 3 (Baguette), 4 (Bâton), 5 (Dague), 6 (Épée), 7 (Marteau), 8 (Pelle), 19 (Hache)                                                                                                             |
+| 3         | Anneau           | 9                                                                                                                                                                                                     |
+| 4         | Ceinture         | 10                                                                                                                                                                                                    |
+| 5         | Botte            | 11                                                                                                                                                                                                    |
+| 6         | Consommable      | 12 (Potion), 33 (Pain), 44 (Potion d'oubli métier), 49 (Poisson comestible), 64 (Viande conservée), 69 (Viande comestible), 70 (Teinture), 86 (Potion d'oubli percepteur), 116 (Potion de familier)   |
+| 7         | Bouclier         | 82                                                                                                                                                                                                    |
+| 9         | Ressource        | 26 (Potion forgemagie), 40 (Alliage), 50 (Pierre précieuse), 52 (Farine), 60 (Huile), 62 (Poisson vidé), 64 (Viande conservée), 84 (Clefs), 90 (Fantôme familier), 93 (Objet d'élevage), 95 (Planche) |
+| 10        | Chapeau          | 16                                                                                                                                                                                                    |
+| 11        | Cape / Sac à dos | 17 (Cape), 81 (Sac à dos)                                                                                                                                                                             |
 
 **Mapping type d'item → métier producteur (vérifié CDN) :**
 
-| Type(s) item | Nom | Métier |
-|---|---|---|
-| 1, 9 | Amulette, Anneau | Bijoutier |
-| 2 | Arc | Sculpteur d'Arcs |
-| 3 | Baguette | Sculpteur de Baguettes |
-| 4 | Bâton | Sculpteur de Bâtons |
-| 5 | Dague | Forgeur de Dagues |
-| 6 | Épée | Forgeur d'Épées |
-| 7 | Marteau | Forgeur de Marteaux |
-| 8 | Pelle | Forgeur de Pelles |
-| 10, 11 | Ceinture, Botte | Cordonnier |
-| 12, 44, 70, 86, 116 | Potion, Potion d'oubli, **Teinture**, Potion percepteur, Potion familier | **Alchimiste** |
-| 16, 17, 81 | Chapeau, Cape, Sac à dos | Tailleur |
-| 19 | Hache | Forgeur de Haches |
-| 26 (bois) — ids 2539/2540/2543 | Potion de forgemagie bois | Bûcheron |
-| 26 (métal) — ids 2529/2538/2541 | Potion de métal liquide/lourd/précieux | **Mineur** |
-| 26 (éléments) — ids 1333/1335/1337/1338/1340–1348 | Potion de forgemagie éléments | Alchimiste |
-| 33 | Pain | Boulanger |
-| 40, 50 | Alliage, Pierre précieuse | Mineur |
-| 49 | Poisson comestible | Poissonnier |
-| 52, 60 | Farine, Huile | Paysan |
-| 62 | Poisson vidé | Pêcheur |
-| 64 | Viande conservée | Chasseur |
-| 69 | Viande comestible | Boucher |
-| 20 | Outil (canne à pêche…) | **Sculpteur de Bâtons** |
-| 42 | Friandise | Boulanger |
-| 58 | Graine | Paysan |
-| 79 | Boisson | Alchimiste (recettes secrètes uniquement) |
-| 82 | Bouclier | Forgeur de Boucliers |
-| 83 | Pierre d'âme | **Mineur** (sur meule, recettes secrètes) |
-| 84, 93 | Clefs, Objet d'élevage | Bricoleur |
-| 90 | Fantôme de Familier | Chasseur |
-| 95 | Planche | Bûcheron |
-| 112 | Prisme | Bricoleur |
+| Type(s) item                                      | Nom                                                                      | Métier                                    |
+| ------------------------------------------------- | ------------------------------------------------------------------------ | ----------------------------------------- |
+| 1, 9                                              | Amulette, Anneau                                                         | Bijoutier                                 |
+| 2                                                 | Arc                                                                      | Sculpteur d'Arcs                          |
+| 3                                                 | Baguette                                                                 | Sculpteur de Baguettes                    |
+| 4                                                 | Bâton                                                                    | Sculpteur de Bâtons                       |
+| 5                                                 | Dague                                                                    | Forgeur de Dagues                         |
+| 6                                                 | Épée                                                                     | Forgeur d'Épées                           |
+| 7                                                 | Marteau                                                                  | Forgeur de Marteaux                       |
+| 8                                                 | Pelle                                                                    | Forgeur de Pelles                         |
+| 10, 11                                            | Ceinture, Botte                                                          | Cordonnier                                |
+| 12, 44, 70, 86, 116                               | Potion, Potion d'oubli, **Teinture**, Potion percepteur, Potion familier | **Alchimiste**                            |
+| 16, 17, 81                                        | Chapeau, Cape, Sac à dos                                                 | Tailleur                                  |
+| 19                                                | Hache                                                                    | Forgeur de Haches                         |
+| 26 (bois) — ids 2539/2540/2543                    | Potion de forgemagie bois                                                | Bûcheron                                  |
+| 26 (métal) — ids 2529/2538/2541                   | Potion de métal liquide/lourd/précieux                                   | **Mineur**                                |
+| 26 (éléments) — ids 1333/1335/1337/1338/1340–1348 | Potion de forgemagie éléments                                            | Alchimiste                                |
+| 33                                                | Pain                                                                     | Boulanger                                 |
+| 40, 50                                            | Alliage, Pierre précieuse                                                | Mineur                                    |
+| 49                                                | Poisson comestible                                                       | Poissonnier                               |
+| 52, 60                                            | Farine, Huile                                                            | Paysan                                    |
+| 62                                                | Poisson vidé                                                             | Pêcheur                                   |
+| 64                                                | Viande conservée                                                         | Chasseur                                  |
+| 69                                                | Viande comestible                                                        | Boucher                                   |
+| 20                                                | Outil (canne à pêche…)                                                   | **Sculpteur de Bâtons**                   |
+| 42                                                | Friandise                                                                | Boulanger                                 |
+| 58                                                | Graine                                                                   | Paysan                                    |
+| 79                                                | Boisson                                                                  | Alchimiste (recettes secrètes uniquement) |
+| 82                                                | Bouclier                                                                 | Forgeur de Boucliers                      |
+| 83                                                | Pierre d'âme                                                             | **Mineur** (sur meule, recettes secrètes) |
+| 84, 93                                            | Clefs, Objet d'élevage                                                   | Bricoleur                                 |
+| 90                                                | Fantôme de Familier                                                      | Chasseur                                  |
+| 95                                                | Planche                                                                  | Bûcheron                                  |
+| 112                                               | Prisme                                                                   | Bricoleur                                 |
 
 > **Règle critique** : les Teintures Magiques (type 70, supertype 6 = consommable) appartiennent à l'**Alchimiste**, pas au Tailleur. Le Tailleur ne produit que des équipements portables (supertypes 10 et 11).
 > **Règle critique** : les Potions de forgemagie (type 26) ne sont PAS toutes Alchimiste. Bois → Bûcheron (ids 2539/2540/2543), Métal → **Mineur** (ids 2529/2538/2541), Éléments → Alchimiste (reste).
@@ -257,6 +258,7 @@ Le script préserve automatiquement les entrées `isSecret: true` lors d'une res
 **État au 2026-05-23 :** 32 recettes secrètes réparties sur 9 métiers (alchemist×6, baker×5, jeweller×3, tailor×11, shoemaker×2, miner×3, handyman×1, staff-carver×1, farmer×1).
 
 **Recettes secrètes connues non ajoutées** (items absents du CDN Rétro 1.29 — contenu Frigost non présent) :
+
 - Épée Tillante (sword-smith), Scie à Glace (sword-smith)
 - Plaque d'acier (miner), Masque de protection (tailor)
 - Ceinture Brakmarienne → orthographe correcte : **Ceinture Brâkmarienne** (id 3205, déjà ajoutée)
@@ -267,6 +269,7 @@ Le script préserve automatiquement les entrées `isSecret: true` lors d'une res
 La saisie de prix pour les ingrédients d'une recette passe par `findInCatalog(name)` dans `src/utils/scrollResourceHelpers.ts`, qui fait une recherche par **nom exact** (case-insensitive) dans `resources-catalog.json`.
 
 **Conséquences importantes :**
+
 - Un ingrédient dont le nom ne correspond pas exactement au catalogue aura son input prix désactivé
 - Les items craftables utilisés comme ingrédients (Potions, Dofus, Teintures, Briochette, Dofus…) ne sont PAS dans le catalogue ressources → prix non éditable, c'est normal
 - `Pince du Crabe` (id 379) et non "Pince de Crabe" — toujours vérifier le nom exact CDN vs catalogue avant d'ajouter un ingrédient
@@ -276,6 +279,7 @@ La saisie de prix pour les ingrédients d'une recette passe par `findInCatalog(n
 **Si le CDN Dofus Rétro est mis à jour, un script Python est capable de resynchroniser automatiquement tous les fichiers JSON du projet** (`data/professions/craft/*.json`) à partir des fichiers `scrap_cdn/`.
 
 Le script effectue :
+
 1. Pour chaque recette de chaque métier — compare les ingrédients avec `crafts_fr_*.json`
 2. Même IDs, quantités différentes → met à jour les quantités depuis le CDN
 3. IDs différents (recette changée) → remplace intégralement les ingrédients depuis le CDN
@@ -285,6 +289,7 @@ Le script effectue :
 **Le script a été validé le 2026-05-23** : 2213 recettes synchronisées avec zéro divergence. Un seul cas conservé manuellement : `Gwosse Massue Wabbit` (hammer-smith, id=13282) dont le CDN contient un ingrédient `FILE_END` invalide.
 
 **Pour relancer la synchronisation**, reconstituer le script depuis cette logique :
+
 ```python
 # Pour chaque fname dans data/professions/craft/*.json :
 #   Pour chaque recette r :
@@ -528,6 +533,76 @@ npm run build     # tsc + vite build
 npm run preview   # Preview du build
 npm run lint      # ESLint
 ```
+
+## Issue tracking
+
+The issue tracker lives in `dev/issues.json`. The file contains a `_schema` section
+(reference only) and an `issues` array. Valid labels, status values, and priority
+levels are defined in `_schema`.
+
+### "nouvelle issue" command
+
+When the user says **"nouvelle issue"** (anywhere in their message), immediately add
+the issue to `dev/issues.json` without asking for confirmation. Steps:
+
+1. Read `dev/issues.json` to get the current issues array.
+2. Compute the next `id` = highest existing `id` + 1.
+3. Infer the fields from the user's description:
+   - `title` — short, imperative title
+   - `description` — full context from what the user said; expand/reformulate if needed for clarity
+   - `priority` — infer from tone/words (`"urgent"` / `"bloquant"` → `high`; default → `medium`; `"un jour"` / `"idée"` → `low`)
+   - `status` — always `"open"`
+   - `createdAt` — today's ISO date
+4. Write the updated file.
+5. Confirm with a one-line summary: `✅ Issue #N ajoutée — "<title>"`.
+
+Do **not** ask clarifying questions before adding — add immediately, then show the
+result. If something is genuinely ambiguous, add with a best guess and flag it in the
+confirmation message.
+
+### "analyse nos issues" command
+
+### "nouvelle issue" command
+
+When the user says **"nouvelle issue"** (anywhere in their message), immediately add
+the issue to `dev/issues.json` without asking for confirmation. Steps:
+
+1. Read `dev/issues.json` to get the current issues array.
+2. Compute the next `id` = highest existing `id` + 1.
+3. Infer the fields from the user's description:
+   - `title` — short, imperative title
+   - `description` — full context from what the user said; expand/reformulate if needed for clarity
+   - `labels` — pick the most relevant from `_schema.validLabels`; use multiple if appropriate
+   - `priority` — infer from tone/words (`"urgent"` / `"bloquant"` → `high`; default → `medium`; `"un jour"` / `"idée"` → `low`)
+   - `status` — always `"open"`
+   - `createdAt` — today's ISO date
+4. Write the updated file.
+5. Confirm with a one-line summary: `✅ Issue #N ajoutée — "<title>"`.
+
+Do **not** ask clarifying questions before adding — add immediately, then show the
+result. If something is genuinely ambiguous, add with a best guess and flag it in the
+confirmation message.
+
+### "analyse nos issues" command
+
+When the user says **"analyse nos issues"**, read `dev/issues.json` and display all
+`open` and `in-progress` issues as a structured list, sorted by priority
+(high → medium → low), then by id. Format:
+
+#ID [PRIORITY] Title
+Labels: label1, label2
+Description courte (1 ligne max)
+
+After the list, ask the user which issue to tackle first.
+
+### Issue lifecycle
+
+- When the user **starts working on an issue**, update its `status` to `"in-progress"`
+  in `dev/issues.json`.
+- When an issue is **fully implemented and confirmed by the user**, delete it from the
+  `issues` array in `dev/issues.json` immediately — do not set it to `"closed"`, just
+  remove it.
+- Never remove an issue without explicit user confirmation that the work is done.
 
 ## Déploiement
 
