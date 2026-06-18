@@ -1,0 +1,2394 @@
+{
+  "divers": [
+    {
+      "type": "zaap",
+      "x": -32,
+      "y": -58,
+      "label": "Bonta",
+      "region": "Bonta"
+    },
+    {
+      "type": "zaap",
+      "x": -1,
+      "y": 13,
+      "label": "Bord de la fôret maléfique",
+      "region": "Bord de la fôret maléfique"
+    },
+    {
+      "type": "zaap",
+      "x": -25,
+      "y": 40,
+      "label": "Brâkmar",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "zaap",
+      "x": 4,
+      "y": -19,
+      "label": "Cité d'Astrub",
+      "region": "Cité d'Astrub"
+    },
+    {
+      "type": "zaap",
+      "x": -34,
+      "y": -8,
+      "label": "Entrainement Dopeuls",
+      "region": "Entrainement Dopeuls"
+    },
+    {
+      "type": "zaap",
+      "x": 25,
+      "y": -4,
+      "label": "Ile des Wabbits",
+      "region": "Ile des Wabbits"
+    },
+    {
+      "type": "zaap",
+      "x": 5,
+      "y": 7,
+      "label": "La Millifutaie",
+      "region": "La Millifutaie"
+    },
+    {
+      "type": "zaap",
+      "x": -5,
+      "y": -8,
+      "label": "La montagne des Craqueleurs",
+      "region": "La montagne des Craqueleurs"
+    },
+    {
+      "type": "zaap",
+      "x": 35,
+      "y": 12,
+      "label": "La plage de Moon",
+      "region": "La plage de Moon"
+    },
+    {
+      "type": "zaap",
+      "x": -24,
+      "y": 12,
+      "label": "Lande de Sidimote",
+      "region": "Lande de Sidimote"
+    },
+    {
+      "type": "zaap",
+      "x": 1,
+      "y": -32,
+      "label": "Le berceau",
+      "region": "Le berceau"
+    },
+    {
+      "type": "zaap",
+      "x": 3,
+      "y": -5,
+      "label": "Le château d'Amakna",
+      "region": "Le château d'Amakna"
+    },
+    {
+      "type": "zaap",
+      "x": -2,
+      "y": 0,
+      "label": "Le village",
+      "region": "Le village"
+    },
+    {
+      "type": "zaap",
+      "x": -46,
+      "y": 18,
+      "label": "Le village côtier",
+      "region": "Le village côtier"
+    },
+    {
+      "type": "zaap",
+      "x": -20,
+      "y": -20,
+      "label": "Massif de Cania",
+      "region": "Massif de Cania"
+    },
+    {
+      "type": "zaap",
+      "x": -1,
+      "y": 24,
+      "label": "Plaine des Scarafeuilles",
+      "region": "Plaine des Scarafeuilles"
+    },
+    {
+      "type": "zaap",
+      "x": -14,
+      "y": -47,
+      "label": "Plaines Rocheuses",
+      "region": "Plaines Rocheuses"
+    },
+    {
+      "type": "zaap",
+      "x": 7,
+      "y": -4,
+      "label": "Port de Madrestam",
+      "region": "Port de Madrestam"
+    },
+    {
+      "type": "zaap",
+      "x": 10,
+      "y": 22,
+      "label": "Porte de Sufokia",
+      "region": "Porte de Sufokia"
+    },
+    {
+      "type": "zaap",
+      "x": -18,
+      "y": -26,
+      "label": "Village Brigandins",
+      "region": "Village Brigandins"
+    },
+    {
+      "type": "zaap",
+      "x": 17,
+      "y": -31,
+      "label": "Village d'Aerdala",
+      "region": "Village d'Aerdala"
+    },
+    {
+      "type": "zaap",
+      "x": 23,
+      "y": -22,
+      "label": "Village d'Akwadala",
+      "region": "Village d'Akwadala"
+    },
+    {
+      "type": "zaap",
+      "x": 29,
+      "y": -49,
+      "label": "Village de Feudala",
+      "region": "Village de Feudala"
+    },
+    {
+      "type": "zaap",
+      "x": 26,
+      "y": -37,
+      "label": "Village de Pandala",
+      "region": "Village de Pandala"
+    },
+    {
+      "type": "zaap",
+      "x": 30,
+      "y": -38,
+      "label": "Village de Terrdala",
+      "region": "Village de Terrdala"
+    },
+    {
+      "type": "zaap",
+      "x": -54,
+      "y": 15,
+      "label": "Village de la Canopée",
+      "region": "Village de la Canopée"
+    },
+    {
+      "type": "zaap",
+      "x": -16,
+      "y": 1,
+      "label": "Village des Eleveurs",
+      "region": "Village des Eleveurs"
+    },
+    {
+      "type": "zaap",
+      "x": -53,
+      "y": 18,
+      "label": "Village des Zoths",
+      "region": "Village des Zoths"
+    },
+    {
+      "type": "tower",
+      "x": -30,
+      "y": -53,
+      "label": "Tour des ordres",
+      "region": "Bonta"
+    },
+    {
+      "type": "tower",
+      "x": -26,
+      "y": 35,
+      "label": "Tour des ordres",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tower",
+      "x": -16,
+      "y": 18,
+      "label": "Tour de Gisgoul",
+      "region": "Sidimote"
+    },
+    {
+      "type": "arena",
+      "x": -27,
+      "y": -60,
+      "label": "Arène",
+      "region": "Bonta"
+    },
+    {
+      "type": "arena",
+      "x": -19,
+      "y": 39,
+      "label": "Arène",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "arena",
+      "x": -6,
+      "y": -11,
+      "label": "Arène",
+      "region": "Forêt d'Abraknydes"
+    },
+    {
+      "type": "arena",
+      "x": -9,
+      "y": -41,
+      "label": "Gladiatrool",
+      "region": "Forêt d'Abraknydes"
+    },
+    {
+      "type": "bank",
+      "x": 4,
+      "y": -16,
+      "label": "Banque",
+      "region": "Astrub"
+    },
+    {
+      "type": "bank",
+      "x": 2,
+      "y": -2,
+      "label": "Banque",
+      "region": "Amakna"
+    },
+    {
+      "type": "bank",
+      "x": 14,
+      "y": 25,
+      "label": "Banque",
+      "region": "Sufokia"
+    },
+    {
+      "type": "bank",
+      "x": -23,
+      "y": 40,
+      "label": "Banque",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "bank",
+      "x": -29,
+      "y": -58,
+      "label": "Banque",
+      "region": "Bonta"
+    },
+    {
+      "type": "bank",
+      "x": 24,
+      "y": -36,
+      "label": "Banque",
+      "region": "Pandala"
+    },
+    {
+      "type": "bank",
+      "x": -47,
+      "y": 21,
+      "label": "Banque",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "bank",
+      "x": -16,
+      "y": 4,
+      "label": "Banque",
+      "region": "Village des Eleveurs"
+    },
+    {
+      "type": "boatTravel",
+      "x": 8,
+      "y": -5,
+      "label": "Bateau vers l'île de Nowel",
+      "region": "Port de Madrestam"
+    },
+    {
+      "type": "boatTravel",
+      "x": 9,
+      "y": -2,
+      "label": "Bateau vers l'île des Wabbits",
+      "region": "Port de Madrestam"
+    },
+    {
+      "type": "boatTravel",
+      "x": 24,
+      "y": -2,
+      "label": "Bateau vers le Port de Madrestam",
+      "region": "Ile des Wabbits"
+    },
+    {
+      "type": "boatTravel",
+      "x": 24,
+      "y": -38,
+      "label": "Bateau vers le Port de Madrestam",
+      "region": "Pandala"
+    },
+    {
+      "type": "boatTravel",
+      "x": 31,
+      "y": -52,
+      "label": "Bateau vers le santuaire de Pandala",
+      "region": "Pandala"
+    },
+    {
+      "type": "boatTravel",
+      "x": 12,
+      "y": 29,
+      "label": "Bateau vers l'île d'Otomaï",
+      "region": "Sufokia"
+    },
+    {
+      "type": "boatTravel",
+      "x": -44,
+      "y": 21,
+      "label": "Bateau vers Sufokia",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "boatTravel",
+      "x": -36,
+      "y": -9,
+      "label": "Bateau vers l'île du Minotoror",
+      "region": "Baie de Cania"
+    },
+    {
+      "type": "boatTravel",
+      "x": -43,
+      "y": -16,
+      "label": "Bateau vers la Baie de Cania",
+      "region": "Ile du Minotoror"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": 18,
+      "y": -39,
+      "label": "Transporteur Brigandin",
+      "region": "Pandala"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": -30,
+      "y": -48,
+      "label": "Transporteur Brigandin",
+      "region": "Bonta"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": -17,
+      "y": -26,
+      "label": "Transporteur Brigandin",
+      "region": "Village des Brigandins"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": -41,
+      "y": -18,
+      "label": "Transporteur Brigandin",
+      "region": "L'ile du Minotoror"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": -53,
+      "y": 15,
+      "label": "Transporteur Brigandin",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": -27,
+      "y": 29,
+      "label": "Transporteur Brigandin",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": -3,
+      "y": 27,
+      "label": "Transporteur Brigandin",
+      "region": "La presqu'île des Dragoeufs"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": 11,
+      "y": 30,
+      "label": "Transporteur Brigandin",
+      "region": "Le péninsule des gelées"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": -1,
+      "y": 8,
+      "label": "Transporteur Brigandin",
+      "region": "Campement des Bworks"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": 6,
+      "y": -1,
+      "label": "Transporteur Brigandin",
+      "region": "La campagne"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": 23,
+      "y": -3,
+      "label": "Transporteur Brigandin",
+      "region": "L'ile des Wabbits"
+    },
+    {
+      "type": "brigandinTransporter",
+      "x": 35,
+      "y": 4,
+      "label": "Transporteur Brigandin",
+      "region": "L'ile de Moon"
+    },
+    {
+      "type": "chanil",
+      "x": 9,
+      "y": 21,
+      "label": "Chanil",
+      "region": "Amakna"
+    },
+    {
+      "type": "church",
+      "x": 6,
+      "y": 3,
+      "label": "Église",
+      "region": "Amakna"
+    },
+    {
+      "type": "dofusTemple",
+      "x": 26,
+      "y": -47,
+      "label": "Réceptacle des Dofus",
+      "region": "Pandala"
+    },
+    {
+      "type": "dojo",
+      "x": 25,
+      "y": -34,
+      "label": "Dojo",
+      "region": "Pandala"
+    },
+    {
+      "type": "dojo",
+      "x": 18,
+      "y": -33,
+      "label": "Dojo",
+      "region": "Pandala"
+    },
+    {
+      "type": "dojo",
+      "x": 21,
+      "y": -24,
+      "label": "Dojo",
+      "region": "Pandala"
+    },
+    {
+      "type": "dojo",
+      "x": 30,
+      "y": -36,
+      "label": "Dojo",
+      "region": "Pandala"
+    },
+    {
+      "type": "dojo",
+      "x": 29,
+      "y": -50,
+      "label": "Dojo",
+      "region": "Pandala"
+    },
+    {
+      "type": "emote",
+      "x": 1,
+      "y": 0,
+      "label": "Attitude \"Bisou\"",
+      "region": "Amakna"
+    },
+    {
+      "type": "emote",
+      "x": 2,
+      "y": -1,
+      "label": "Attitude \"Pierre, feuille, ciseaux\"",
+      "region": "Amakna"
+    },
+    {
+      "type": "emote",
+      "x": 4,
+      "y": 1,
+      "label": "Attitude \"Faire signe\"",
+      "region": "Amakna"
+    },
+    {
+      "type": "emote",
+      "x": -6,
+      "y": 5,
+      "label": "Attitude \"Montrer son arme\"",
+      "region": "Campement des Bworks"
+    },
+    {
+      "type": "emote",
+      "x": -6,
+      "y": 24,
+      "label": "Attitude \"Colère\"",
+      "region": "La presqu'île des Dragoeufs"
+    },
+    {
+      "type": "emote",
+      "x": 19,
+      "y": 24,
+      "label": "Attitude \"Peur\"",
+      "region": "Sufokia"
+    },
+    {
+      "type": "emote",
+      "x": -2,
+      "y": -6,
+      "label": "Attitude \"Applaudir\"",
+      "region": "La montagne des Craqueleurs"
+    },
+    {
+      "type": "emote",
+      "x": 10,
+      "y": -24,
+      "label": "Attitude \"Croiser les bras\"",
+      "region": "Astrub"
+    },
+    {
+      "type": "groceryStore",
+      "x": 1,
+      "y": -16,
+      "label": "Épicerie",
+      "region": "Astrub"
+    },
+    {
+      "type": "groceryStore",
+      "x": -35,
+      "y": -59,
+      "label": "Épicerie",
+      "region": "Bonta"
+    },
+    {
+      "type": "groceryStore",
+      "x": -26,
+      "y": 34,
+      "label": "Épicerie",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "guildTemple",
+      "x": 1,
+      "y": -9,
+      "label": "Temple des Guildes",
+      "region": "Amakna"
+    },
+    {
+      "type": "kanojedo",
+      "x": 0,
+      "y": 0,
+      "label": "Kanojedo",
+      "region": "Kanojedo"
+    },
+    {
+      "type": "kanojedo",
+      "x": 4,
+      "y": 4,
+      "label": "Kanojedo",
+      "region": "Kanojedo"
+    },
+    {
+      "type": "kanojedo",
+      "x": -4,
+      "y": 24,
+      "label": "Kanojedo",
+      "region": "Kanojedo"
+    },
+    {
+      "type": "kekFactory",
+      "x": -1,
+      "y": -2,
+      "label": "Fabrique de Kek",
+      "region": "Amakna"
+    },
+    {
+      "type": "library",
+      "x": -36,
+      "y": -56,
+      "label": "Bibliothèque",
+      "region": "Bonta"
+    },
+    {
+      "type": "library",
+      "x": -31,
+      "y": 38,
+      "label": "Bibliothèque",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "library",
+      "x": 24,
+      "y": -34,
+      "label": "Bibliothèque",
+      "region": "Pandala"
+    },
+    {
+      "type": "marketplace",
+      "x": 3,
+      "y": -18,
+      "label": "Place marchande",
+      "region": "Astrub"
+    },
+    {
+      "type": "marketplace",
+      "x": 0,
+      "y": 1,
+      "label": "Place marchande",
+      "region": "Amakna"
+    },
+    {
+      "type": "marketplace",
+      "x": 1,
+      "y": 1,
+      "label": "Place marchande",
+      "region": "Amakna"
+    },
+    {
+      "type": "marketplace",
+      "x": 26,
+      "y": -38,
+      "label": "Place marchande",
+      "region": "Pandala"
+    },
+    {
+      "type": "marketplace",
+      "x": -26,
+      "y": 32,
+      "label": "Place marchande",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "marketplace",
+      "x": -30,
+      "y": -52,
+      "label": "Place marchande",
+      "region": "Bonta"
+    },
+    {
+      "type": "marketplace",
+      "x": -9,
+      "y": -39,
+      "label": "Place marchande",
+      "region": "Foire du Trool"
+    },
+    {
+      "type": "mercenaryRepair",
+      "x": 4,
+      "y": -21,
+      "label": "Repère des mercenaires",
+      "region": "Astrub"
+    },
+    {
+      "type": "mercenaryRepair",
+      "x": 4,
+      "y": -21,
+      "label": "Récidence des mercenaires",
+      "region": "Plaine de Cania"
+    },
+    {
+      "type": "milice",
+      "x": -33,
+      "y": -57,
+      "label": "Milice",
+      "region": "Bonta"
+    },
+    {
+      "type": "milice",
+      "x": -23,
+      "y": 38,
+      "label": "Milice",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "milice",
+      "x": 4,
+      "y": -6,
+      "label": "Milice",
+      "region": "Le château d'Amakna"
+    },
+    {
+      "type": "moonCannon",
+      "x": 11,
+      "y": 10,
+      "label": "Canon pour l'île de Moon",
+      "region": "Clairère de Brouce Boulgour"
+    },
+    {
+      "type": "scaeroplane",
+      "x": -49,
+      "y": 14,
+      "label": "Scaéroplane",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "scaeroplane",
+      "x": -54,
+      "y": 18,
+      "label": "Scaéroplane",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "scaeroplane",
+      "x": -56,
+      "y": 22,
+      "label": "Scaéroplane",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "scaeroplane",
+      "x": -57,
+      "y": 4,
+      "label": "Scaéroplane",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "stable",
+      "x": -38,
+      "y": -57,
+      "label": "Enclos public",
+      "region": "Bonta"
+    },
+    {
+      "type": "stable",
+      "x": -38,
+      "y": -56,
+      "label": "Enclos public",
+      "region": "Bonta"
+    },
+    {
+      "type": "stable",
+      "x": -37,
+      "y": -58,
+      "label": "Enclos public",
+      "region": "Bonta"
+    },
+    {
+      "type": "stable",
+      "x": -37,
+      "y": -57,
+      "label": "Enclos public",
+      "region": "Bonta"
+    },
+    {
+      "type": "stable",
+      "x": -37,
+      "y": -56,
+      "label": "Enclos public",
+      "region": "Bonta"
+    },
+    {
+      "type": "stable",
+      "x": -36,
+      "y": -57,
+      "label": "Enclos public",
+      "region": "Bonta"
+    },
+    {
+      "type": "stable",
+      "x": -31,
+      "y": 36,
+      "label": "Enclos public",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "stable",
+      "x": -30,
+      "y": 35,
+      "label": "Enclos public",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "stable",
+      "x": -30,
+      "y": 36,
+      "label": "Enclos public",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "stable",
+      "x": -30,
+      "y": 37,
+      "label": "Enclos public",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "stable",
+      "x": -29,
+      "y": 36,
+      "label": "Enclos public",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "stable",
+      "x": -29,
+      "y": 37,
+      "label": "Enclos public",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tavern",
+      "x": 5,
+      "y": -17,
+      "label": "Taverne",
+      "region": "Astrub"
+    },
+    {
+      "type": "tavern",
+      "x": 25,
+      "y": -35,
+      "label": "Taverne du Pandawa Ivre",
+      "region": "Pandala"
+    },
+    {
+      "type": "tavern",
+      "x": -32,
+      "y": -60,
+      "label": "Taverne de la Bagrutte",
+      "region": "Bonta"
+    },
+    {
+      "type": "tavern",
+      "x": -30,
+      "y": -56,
+      "label": "Taverne Alakarte",
+      "region": "Bonta"
+    },
+    {
+      "type": "tavern",
+      "x": -29,
+      "y": -60,
+      "label": "Taverne de la Chopenbois",
+      "region": "Bonta"
+    },
+    {
+      "type": "tavern",
+      "x": -32,
+      "y": -51,
+      "label": "Taverne de la Tabasse",
+      "region": "Bonta"
+    },
+    {
+      "type": "tavern",
+      "x": -26,
+      "y": -58,
+      "label": "Taverne du Ferayeur",
+      "region": "Bonta"
+    },
+    {
+      "type": "tavern",
+      "x": -27,
+      "y": -56,
+      "label": "Taverne du Feubuk",
+      "region": "Bonta"
+    },
+    {
+      "type": "tavern",
+      "x": -27,
+      "y": -50,
+      "label": "Taverne du Pinchaut",
+      "region": "Bonta"
+    },
+    {
+      "type": "tavern",
+      "x": -29,
+      "y": 32,
+      "label": "Taverne Atolmond",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tavern",
+      "x": -23,
+      "y": 36,
+      "label": "Taverne de Djaul",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tavern",
+      "x": -22,
+      "y": 31,
+      "label": "Taverne du Bwork",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tavern",
+      "x": -28,
+      "y": 40,
+      "label": "Taverne du Chabrulé",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tavern",
+      "x": -27,
+      "y": -50,
+      "label": "Taverne du Pinchaut",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tavern",
+      "x": -21,
+      "y": 39,
+      "label": "Taverne de la Misère",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tradeHotel",
+      "x": 1,
+      "y": -20,
+      "label": "Hotel des métiers",
+      "region": "Astrub"
+    },
+    {
+      "type": "tradeHotel",
+      "x": -37,
+      "y": -55,
+      "label": "Hotel des métiers",
+      "region": "Bonta"
+    },
+    {
+      "type": "tradeHotel",
+      "x": -30,
+      "y": 38,
+      "label": "Hotel des métiers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "rouletteBouftou",
+      "x": -12,
+      "y": -39,
+      "label": "Roulette des Bouftous",
+      "region": "Foire du Trool"
+    },
+    {
+      "type": "wayFor",
+      "x": -2,
+      "y": 13,
+      "label": "Passage vers Brâkmar",
+      "region": "Amakna"
+    }
+  ],
+  "conquest": [
+    {
+      "type": "bontaPrism",
+      "x": -30,
+      "y": -55,
+      "label": "Prisme Bonta",
+      "region": "Bonta"
+    },
+    {
+      "type": "BrâkmarPrism",
+      "x": -23,
+      "y": 38,
+      "label": "Prisme Brâkmar",
+      "region": "Brâkmar"
+    }
+  ],
+  "dungeon": [
+    {
+      "type": "dungeon",
+      "x": -1,
+      "y": 33,
+      "label": "Antre du Dragon Cochon",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -60,
+      "y": -8,
+      "label": "Antre du Kralamoure Géant",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -55,
+      "y": -4,
+      "label": "Arche d'Otomaï",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -21,
+      "y": -29,
+      "label": "Belvédère d'Illyzaelle",
+      "region": "Cania"
+    },
+    {
+      "type": "dungeon",
+      "x": -54,
+      "y": 16,
+      "label": "Canopée du Kimbo",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "dungeon",
+      "x": -18,
+      "y": 28,
+      "label": "Donjon Fungus",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "dungeon",
+      "x": 24,
+      "y": -13,
+      "label": "Donjon Wabbit",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": 31,
+      "y": 8,
+      "label": "Donjon de Moon",
+      "region": "Ile de Moon"
+    },
+    {
+      "type": "dungeon",
+      "x": -63,
+      "y": -100,
+      "label": "Donjon de Nowel 1",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -63,
+      "y": -100,
+      "label": "Donjon de Nowel 2",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -63,
+      "y": -100,
+      "label": "Donjon de Nowel 3",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -9,
+      "y": -14,
+      "label": "Donjon des Abraknydes",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -25,
+      "y": -17,
+      "label": "Donjon des Blops",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": 2,
+      "y": -34,
+      "label": "Donjon des Bouftous",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": 19,
+      "y": -22,
+      "label": "Donjon des Bulbes",
+      "region": "Pandala"
+    },
+    {
+      "type": "dungeon",
+      "x": -5,
+      "y": 10,
+      "label": "Donjon des Bworks",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -24,
+      "y": 1,
+      "label": "Donjon des Canidés",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": 7,
+      "y": -25,
+      "label": "Donjon des Champs",
+      "region": "Astrub"
+    },
+    {
+      "type": "dungeon",
+      "x": -3,
+      "y": -7,
+      "label": "Donjon des Craqueleurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": 28,
+      "y": -52,
+      "label": "Donjon des Firefoux",
+      "region": "Pandala"
+    },
+    {
+      "type": "dungeon",
+      "x": 32,
+      "y": -38,
+      "label": "Donjon des Kitsounes",
+      "region": "Pandala"
+    },
+    {
+      "type": "dungeon",
+      "x": -2,
+      "y": -5,
+      "label": "Donjon des Larves",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -35,
+      "y": -59,
+      "label": "Donjon des Rats de Bonta",
+      "region": "Bonta"
+    },
+    {
+      "type": "dungeon",
+      "x": -26,
+      "y": 31,
+      "label": "Donjon des Rats de Brâkmar",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "dungeon",
+      "x": 6,
+      "y": -9,
+      "label": "Donjon des Rats du Château d'Amakna",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": 1,
+      "y": 26,
+      "label": "Donjon des Scarafeuilles",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": 10,
+      "y": 15,
+      "label": "Donjon des Squelettes",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": 5,
+      "y": 6,
+      "label": "Donjon des Tofus",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -21,
+      "y": 12,
+      "label": "Donjon du Bworker",
+      "region": "Sidimote"
+    },
+    {
+      "type": "dungeon",
+      "x": -9,
+      "y": -14,
+      "label": "Donjon du Chêne Mou",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -17,
+      "y": 8,
+      "label": "Donjon du Koulosse",
+      "region": "Sidimote"
+    },
+    {
+      "type": "dungeon",
+      "x": -20,
+      "y": -62,
+      "label": "Donjon du Maitre Corbac",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": 5,
+      "y": 6,
+      "label": "Donjon du Tofu Royal",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": 13,
+      "y": -28,
+      "label": "Donjon ensablé",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": 13,
+      "y": 21,
+      "label": "Donjon Forgeron",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -51,
+      "y": 9,
+      "label": "Goulet du Rasboul",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "dungeon",
+      "x": -59,
+      "y": 15,
+      "label": "Grotte Hesque",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "dungeon",
+      "x": -53,
+      "y": 20,
+      "label": "Laboratoire du Tynril",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "dungeon",
+      "x": -7,
+      "y": 16,
+      "label": "Labyrinthe de la Forêt maléfique",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -42,
+      "y": -17,
+      "label": "Labyrinthe du Minotoror",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -42,
+      "y": -17,
+      "label": "Labyrinthe du Minotot",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -20,
+      "y": 10,
+      "label": "Repaire de Skeunk",
+      "region": "Sidimote"
+    },
+    {
+      "type": "dungeon",
+      "x": 18,
+      "y": -36,
+      "label": "Repaire des Pandikazes",
+      "region": "Pandala"
+    },
+    {
+      "type": "dungeon",
+      "x": 28,
+      "y": -59,
+      "label": "Sanctuaire de Pandala",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -14,
+      "y": 16,
+      "label": "Sanctuaire de Qu'Tan",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "dungeon",
+      "x": -3,
+      "y": 24,
+      "label": "Sanctuaire des Dragoeufs",
+      "region": "Amakna"
+    },
+    {
+      "type": "dungeon",
+      "x": -7,
+      "y": -1,
+      "label": "Sanctuaire des familiers",
+      "region": "Amakna"
+    }
+  ],
+  "salesHouse": [
+    {
+      "type": "alchemy",
+      "x": 4,
+      "y": -18,
+      "label": "Hôtel de vente des alchimistes",
+      "region": "Astrub"
+    },
+    {
+      "type": "alchemy",
+      "x": -33,
+      "y": -55,
+      "label": "Hôtel de vente des alchimistes",
+      "region": "Bonta"
+    },
+    {
+      "type": "alchemy",
+      "x": -26,
+      "y": 36,
+      "label": "Hôtel de vente des alchimistes",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "animal",
+      "x": -36,
+      "y": -55,
+      "label": "Hôtel de vente des animaux",
+      "region": "Bonta"
+    },
+    {
+      "type": "animal",
+      "x": -31,
+      "y": 37,
+      "label": "Hôtel de vente des animaux",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "baker",
+      "x": 3,
+      "y": -15,
+      "label": "Hôtel de vente des boulangers",
+      "region": "Astrub"
+    },
+    {
+      "type": "baker",
+      "x": -26,
+      "y": -52,
+      "label": "Hôtel de vente des boulangers",
+      "region": "Bonta"
+    },
+    {
+      "type": "baker",
+      "x": -24,
+      "y": 31,
+      "label": "Hôtel de vente des boulangers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "blacksmith",
+      "x": 6,
+      "y": -18,
+      "label": "Hôtel de vente des forgerons",
+      "region": "Astrub"
+    },
+    {
+      "type": "blacksmith",
+      "x": -28,
+      "y": -55,
+      "label": "Hôtel de vente des forgerons",
+      "region": "Bonta"
+    },
+    {
+      "type": "blacksmith",
+      "x": -21,
+      "y": 35,
+      "label": "Hôtel de vente des forgerons",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "butcher",
+      "x": 2,
+      "y": -14,
+      "label": "Hôtel de vente des bouchers",
+      "region": "Astrub"
+    },
+    {
+      "type": "butcher",
+      "x": -30,
+      "y": -50,
+      "label": "Hôtel de vente des bouchers et des chasseurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "butcher",
+      "x": -27,
+      "y": 32,
+      "label": "Hôtel de vente des bouchers et des chasseurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "document",
+      "x": -36,
+      "y": -56,
+      "label": "Hôtel de vente des documents",
+      "region": "Bonta"
+    },
+    {
+      "type": "document",
+      "x": -31,
+      "y": 38,
+      "label": "Hôtel de vente des documents",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "farmer",
+      "x": 3,
+      "y": -17,
+      "label": "Hôtel de vente des paysans",
+      "region": "Astrub"
+    },
+    {
+      "type": "farmer",
+      "x": -29,
+      "y": -54,
+      "label": "Hôtel de vente des paysans",
+      "region": "Bonta"
+    },
+    {
+      "type": "farmer",
+      "x": -25,
+      "y": 31,
+      "label": "Hôtel de vente des paysans",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "firework",
+      "x": -10,
+      "y": -41,
+      "label": "Hôtel de vente des fées d'artifice",
+      "region": "Cania"
+    },
+    {
+      "type": "fish",
+      "x": 0,
+      "y": -17,
+      "label": "Hôtel de vente des poissonniers",
+      "region": "Astrub"
+    },
+    {
+      "type": "fish",
+      "x": -35,
+      "y": -55,
+      "label": "Hôtel de vente des poissonniers et des pêcheurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "fish",
+      "x": -27,
+      "y": 37,
+      "label": "Hôtel de vente des poissonniers et des pêcheurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "fishing",
+      "x": 0,
+      "y": -18,
+      "label": "Hôtel de vente des pêcheurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "handyman",
+      "x": 5,
+      "y": -18,
+      "label": "Hôtel de vente des bricoleurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "handyman",
+      "x": -27,
+      "y": -59,
+      "label": "Hôtel de vente des bricoleurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "handyman",
+      "x": -28,
+      "y": 35,
+      "label": "Hôtel de vente des bricoleurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "hunter",
+      "x": 0,
+      "y": -16,
+      "label": "Hôtel de vente des chasseurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "jeweler",
+      "x": 6,
+      "y": -17,
+      "label": "Hôtel de vente des bijoutiers",
+      "region": "Astrub"
+    },
+    {
+      "type": "jeweler",
+      "x": -33,
+      "y": -60,
+      "label": "Hôtel de vente des bijoutiers",
+      "region": "Bonta"
+    },
+    {
+      "type": "jeweler",
+      "x": -26,
+      "y": 38,
+      "label": "Hôtel de vente des bijoutiers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "lumberjack",
+      "x": 3,
+      "y": -21,
+      "label": "Hôtel de vente des bûcherons",
+      "region": "Astrub"
+    },
+    {
+      "type": "lumberjack",
+      "x": -30,
+      "y": -60,
+      "label": "Hôtel de vente des bûcherons",
+      "region": "Bonta"
+    },
+    {
+      "type": "lumberjack",
+      "x": -22,
+      "y": 37,
+      "label": "Hôtel de vente des bûcherons",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "miner",
+      "x": 6,
+      "y": -19,
+      "label": "Hôtel de vente des mineurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "miner",
+      "x": -28,
+      "y": -58,
+      "label": "Hôtel de vente des mineurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "miner",
+      "x": -20,
+      "y": 34,
+      "label": "Hôtel de vente des mineurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "ressource",
+      "x": 4,
+      "y": -17,
+      "label": "Hôtel de vente des ressources",
+      "region": "Astrub"
+    },
+    {
+      "type": "ressource",
+      "x": -32,
+      "y": -57,
+      "label": "Hôtel de vente des ressources",
+      "region": "Bonta"
+    },
+    {
+      "type": "ressource",
+      "x": -25,
+      "y": 33,
+      "label": "Hôtel de vente des ressources",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "rune",
+      "x": -38,
+      "y": -55,
+      "label": "Hôtel de vente des runes",
+      "region": "Bonta"
+    },
+    {
+      "type": "rune",
+      "x": -29,
+      "y": 38,
+      "label": "Hôtel de vente des runes",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "sculptor",
+      "x": 3,
+      "y": -20,
+      "label": "Hôtel de vente des sculpteurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "sculptor",
+      "x": -29,
+      "y": -60,
+      "label": "Hôtel de vente des sculpteurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "sculptor",
+      "x": -22,
+      "y": 40,
+      "label": "Hôtel de vente des sculpteurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "searchScroll",
+      "x": -33,
+      "y": -57,
+      "label": "Hôtel de vente des parchemins liés",
+      "region": "Bonta"
+    },
+    {
+      "type": "searchScroll",
+      "x": -23,
+      "y": 38,
+      "label": "Hôtel de vente des parchemins liés",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "shield",
+      "x": 26,
+      "y": -35,
+      "label": "Hôtel de vente des boucliers",
+      "region": "Pandala"
+    },
+    {
+      "type": "shoesmaker",
+      "x": 0,
+      "y": -20,
+      "label": "Hôtel de vente des cordonniers",
+      "region": "Astrub"
+    },
+    {
+      "type": "shoesmaker",
+      "x": -29,
+      "y": -57,
+      "label": "Hôtel de vente des cordonniers",
+      "region": "Bonta"
+    },
+    {
+      "type": "shoesmaker",
+      "x": -24,
+      "y": 36,
+      "label": "Hôtel de vente des cordonniers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "soulstone",
+      "x": -27,
+      "y": -60,
+      "label": "Hôtel de vente des âmes",
+      "region": "Bonta"
+    },
+    {
+      "type": "soulstone",
+      "x": -19,
+      "y": 39,
+      "label": "Hôtel de vente des âmes",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tailor",
+      "x": 0,
+      "y": -22,
+      "label": "Hôtel de vente des tailleurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "tailor",
+      "x": -30,
+      "y": -56,
+      "label": "Hôtel de vente des tailleurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "tailor",
+      "x": -23,
+      "y": 35,
+      "label": "Hôtel de vente des tailleurs",
+      "region": "Brâkmar"
+    }
+  ],
+  "temple": [
+    {
+      "type": "cra",
+      "x": 0,
+      "y": 3,
+      "label": "Temple Crâ",
+      "region": "Amakna"
+    },
+    {
+      "type": "ecaflip",
+      "x": 1,
+      "y": -5,
+      "label": "Temple Ecaflip",
+      "region": "Amakna"
+    },
+    {
+      "type": "eniripsa",
+      "x": 7,
+      "y": 1,
+      "label": "Temple Eniripsa",
+      "region": "Amakna"
+    },
+    {
+      "type": "enutrof",
+      "x": -1,
+      "y": -4,
+      "label": "Temple Enutrof",
+      "region": "Amakna"
+    },
+    {
+      "type": "feca",
+      "x": 12,
+      "y": 5,
+      "label": "Temple Feca",
+      "region": "Amakna"
+    },
+    {
+      "type": "iop",
+      "x": 1,
+      "y": 3,
+      "label": "Temple Iop",
+      "region": "Amakna"
+    },
+    {
+      "type": "osamodas",
+      "x": 8,
+      "y": 2,
+      "label": "Temple Osamodas",
+      "region": "Amakna"
+    },
+    {
+      "type": "pandawa",
+      "x": 5,
+      "y": 20,
+      "label": "Temple Pandawa",
+      "region": "Amakna"
+    },
+    {
+      "type": "sacrieur",
+      "x": -2,
+      "y": -8,
+      "label": "Temple Sacrieur",
+      "region": "Amakna"
+    },
+    {
+      "type": "sadida",
+      "x": -1,
+      "y": 9,
+      "label": "Temple Sadida",
+      "region": "Amakna"
+    },
+    {
+      "type": "sram",
+      "x": -4,
+      "y": 0,
+      "label": "Temple Sram",
+      "region": "Amakna"
+    },
+    {
+      "type": "xelor",
+      "x": 3,
+      "y": 1,
+      "label": "Temple Xélor",
+      "region": "Amakna"
+    }
+  ],
+  "workshop": [
+    {
+      "type": "alchemy",
+      "x": -32,
+      "y": -55,
+      "label": "Atelier des alchimistes",
+      "region": "Bonta"
+    },
+    {
+      "type": "alchemy",
+      "x": 5,
+      "y": -20,
+      "label": "Atelier des alchimistes",
+      "region": "Astrub"
+    },
+    {
+      "type": "alchemy",
+      "x": -55,
+      "y": 15,
+      "label": "Atelier des alchimistes",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "alchemy",
+      "x": 1,
+      "y": 16,
+      "label": "Atelier des alchimistes",
+      "region": "Amakna"
+    },
+    {
+      "type": "alchemy",
+      "x": -57,
+      "y": 19,
+      "label": "Atelier des alchimistes",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "alchemy",
+      "x": -26,
+      "y": 37,
+      "label": "Atelier des alchimistes",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "baker",
+      "x": -27,
+      "y": -50,
+      "label": "Atelier des boulangers",
+      "region": "Bonta"
+    },
+    {
+      "type": "baker",
+      "x": 2,
+      "y": -16,
+      "label": "Atelier des boulangers",
+      "region": "Astrub"
+    },
+    {
+      "type": "baker",
+      "x": 3,
+      "y": 0,
+      "label": "Atelier des boulangers",
+      "region": "Amakna"
+    },
+    {
+      "type": "baker",
+      "x": 4,
+      "y": 13,
+      "label": "Atelier des boulangers",
+      "region": "Amakna"
+    },
+    {
+      "type": "baker",
+      "x": -1,
+      "y": 23,
+      "label": "Atelier des boulangers",
+      "region": "Amakna"
+    },
+    {
+      "type": "baker",
+      "x": 3,
+      "y": 23,
+      "label": "Atelier des boulangers",
+      "region": "Amakna"
+    },
+    {
+      "type": "baker",
+      "x": -22,
+      "y": 32,
+      "label": "Atelier des boulangers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "blacksmith",
+      "x": -26,
+      "y": -55,
+      "label": "Atelier des forgerons",
+      "region": "Bonta"
+    },
+    {
+      "type": "blacksmith",
+      "x": 6,
+      "y": -21,
+      "label": "Atelier des forgerons",
+      "region": "Astrub"
+    },
+    {
+      "type": "blacksmith",
+      "x": 6,
+      "y": 0,
+      "label": "Atelier des forgerons",
+      "region": "Amakna"
+    },
+    {
+      "type": "blacksmith",
+      "x": -1,
+      "y": 2,
+      "label": "Atelier des forgerons",
+      "region": "Amakna"
+    },
+    {
+      "type": "blacksmith",
+      "x": 3,
+      "y": 29,
+      "label": "Atelier des forgerons",
+      "region": "Amakna"
+    },
+    {
+      "type": "blacksmith",
+      "x": -21,
+      "y": 34,
+      "label": "Atelier des forgerons",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "blacksmith",
+      "x": -20,
+      "y": 36,
+      "label": "Atelier des forgerons",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "butcher",
+      "x": -36,
+      "y": -53,
+      "label": "Atelier des bouchers",
+      "region": "Bonta"
+    },
+    {
+      "type": "butcher",
+      "x": -32,
+      "y": -50,
+      "label": "Atelier des bouchers",
+      "region": "Bonta"
+    },
+    {
+      "type": "butcher",
+      "x": -29,
+      "y": 32,
+      "label": "Atelier des bouchers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "card",
+      "x": -9,
+      "y": -37,
+      "label": "Atelier des Cartes",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "farmer",
+      "x": -30,
+      "y": -42,
+      "label": "Atelier des paysans",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "farmer",
+      "x": 7,
+      "y": -25,
+      "label": "Atelier des paysans",
+      "region": "Astrub"
+    },
+    {
+      "type": "farmer",
+      "x": 5,
+      "y": 6,
+      "label": "Atelier des paysans",
+      "region": "Amakna"
+    },
+    {
+      "type": "farmer",
+      "x": -57,
+      "y": 11,
+      "label": "Atelier des paysans",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "farmer",
+      "x": -50,
+      "y": 20,
+      "label": "Atelier des paysans",
+      "region": "Ile d'Otomaï"
+    },
+    {
+      "type": "farmer",
+      "x": 1,
+      "y": 23,
+      "label": "Atelier des paysans",
+      "region": "Amakna"
+    },
+    {
+      "type": "farmer",
+      "x": 2,
+      "y": 25,
+      "label": "Atelier des paysans",
+      "region": "Amakna"
+    },
+    {
+      "type": "firework",
+      "x": -16,
+      "y": -23,
+      "label": "Atelier des fées d'artifice",
+      "region": "Cania"
+    },
+    {
+      "type": "fisherman",
+      "x": 9,
+      "y": 0,
+      "label": "Atelier des pêcheurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "fishing",
+      "x": 12,
+      "y": -1,
+      "label": "Atelier des poissonniers",
+      "region": "Amakna"
+    },
+    {
+      "type": "fishing",
+      "x": -35,
+      "y": -54,
+      "label": "Atelier des poissonniers et des pêcheurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "fishing",
+      "x": 2,
+      "y": -17,
+      "label": "Atelier des poissonniers et des pêcheurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "fishing",
+      "x": 14,
+      "y": 26,
+      "label": "Atelier des poissonniers et des pêcheurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "fishing",
+      "x": -24,
+      "y": 40,
+      "label": "Atelier des poissonniers et des pêcheurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "forgemage",
+      "x": -38,
+      "y": -55,
+      "label": "Atelier des forgemages",
+      "region": "Bonta"
+    },
+    {
+      "type": "forgemage",
+      "x": -5,
+      "y": -12,
+      "label": "Atelier des forgemages",
+      "region": "Amakna"
+    },
+    {
+      "type": "forgemage",
+      "x": -29,
+      "y": 38,
+      "label": "Atelier des forgemages",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "butcher",
+      "x": 0,
+      "y": -15,
+      "label": "Atelier des bouchers et chasseurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "hunter",
+      "x": 1,
+      "y": 13,
+      "label": "Atelier des chasseurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "jeweler",
+      "x": -33,
+      "y": -59,
+      "label": "Atelier des bijoutiers",
+      "region": "Bonta"
+    },
+    {
+      "type": "jeweler",
+      "x": 5,
+      "y": -16,
+      "label": "Atelier des bijoutiers",
+      "region": "Astrub"
+    },
+    {
+      "type": "jeweler",
+      "x": 0,
+      "y": 2,
+      "label": "Atelier des bijoutiers",
+      "region": "Amakna"
+    },
+    {
+      "type": "jeweler",
+      "x": 2,
+      "y": 29,
+      "label": "Atelier des bijoutiers",
+      "region": "Amakna"
+    },
+    {
+      "type": "jeweler",
+      "x": 0,
+      "y": 32,
+      "label": "Atelier des bijoutiers",
+      "region": "Amakna"
+    },
+    {
+      "type": "jeweler",
+      "x": -27,
+      "y": 39,
+      "label": "Atelier des bijoutiers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "lumberjack",
+      "x": -23,
+      "y": -56,
+      "label": "Atelier des bûcherons",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "lumberjack",
+      "x": 30,
+      "y": -39,
+      "label": "Atelier des bûcherons",
+      "region": "Pandala"
+    },
+    {
+      "type": "lumberjack",
+      "x": 26,
+      "y": -36,
+      "label": "Atelier des bûcherons",
+      "region": "Pandala"
+    },
+    {
+      "type": "lumberjack",
+      "x": 17,
+      "y": -32,
+      "label": "Atelier des bûcherons",
+      "region": "Pandala"
+    },
+    {
+      "type": "lumberjack",
+      "x": 1,
+      "y": -25,
+      "label": "Atelier des bûcherons",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "lumberjack",
+      "x": 24,
+      "y": -25,
+      "label": "Atelier des bûcherons",
+      "region": "Pandala"
+    },
+    {
+      "type": "lumberjack",
+      "x": 4,
+      "y": 8,
+      "label": "Atelier des bûcherons",
+      "region": "Amakna"
+    },
+    {
+      "type": "lumberjack",
+      "x": 6,
+      "y": 16,
+      "label": "Atelier des bûcherons",
+      "region": "Amakna"
+    },
+    {
+      "type": "lumberjack",
+      "x": 4,
+      "y": 30,
+      "label": "Atelier des bûcherons",
+      "region": "Amakna"
+    },
+    {
+      "type": "miner",
+      "x": -28,
+      "y": -57,
+      "label": "Atelier des mineurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "miner",
+      "x": 7,
+      "y": -20,
+      "label": "Atelier des mineurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "miner",
+      "x": -2,
+      "y": -3,
+      "label": "Atelier des mineurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "miner",
+      "x": -1,
+      "y": 5,
+      "label": "Atelier des mineurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "miner",
+      "x": -20,
+      "y": 33,
+      "label": "Atelier des mineurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "miner",
+      "x": 3,
+      "y": 29,
+      "label": "Ateliers des mineurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "miner",
+      "x": 0,
+      "y": 33,
+      "label": "Ateliers des mineurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "sculpor",
+      "x": -30,
+      "y": -59,
+      "label": "Atelier des sculpteurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "sculpor",
+      "x": 2,
+      "y": -21,
+      "label": "Atelier des sculpteurs",
+      "region": "Astrub"
+    },
+    {
+      "type": "sculpor",
+      "x": 3,
+      "y": 12,
+      "label": "Atelier des sculpteurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "sculpor",
+      "x": 14,
+      "y": 20,
+      "label": "Atelier des sculpteurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "sculpor",
+      "x": 5,
+      "y": 29,
+      "label": "Atelier des sculpteurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "sculpor",
+      "x": 2,
+      "y": 30,
+      "label": "Atelier des sculpteurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "sculpor",
+      "x": -21,
+      "y": 39,
+      "label": "Atelier des sculpteurs",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "shield",
+      "x": 30,
+      "y": -37,
+      "label": "Atelier des boucliers",
+      "region": "Pandala"
+    },
+    {
+      "type": "shield",
+      "x": 17,
+      "y": -34,
+      "label": "Atelier des boucliers",
+      "region": "Pandala"
+    },
+    {
+      "type": "shield",
+      "x": 22,
+      "y": -23,
+      "label": "Atelier des boucliers",
+      "region": "Pandala"
+    },
+    {
+      "type": "shoesmaker",
+      "x": -30,
+      "y": -57,
+      "label": "Atelier des cordonniers",
+      "region": "Bonta"
+    },
+    {
+      "type": "shoesmaker",
+      "x": 0,
+      "y": -21,
+      "label": "Atelier des cordonniers",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "shoesmaker",
+      "x": 5,
+      "y": 1,
+      "label": "Atelier des cordonniers",
+      "region": "Amakna"
+    },
+    {
+      "type": "shoesmaker",
+      "x": -23,
+      "y": 36,
+      "label": "Atelier des cordonniers",
+      "region": "Brâkmar"
+    },
+    {
+      "type": "tailor",
+      "x": -31,
+      "y": -55,
+      "label": "Atelier des tailleurs",
+      "region": "Bonta"
+    },
+    {
+      "type": "tailor",
+      "x": 1,
+      "y": -22,
+      "label": "Atelier des tailleurs",
+      "region": "Monde des Douze"
+    },
+    {
+      "type": "tailor",
+      "x": 2,
+      "y": 2,
+      "label": "Atelier des tailleurs",
+      "region": "Amakna"
+    },
+    {
+      "type": "tailor",
+      "x": -24,
+      "y": 35,
+      "label": "Atelier des tailleurs",
+      "region": "Brâkmar"
+    }
+  ]
+}

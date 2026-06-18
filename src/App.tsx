@@ -26,6 +26,9 @@ const DofusModule = lazy(() =>
 const BankModule = lazy(() =>
   import('./features/bank/BankModule').then(({ BankModule: m }) => ({ default: m }))
 );
+const MapModule = lazy(() =>
+  import('./features/map/MapModule').then(({ MapModule: m }) => ({ default: m }))
+);
 
 const App: React.FC = () => {
   const { activeTab, setActiveTab } = useHashTab();
@@ -50,6 +53,7 @@ const App: React.FC = () => {
             {activeTab === 'scrolls' && <ScrollsModule />}
             {activeTab === 'pods' && <PodModule />}
             {activeTab === 'dofus' && <DofusModule />}
+            {activeTab === 'map' && <MapModule />}
             {activeTab === 'bank' && isAdmin && <BankModule />}
           </Suspense>
         </main>

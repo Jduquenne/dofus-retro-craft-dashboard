@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calculator, Database, Gem, Package, ScrollText, TrendingUp, Vault } from "lucide-react";
+import { Calculator, Database, Gem, Map, Package, ScrollText, TrendingUp, Vault } from "lucide-react";
 import { AdminGate } from './AdminGate';
 
 interface Tab {
@@ -17,6 +17,7 @@ const ALL_TABS: Tab[] = [
   { id: 'scrolls', label: 'Parchemins', icon: <ScrollText size={16} />, adminOnly: false },
   { id: 'pods', label: 'Calcul POD', icon: <Package size={16} />, adminOnly: false, shortLabel: 'POD' },
   { id: 'dofus', label: 'Prix Dofus', icon: <Gem size={16} />, adminOnly: false },
+  { id: 'map', label: 'Carte', icon: <Map size={16} />, adminOnly: false },
   { id: 'bank', label: 'Banque', icon: <Vault size={16} />, adminOnly: true },
 ] as Tab[];
 

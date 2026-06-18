@@ -7,6 +7,7 @@ const VALID_TABS = [
   "scrolls",
   "pods",
   "dofus",
+  "map",
   "bank",
 ] as const;
 type TabId = (typeof VALID_TABS)[number];
