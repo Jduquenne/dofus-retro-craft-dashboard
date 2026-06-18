@@ -137,6 +137,32 @@ export const MARKER_ANCHOR: Record<string, [number, number]> = {
 
 export const DEFAULT_ANCHOR: [number, number] = [0.5, 0.5];
 
+export interface CombatMapSubarea {
+  id: number;
+  name: string | null | undefined;
+  terrain: string | null | undefined;
+  areaId: number | null | undefined;
+  areaName: string | null | undefined;
+  supareaId: number | null | undefined;
+  supareaName: string | null | undefined;
+}
+
+export interface CombatMap {
+  id: number;
+  x: number;
+  y: number;
+  subarea: CombatMapSubarea;
+  ally?: number[];
+  enemy?: number[];
+  ep?: number;
+  dungeonLevel?: number;
+  name?: string;
+  perceptorConfig?: string;
+  tournament?: boolean;
+  cellCount?: number;
+  teamSize?: number;
+}
+
 // Z-index offset par filtre — valeur plus haute = au-dessus des autres
 export const FILTER_ZINDEX: Record<MarkerFilter, number> = {
   temple: 100,
