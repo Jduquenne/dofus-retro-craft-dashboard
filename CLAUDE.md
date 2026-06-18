@@ -15,57 +15,83 @@
 
 ## Architecture
 
+Trois couches, sans exception :
+
+| Couche | Rôle |
+|---|---|
+| `shared/` | Composants et hooks réutilisés par plusieurs features |
+| `features/` | Composants, hooks et logique propres à une feature |
+| `data/` · `types/` · `utils/` · `constants/` · `context/` | Domaine global (données statiques, types, helpers) |
+
 ```
 src/
-├── components/
-│   └── Header.tsx          # Composant global partagé
+├── shared/
+│   ├── components/         # Header, AdminGate, ModuleLoader
+│   └── hooks/              # Hooks utilisés par plusieurs features
+│       ├── useIndexedDB.ts
+│       ├── useHashTab.ts
+│       └── useAdminAccess.ts
 ├── features/               # Modules par route (feature-based)
 │   ├── professions/
-│   │   ├── components/     # Sous-composants de la feature
+│   │   ├── components/
+│   │   ├── hooks/          # useProfessionLogic
 │   │   └── ProfessionsModule.tsx
+│   ├── scrolls/
+│   │   ├── components/
+│   │   ├── hooks/          # useScrollsStorage, useScrollResourcePrices
+│   │   └── ScrollsModule.tsx
 │   ├── calculator/
 │   │   ├── components/
 │   │   └── CalculatorModule.tsx
-│   ├── scrolls/
-│   │   ├── components/
-│   │   └── ScrollsModule.tsx
 │   ├── catalog/
 │   │   ├── components/
+│   │   ├── hooks/          # useCatalogPrices, useResourceCatalog
 │   │   └── CatalogModule.tsx
-│   └── pods/
+│   ├── pods/
+│   │   ├── components/
+│   │   ├── hooks/          # usePodStorage
+│   │   └── PodModule.tsx
+│   ├── bank/
+│   │   ├── components/
+│   │   ├── hooks/          # useBankSession
+│   │   └── BankModule.tsx
+│   ├── dofus/
+│   │   ├── components/
+│   │   ├── hooks/          # useDofusPrices, useDofusVendors
+│   │   └── DofusModule.tsx
+│   └── map/
 │       ├── components/
-│       └── PodModule.tsx
+│       ├── hooks/          # useMapPrefs
+│       └── MapModule.tsx
 ├── context/
 │   └── AppContext.tsx      # État global via React Context
-├── hooks/
-│   ├── useIndexedDB.ts     # CRUD IndexedDB
-│   └── useProfessionLogic.ts # Calculs métiers (XP, niveaux, slots)
 ├── types/                  # Tous les types TypeScript du domaine
-│   ├── index.ts            # Interfaces principales (Resource, Recipe, Profession…)
-│   ├── categoryTypes.ts    # Enum CategoryTypes + CATEGORY_LABELS
-│   ├── professionTypes.ts  # Enum ProfessionTypes
-│   └── scrolls.ts          # Types parchemins (ScrollStatId, ScrollTier…)
+│   ├── index.ts
+│   ├── categoryTypes.ts
+│   ├── professionTypes.ts
+│   ├── scrolls.ts
+│   ├── map.ts
+│   └── ...
 ├── data/                   # Données statiques du jeu (JSON + wrappers typés)
 │   ├── resources/
-│   │   └── resources-catalog.json   # Catalogue général de toutes les ressources
 │   ├── professions/
-│   │   ├── harvest/        # Ressources récoltables par métier (lumberjack.json…)
-│   │   └── craft/          # Recettes de craft par métier (sword-smith.json…)
-│   ├── scrolls/            # Données parchemins par stat + méthodes (agilite.json…)
-│   ├── resources.ts        # Re-export typé de resources-catalog.json
-│   ├── scrolls.ts          # Re-export typé des JSON parchemins
-│   ├── harvestResources.ts # Map professionId → HarvestResource[]
-│   ├── recipesCatalog.ts   # Agrégation des recettes craft
-│   └── professions.ts      # Données initiales des métiers
-├── constants/              # Tables XP, mappings métiers
-└── utils/                  # Helpers (validation, calculs XP, professionHelpers)
+│   │   ├── harvest/
+│   │   └── craft/
+│   ├── scrolls/
+│   ├── map/
+│   └── ...
+├── constants/              # Tables XP, mappings métiers, bornes carte
+└── utils/                  # Helpers nommés par feature (professionHelpers, mapHelpers…)
 ```
 
-### Convention feature
+### Règles de placement (invariants)
 
-- Chaque route principale = un dossier dans `features/`
-- Le composant racine s'appelle `<NomFeature>Module.tsx` (ex: `ProfessionsModule`, `ScrollsModule`)
-- Les sous-composants de la feature vivent dans `features/<nom>/components/`
+- **Hook utilisé par une seule feature** → `features/<feature>/hooks/`
+- **Hook utilisé par plusieurs features** → `shared/hooks/`
+- **Composant partagé** (Header, loaders…) → `shared/components/`
+- **Composant propre à une feature** → `features/<feature>/components/`
+- **Logique métier** (calculs, transformations) → `utils/<feature>Helpers.ts` — jamais inline dans un composant
+- **Un seul composant par fichier**
 - Tous les modules sont chargés via `React.lazy` dans `App.tsx` — jamais en import statique
 
 ## Design system — Thème Dofus Rétro (IMMUABLE)
