@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
-import type { ScrollStatId } from '../types/scrolls';
-import type { NpcSelections } from '../utils/scrollHelpers';
+import type { ScrollStatId } from '../../../types/scrolls';
+import type { NpcSelections } from '../../../utils/scrollHelpers';
 
 const STORAGE_KEY = 'scrolls-list';
 const MAX_STAT = 101;

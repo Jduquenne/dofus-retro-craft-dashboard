@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { dofusCatalog } from '../../data/dofus';
-import { useDofusPrices } from '../../hooks/useDofusPrices';
-import { useDofusVendors } from '../../hooks/useDofusVendors';
+import { useDofusPrices } from './hooks/useDofusPrices';
+import { useDofusVendors } from './hooks/useDofusVendors';
 import { isTwoStatDofus } from '../../utils/dofusHelpers';
 import { DofusSelector } from './components/DofusSelector';
 import { DofusPriceTable } from './components/DofusPriceTable';

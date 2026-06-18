@@ -1,9 +1,9 @@
 import React, { lazy, Suspense } from 'react';
 import { AppProvider } from './context/AppContext';
-import { Header } from './components/Header';
-import { ModuleLoader } from './components/ModuleLoader';
-import { useHashTab } from './hooks/useHashTab';
-import { useAdminAccess } from './hooks/useAdminAccess';
+import { Header } from './shared/components/Header';
+import { ModuleLoader } from './shared/components/ModuleLoader';
+import { useHashTab } from './shared/hooks/useHashTab';
+import { useAdminAccess } from './shared/hooks/useAdminAccess';
 
 const ProfessionsModule = lazy(() =>
   import('./features/professions/ProfessionsModule').then(({ ProfessionsModule: m }) => ({ default: m }))

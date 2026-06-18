@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import { useResourceCatalog } from '../../hooks/useResourceCatalog';
+import { useResourceCatalog } from './hooks/useResourceCatalog';
 import { CatalogSidebar } from './components/CatalogSidebar';
 import { ResourceRow } from './components/ResourceRow';
 

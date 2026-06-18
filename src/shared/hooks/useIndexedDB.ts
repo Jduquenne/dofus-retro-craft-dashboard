@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Dexie, { type Table } from "dexie";
-import type { Resource, Recipe, Profession, KamasGoal, CatalogPrice } from "../types";
-import type { DofusPrice, DofusVendor } from "../types/dofus";
-import type { BankSession } from "../types/bank";
+import type { Resource, Recipe, Profession, KamasGoal, CatalogPrice } from "../../types";
+import type { DofusPrice, DofusVendor } from "../../types/dofus";
+import type { BankSession } from "../../types/bank";
 
 interface DofusDB extends Dexie {
   resources: Table<Resource>;

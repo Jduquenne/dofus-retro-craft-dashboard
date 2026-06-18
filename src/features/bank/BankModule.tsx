@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import { useBankSession } from '../../hooks/useBankSession';
+import { useBankSession } from './hooks/useBankSession';
 import { enrichBankItems, computeBankValue } from '../../utils/bankHelpers';
-import { useCatalogPrices } from '../../hooks/useCatalogPrices';
+import { useCatalogPrices } from '../catalog/hooks/useCatalogPrices';
 import { bankItemIndex } from '../../data/bank';
 import { catalogResources } from '../../data/catalogResources';
 import type { BankEnrichedItem } from '../../types/bank';

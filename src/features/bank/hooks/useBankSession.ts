@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
-import { db } from './useIndexedDB';
-import type { BankSession, BankRawItem } from '../types/bank';
+import { db } from '../../../shared/hooks/useIndexedDB';
+import type { BankSession, BankRawItem } from '../../../types/bank';
 
 export function useBankSession() {
   const [isLoaded, setIsLoaded] = useState(false);

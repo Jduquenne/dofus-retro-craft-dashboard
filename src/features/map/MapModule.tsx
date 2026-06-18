@@ -16,7 +16,7 @@ import { MapInitializer } from './components/MapInitializer';
 import { MapClickHandler } from './components/MapClickHandler';
 import { MapSelectedCell } from './components/MapSelectedCell';
 import { mapMarkers } from '../../data/map/markers';
-import { useMapPrefs } from '../../hooks/useMapPrefs';
+import { useMapPrefs } from './hooks/useMapPrefs';
 
 export function MapModule() {
   const [selectedCoords, setSelectedCoords] = useState<MapCoords | null>(null);

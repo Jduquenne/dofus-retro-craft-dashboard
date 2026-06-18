@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Hammer } from 'lucide-react';
 import type { Recipe } from '../../../types';
-import { useCatalogPrices } from '../../../hooks/useCatalogPrices';
+import { useCatalogPrices } from '../../catalog/hooks/useCatalogPrices';
 import { RecipeRow } from './RecipeRow';
 
 const ALL_SLOTS = [1, 2, 3, 4, 5, 6, 7, 8] as const;

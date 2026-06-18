@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
-import { findScrollResourceInCatalog, findInCatalog, resolveEquipmentRecipeName } from '../utils/scrollResourceHelpers';
-import type { ResourceTotal } from '../utils/scrollHelpers';
-import type { ResolvedPrice } from '../utils/scrollResourceHelpers';
-import { allRecipes } from '../data/recipesCatalog';
+import { findScrollResourceInCatalog, findInCatalog, resolveEquipmentRecipeName } from '../../../utils/scrollResourceHelpers';
+import type { ResourceTotal } from '../../../utils/scrollHelpers';
+import type { ResolvedPrice } from '../../../utils/scrollResourceHelpers';
+import { allRecipes } from '../../../data/recipesCatalog';
 
 const recipeByName = new Map(allRecipes.map(r => [r.name.toLowerCase(), r]));
 

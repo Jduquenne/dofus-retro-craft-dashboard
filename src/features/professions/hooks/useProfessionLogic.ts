@@ -1,4 +1,4 @@
-import type { Profession, Recipe } from "../types";
+import type { Profession, Recipe } from "../../../types";
 import {
   isNumericString,
   parseNumericInput,
@@ -6,8 +6,8 @@ import {
   validateTotalXP,
   detectLevelFromXP,
   validateTargetLevel,
-} from "../utils/professionValidation";
-import { getXPForLevel } from "../utils/professionXP";
+} from "../../../utils/professionValidation";
+import { getXPForLevel } from "../../../utils/professionXP";
 
 interface ProfessionStats {
   currentTotalXP: number;

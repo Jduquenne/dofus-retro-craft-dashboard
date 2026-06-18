@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import type { PodItem } from '../types';
+import type { PodItem } from '../../../types';
 
 const STORAGE_KEY = 'pod-calculator';
 

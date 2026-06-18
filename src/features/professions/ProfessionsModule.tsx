@@ -2,7 +2,7 @@ import React from 'react';
 import { useAppContext } from "../../context/AppContext";
 import { ProfessionTypes } from "../../types/professionTypes";
 import type { Profession } from "../../types";
-import { useProfessionLogic } from '../../hooks/useProfessionLogic';
+import { useProfessionLogic } from './hooks/useProfessionLogic';
 import { canModifyProfession, sortProfessionsByLevel } from '../../utils/professionHelpers';
 import { PROFESSION_CATEGORY_TITLES } from '../../constants/professionMappings';
 import { ProfessionCard } from './components/ProfessionCard';

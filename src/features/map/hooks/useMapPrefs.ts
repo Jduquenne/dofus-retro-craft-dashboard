@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { MarkerFilter } from '../types/map';
+import type { MarkerFilter } from '../../../types/map';
 
 export function useMapPrefs(availableFilters: MarkerFilter[]) {
   const [activeFilters, setActiveFilters] = useState<Set<MarkerFilter>>(() => {

@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { usePodStorage } from '../../hooks/usePodStorage';
+import { usePodStorage } from './hooks/usePodStorage';
 import { computeFreePods, computePodPerRun, computeMaxRuns } from '../../utils/podHelpers';
 import { PodCapacityPanel } from './components/PodCapacityPanel';
 import { PodItemsTable } from './components/PodItemsTable';

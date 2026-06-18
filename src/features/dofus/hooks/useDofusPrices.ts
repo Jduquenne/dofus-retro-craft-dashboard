@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { db } from './useIndexedDB';
+import { db } from '../../../shared/hooks/useIndexedDB';
 
 export function useDofusPrices() {
   const [prices, setPrices] = useState<Record<string, number> | null>(null);

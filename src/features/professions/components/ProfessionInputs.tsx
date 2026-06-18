@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Profession } from '../../../types';
-import type { ProfessionStats } from '../../../hooks/useProfessionLogic';
+import type { ProfessionStats } from '../hooks/useProfessionLogic';
 import { getXPForLevel } from '../../../utils/professionXP';
 
 interface ProfessionInputsProps {

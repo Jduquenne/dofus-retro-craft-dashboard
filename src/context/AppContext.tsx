@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, type ReactNode } from 'react';
-import { useIndexedDB } from '../hooks/useIndexedDB';
+import { useIndexedDB } from '../shared/hooks/useIndexedDB';
 import type { Resource, Recipe, Profession, KamasGoal } from '../types';
 import { initialResources } from '../data/resources';
 import { initialProfessions } from '../data/professions';

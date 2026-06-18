@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
-import type { DofusVendor } from '../types/dofus';
-import { db } from './useIndexedDB';
+import type { DofusVendor } from '../../../types/dofus';
+import { db } from '../../../shared/hooks/useIndexedDB';
 
 export function useDofusVendors() {
   const [vendors, setVendors] = useState<Record<string, DofusVendor> | null>(null);

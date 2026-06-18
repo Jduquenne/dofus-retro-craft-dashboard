@@ -2,7 +2,7 @@ import React from 'react';
 import { Target } from 'lucide-react';
 import type { Profession } from '../../../types';
 import { ProfessionTypes } from '../../../types/professionTypes';
-import type { ProfessionStats } from '../../../hooks/useProfessionLogic';
+import type { ProfessionStats } from '../hooks/useProfessionLogic';
 import { ProfessionInputs } from './ProfessionInputs';
 import { getRequiredCraftProfession } from '../../../utils/professionHelpers';
 
