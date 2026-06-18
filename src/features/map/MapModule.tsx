@@ -15,11 +15,14 @@ import { MapOverlay } from './components/MapOverlay';
 import { MapInitializer } from './components/MapInitializer';
 import { MapClickHandler } from './components/MapClickHandler';
 import { MapSelectedCell } from './components/MapSelectedCell';
+import { MapCellPreview } from './components/MapCellPreview';
+import { MapCellModal } from './components/MapCellModal';
 import { mapMarkers } from '../../data/map/markers';
 import { useMapPrefs } from './hooks/useMapPrefs';
 
 export function MapModule() {
   const [selectedCoords, setSelectedCoords] = useState<MapCoords | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [hover, setHover] = useState<HoverState | null>(null);
   const [hoveredMarker, setHoveredMarker] = useState<MapMarker | null>(null);
   const mapRef = useRef<L.Map | null>(null);
@@ -32,7 +35,11 @@ export function MapModule() {
 
   const handleMapReady = useCallback((map: L.Map) => { mapRef.current = map; }, []);
   const handleCellClick = useCallback((x: number, y: number) => {
-    setSelectedCoords(prev => prev?.x === x && prev?.y === y ? null : { x, y });
+    setSelectedCoords(prev => {
+      const isSame = prev?.x === x && prev?.y === y;
+      if (isSame) { setIsModalOpen(false); return null; }
+      return { x, y };
+    });
   }, []);
   const handleReset = useCallback(() => {
     mapRef.current?.setView([18, 6], 0, { animate: true });
@@ -78,12 +85,21 @@ export function MapModule() {
           onToggleGrid={toggleGrid}
         />
         <MapTooltip hover={hover} marker={hoveredMarker} />
+
+        {selectedCoords && (
+          <div className="absolute top-3 right-3 pointer-events-none" style={{ zIndex: 1000 }}>
+            <MapCellPreview coords={selectedCoords} onOpen={() => setIsModalOpen(true)} />
+          </div>
+        )}
         <MapOverlay
-          selectedCoords={selectedCoords}
           onZoomIn={() => mapRef.current?.zoomIn()}
           onZoomOut={() => mapRef.current?.zoomOut()}
           onReset={handleReset}
         />
+
+        {isModalOpen && selectedCoords && (
+          <MapCellModal coords={selectedCoords} onClose={() => setIsModalOpen(false)} />
+        )}
       </div>
     </div>
   );
