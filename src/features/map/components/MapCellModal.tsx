@@ -48,12 +48,12 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-[2000] flex items-center justify-center"
+      className="fixed inset-0 z-[2000] flex items-end sm:items-center justify-center"
       style={{ background: 'rgba(28,16,8,0.85)' }}
       onClick={onClose}
     >
       <div
-        className="panel rounded-lg p-4 flex flex-col gap-3 max-w-[95vw] max-h-[90vh] overflow-auto"
+        className="panel w-full sm:max-w-[580px] rounded-t-xl sm:rounded-lg p-3 sm:p-4 flex flex-col gap-2 sm:gap-3 max-h-[90vh] overflow-y-auto"
         onClick={e => e.stopPropagation()}
       >
         {/* Header */}
@@ -107,24 +107,24 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
             Aucune donnée de combat pour cette carte.
           </p>
         ) : (
-          <div className="flex flex-col items-center gap-1 shrink-0">
-            {/* Haut */}
+          <div className="flex flex-col gap-1">
+            {/* Haut — desktop uniquement */}
             {hasUp && (
               <button
                 onClick={() => navigate(0, -1)}
-                className="self-stretch h-9 panel-sm rounded flex items-center justify-center gap-2 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
+                className="hidden sm:flex h-8 panel-sm rounded items-center justify-center gap-2 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
               >
                 <ChevronUp size={14} />
                 <span className="text-[11px] text-dofus-text-lt font-mono">[{cx}, {cy - 1}]</span>
               </button>
             )}
 
+            {/* Grille avec nav latérale (desktop) */}
             <div className="flex gap-1 items-stretch">
-              {/* Gauche */}
               {hasLeft && (
                 <button
                   onClick={() => navigate(-1, 0)}
-                  className="w-9 shrink-0 panel-sm rounded flex flex-col items-center justify-center gap-1 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
+                  className="hidden sm:flex w-9 shrink-0 panel-sm rounded flex-col items-center justify-center gap-1 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
                 >
                   <ChevronLeft size={14} />
                   <span className="text-[9px] text-dofus-text-lt font-mono leading-tight" style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}>
@@ -133,20 +133,21 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
                 </button>
               )}
 
-              <MapIsometricGrid
-                ally={ally}
-                enemy={enemy}
-                obstacles={obstacles}
-                voids={voids}
-                blue={blue}
-                red={red}
-              />
+              <div className="flex-1 min-w-0">
+                <MapIsometricGrid
+                  ally={ally}
+                  enemy={enemy}
+                  obstacles={obstacles}
+                  voids={voids}
+                  blue={blue}
+                  red={red}
+                />
+              </div>
 
-              {/* Droite */}
               {hasRight && (
                 <button
                   onClick={() => navigate(1, 0)}
-                  className="w-9 shrink-0 panel-sm rounded flex flex-col items-center justify-center gap-1 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
+                  className="hidden sm:flex w-9 shrink-0 panel-sm rounded flex-col items-center justify-center gap-1 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
                 >
                   <ChevronRight size={14} />
                   <span className="text-[9px] text-dofus-text-lt font-mono leading-tight" style={{ writingMode: 'vertical-rl' }}>
@@ -156,15 +157,42 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
               )}
             </div>
 
-            {/* Bas */}
+            {/* Bas — desktop uniquement */}
             {hasDown && (
               <button
                 onClick={() => navigate(0, 1)}
-                className="w-full h-9 panel-sm rounded flex items-center justify-center gap-2 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
+                className="hidden sm:flex h-8 panel-sm rounded items-center justify-center gap-2 text-dofus-text-md hover:bg-dofus-panel-lt transition-colors"
               >
                 <ChevronDown size={14} />
                 <span className="text-[11px] text-dofus-text-lt font-mono">[{cx}, {cy + 1}]</span>
               </button>
+            )}
+
+            {/* D-pad mobile */}
+            {(hasUp || hasDown || hasLeft || hasRight) && (
+              <div className="sm:hidden flex justify-center mt-1">
+                <div className="grid grid-cols-3 gap-1">
+                  <div />
+                  {hasUp
+                    ? <button onClick={() => navigate(0, -1)} className="w-11 h-11 panel-sm rounded flex items-center justify-center text-dofus-text-md hover:bg-dofus-panel-lt active:bg-dofus-panel-dk transition-colors"><ChevronUp size={18} /></button>
+                    : <div className="w-11 h-11" />}
+                  <div />
+
+                  {hasLeft
+                    ? <button onClick={() => navigate(-1, 0)} className="w-11 h-11 panel-sm rounded flex items-center justify-center text-dofus-text-md hover:bg-dofus-panel-lt active:bg-dofus-panel-dk transition-colors"><ChevronLeft size={18} /></button>
+                    : <div className="w-11 h-11" />}
+                  <div className="w-11 h-11 rounded bg-dofus-border/20" />
+                  {hasRight
+                    ? <button onClick={() => navigate(1, 0)} className="w-11 h-11 panel-sm rounded flex items-center justify-center text-dofus-text-md hover:bg-dofus-panel-lt active:bg-dofus-panel-dk transition-colors"><ChevronRight size={18} /></button>
+                    : <div className="w-11 h-11" />}
+
+                  <div />
+                  {hasDown
+                    ? <button onClick={() => navigate(0, 1)} className="w-11 h-11 panel-sm rounded flex items-center justify-center text-dofus-text-md hover:bg-dofus-panel-lt active:bg-dofus-panel-dk transition-colors"><ChevronDown size={18} /></button>
+                    : <div className="w-11 h-11" />}
+                  <div />
+                </div>
+              </div>
             )}
           </div>
         )}

@@ -120,14 +120,11 @@ export function MapIsometricGrid({ ally, enemy, obstacles, voids, blue, red }: M
   }, [voids]);
 
   return (
-    <div className="flex flex-col items-center gap-3">
-      <div className="overflow-auto max-w-full">
-        <svg
-          width={SVG_W}
-          height={SVG_H}
-          viewBox={`0 0 ${SVG_W} ${SVG_H}`}
-          style={{ display: 'block' }}
-        >
+    <div className="w-full max-w-[460px] mx-auto">
+      <svg
+        viewBox={`0 0 ${SVG_W} ${SVG_H}`}
+        style={{ display: 'block', width: '100%', height: 'auto' }}
+      >
           {ALL_CELLS.map(({ id, row, col }) => {
             if (effectiveVoids.has(id)) {
               return (
@@ -180,9 +177,7 @@ export function MapIsometricGrid({ ally, enemy, obstacles, voids, blue, red }: M
               />
             );
           })}
-        </svg>
-      </div>
-
+      </svg>
     </div>
   );
 }
