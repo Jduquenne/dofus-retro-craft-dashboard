@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import type { MapCoords } from '../../../types/map';
 
 const CELL_W = 48;
 const CELL_H = 24;
-const COLS = 15; // lignes paires = 15 cases, lignes impaires = 14 cases
-const ROWS = 33; // dernière ligne paire → 17×15 + 16×14 = 479 cases
+const COLS = 15;
+const ROWS = 33;
 
 const SVG_W = COLS * CELL_W + CELL_W / 2;
 const SVG_H = (ROWS - 1) * (CELL_H / 2) + CELL_H;
@@ -40,28 +39,22 @@ function cellPoints(col: number, row: number): string {
 }
 
 interface MapIsometricGridProps {
-  coords: MapCoords;
   ally: Set<number>;
   enemy: Set<number>;
-  mapId?: number;
 }
 
-export function MapIsometricGrid({ coords, ally, enemy, mapId }: MapIsometricGridProps) {
+export function MapIsometricGrid({ ally, enemy }: MapIsometricGridProps) {
   const [hovered, setHovered] = useState<number | null>(null);
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <p className="text-xs text-dofus-text-lt">
-        Carte {coords.x},{coords.y}{mapId != null ? ` · #${mapId}` : ''}
-      </p>
-
       <div className="overflow-auto max-w-full">
         <svg width={SVG_W} height={SVG_H} viewBox={`0 0 ${SVG_W} ${SVG_H}`} style={{ display: 'block' }}>
           {ALL_CELLS.map(({ id, row, col }) => {
             const fill = hovered === id ? '#CC6000'
               : ally.has(id) ? '#4A8A30'
-              : enemy.has(id) ? '#8A2010'
-              : '#C8B89A';
+                : enemy.has(id) ? '#8A2010'
+                  : '#C8B89A';
             return (
               <polygon
                 key={id}

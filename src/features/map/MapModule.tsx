@@ -48,7 +48,7 @@ export function MapModule() {
   const handleMarkerLeave = useCallback(() => setHoveredMarker(null), []);
 
   return (
-    <div className="flex flex-col gap-2 h-[calc(100vh-160px)] sm:h-[calc(100vh-270px)]">
+    <div className="flex flex-col gap-2 h-[calc(100vh-120px)] sm:h-[calc(100vh-210px)]">
       <h2 className="section-title border-0 pb-0 shrink-0">Carte du Monde des Douze</h2>
 
       <div className="relative flex-1 min-h-0 rounded border-2 border-dofus-border overflow-hidden">
