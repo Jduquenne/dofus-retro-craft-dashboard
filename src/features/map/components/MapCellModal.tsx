@@ -1,8 +1,9 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { X, ChevronLeft, ChevronRight, ChevronUp, ChevronDown } from 'lucide-react';
 import type { MapCoords } from '../../../types/map';
 import { MapIsometricGrid } from './MapIsometricGrid';
 import { useMapCells } from '../hooks/useMapCells';
+import { useMapObstacles } from '../hooks/useMapObstacles';
 
 interface MapCellModalProps {
   coords: MapCoords;
@@ -14,18 +15,27 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
   const [index, setIndex] = useState(0);
 
   const { maps, hasMapsAt } = useMapCells(currentCoords);
+  const obstacleEntry = useMapObstacles(currentCoords);
   const { x: cx, y: cy } = currentCoords;
 
   useEffect(() => { setIndex(0); }, [currentCoords]);
 
   const current = maps[index] ?? null;
-  const ally  = new Set(current?.ally  ?? []);
-  const enemy = new Set(current?.enemy ?? []);
+  const ally  = useMemo(() => new Set(current?.ally  ?? []), [current]);
+  const enemy = useMemo(() => new Set(current?.enemy ?? []), [current]);
+  const obstacles = useMemo(() => new Set(obstacleEntry?.obstacles ?? []), [obstacleEntry]);
+  const voids     = useMemo(() => new Set(obstacleEntry?.voids     ?? []), [obstacleEntry]);
+  const blue      = useMemo(() => new Set(obstacleEntry?.blue      ?? []), [obstacleEntry]);
+  const red       = useMemo(() => new Set(obstacleEntry?.red       ?? []), [obstacleEntry]);
 
   const subLabel = current
     ? [current.subarea.areaName, current.subarea.name?.replace('//', '')]
         .filter(Boolean).join(' › ')
-    : null;
+    : obstacleEntry
+      ? [obstacleEntry.areaName, obstacleEntry.subareaName].filter(Boolean).join(' › ')
+      : null;
+
+  const hasAnyData = maps.length > 0 || obstacleEntry !== null;
 
   const navigate = useCallback((dx: number, dy: number) => {
     setCurrentCoords(prev => ({ x: prev.x + dx, y: prev.y + dy }));
@@ -92,7 +102,7 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
         </div>
 
         {/* Grille + navigation directionnelle */}
-        {maps.length === 0 ? (
+        {!hasAnyData ? (
           <p className="text-xs text-dofus-text-lt text-center py-4">
             Aucune donnée de combat pour cette carte.
           </p>
@@ -123,7 +133,14 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
                 </button>
               )}
 
-              <MapIsometricGrid ally={ally} enemy={enemy} />
+              <MapIsometricGrid
+                ally={ally}
+                enemy={enemy}
+                obstacles={obstacles}
+                voids={voids}
+                blue={blue}
+                red={red}
+              />
 
               {/* Droite */}
               {hasRight && (

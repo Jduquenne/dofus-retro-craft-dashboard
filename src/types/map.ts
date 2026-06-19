@@ -163,6 +163,20 @@ export interface CombatMap {
   teamSize?: number;
 }
 
+export interface MapObstacleEntry {
+  x: number;
+  y: number;
+  mapId: number;
+  areaId: number;
+  subareaId: number;
+  areaName: string;
+  subareaName: string;
+  obstacles: number[];
+  voids: number[];
+  blue?: number[];
+  red?: number[];
+}
+
 // Z-index offset par filtre — valeur plus haute = au-dessus des autres
 export const FILTER_ZINDEX: Record<MarkerFilter, number> = {
   temple: 100,
