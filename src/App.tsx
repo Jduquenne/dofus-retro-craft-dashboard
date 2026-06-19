@@ -57,8 +57,9 @@ const App: React.FC = () => {
             {activeTab === 'bank' && isAdmin && <BankModule />}
           </Suspense>
         </main>
-        <footer className="text-center py-3 text-xs text-dofus-cream/25 border-t border-dofus-border/40">
-          Dora · Outil offline pour gérer vos métiers Dofus Rétro · données stockées localement
+        <footer className="text-center py-3 px-4 border-t border-dofus-border/40 flex flex-col gap-1">
+          <span className="text-[11px] text-dofus-cream/70">Dora — Outil fan non officiel pour Dofus Rétro</span>
+          <span className="text-[10px] text-dofus-cream/40">Dofus® est une marque déposée d'Ankama Games · Assets &amp; données © Ankama Games SAS · Projet strictement non commercial</span>
         </footer>
       </div>
     </AppProvider>

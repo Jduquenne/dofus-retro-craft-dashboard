@@ -42,6 +42,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, isAdmin
             <div>
               <span className="font-dofus text-dofus-gold text-sm sm:text-sm font-semibold tracking-widest leading-none">DORA</span>
               <p className="text-dofus-cream/40 text-xs tracking-wide leading-none mt-0.5 hidden sm:block">Dofus Rétro · Craft Dashboard</p>
+              <p className="text-dofus-cream/20 text-[9px] leading-none mt-0.5 hidden sm:block">Fan tool non officiel · © Ankama Games</p>
             </div>
           </div>
           <AdminGate isAdmin={isAdmin} hasAdminCodes={hasAdminCodes} onUnlock={onUnlock} onLock={onLock} />

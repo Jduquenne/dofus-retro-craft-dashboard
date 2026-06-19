@@ -51,6 +51,18 @@ Ce lien ouvre directement l’application dans le navigateur sans installer quoi
 
 ---
 
+## Legal
+
+This is an **unofficial fan project** and is not affiliated with, endorsed by, or sponsored by Ankama Games SAS.
+
+All game assets, icons, data and intellectual property belong to **Ankama Games SAS**.  
+Dofus® is a registered trademark of Ankama Games SAS.
+
+This project is **strictly non-commercial** — no ads, no paywall, no monetization of any kind.  
+See the [NOTICE](./NOTICE) file for full details.
+
+---
+
 ## 🛠 Installation locale
 
 Tu veux développer ou explorer le code en local ? Suis ces étapes :
