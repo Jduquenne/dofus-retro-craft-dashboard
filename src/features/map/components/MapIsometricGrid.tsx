@@ -118,7 +118,7 @@ export function MapIsometricGrid({ blueCells, redCells, obstacles, voids }: MapI
   }, [voids]);
 
   return (
-    <div className="w-full max-w-[460px] mx-auto">
+    <div className="w-full max-w-[460px] sm:max-w-none mx-auto">
       <svg
         viewBox={`0 0 ${SVG_W} ${SVG_H}`}
         style={{ display: 'block', width: '100%', height: 'auto' }}
