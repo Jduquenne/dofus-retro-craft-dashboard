@@ -1,16 +1,20 @@
-import type { HoverState, MapMarker } from '../../../types/map';
+import type { HoverState, MapMarker, MapArea, MapSubarea } from '../../../types/map';
 
 interface MapTooltipProps {
   hover: HoverState | null;
   marker: MapMarker | null;
+  name: MapSubarea | null;
+  area: MapArea | null;
 }
 
-export function MapTooltip({ hover, marker }: MapTooltipProps) {
+export function MapTooltip({ hover, marker, name, area }: MapTooltipProps) {
   if (!hover) return null;
 
   const { coords, px, py } = hover;
+  const displayName = name ? name.replace('//', '').trim() : null;
+  const lineCount = 1 + (marker ? 1 : 0) + (displayName ? 1 : 0) + (area ? 1 : 0);
   const offsetX = px + 14;
-  const offsetY = py - (marker ? 52 : 36);
+  const offsetY = py - (16 + lineCount * 18);
 
   return (
     <div
@@ -24,6 +28,16 @@ export function MapTooltip({ hover, marker }: MapTooltipProps) {
         {marker && (
           <span className="text-dofus-panel text-[11px] leading-tight mt-0.5">
             {marker.label}
+          </span>
+        )}
+        {displayName && (
+          <span className="text-dofus-panel-lt text-[11px] leading-tight mt-0.5">
+            {displayName}
+          </span>
+        )}
+        {area && (
+          <span className="text-dofus-text-lt text-[10px] leading-tight mt-0.5 opacity-70">
+            {area}
           </span>
         )}
       </div>

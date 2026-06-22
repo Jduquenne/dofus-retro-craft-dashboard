@@ -17,6 +17,8 @@ import { MapClickHandler } from './components/MapClickHandler';
 import { MapSelectedCell } from './components/MapSelectedCell';
 import { MapCellPreview } from './components/MapCellPreview';
 import { MapCellModal } from './components/MapCellModal';
+import { MapRegionLayer } from './components/MapRegionLayer';
+import { useMapRegion } from './hooks/useMapRegion';
 import { mapMarkers } from '../../data/map/markers';
 import { useMapPrefs } from './hooks/useMapPrefs';
 
@@ -32,6 +34,10 @@ export function MapModule() {
     [],
   );
   const { activeFilters, showGrid, toggleFilter, toggleGrid } = useMapPrefs(availableFilters);
+  const { name: hoveredName, area: hoveredArea, coords: regionCoords } = useMapRegion(
+    hover?.coords.x ?? null,
+    hover?.coords.y ?? null,
+  );
 
   const handleMapReady = useCallback((map: L.Map) => { mapRef.current = map; }, []);
   const handleCellClick = useCallback((x: number, y: number) => {
@@ -73,6 +79,7 @@ export function MapModule() {
             onMarkerEnter={handleMarkerEnter}
             onMarkerLeave={handleMarkerLeave}
           />
+          <MapRegionLayer coords={regionCoords} />
           <MapClickHandler onCellClick={handleCellClick} />
           {selectedCoords && <MapSelectedCell coords={selectedCoords} />}
         </MapContainer>
@@ -84,7 +91,7 @@ export function MapModule() {
           showGrid={showGrid}
           onToggleGrid={toggleGrid}
         />
-        <MapTooltip hover={hover} marker={hoveredMarker} />
+        <MapTooltip hover={hover} marker={hoveredMarker} name={hoveredName} area={hoveredArea} />
 
         {selectedCoords && (
           <div className="absolute top-3 right-3 pointer-events-none" style={{ zIndex: 1000 }}>

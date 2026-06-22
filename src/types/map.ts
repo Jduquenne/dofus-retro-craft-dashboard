@@ -1,3 +1,7 @@
+import type { MapArea, MapSubarea, MapSuparea } from "./mapSubareas";
+
+export { MapSuparea, MapArea, MapSubarea } from "./mapSubareas";
+
 export interface MapCoords {
   x: number;
   y: number;
@@ -35,12 +39,12 @@ export interface MapMarker {
 
 export interface CombatMapSubarea {
   id: number;
-  name?: string | null;
+  name?: MapSubarea | null;
   terrain?: string | null;
   areaId?: number | null;
-  areaName?: string | null;
+  areaName?: MapArea | null;
   supareaId?: number | null;
-  supareaName?: string | null;
+  supareaName?: MapSuparea | null;
 }
 
 export interface CombatMap {
@@ -66,4 +70,11 @@ export interface CombatCoordEntry {
 export interface CombatMapsJson {
   _meta: { source: string; totalMaps: number; totalCoords: number };
   maps: Record<string, CombatCoordEntry>;
+}
+
+export interface SubareaEntry {
+  name: MapSubarea;
+  area: MapArea;
+  suparea: MapSuparea;
+  coords: [number, number][];
 }
