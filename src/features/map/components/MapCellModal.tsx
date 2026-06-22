@@ -10,20 +10,49 @@ interface MapCellModalProps {
   onClose: () => void;
 }
 
+const EMPTY_SET = new Set<number>();
+
 export function MapCellModal({ coords, onClose }: MapCellModalProps) {
   const [currentCoords, setCurrentCoords] = useState<MapCoords>(coords);
   const [index, setIndex] = useState(0);
+  const [variantIndex, setVariantIndex] = useState(0);
 
   const { maps, terrain, hasMapsAt } = useMapCells(currentCoords);
   const { x: cx, y: cy } = currentCoords;
 
-  useEffect(() => { setIndex(0); }, [currentCoords]);
+  useEffect(() => { setIndex(0); setVariantIndex(0); }, [currentCoords]);
+  useEffect(() => { setVariantIndex(0); }, [index]);
 
   const current = maps[index] ?? null;
-  const blueCells = useMemo(() => new Set(current?.blueCells ?? []), [current]);
-  const redCells  = useMemo(() => new Set(current?.redCells  ?? []), [current]);
-  const obstacles = useMemo(() => new Set(terrain.obstacles), [terrain]);
-  const voids     = useMemo(() => new Set(terrain.voids),     [terrain]);
+
+  const rawBlue = current?.blueCells ?? [];
+  const rawRed  = current?.redCells  ?? [];
+  const variantCount = rawBlue.length > 0 ? Math.ceil(rawBlue.length / 8) : 0;
+  const isMultiConfig = variantCount > 1;
+
+  const blueCells = useMemo(() => {
+    if (rawBlue.length === 0) return EMPTY_SET;
+    if (!isMultiConfig) return new Set(rawBlue);
+    return new Set(rawBlue.slice(variantIndex * 8, (variantIndex + 1) * 8));
+  }, [rawBlue, variantIndex, isMultiConfig]);
+
+  const redCells = useMemo(() => {
+    if (rawRed.length === 0) return EMPTY_SET;
+    if (!isMultiConfig) return new Set(rawRed);
+    return new Set(rawRed.slice(variantIndex * 8, (variantIndex + 1) * 8));
+  }, [rawRed, variantIndex, isMultiConfig]);
+
+  const isDungeon = current?.dungeonLevel != null;
+  const showTerrain = !isMultiConfig && !isDungeon;
+
+  const obstacles = useMemo(
+    () => (showTerrain ? new Set(terrain.obstacles) : EMPTY_SET),
+    [showTerrain, terrain],
+  );
+  const voids = useMemo(
+    () => (showTerrain ? new Set(terrain.voids) : EMPTY_SET),
+    [showTerrain, terrain],
+  );
 
   const subLabel = current
     ? [current.subarea.areaName, current.subarea.name?.replace('//', '').trim()]
@@ -43,6 +72,8 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
 
   const handlePrev = useCallback(() => setIndex(i => Math.max(0, i - 1)), []);
   const handleNext = useCallback(() => setIndex(i => Math.min(maps.length - 1, i + 1)), [maps.length]);
+  const handlePrevVariant = useCallback(() => setVariantIndex(i => Math.max(0, i - 1)), []);
+  const handleNextVariant = useCallback(() => setVariantIndex(i => Math.min(variantCount - 1, i + 1)), [variantCount]);
 
   return (
     <div
@@ -65,7 +96,7 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
             )}
           </div>
 
-          {/* Sélecteur de map — mobile uniquement, desktop dans le panneau gauche */}
+          {/* Sélecteur de map — mobile uniquement */}
           {maps.length > 1 && (
             <div className="sm:hidden flex items-center gap-1 shrink-0">
               <button className="btn-secondary w-5 h-5 flex items-center justify-center rounded disabled:opacity-30" onClick={handlePrev} disabled={index === 0}>
@@ -89,6 +120,21 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
           </button>
         </div>
 
+        {/* Sélecteur de variante — mobile uniquement */}
+        {isMultiConfig && (
+          <div className="sm:hidden flex items-center gap-1 shrink-0">
+            <button className="btn-secondary w-5 h-5 flex items-center justify-center rounded disabled:opacity-30" onClick={handlePrevVariant} disabled={variantIndex === 0}>
+              <ChevronLeft size={10} />
+            </button>
+            <span className="flex-1 text-center text-[10px] text-dofus-text-lt">
+              Variante {variantIndex + 1} / {variantCount}
+            </span>
+            <button className="btn-secondary w-5 h-5 flex items-center justify-center rounded disabled:opacity-30" onClick={handleNextVariant} disabled={variantIndex === variantCount - 1}>
+              <ChevronRight size={10} />
+            </button>
+          </div>
+        )}
+
         {/* Corps */}
         {!hasAnyData ? (
           <p className="text-xs text-dofus-text-lt text-center py-4">
@@ -107,6 +153,10 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
               total={maps.length}
               onPrev={handlePrev}
               onNext={handleNext}
+              variantIndex={variantIndex}
+              variantTotal={variantCount}
+              onPrevVariant={handlePrevVariant}
+              onNextVariant={handleNextVariant}
             />
 
             {/* Grille + navigation directionnelle */}
