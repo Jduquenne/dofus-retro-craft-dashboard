@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Grid3X3 } from 'lucide-react';
 import type { MarkerFilter } from '../../../types/map';
-import { FILTER_LABELS, FILTER_ICON } from '../../../types/map';
+import { FILTER_LABELS, FILTER_ICON } from '../../../constants/mapMarkers';
 import { MapFilterButton } from './MapFilterButton';
 
 interface MapFiltersPanelProps {

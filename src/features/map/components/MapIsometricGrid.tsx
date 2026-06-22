@@ -102,15 +102,13 @@ function elevSePts(col: number, row: number): string {
 }
 
 interface MapIsometricGridProps {
-  ally: Set<number>;
-  enemy: Set<number>;
+  blueCells: Set<number>;
+  redCells: Set<number>;
   obstacles: Set<number>;
   voids: Set<number>;
-  blue: Set<number>;
-  red: Set<number>;
 }
 
-export function MapIsometricGrid({ ally, enemy, obstacles, voids, blue, red }: MapIsometricGridProps) {
+export function MapIsometricGrid({ blueCells, redCells, obstacles, voids }: MapIsometricGridProps) {
   const [hovered, setHovered] = useState<number | null>(null);
 
   const effectiveVoids = useMemo(() => {
@@ -142,12 +140,10 @@ export function MapIsometricGrid({ ally, enemy, obstacles, voids, blue, red }: M
             const isObst = obstacles.has(id);
             const checker = id % 2 === 0 ? EVEN_FILL : ODD_FILL;
 
-            const baseFill = isHov ? '#CC6000'
-              : ally.has(id)  ? '#4A8A30'
-                : enemy.has(id) ? '#8A2010'
-                  : blue.has(id)  ? '#2860A0'
-                    : red.has(id)   ? '#A02828'
-                      : checker;
+            const baseFill = isHov     ? '#CC6000'
+              : blueCells.has(id) ? '#2860A0'
+                : redCells.has(id)  ? '#A02828'
+                  : checker;
 
             if (isObst) {
               return (

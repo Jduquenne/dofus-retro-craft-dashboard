@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import type { MapMarker, MarkerFilter } from '../../../types/map';
-import { FILTER_ZINDEX } from '../../../types/map';
+import { FILTER_ZINDEX } from '../../../constants/mapMarkers';
 import { iconSizeForZoom, markerIcon } from '../../../utils/markerIcon';
 
 interface MapMarkersLayerProps {

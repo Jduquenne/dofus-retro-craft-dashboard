@@ -1,5 +1,5 @@
 import L from 'leaflet';
-import { MARKER_ANCHOR, DEFAULT_ANCHOR } from '../types/map';
+import { MARKER_ANCHOR, DEFAULT_ANCHOR } from '../constants/mapMarkers';
 
 const ZOOM_MIN = -5;
 const ZOOM_MAX = 1;

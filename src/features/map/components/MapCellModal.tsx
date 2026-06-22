@@ -3,7 +3,6 @@ import { X, ChevronLeft, ChevronRight, ChevronUp, ChevronDown } from 'lucide-rea
 import type { MapCoords } from '../../../types/map';
 import { MapIsometricGrid } from './MapIsometricGrid';
 import { useMapCells } from '../hooks/useMapCells';
-import { useMapObstacles } from '../hooks/useMapObstacles';
 
 interface MapCellModalProps {
   coords: MapCoords;
@@ -14,28 +13,23 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
   const [currentCoords, setCurrentCoords] = useState<MapCoords>(coords);
   const [index, setIndex] = useState(0);
 
-  const { maps, hasMapsAt } = useMapCells(currentCoords);
-  const obstacleEntry = useMapObstacles(currentCoords);
+  const { maps, terrain, hasMapsAt } = useMapCells(currentCoords);
   const { x: cx, y: cy } = currentCoords;
 
   useEffect(() => { setIndex(0); }, [currentCoords]);
 
   const current = maps[index] ?? null;
-  const ally  = useMemo(() => new Set(current?.ally  ?? []), [current]);
-  const enemy = useMemo(() => new Set(current?.enemy ?? []), [current]);
-  const obstacles = useMemo(() => new Set(obstacleEntry?.obstacles ?? []), [obstacleEntry]);
-  const voids     = useMemo(() => new Set(obstacleEntry?.voids     ?? []), [obstacleEntry]);
-  const blue      = useMemo(() => new Set(obstacleEntry?.blue      ?? []), [obstacleEntry]);
-  const red       = useMemo(() => new Set(obstacleEntry?.red       ?? []), [obstacleEntry]);
+  const blueCells = useMemo(() => new Set(current?.blueCells ?? []), [current]);
+  const redCells  = useMemo(() => new Set(current?.redCells  ?? []), [current]);
+  const obstacles = useMemo(() => new Set(terrain.obstacles), [terrain]);
+  const voids     = useMemo(() => new Set(terrain.voids),     [terrain]);
 
   const subLabel = current
     ? [current.subarea.areaName, current.subarea.name?.replace('//', '')]
         .filter(Boolean).join(' › ')
-    : obstacleEntry
-      ? [obstacleEntry.areaName, obstacleEntry.subareaName].filter(Boolean).join(' › ')
-      : null;
+    : null;
 
-  const hasAnyData = maps.length > 0 || obstacleEntry !== null;
+  const hasAnyData = maps.length > 0 || terrain.obstacles.length > 0;
 
   const navigate = useCallback((dx: number, dy: number) => {
     setCurrentCoords(prev => ({ x: prev.x + dx, y: prev.y + dy }));
@@ -108,7 +102,6 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
           </p>
         ) : (
           <div className="flex flex-col gap-1">
-            {/* Haut — desktop uniquement */}
             {hasUp && (
               <button
                 onClick={() => navigate(0, -1)}
@@ -119,7 +112,6 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
               </button>
             )}
 
-            {/* Grille avec nav latérale (desktop) */}
             <div className="flex gap-1 items-stretch">
               {hasLeft && (
                 <button
@@ -135,12 +127,10 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
 
               <div className="flex-1 min-w-0">
                 <MapIsometricGrid
-                  ally={ally}
-                  enemy={enemy}
+                  blueCells={blueCells}
+                  redCells={redCells}
                   obstacles={obstacles}
                   voids={voids}
-                  blue={blue}
-                  red={red}
                 />
               </div>
 
@@ -157,7 +147,6 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
               )}
             </div>
 
-            {/* Bas — desktop uniquement */}
             {hasDown && (
               <button
                 onClick={() => navigate(0, 1)}
@@ -168,7 +157,6 @@ export function MapCellModal({ coords, onClose }: MapCellModalProps) {
               </button>
             )}
 
-            {/* D-pad mobile */}
             {(hasUp || hasDown || hasLeft || hasRight) && (
               <div className="sm:hidden flex justify-center mt-1">
                 <div className="grid grid-cols-3 gap-1">
