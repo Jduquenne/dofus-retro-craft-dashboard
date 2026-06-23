@@ -6,12 +6,14 @@ const STORAGE_KEY = 'pod-calculator';
 interface PodStorage {
   maxPods: number;
   usedPods: number;
+  goalCraft: number;
   items: PodItem[];
 }
 
 const DEFAULT_STORAGE: PodStorage = {
   maxPods: 1000,
   usedPods: 0,
+  goalCraft: 0,
   items: [],
 };
 
@@ -43,6 +45,14 @@ export function usePodStorage() {
   const setUsedPods = useCallback((value: number) => {
     setStorage(prev => {
       const updated = { ...prev, usedPods: Math.max(0, value) };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
+  const setGoalCraft = useCallback((value: number) => {
+    setStorage(prev => {
+      const updated = { ...prev, goalCraft: Math.max(0, value) };
       writeToStorage(updated);
       return updated;
     });
@@ -83,6 +93,14 @@ export function usePodStorage() {
     });
   }, []);
 
+  const replaceItems = useCallback((newItems: PodItem[]) => {
+    setStorage(prev => {
+      const updated = { ...prev, items: newItems };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
   const clearItems = useCallback(() => {
     setStorage(prev => {
       const updated = { ...prev, items: [] };
@@ -94,11 +112,14 @@ export function usePodStorage() {
   return {
     maxPods: storage.maxPods,
     usedPods: storage.usedPods,
+    goalCraft: storage.goalCraft,
     items: storage.items,
     setMaxPods,
     setUsedPods,
+    setGoalCraft,
     addItem,
     addItems,
+    replaceItems,
     updateItem,
     removeItem,
     clearItems,

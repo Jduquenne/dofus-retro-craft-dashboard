@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Trash2, X } from 'lucide-react';
+import { Plus, Trash2 } from 'lucide-react';
 import type { PodItem, Recipe } from '../../../types';
 import { ResourceSearchInput } from './ResourceSearchInput';
 import { CraftSearchInput } from './CraftSearchInput';
@@ -10,13 +10,15 @@ import catalogData from '../../../data/resources/resources-catalog.json';
 const catalog = catalogData as Array<{ id: number; pods: number }>;
 const recipeIndex = new Map(allRecipes.map(r => [r.id, r]));
 
-type SearchMode = 'resource' | 'craft';
+export type SearchMode = 'resource' | 'craft';
 
 interface PodItemsTableProps {
     items: PodItem[];
     podPerCraft: number;
+    mode: SearchMode;
+    onModeChange: (mode: SearchMode) => void;
     onAdd: (item: PodItem) => void;
-    onAddBatch: (items: PodItem[]) => void;
+    onReplace: (items: PodItem[]) => void;
     onUpdate: (id: string, patch: Partial<PodItem>) => void;
     onRemove: (id: string) => void;
     onClear: () => void;
@@ -27,20 +29,21 @@ const EMPTY_FORM = { name: '', podWeight: '', quantity: '' };
 export const PodItemsTable: React.FC<PodItemsTableProps> = ({
     items,
     podPerCraft,
+    mode,
+    onModeChange,
     onAdd,
-    onAddBatch,
+    onReplace,
     onUpdate,
     onRemove,
     onClear,
 }) => {
-    const [mode, setMode] = useState<SearchMode>('resource');
     const [form, setForm] = useState(EMPTY_FORM);
     const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
     const [expandSubCrafts, setExpandSubCrafts] = useState(true);
     const [resetKey, setResetKey] = useState(0);
 
     const switchMode = (next: SearchMode) => {
-        setMode(next);
+        onModeChange(next);
         setForm(EMPTY_FORM);
         setSelectedRecipe(null);
         setResetKey(k => k + 1);
@@ -67,7 +70,7 @@ export const PodItemsTable: React.FC<PodItemsTableProps> = ({
     const handleAddCraft = () => {
         if (!selectedRecipe) return;
         const resolved = resolveRecipeIngredients(selectedRecipe, catalog, recipeIndex, 1, expandSubCrafts);
-        onAddBatch(resolved);
+        onReplace(resolved);
         setSelectedRecipe(null);
         setResetKey(k => k + 1);
     };

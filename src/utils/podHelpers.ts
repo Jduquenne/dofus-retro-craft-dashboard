@@ -13,6 +13,11 @@ export function computeMaxCrafts(freePods: number, podPerCraft: number): number 
   return Math.floor(freePods / podPerCraft);
 }
 
+export function computeRunsNeeded(goalCraft: number, maxCraftsPerRun: number): number {
+  if (goalCraft <= 0 || maxCraftsPerRun <= 0) return 0;
+  return Math.ceil(goalCraft / maxCraftsPerRun);
+}
+
 export function resolveRecipeIngredients(
     recipe: Recipe,
     catalog: Array<{ id: number; pods: number }>,

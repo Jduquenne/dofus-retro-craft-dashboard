@@ -1,16 +1,18 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useState } from 'react';
 import { usePodStorage } from './hooks/usePodStorage';
-import { computeFreePods, computePodPerCraft, computeMaxCrafts } from '../../utils/podHelpers';
+import { computeFreePods, computePodPerCraft, computeMaxCrafts, computeRunsNeeded } from '../../utils/podHelpers';
 import { PodCapacityPanel } from './components/PodCapacityPanel';
-import { PodItemsTable } from './components/PodItemsTable';
+import { PodItemsTable, type SearchMode } from './components/PodItemsTable';
 import { PodResultPanel } from './components/PodResultPanel';
 
 export const PodModule: React.FC = () => {
-  const { maxPods, usedPods, items, setMaxPods, setUsedPods, addItem, addItems, updateItem, removeItem, clearItems } = usePodStorage();
+  const { maxPods, usedPods, goalCraft, items, setMaxPods, setUsedPods, setGoalCraft, addItem, replaceItems, updateItem, removeItem, clearItems } = usePodStorage();
+  const [searchMode, setSearchMode] = useState<SearchMode>('resource');
 
   const freePods = useMemo(() => computeFreePods(maxPods, usedPods), [maxPods, usedPods]);
   const podPerCraft = useMemo(() => computePodPerCraft(items), [items]);
   const maxCrafts = useMemo(() => computeMaxCrafts(freePods, podPerCraft), [freePods, podPerCraft]);
+  const runsNeeded = useMemo(() => computeRunsNeeded(goalCraft, maxCrafts), [goalCraft, maxCrafts]);
 
   return (
     <div className="flex flex-col gap-4">
@@ -18,8 +20,11 @@ export const PodModule: React.FC = () => {
         maxPods={maxPods}
         usedPods={usedPods}
         freePods={freePods}
+        goalCraft={goalCraft}
+        isCraftMode={searchMode === 'craft'}
         onMaxPodsChange={setMaxPods}
         onUsedPodsChange={setUsedPods}
+        onGoalCraftChange={setGoalCraft}
       />
 
       <div className="flex flex-col sm:flex-row gap-4 items-start">
@@ -27,8 +32,10 @@ export const PodModule: React.FC = () => {
           <PodItemsTable
             items={items}
             podPerCraft={podPerCraft}
+            mode={searchMode}
+            onModeChange={setSearchMode}
             onAdd={addItem}
-            onAddBatch={addItems}
+            onReplace={replaceItems}
             onUpdate={updateItem}
             onRemove={removeItem}
             onClear={clearItems}
@@ -40,6 +47,8 @@ export const PodModule: React.FC = () => {
             freePods={freePods}
             podPerCraft={podPerCraft}
             maxCrafts={maxCrafts}
+            goalCraft={goalCraft}
+            runsNeeded={runsNeeded}
             items={items}
           />
         </div>
