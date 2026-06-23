@@ -75,6 +75,14 @@ export function usePodStorage() {
     });
   }, []);
 
+  const addItems = useCallback((newItems: PodItem[]) => {
+    setStorage(prev => {
+      const updated = { ...prev, items: [...prev.items, ...newItems] };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
   const clearItems = useCallback(() => {
     setStorage(prev => {
       const updated = { ...prev, items: [] };
@@ -90,6 +98,7 @@ export function usePodStorage() {
     setMaxPods,
     setUsedPods,
     addItem,
+    addItems,
     updateItem,
     removeItem,
     clearItems,

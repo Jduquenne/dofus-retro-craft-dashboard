@@ -6,7 +6,7 @@ import { PodItemsTable } from './components/PodItemsTable';
 import { PodResultPanel } from './components/PodResultPanel';
 
 export const PodModule: React.FC = () => {
-  const { maxPods, usedPods, items, setMaxPods, setUsedPods, addItem, updateItem, removeItem, clearItems } = usePodStorage();
+  const { maxPods, usedPods, items, setMaxPods, setUsedPods, addItem, addItems, updateItem, removeItem, clearItems } = usePodStorage();
 
   const freePods = useMemo(() => computeFreePods(maxPods, usedPods), [maxPods, usedPods]);
   const podPerRun = useMemo(() => computePodPerRun(items), [items]);
@@ -28,6 +28,7 @@ export const PodModule: React.FC = () => {
             items={items}
             podPerRun={podPerRun}
             onAdd={addItem}
+            onAddBatch={addItems}
             onUpdate={updateItem}
             onRemove={removeItem}
             onClear={clearItems}
