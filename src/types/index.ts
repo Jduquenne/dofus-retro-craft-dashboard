@@ -73,6 +73,9 @@ export interface CraftQueueEntry {
   goalByCraft: number;
   currentRun: number;
   ingredients: PodItem[];
+  professionId?: string;
+  xpPerCraft?: number;
+  updateXpOnComplete?: boolean;
 }
 
 // Ressource récoltable d'un métier de récolte (données statiques dans professions/harvest/*.json)

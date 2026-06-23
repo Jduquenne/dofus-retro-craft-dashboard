@@ -170,3 +170,14 @@ export const getLevelFromTotalXP = (totalXP: number): number => {
 export const getTotalXP = (currentLevel: number, currentXP: number): number => {
   return getXPForLevel(currentLevel) + currentXP;
 };
+
+import type { Profession } from '../types';
+
+export function applyXPGain(profession: Profession, xpGained: number): Profession {
+  const newXP = Math.min(
+    profession.currentXP + Math.round(xpGained),
+    PROFESSION_XP_TABLE[100]
+  );
+  const newLevel = getLevelFromTotalXP(newXP);
+  return { ...profession, currentXP: newXP, currentLevel: newLevel };
+}

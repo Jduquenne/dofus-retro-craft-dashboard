@@ -110,6 +110,19 @@ export function usePodStorage() {
     });
   }, []);
 
+  const toggleCraftXpUpdate = useCallback((id: string, value: boolean) => {
+    setStorage(prev => {
+      const updated = {
+        ...prev,
+        craftQueue: prev.craftQueue.map(e =>
+          e.id === id ? { ...e, updateXpOnComplete: value } : e
+        ),
+      };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
   const addItem = useCallback((item: PodItem) => {
     setStorage(prev => {
       const updated = { ...prev, items: [...prev.items, item] };
@@ -158,6 +171,7 @@ export function usePodStorage() {
     removeFromCraftQueue,
     updateCraftGoal,
     setCurrentRun,
+    toggleCraftXpUpdate,
     addItem,
     updateItem,
     removeItem,

@@ -43,6 +43,9 @@ export function sendRecipeToPodQueue(recipe: Recipe, goalByCraft: number): void 
     goalByCraft,
     currentRun: 1,
     ingredients,
+    professionId: recipe.profession,
+    xpPerCraft: recipe.xpGained,
+    updateXpOnComplete: false,
   });
 
   if (!storage.activeCraftId) {

@@ -15,9 +15,11 @@ interface CraftQueueTableProps {
   freePods: number;
   onAdd: (entry: CraftQueueEntry) => void;
   onRemove: (id: string) => void;
+  onComplete: (id: string) => void;
   onActivate: (id: string) => void;
   onUpdateGoal: (id: string, goal: number) => void;
   onSetRun: (id: string, run: number) => void;
+  onToggleXpUpdate: (id: string, value: boolean) => void;
 }
 
 export const CraftQueueTable: React.FC<CraftQueueTableProps> = ({
@@ -26,9 +28,11 @@ export const CraftQueueTable: React.FC<CraftQueueTableProps> = ({
   freePods,
   onAdd,
   onRemove,
+  onComplete,
   onActivate,
   onUpdateGoal,
   onSetRun,
+  onToggleXpUpdate,
 }) => {
   const [selectedRecipe, setSelectedRecipe] = useState<Recipe | null>(null);
   const [expandSubCrafts, setExpandSubCrafts] = useState(true);
@@ -182,13 +186,26 @@ export const CraftQueueTable: React.FC<CraftQueueTableProps> = ({
                               Pods libres insuffisants pour réaliser ce craft
                             </div>
                           ) : runsNeeded === 1 ? (
-                            <button
-                              onClick={() => onRemove(entry.id)}
-                              className="flex items-center gap-1.5 px-3 py-1.5 rounded bg-dofus-success/20 border border-dofus-success/40 text-dofus-success text-xs font-medium hover:bg-dofus-success/30 transition-colors"
-                            >
-                              <Check size={12} />
-                              Marquer comme terminé
-                            </button>
+                            <div className="flex flex-wrap items-center gap-3">
+                              <button
+                                onClick={() => onComplete(entry.id)}
+                                className="flex items-center gap-1.5 px-3 py-1.5 rounded bg-dofus-success/20 border border-dofus-success/40 text-dofus-success text-xs font-medium hover:bg-dofus-success/30 transition-colors"
+                              >
+                                <Check size={12} />
+                                Marquer comme terminé
+                              </button>
+                              {entry.professionId && entry.xpPerCraft && (
+                                <label className="flex items-center gap-1.5 cursor-pointer">
+                                  <input
+                                    type="checkbox"
+                                    checked={entry.updateXpOnComplete ?? false}
+                                    onChange={e => onToggleXpUpdate(entry.id, e.target.checked)}
+                                    className="accent-[#CC6000] w-3.5 h-3.5"
+                                  />
+                                  <span className="text-[10px] text-dofus-text-lt">Incrémenter l'XP métier</span>
+                                </label>
+                              )}
+                            </div>
                           ) : (
                             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-4">
                               <div className="flex items-center gap-2 shrink-0">
@@ -205,25 +222,16 @@ export const CraftQueueTable: React.FC<CraftQueueTableProps> = ({
                                   <span className="text-dofus-text-lt"> / {runsNeeded}</span>
                                 </span>
 
-                                {isLastRun ? (
-                                  <button
-                                    onClick={() => onRemove(entry.id)}
-                                    className="flex items-center gap-1 px-2 py-1 rounded bg-dofus-success/20 border border-dofus-success/40 text-dofus-success text-[10px] font-medium hover:bg-dofus-success/30 transition-colors"
-                                  >
-                                    <Check size={10} />
-                                    Terminer
-                                  </button>
-                                ) : (
-                                  <button
-                                    onClick={() => onSetRun(entry.id, currentRun + 1)}
-                                    className="w-6 h-6 flex items-center justify-center rounded panel-sm border border-dofus-border-md hover:bg-dofus-panel-lt transition-colors"
-                                  >
-                                    <ChevronRight size={12} />
-                                  </button>
-                                )}
+                                <button
+                                  onClick={() => onSetRun(entry.id, currentRun + 1)}
+                                  disabled={isLastRun}
+                                  className="w-6 h-6 flex items-center justify-center rounded panel-sm border border-dofus-border-md disabled:opacity-30 hover:bg-dofus-panel-lt transition-colors"
+                                >
+                                  <ChevronRight size={12} />
+                                </button>
                               </div>
 
-                              <div className="flex-1 flex flex-col gap-1">
+                              <div className="flex-1 flex flex-col gap-1.5">
                                 <div className="relative h-1.5 rounded-full overflow-hidden bg-dofus-border/20">
                                   <div
                                     className="absolute inset-0 w-full bg-dofus-orange origin-left transition-transform duration-300"
@@ -233,6 +241,28 @@ export const CraftQueueTable: React.FC<CraftQueueTableProps> = ({
                                 <span className="text-[10px] text-dofus-text-lt">
                                   {craftsDone} / {entry.goalByCraft} crafts complétés
                                 </span>
+                                {isLastRun && (
+                                  <div className="flex flex-wrap items-center gap-3 pt-0.5">
+                                    <button
+                                      onClick={() => onComplete(entry.id)}
+                                      className="flex items-center gap-1 px-2.5 py-1 rounded bg-dofus-success/20 border border-dofus-success/40 text-dofus-success text-[10px] font-medium hover:bg-dofus-success/30 transition-colors"
+                                    >
+                                      <Check size={10} />
+                                      Terminer la série
+                                    </button>
+                                    {entry.professionId && entry.xpPerCraft && (
+                                      <label className="flex items-center gap-1.5 cursor-pointer">
+                                        <input
+                                          type="checkbox"
+                                          checked={entry.updateXpOnComplete ?? false}
+                                          onChange={e => onToggleXpUpdate(entry.id, e.target.checked)}
+                                          className="accent-[#CC6000] w-3.5 h-3.5"
+                                        />
+                                        <span className="text-[10px] text-dofus-text-lt">Incrémenter l'XP métier</span>
+                                      </label>
+                                    )}
+                                  </div>
+                                )}
                               </div>
                             </div>
                           )}

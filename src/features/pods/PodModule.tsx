@@ -1,5 +1,6 @@
-import React, { useMemo } from 'react';
+import React, { useMemo, useCallback } from 'react';
 import { usePodStorage } from './hooks/usePodStorage';
+import { useAppContext } from '../../context/AppContext';
 import {
   computeFreePods,
   computePodPerCraft,
@@ -7,6 +8,7 @@ import {
   computeRunsNeeded,
   computeCraftsThisRun,
 } from '../../utils/podHelpers';
+import { applyXPGain } from '../../utils/professionXP';
 import { PodCapacityPanel } from './components/PodCapacityPanel';
 import { CraftQueueTable } from './components/CraftQueueTable';
 import { PodItemsTable } from './components/PodItemsTable';
@@ -17,8 +19,11 @@ export const PodModule: React.FC = () => {
     maxPods, usedPods, activeCraftId, craftQueue, items,
     setMaxPods, setUsedPods,
     setActiveCraft, addToCraftQueue, removeFromCraftQueue, updateCraftGoal, setCurrentRun,
+    toggleCraftXpUpdate,
     addItem, updateItem, removeItem, clearItems,
   } = usePodStorage();
+
+  const { professions, setProfessions, xpMultiplier } = useAppContext();
 
   const freePods = useMemo(() => computeFreePods(maxPods, usedPods), [maxPods, usedPods]);
 
@@ -48,6 +53,19 @@ export const PodModule: React.FC = () => {
     [activeCraft, maxCraftsPerRun, currentRun]
   );
 
+  const handleComplete = useCallback((id: string) => {
+    const entry = craftQueue.find(e => e.id === id);
+    if (entry?.updateXpOnComplete && entry.professionId && entry.xpPerCraft) {
+      const prof = professions.find(p => p.id === entry.professionId);
+      if (prof) {
+        const totalXP = entry.goalByCraft * entry.xpPerCraft * xpMultiplier;
+        const updated = applyXPGain(prof, totalXP);
+        setProfessions(professions.map(p => p.id === prof.id ? updated : p));
+      }
+    }
+    removeFromCraftQueue(id);
+  }, [craftQueue, professions, xpMultiplier, setProfessions, removeFromCraftQueue]);
+
   const displayedItems = useMemo(() => {
     if (!activeCraft || craftsThisRun === 0) return items;
     return activeCraft.ingredients.map(i => ({
@@ -73,9 +91,11 @@ export const PodModule: React.FC = () => {
         freePods={freePods}
         onAdd={addToCraftQueue}
         onRemove={removeFromCraftQueue}
+        onComplete={handleComplete}
         onActivate={setActiveCraft}
         onUpdateGoal={updateCraftGoal}
         onSetRun={setCurrentRun}
+        onToggleXpUpdate={toggleCraftXpUpdate}
       />
 
       <div className="flex flex-col sm:flex-row gap-4 items-start">
