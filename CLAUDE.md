@@ -30,7 +30,8 @@ src/
 │   └── hooks/              # Hooks utilisés par plusieurs features
 │       ├── useIndexedDB.ts
 │       ├── useHashTab.ts
-│       └── useAdminAccess.ts
+│       ├── useAdminAccess.ts
+│       └── useCalculatorPref.ts   # Persiste la profession sélectionnée dans le calculateur (localStorage)
 ├── features/               # Modules par route (feature-based)
 │   ├── professions/
 │   │   ├── components/
@@ -42,14 +43,14 @@ src/
 │   │   └── ScrollsModule.tsx
 │   ├── calculator/
 │   │   ├── components/
-│   │   └── CalculatorModule.tsx
+│   │   └── CalculatorModule.tsx   # Profession persistée via useCalculatorPref
 │   ├── catalog/
 │   │   ├── components/
 │   │   ├── hooks/          # useCatalogPrices, useResourceCatalog
 │   │   └── CatalogModule.tsx
 │   ├── pods/
-│   │   ├── components/
-│   │   ├── hooks/          # usePodStorage
+│   │   ├── components/     # ResourceSearchInput, CraftSearchInput
+│   │   ├── hooks/          # usePodStorage (addItem + addItems batch)
 │   │   └── PodModule.tsx
 │   ├── bank/
 │   │   ├── components/

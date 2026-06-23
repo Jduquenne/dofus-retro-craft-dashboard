@@ -14,7 +14,7 @@ type SearchMode = 'resource' | 'craft';
 
 interface PodItemsTableProps {
     items: PodItem[];
-    podPerRun: number;
+    podPerCraft: number;
     onAdd: (item: PodItem) => void;
     onAddBatch: (items: PodItem[]) => void;
     onUpdate: (id: string, patch: Partial<PodItem>) => void;
@@ -26,7 +26,7 @@ const EMPTY_FORM = { name: '', podWeight: '', quantity: '' };
 
 export const PodItemsTable: React.FC<PodItemsTableProps> = ({
     items,
-    podPerRun,
+    podPerCraft,
     onAdd,
     onAddBatch,
     onUpdate,
@@ -216,9 +216,9 @@ export const PodItemsTable: React.FC<PodItemsTableProps> = ({
                         Tout effacer
                     </button>
                     <div className="flex items-center gap-2">
-                        <span className="text-xs uppercase tracking-wider text-dofus-text-lt">Total par run</span>
+                        <span className="text-xs uppercase tracking-wider text-dofus-text-lt">Total par craft</span>
                         <span className="font-mono text-sm text-dofus-gold font-bit">
-                            {podPerRun} pods
+                            {podPerCraft} pods
                         </span>
                     </div>
                 </div>

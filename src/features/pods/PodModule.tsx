@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { usePodStorage } from './hooks/usePodStorage';
-import { computeFreePods, computePodPerRun, computeMaxRuns } from '../../utils/podHelpers';
+import { computeFreePods, computePodPerCraft, computeMaxCrafts } from '../../utils/podHelpers';
 import { PodCapacityPanel } from './components/PodCapacityPanel';
 import { PodItemsTable } from './components/PodItemsTable';
 import { PodResultPanel } from './components/PodResultPanel';
@@ -9,8 +9,8 @@ export const PodModule: React.FC = () => {
   const { maxPods, usedPods, items, setMaxPods, setUsedPods, addItem, addItems, updateItem, removeItem, clearItems } = usePodStorage();
 
   const freePods = useMemo(() => computeFreePods(maxPods, usedPods), [maxPods, usedPods]);
-  const podPerRun = useMemo(() => computePodPerRun(items), [items]);
-  const maxRuns = useMemo(() => computeMaxRuns(freePods, podPerRun), [freePods, podPerRun]);
+  const podPerCraft = useMemo(() => computePodPerCraft(items), [items]);
+  const maxCrafts = useMemo(() => computeMaxCrafts(freePods, podPerCraft), [freePods, podPerCraft]);
 
   return (
     <div className="flex flex-col gap-4">
@@ -26,7 +26,7 @@ export const PodModule: React.FC = () => {
         <div className="flex-1 min-w-0 w-full">
           <PodItemsTable
             items={items}
-            podPerRun={podPerRun}
+            podPerCraft={podPerCraft}
             onAdd={addItem}
             onAddBatch={addItems}
             onUpdate={updateItem}
@@ -38,8 +38,8 @@ export const PodModule: React.FC = () => {
         <div className="w-full sm:w-64 shrink-0">
           <PodResultPanel
             freePods={freePods}
-            podPerRun={podPerRun}
-            maxRuns={maxRuns}
+            podPerCraft={podPerCraft}
+            maxCrafts={maxCrafts}
             items={items}
           />
         </div>
