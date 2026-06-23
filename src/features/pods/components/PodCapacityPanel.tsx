@@ -4,22 +4,16 @@ interface PodCapacityPanelProps {
   maxPods: number;
   usedPods: number;
   freePods: number;
-  goalCraft: number;
-  isCraftMode: boolean;
   onMaxPodsChange: (value: number) => void;
   onUsedPodsChange: (value: number) => void;
-  onGoalCraftChange: (value: number) => void;
 }
 
 export const PodCapacityPanel: React.FC<PodCapacityPanelProps> = ({
   maxPods,
   usedPods,
   freePods,
-  goalCraft,
-  isCraftMode,
   onMaxPodsChange,
   onUsedPodsChange,
-  onGoalCraftChange,
 }) => {
   const usedPercent = maxPods > 0 ? Math.min(1, usedPods / maxPods) : 0;
 
@@ -56,20 +50,6 @@ export const PodCapacityPanel: React.FC<PodCapacityPanelProps> = ({
             {freePods}
           </div>
         </div>
-
-        {isCraftMode && (
-          <div className="flex flex-col gap-1">
-            <label className="text-xs uppercase tracking-wider text-dofus-text-lt">Objectif crafts</label>
-            <input
-              type="number"
-              min={0}
-              value={goalCraft || ''}
-              placeholder="0"
-              onChange={e => onGoalCraftChange(Number(e.target.value))}
-              className="input-dofus w-full sm:w-32 text-right font-mono text-sm px-2 py-1.5 rounded"
-            />
-          </div>
-        )}
 
         <div className="col-span-2 sm:flex-1 sm:min-w-48 flex flex-col gap-1">
           <div className="flex justify-between text-xs text-dofus-text-lt uppercase tracking-wider">

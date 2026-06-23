@@ -66,6 +66,15 @@ export interface PodItem {
   quantity: number;
 }
 
+export interface CraftQueueEntry {
+  id: string;
+  craftId: string;
+  craftName: string;
+  goalByCraft: number;
+  currentRun: number;
+  ingredients: PodItem[];
+}
+
 // Ressource récoltable d'un métier de récolte (données statiques dans professions/harvest/*.json)
 export interface HarvestResource {
   id: string;

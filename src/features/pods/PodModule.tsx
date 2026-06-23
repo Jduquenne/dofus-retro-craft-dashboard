@@ -1,18 +1,61 @@
-import React, { useMemo, useState } from 'react';
+import React, { useMemo } from 'react';
 import { usePodStorage } from './hooks/usePodStorage';
-import { computeFreePods, computePodPerCraft, computeMaxCrafts, computeRunsNeeded } from '../../utils/podHelpers';
+import {
+  computeFreePods,
+  computePodPerCraft,
+  computeMaxCrafts,
+  computeRunsNeeded,
+  computeCraftsThisRun,
+} from '../../utils/podHelpers';
 import { PodCapacityPanel } from './components/PodCapacityPanel';
-import { PodItemsTable, type SearchMode } from './components/PodItemsTable';
+import { CraftQueueTable } from './components/CraftQueueTable';
+import { PodItemsTable } from './components/PodItemsTable';
 import { PodResultPanel } from './components/PodResultPanel';
 
 export const PodModule: React.FC = () => {
-  const { maxPods, usedPods, goalCraft, items, setMaxPods, setUsedPods, setGoalCraft, addItem, replaceItems, updateItem, removeItem, clearItems } = usePodStorage();
-  const [searchMode, setSearchMode] = useState<SearchMode>('resource');
+  const {
+    maxPods, usedPods, activeCraftId, craftQueue, items,
+    setMaxPods, setUsedPods,
+    setActiveCraft, addToCraftQueue, removeFromCraftQueue, updateCraftGoal, setCurrentRun,
+    addItem, updateItem, removeItem, clearItems,
+  } = usePodStorage();
 
   const freePods = useMemo(() => computeFreePods(maxPods, usedPods), [maxPods, usedPods]);
-  const podPerCraft = useMemo(() => computePodPerCraft(items), [items]);
-  const maxCrafts = useMemo(() => computeMaxCrafts(freePods, podPerCraft), [freePods, podPerCraft]);
-  const runsNeeded = useMemo(() => computeRunsNeeded(goalCraft, maxCrafts), [goalCraft, maxCrafts]);
+
+  const activeCraft = craftQueue.find(e => e.id === activeCraftId) ?? craftQueue[0] ?? null;
+
+  const podPerCraft = useMemo(
+    () => activeCraft ? computePodPerCraft(activeCraft.ingredients) : computePodPerCraft(items),
+    [activeCraft, items]
+  );
+
+  const maxCraftsPerRun = useMemo(
+    () => computeMaxCrafts(freePods, podPerCraft),
+    [freePods, podPerCraft]
+  );
+
+  const runsNeeded = useMemo(
+    () => activeCraft ? computeRunsNeeded(activeCraft.goalByCraft, maxCraftsPerRun) : 0,
+    [activeCraft, maxCraftsPerRun]
+  );
+
+  const currentRun = activeCraft
+    ? Math.min(activeCraft.currentRun, Math.max(1, runsNeeded || 1))
+    : 1;
+
+  const craftsThisRun = useMemo(
+    () => activeCraft ? computeCraftsThisRun(activeCraft.goalByCraft, maxCraftsPerRun, currentRun) : 0,
+    [activeCraft, maxCraftsPerRun, currentRun]
+  );
+
+  const displayedItems = useMemo(() => {
+    if (!activeCraft || craftsThisRun === 0) return items;
+    return activeCraft.ingredients.map(i => ({
+      ...i,
+      id: `craft-${i.id}`,
+      quantity: i.quantity * craftsThisRun,
+    }));
+  }, [activeCraft, craftsThisRun, items]);
 
   return (
     <div className="flex flex-col gap-4">
@@ -20,22 +63,28 @@ export const PodModule: React.FC = () => {
         maxPods={maxPods}
         usedPods={usedPods}
         freePods={freePods}
-        goalCraft={goalCraft}
-        isCraftMode={searchMode === 'craft'}
         onMaxPodsChange={setMaxPods}
         onUsedPodsChange={setUsedPods}
-        onGoalCraftChange={setGoalCraft}
+      />
+
+      <CraftQueueTable
+        craftQueue={craftQueue}
+        activeCraftId={activeCraftId}
+        freePods={freePods}
+        onAdd={addToCraftQueue}
+        onRemove={removeFromCraftQueue}
+        onActivate={setActiveCraft}
+        onUpdateGoal={updateCraftGoal}
+        onSetRun={setCurrentRun}
       />
 
       <div className="flex flex-col sm:flex-row gap-4 items-start">
         <div className="flex-1 min-w-0 w-full">
           <PodItemsTable
-            items={items}
+            items={displayedItems}
             podPerCraft={podPerCraft}
-            mode={searchMode}
-            onModeChange={setSearchMode}
+            isFromCraft={!!activeCraft}
             onAdd={addItem}
-            onReplace={replaceItems}
             onUpdate={updateItem}
             onRemove={removeItem}
             onClear={clearItems}
@@ -46,10 +95,7 @@ export const PodModule: React.FC = () => {
           <PodResultPanel
             freePods={freePods}
             podPerCraft={podPerCraft}
-            maxCrafts={maxCrafts}
-            goalCraft={goalCraft}
-            runsNeeded={runsNeeded}
-            items={items}
+            maxCrafts={maxCraftsPerRun}
           />
         </div>
       </div>

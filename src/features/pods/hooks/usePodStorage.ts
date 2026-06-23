@@ -1,19 +1,21 @@
 import { useState, useCallback } from 'react';
-import type { PodItem } from '../../../types';
+import type { PodItem, CraftQueueEntry } from '../../../types';
 
 const STORAGE_KEY = 'pod-calculator';
 
 interface PodStorage {
   maxPods: number;
   usedPods: number;
-  goalCraft: number;
+  activeCraftId: string | null;
+  craftQueue: CraftQueueEntry[];
   items: PodItem[];
 }
 
 const DEFAULT_STORAGE: PodStorage = {
   maxPods: 1000,
   usedPods: 0,
-  goalCraft: 0,
+  activeCraftId: null,
+  craftQueue: [],
   items: [],
 };
 
@@ -21,7 +23,8 @@ function readFromStorage(): PodStorage {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return DEFAULT_STORAGE;
-    return JSON.parse(raw) as PodStorage;
+    const parsed = JSON.parse(raw) as Partial<PodStorage>;
+    return { ...DEFAULT_STORAGE, ...parsed };
   } catch {
     return DEFAULT_STORAGE;
   }
@@ -50,9 +53,58 @@ export function usePodStorage() {
     });
   }, []);
 
-  const setGoalCraft = useCallback((value: number) => {
+  const addToCraftQueue = useCallback((entry: CraftQueueEntry) => {
     setStorage(prev => {
-      const updated = { ...prev, goalCraft: Math.max(0, value) };
+      const newQueue = [...prev.craftQueue, entry];
+      const activeCraftId = prev.activeCraftId ?? entry.id;
+      const updated = { ...prev, craftQueue: newQueue, activeCraftId };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
+  const removeFromCraftQueue = useCallback((id: string) => {
+    setStorage(prev => {
+      const newQueue = prev.craftQueue.filter(e => e.id !== id);
+      const activeCraftId =
+        prev.activeCraftId !== id
+          ? prev.activeCraftId
+          : newQueue[0]?.id ?? null;
+      const updated = { ...prev, craftQueue: newQueue, activeCraftId };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
+  const setActiveCraft = useCallback((id: string) => {
+    setStorage(prev => {
+      const updated = { ...prev, activeCraftId: id };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
+  const updateCraftGoal = useCallback((id: string, goalByCraft: number) => {
+    setStorage(prev => {
+      const updated = {
+        ...prev,
+        craftQueue: prev.craftQueue.map(e =>
+          e.id === id ? { ...e, goalByCraft: Math.max(1, goalByCraft) } : e
+        ),
+      };
+      writeToStorage(updated);
+      return updated;
+    });
+  }, []);
+
+  const setCurrentRun = useCallback((id: string, run: number) => {
+    setStorage(prev => {
+      const updated = {
+        ...prev,
+        craftQueue: prev.craftQueue.map(e =>
+          e.id === id ? { ...e, currentRun: Math.max(1, run) } : e
+        ),
+      };
       writeToStorage(updated);
       return updated;
     });
@@ -85,22 +137,6 @@ export function usePodStorage() {
     });
   }, []);
 
-  const addItems = useCallback((newItems: PodItem[]) => {
-    setStorage(prev => {
-      const updated = { ...prev, items: [...prev.items, ...newItems] };
-      writeToStorage(updated);
-      return updated;
-    });
-  }, []);
-
-  const replaceItems = useCallback((newItems: PodItem[]) => {
-    setStorage(prev => {
-      const updated = { ...prev, items: newItems };
-      writeToStorage(updated);
-      return updated;
-    });
-  }, []);
-
   const clearItems = useCallback(() => {
     setStorage(prev => {
       const updated = { ...prev, items: [] };
@@ -112,14 +148,17 @@ export function usePodStorage() {
   return {
     maxPods: storage.maxPods,
     usedPods: storage.usedPods,
-    goalCraft: storage.goalCraft,
+    activeCraftId: storage.activeCraftId,
+    craftQueue: storage.craftQueue,
     items: storage.items,
     setMaxPods,
     setUsedPods,
-    setGoalCraft,
+    setActiveCraft,
+    addToCraftQueue,
+    removeFromCraftQueue,
+    updateCraftGoal,
+    setCurrentRun,
     addItem,
-    addItems,
-    replaceItems,
     updateItem,
     removeItem,
     clearItems,

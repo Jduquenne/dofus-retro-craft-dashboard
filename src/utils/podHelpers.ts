@@ -18,6 +18,12 @@ export function computeRunsNeeded(goalCraft: number, maxCraftsPerRun: number): n
   return Math.ceil(goalCraft / maxCraftsPerRun);
 }
 
+export function computeCraftsThisRun(goalByCraft: number, maxPerRun: number, currentRun: number): number {
+  if (maxPerRun <= 0 || goalByCraft <= 0) return 0;
+  const remaining = goalByCraft - (currentRun - 1) * maxPerRun;
+  return Math.min(maxPerRun, Math.max(0, remaining));
+}
+
 export function resolveRecipeIngredients(
     recipe: Recipe,
     catalog: Array<{ id: number; pods: number }>,
