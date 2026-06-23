@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Lock, AlertTriangle, ChevronDown, ChevronRight } from 'lucide-react';
+import { Lock, AlertTriangle, ChevronDown, ChevronRight, Package, Check } from 'lucide-react';
 import type { Recipe } from '../../../types';
 import { getRecipeStatus, XP_TO_SLOTS } from '../../../utils/calculatorHelpers';
+import { sendRecipeToPodQueue } from '../../../utils/podQueueUtils';
 import { RecipeIngredientList } from './RecipeIngredientList';
 
 interface RecipeRowProps {
@@ -24,6 +25,15 @@ export const RecipeRow: React.FC<RecipeRowProps> = ({
   onPriceChange,
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const [sent, setSent] = useState(false);
+
+  const handleSendToPods = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (craftsNeeded <= 0) return;
+    sendRecipeToPodQueue(recipe, craftsNeeded);
+    setSent(true);
+    setTimeout(() => setSent(false), 1500);
+  };
 
   const status = getRecipeStatus(recipe, currentLevel, currentXP, targetLevel, xpMultiplier);
   const slots = XP_TO_SLOTS[recipe.xpGained];
@@ -120,10 +130,25 @@ export const RecipeRow: React.FC<RecipeRowProps> = ({
             : <span className="text-dofus-text-lt">—</span>
           }
         </td>
+        <td className="px-2 py-2" onClick={e => e.stopPropagation()}>
+          {craftsNeeded > 0 && (
+            <button
+              onClick={handleSendToPods}
+              title={sent ? 'Ajouté à la file de pods' : 'Envoyer au calculateur de pods'}
+              className={`w-7 h-7 flex items-center justify-center rounded border transition-colors ${
+                sent
+                  ? 'bg-dofus-success/20 border-dofus-success/40 text-dofus-success'
+                  : 'panel-sm border-dofus-border-md text-dofus-text-lt hover:text-dofus-orange hover:border-dofus-orange/40 hover:bg-dofus-orange/10'
+              }`}
+            >
+              {sent ? <Check size={11} /> : <Package size={11} />}
+            </button>
+          )}
+        </td>
       </tr>
       {isExpanded && (
         <tr>
-          <td colSpan={6} className="p-0">
+          <td colSpan={7} className="p-0">
             <RecipeIngredientList
               resources={recipe.resources}
               prices={prices}

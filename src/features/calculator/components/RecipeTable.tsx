@@ -124,6 +124,7 @@ export const RecipeTable: React.FC<RecipeTableProps> = ({
               <th className="text-center px-4 py-2.5 font-semibold">XP / craft</th>
               <th className="text-right px-4 py-2.5 font-semibold">Crafts nécessaires</th>
               <th className="text-right px-4 py-2.5 font-semibold">Prix marchand</th>
+              <th className="w-10" />
             </tr>
           </thead>
           <tbody>
@@ -141,7 +142,7 @@ export const RecipeTable: React.FC<RecipeTableProps> = ({
             ))}
             {filteredRecipes.length === 0 && (
               <tr>
-                <td colSpan={6} className="px-4 py-8 text-center text-dofus-text-lt">
+                <td colSpan={7} className="px-4 py-8 text-center text-dofus-text-lt">
                   Aucune recette pour ce filtre
                 </td>
               </tr>
