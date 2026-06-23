@@ -10,14 +10,14 @@ interface Tab {
 }
 
 const ALL_TABS: Tab[] = [
-  { id: 'professions', label: 'Métiers',        icon: <TrendingUp size={16} />, adminOnly: false },
-  { id: 'catalog',    label: 'Ressources',       icon: <Database size={16} />,   adminOnly: false },
-  { id: 'calculator', label: 'Calcul XP métiers',icon: <Calculator size={16} />, adminOnly: false },
-  { id: 'scrolls',    label: 'Parchemins',       icon: <ScrollText size={16} />, adminOnly: false },
-  { id: 'pods',       label: 'Calcul POD',       icon: <Package size={16} />,    adminOnly: false },
-  { id: 'dofus',      label: 'Prix Dofus',       icon: <Gem size={16} />,        adminOnly: false },
-  { id: 'map',        label: 'Carte',            icon: <Map size={16} />,        adminOnly: false },
-  { id: 'bank',       label: 'Banque',           icon: <Vault size={16} />,      adminOnly: true  },
+  { id: 'professions', label: 'Métiers', icon: <TrendingUp size={16} />, adminOnly: false },
+  { id: 'calculator', label: 'Calcul XP métiers', icon: <Calculator size={16} />, adminOnly: false },
+  { id: 'pods', label: 'Calcul POD', icon: <Package size={16} />, adminOnly: false },
+  { id: 'catalog', label: 'Ressources', icon: <Database size={16} />, adminOnly: false },
+  { id: 'map', label: 'Carte', icon: <Map size={16} />, adminOnly: false },
+  { id: 'scrolls', label: 'Parchemins', icon: <ScrollText size={16} />, adminOnly: false },
+  { id: 'dofus', label: 'Prix Dofus', icon: <Gem size={16} />, adminOnly: false },
+  { id: 'bank', label: 'Banque', icon: <Vault size={16} />, adminOnly: true },
 ] as Tab[];
 
 interface HeaderProps {
@@ -85,7 +85,7 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, isAdmin
                 className={`flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-t transition-all border border-b-0 shrink-0 ${isActive
                   ? 'bg-dofus-panel text-dofus-text border-dofus-border'
                   : 'bg-[#2E1A0A]/80 text-dofus-cream/60 border-[#5A3510]/60 hover:bg-[#3A2010] hover:text-dofus-cream/90'
-                }`}
+                  }`}
               >
                 <span className={isActive ? 'text-dofus-orange' : ''}>{tab.icon}</span>
                 <span className="font-bit">{tab.label}</span>
@@ -115,11 +115,10 @@ export const Header: React.FC<HeaderProps> = ({ activeTab, setActiveTab, isAdmin
               <button
                 key={tab.id}
                 onClick={() => handleTabClick(tab.id)}
-                className={`flex items-center gap-3 w-full px-4 py-3.5 text-sm border-b border-dofus-border/20 transition-colors ${
-                  isActive
+                className={`flex items-center gap-3 w-full px-4 py-3.5 text-sm border-b border-dofus-border/20 transition-colors ${isActive
                     ? 'text-dofus-orange bg-dofus-panel/10'
                     : 'text-dofus-cream/60 hover:bg-dofus-border/20 hover:text-dofus-cream/90'
-                }`}
+                  }`}
               >
                 {tab.icon}
                 <span>{tab.label}</span>
