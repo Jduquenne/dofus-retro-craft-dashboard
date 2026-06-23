@@ -1,5 +1,5 @@
 import React from 'react';
-import { Target } from 'lucide-react';
+import { Target, TrendingUp } from 'lucide-react';
 import type { Profession } from '../../../types';
 import { ProfessionTypes } from '../../../types/professionTypes';
 import type { ProfessionStats } from '../hooks/useProfessionLogic';
@@ -23,6 +23,7 @@ interface ProfessionCardProps {
     onLevelChange: (value: string, currentTargetLevel: number) => void;
     onXPChange: (value: string) => void;
     onTargetLevelChange: (value: string) => void;
+    onOpenInCalculator?: () => void;
 }
 
 export const ProfessionCard: React.FC<ProfessionCardProps> = ({
@@ -34,7 +35,8 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
     professions,
     onLevelChange,
     onXPChange,
-    onTargetLevelChange
+    onTargetLevelChange,
+    onOpenInCalculator,
 }) => {
     const shouldShowObjectiveInfo = isActive && !isMaxLevel && stats.levelsRemaining > 0;
 
@@ -100,6 +102,16 @@ export const ProfessionCard: React.FC<ProfessionCardProps> = ({
                         )}
                     </div>
                 </div>
+                {onOpenInCalculator && profession.type !== ProfessionTypes.SMITHMAGUS && (
+                    <button
+                        type="button"
+                        onClick={onOpenInCalculator}
+                        title="Voir dans le calculateur XP"
+                        className="shrink-0 p-1 rounded text-dofus-text-lt hover:text-dofus-orange hover:bg-dofus-orange/10 border border-transparent hover:border-dofus-orange/30 transition-colors"
+                    >
+                        <TrendingUp size={13} />
+                    </button>
+                )}
             </div>
 
             {/* XP Bar */}

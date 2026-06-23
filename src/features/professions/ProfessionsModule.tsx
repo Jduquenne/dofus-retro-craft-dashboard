@@ -8,9 +8,11 @@ import { PROFESSION_CATEGORY_TITLES } from '../../constants/professionMappings';
 import { ProfessionCard } from './components/ProfessionCard';
 import { ProfessionSlotIndicator } from './components/ProfessionSlotIndicator';
 import { XpMultiplierSelector } from './components/XpMultiplierSelector';
+import { useCalculatorPref } from '../../shared/hooks/useCalculatorPref';
 
 export const ProfessionsModule: React.FC = () => {
     const { professions, setProfessions, recipes, xpMultiplier, setXpMultiplier } = useAppContext();
+    const { setSelectedProfId } = useCalculatorPref();
     const {
         calculateProfessionStats,
         handleLevelChange,
@@ -28,7 +30,11 @@ export const ProfessionsModule: React.FC = () => {
         onXPChange: (value: string) =>
             handleXPChange(value, currentLevel, (updates) => updateProfession(profId, updates)),
         onTargetLevelChange: (value: string) =>
-            handleTargetLevelChange(value, currentLevel, (updates) => updateProfession(profId, updates))
+            handleTargetLevelChange(value, currentLevel, (updates) => updateProfession(profId, updates)),
+        onOpenInCalculator: () => {
+            setSelectedProfId(profId);
+            window.location.hash = 'calculator';
+        },
     });
 
     return (

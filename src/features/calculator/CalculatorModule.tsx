@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import { ProfessionTypes } from '../../types/professionTypes';
 import { PROFESSION_XP_TABLE } from '../../utils/professionXP';
@@ -9,11 +9,12 @@ import { RecipeTable } from './components/RecipeTable';
 import { XPModeTabs } from './components/XPModeTabs';
 import type { XPMode } from './components/XPModeTabs';
 import type { Recipe } from '../../types';
+import { useCalculatorPref } from '../../shared/hooks/useCalculatorPref';
 
 export const CalculatorModule: React.FC = () => {
     const { professions, recipes, xpMultiplier } = useAppContext();
 
-    const [selectedProfId, setSelectedProfId] = useState<string>('');
+    const { selectedProfId, setSelectedProfId } = useCalculatorPref();
     const [currentLevel, setCurrentLevel] = useState(1);
     const [currentXP, setCurrentXP] = useState(0);
     const [targetLevel, setTargetLevel] = useState(100);
@@ -31,15 +32,21 @@ export const CalculatorModule: React.FC = () => {
 
     const selectedProf = professions.find(p => p.id === selectedProfId);
 
+    const lastSyncedProfId = useRef('');
+    useEffect(() => {
+        if (!selectedProfId || lastSyncedProfId.current === selectedProfId) return;
+        const prof = professions.find(p => p.id === selectedProfId);
+        if (!prof) return;
+        setCurrentLevel(prof.currentLevel);
+        setCurrentXP(prof.currentXP);
+        setTargetLevel(prof.targetLevel);
+        lastSyncedProfId.current = selectedProfId;
+    }, [selectedProfId, professions]);
+
     const handleProfessionChange = (profId: string) => {
         setSelectedProfId(profId);
         setXpMode('harvest');
-        const prof = professions.find(p => p.id === profId);
-        if (prof) {
-            setCurrentLevel(prof.currentLevel);
-            setCurrentXP(prof.currentXP);
-            setTargetLevel(prof.targetLevel);
-        }
+        lastSyncedProfId.current = '';
     };
 
     const syncFromContext = () => {
