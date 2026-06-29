@@ -49,9 +49,9 @@ src/
 │   │   ├── hooks/          # useCatalogPrices, useResourceCatalog
 │   │   └── CatalogModule.tsx
 │   ├── pods/
-│   │   ├── components/     # ResourceSearchInput, CraftSearchInput
-│   │   ├── hooks/          # usePodStorage (addItem + addItems batch)
-│   │   └── PodModule.tsx
+│   │   ├── components/     # ResourceSearchInput, CraftSearchInput, CraftQueueTable, PodItemsTable, PodCapacityPanel, PodResultPanel
+│   │   ├── hooks/          # usePodStorage — craftQueue, items, toggleCraftXpUpdate
+│   │   └── PodModule.tsx   # handleComplete() : applique XP métier si updateXpOnComplete=true (crafts venant du calculateur)
 │   ├── bank/
 │   │   ├── components/
 │   │   ├── hooks/          # useBankSession
@@ -550,7 +550,10 @@ La version est dans `package.json`. Avant tout message de commit, incrémenter l
 | ScrollsModule     | `features/scrolls/`     | **Actif** — onglet Parchemins     |
 | CatalogModule     | `features/catalog/`     | **Actif** — onglet Ressources     |
 | CalculatorModule  | `features/calculator/`  | **Actif** — onglet Calculateur XP |
-| PodModule         | `features/pods/`        | **Actif** — onglet Pods           |
+| PodModule         | `features/pods/`        | **Actif** — onglet Calcul POD     |
+| DofusModule       | `features/dofus/`       | **Actif** — onglet Prix Dofus     |
+| MapModule         | `features/map/`         | **Actif** — onglet Carte          |
+| BankModule        | `features/bank/`        | **Actif** — onglet Banque (adminOnly) |
 
 ## Commandes
 

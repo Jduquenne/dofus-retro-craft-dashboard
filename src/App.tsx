@@ -5,6 +5,9 @@ import { ModuleLoader } from './shared/components/ModuleLoader';
 import { useHashTab } from './shared/hooks/useHashTab';
 import { useAdminAccess } from './shared/hooks/useAdminAccess';
 
+const GrimoireModule = lazy(() =>
+  import('./features/grimoire/GrimoireModule').then(({ GrimoireModule: m }) => ({ default: m }))
+);
 const ProfessionsModule = lazy(() =>
   import('./features/professions/ProfessionsModule').then(({ ProfessionsModule: m }) => ({ default: m }))
 );
@@ -47,6 +50,7 @@ const App: React.FC = () => {
         />
         <main className="container mx-auto px-4 py-6 flex-1">
           <Suspense fallback={<ModuleLoader />}>
+            {activeTab === 'grimoire' && <GrimoireModule setActiveTab={setActiveTab} isAdmin={isAdmin} />}
             {activeTab === 'professions' && <ProfessionsModule />}
             {activeTab === 'catalog' && <CatalogModule />}
             {activeTab === 'calculator' && <CalculatorModule />}

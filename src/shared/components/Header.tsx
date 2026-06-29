@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calculator, Database, Gem, Map, Menu, Package, ScrollText, TrendingUp, Vault, X } from "lucide-react";
+import { BookOpen, Calculator, Database, Gem, Map, Menu, Package, ScrollText, TrendingUp, Vault, X } from "lucide-react";
 import { AdminGate } from './AdminGate';
 
 interface Tab {
@@ -10,6 +10,7 @@ interface Tab {
 }
 
 const ALL_TABS: Tab[] = [
+  { id: 'grimoire', label: 'Grimoire', icon: <BookOpen size={16} />, adminOnly: false },
   { id: 'professions', label: 'Métiers', icon: <TrendingUp size={16} />, adminOnly: false },
   { id: 'calculator', label: 'Calcul XP métiers', icon: <Calculator size={16} />, adminOnly: false },
   { id: 'pods', label: 'Calcul POD', icon: <Package size={16} />, adminOnly: false },

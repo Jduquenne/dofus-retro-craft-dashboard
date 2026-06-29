@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
 const VALID_TABS = [
+  "grimoire",
   "professions",
   "calculator",
   "catalog",
@@ -11,7 +12,7 @@ const VALID_TABS = [
   "bank",
 ] as const;
 type TabId = (typeof VALID_TABS)[number];
-const DEFAULT_TAB: TabId = "professions";
+const DEFAULT_TAB: TabId = "grimoire";
 
 function readHash(): TabId {
   const hash = window.location.hash.replace("#", "");
