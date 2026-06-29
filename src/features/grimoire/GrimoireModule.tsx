@@ -20,7 +20,7 @@ const FEATURE_CARDS: FeatureCardData[] = [
     id: 'professions',
     label: 'Métiers',
     icon: <TrendingUp size={20} />,
-    description: 'Suivez la progression XP de vos métiers de récolte, craft et smithmagus. Les slots se débloquent automatiquement selon votre avancement.',
+    description: 'Suivez la progression XP de vos métiers de récolte, craft et forgemagie. Les slots se débloquent automatiquement selon votre avancement.',
     adminOnly: false,
   },
   {
@@ -48,7 +48,7 @@ const FEATURE_CARDS: FeatureCardData[] = [
     id: 'map',
     label: 'Carte',
     icon: <Map size={20} />,
-    description: 'Explorez la carte du monde de Dofus Rétro. Visualisez les zones, les ressources récoltables par métier et les positions de combat par cellule.',
+    description: 'Explorez la carte du monde de Dofus Rétro. Visualisez les zones et les positions de combat par cellule.',
     adminOnly: false,
   },
   {
